@@ -65,7 +65,20 @@
   </div>
 </footer>
 
-<script src="articles.js"></script>
-<script src="category.js"></script>
+<script src="articles.js?v=2"></script>
+<script src="category.js?v=2" onerror="window.__categoryScriptFailed = true"></script>
+<script>
+  setTimeout(function () {
+    var listEl = document.getElementById("category-list");
+    var stillEmpty = listEl && listEl.innerHTML.trim() === "";
+    if (window.__categoryScriptFailed || stillEmpty) {
+      if (listEl) {
+        listEl.innerHTML =
+          '<p>This section couldn\'t load. Please refresh the page, or try a hard refresh ' +
+          '(Ctrl/Cmd+Shift+R) to clear any cached files.</p>';
+      }
+    }
+  }, 2500);
+</script>
 </body>
 </html>

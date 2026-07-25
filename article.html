@@ -64,7 +64,25 @@
   </div>
 </footer>
 
-<script src="articles.js"></script>
-<script src="article.js"></script>
+<script src="articles.js?v=2"></script>
+<script src="article.js?v=2" onerror="window.__articleScriptFailed = true"></script>
+<script>
+  // Safety net: if articles.js or article.js failed to load or run for any
+  // reason (bad path after deploy, blocked request, stale cache, etc.),
+  // don't leave the visitor staring at "Loading article..." forever.
+  setTimeout(function () {
+    var root = document.getElementById("article-root");
+    var stillLoading = root && root.textContent.indexOf("Loading article") !== -1;
+    if (window.__articleScriptFailed || stillLoading) {
+      if (root) {
+        root.innerHTML =
+          '<a class="back-link" href="index.html">&larr; Back to Home Page</a>' +
+          '<h1>This article couldn\'t load</h1>' +
+          '<p>Please refresh the page. If the problem continues, try a hard refresh ' +
+          '(Ctrl/Cmd+Shift+R) to clear any cached files.</p>';
+      }
+    }
+  }, 2500);
+</script>
 </body>
 </html>
