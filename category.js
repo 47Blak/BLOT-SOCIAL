@@ -31,10 +31,10 @@ let visibleCount = CATEGORY_BATCH;
 function cardHtml(a) {
   return `
     <div class="card">
-      <div class="eyebrow">${a.category}</div>
+      <div class="eyebrow">${eyebrowHtml(a.category)}</div>
       <h3><a href="${articleHref(a.slug)}">${a.headline}</a></h3>
       ${a.dek ? `<p class="dek">${a.dek}</p>` : ""}
-      <div class="byline">${a.author ? `${a.author} · ` : ""}${a.date}</div>
+      <div class="byline">${bylineHtml(a.author, a.date, false)}</div>
     </div>
   `;
 }

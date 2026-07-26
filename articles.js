@@ -387,6 +387,14 @@ const ARTICLES = [
   }
 ];
 
+// Up to 5 items shown in the scrolling "Breaking" bar under the nav on
+// every page. Each item is { text, link }. "link" is optional — leave it
+// blank for plain text, set it to an article slug to link to that article,
+// or a full https:// URL to link elsewhere.
+const BREAKING_NEWS = [
+  { text: "Vinícius Júnior Contract Blockbuster: Transfer to Manchester City or Real Madrid Retention Stall!", link: "" }
+];
+
 function getArticleBySlug(slug) {
   return ARTICLES.find(a => a.slug === slug);
 }

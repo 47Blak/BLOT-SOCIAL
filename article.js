@@ -33,10 +33,10 @@ try {
     document.title = `${article.headline} on BLOT SOCIAL`;
     root.innerHTML = `
       <a class="back-link" href="category.html?cat=${encodeURIComponent(article.category)}">&larr; Back to ${article.category}</a>
-      <div class="eyebrow">${article.category}</div>
+      <div class="eyebrow">${eyebrowHtml(article.category)}</div>
       <h1>${article.headline}</h1>
       ${article.dek ? `<p class="dek">${article.dek}</p>` : ""}
-      <div class="byline">${article.author ? `By ${article.author} · ` : ""}${article.date}</div>
+      <div class="byline">${bylineHtml(article.author, article.date, true)}</div>
       ${article.image ? `<img class="article-image" src="${article.image}" alt="${article.headline}">` : ""}
       ${article.body.map(p => `<p>${p}</p>`).join("")}
     `;

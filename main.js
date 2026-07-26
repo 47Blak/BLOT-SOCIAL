@@ -14,10 +14,10 @@ function articleHref(slug) {
 function cardHtml(a) {
   return `
     <div class="card">
-      <div class="eyebrow">${a.category}</div>
+      <div class="eyebrow">${eyebrowHtml(a.category)}</div>
       <h3><a href="${articleHref(a.slug)}">${a.headline}</a></h3>
       <p class="dek">${a.dek}</p>
-      <div class="byline">${a.author} · ${a.date}</div>
+      <div class="byline">${bylineHtml(a.author, a.date, false)}</div>
     </div>
   `;
 }
@@ -31,10 +31,10 @@ function renderHero() {
   el.textContent = "";
 
   const html = `
-    <div class="eyebrow">${article.category}</div>
+    <div class="eyebrow">${eyebrowHtml(article.category)}</div>
     <h2><a href="${articleHref(article.slug)}">${article.headline}</a></h2>
     <p class="dek">${article.dek}</p>
-    <div class="byline">By ${article.author} · ${article.date}</div>
+    <div class="byline">${bylineHtml(article.author, article.date, true)}</div>
   `;
   el.insertAdjacentHTML("beforeend", html);
 }
