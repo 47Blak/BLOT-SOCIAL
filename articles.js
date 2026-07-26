@@ -84,6 +84,40 @@ const ARTICLES = [
     ]
   },
   {
+    "slug": "bradley-barcola-rejects-paris-saint-germain-extension-as-european-giants-circle-for-summer-transfer",
+    "category": "Sports",
+    "headline": "Bradley Barcola Rejects Paris Saint-Germain Extension as European Giants Circle for Summer Transfer",
+    "dek": "French winger Bradley Barcola rejects Paris Saint-Germain contract extension, triggering intense transfer interest from Liverpool and European giants ahead of a potential multi-million euro summer exit.",
+    "author": "亗BLAK",
+    "date": "Jul 26",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqmCr_KErEmQgd6B78QEXg6NWNUtFAvsNIHSvRSYjGYndIJIFN41iBWCA&s=10",
+    "body": [
+      "French international forward Bradley Barcola has officially informed Paris Saint-Germain that he will not sign a contract extension, opening the door for a high-profile move away from the Parc des Princes this summer.",
+      "​Following months of internal deliberation and the conclusion of international duties, the 23-year-old winger made the sporting decision to halt talks despite PSG offering a lucrative deal with a substantial salary increase.",
+      "​Barcola’s current agreement with the reigning French champions runs until June 2028, but limited starting opportunities under manager Luis Enrique have prompted the player to seek a fresh challenge where he can command a guaranteed role.",
+      "​To avoid risking his market valuation diminishing as he approaches the final years of his contract, PSG executives are expected to sanction a sale during the current transfer window, with reports indicating a price tag exceeding €90 million to €120 million.",
+      "​Premier League giants Liverpool have emerged as the frontrunners for Barcola's signature, viewing the dynamic attacker as a primary target to reinforce their forward line ahead of the upcoming campaign.",
+      "​While Chelsea, Arsenal, and Bayern Munich continue to monitor developments, PSG’s high financial demands mean any potential transfer will represent one of the most significant mega-deals of the summer window."
+    ]
+  },
+  {
+    "slug": "viral-marriage-unmasked-nigerian-influencer-gehgeh-confirms-secret-wedding-was-publicity-stunt-for-upcoming-film",
+    "category": "Culture",
+    "headline": "Viral 'Marriage' Unmasked: Nigerian Influencer GehGeh Confirms Secret Wedding Was Publicity Stunt for Upcoming Film",
+    "dek": "Social media personality GehGeh confirms viral wedding photos and videos were part of a publicity stunt for an upcoming Nollywood film, putting rumors of his unexpected marriage to rest.",
+    "author": "亗BLAK",
+    "date": "Jul 26",
+    "image": "https://pbs.twimg.com/media/HOIyW0dX0AAyKkf?format=jpg&name=medium",
+    "body": [
+      "Popular Nigerian content creator and social media influencer GehGeh has put an end to days of intense online speculation, confirming that viral footage of his alleged secret wedding was entirely staged as a promotional campaign for a new Nollywood project.",
+      "The frenzy began over the weekend when clips surfaced on social media showing the vocal media figure dressed in traditional wedding attire alongside an unidentified bride, sending shockwaves across digital platforms due to his long-standing reputation as a staunch critic of modern marriage.",
+      "Online commentators and fans reacted with disbelief to the initial footage, with many pointing out the irony of the vocal \"anti-marriage\" advocate apparently walking down the aisle after spending years warning young men against the legal and financial traps of marital commitments.",
+      "Following widespread debate and trending discussions across X and TikTok, GehGeh cleared the air in a newly released video, clarifying that the elaborate ceremony was part of a behind-the-scenes shoot for an upcoming cinematic production titled Fake Marriage.",
+      "He revealed that the strategic rollout was designed to maximize publicity for the movie project, demonstrating how effectively viral sensationalism can capture public attention in Nigeria's fast-moving digital creator space.",
+      "While some fans applauded the clever marketing strategy that dominated headline discussions for days, others expressed fatigue over the growing trend among Nigerian influencers who stage major life events to drive commercial engagements."
+    ]
+  },
+  {
     "slug": "image of masquerade",
     "category": "Culture",
     "headline": "Olubadan Issued Guidelines and Strict Directives for Women as Annual Oloolu Masquerade Festival Begins",
@@ -152,6 +186,19 @@ const ARTICLES = [
     ]
   },
   {
+    "slug": "new-tunnel-link-cuts-cross-border-commute-by-twenty-minutes",
+    "category": "World",
+    "headline": "New Tunnel Link Cuts Cross-Border Commute by Twenty Minutes",
+    "dek": "",
+    "author": "亗BLAK",
+    "date": "Jul 4",
+    "image": "https://picsum.photos/seed/new-tunnel-link-cuts-cross-border-commute-by-twenty-minutes/900/500",
+    "brief": true,
+    "body": [
+      "The long-delayed rail tunnel opened to commuter traffic this week, shaving roughly twenty minutes off the busiest cross-border route and easing pressure on the aging bridge crossing it was built to supplement."
+    ]
+  },
+  {
     "slug": "revival-of-a-forgotten-1958-play-becomes-the-ticket-of-the-season",
     "category": "Culture",
     "headline": "Resurrected Masterpiece: Forgotten 1958 Classic Stages Triumphant Return as Season’s Hottest Ticket",
@@ -180,19 +227,6 @@ const ARTICLES = [
       "The gap between first and second place was too small for the naked eye, sending officials to high-speed camera footage before a winner could be confirmed.",
       "Both athletes said afterward they were unsure of the result until it was announced, describing the wait as the longest ten minutes of the meet.",
       "It was the second photo finish of the week at the meet, prompting organizers to note it may be time to review timing equipment standards."
-    ]
-  },
-  {
-    "slug": "new-tunnel-link-cuts-cross-border-commute-by-twenty-minutes",
-    "category": "World",
-    "headline": "New Tunnel Link Cuts Cross-Border Commute by Twenty Minutes",
-    "dek": "",
-    "author": "亗BLAK",
-    "date": "Jul 4",
-    "image": "https://picsum.photos/seed/new-tunnel-link-cuts-cross-border-commute-by-twenty-minutes/900/500",
-    "brief": true,
-    "body": [
-      "The long-delayed rail tunnel opened to commuter traffic this week, shaving roughly twenty minutes off the busiest cross-border route and easing pressure on the aging bridge crossing it was built to supplement."
     ]
   },
   {
