@@ -1,5 +1,39 @@
 const ARTICLES = [
   {
+    "slug": "image-aurlien-tchouamni",
+    "category": "Sports",
+    "headline": "Real Madrid's Rodri Pursuit Paves Way for Manchester United to Land £68 Million Target Aurélien Tchouaméni",
+    "dek": "Real Madrid's pursuit of Manchester City star Rodri could trigger a high-profile transfer domino effect, opening the door for Manchester United to sign £68 million midfielder Aurélien Tchouaméni.",
+    "author": "亗BLAK",
+    "date": "Jul 26",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBF-dGhC-jFggUUyHnHPTdMI0-UQ2M-9LB7BasYlcIMA&s=10",
+    "body": [
+      "Manchester United have received a major potential boost in their summer transfer plans as Real Madrid accelerate efforts to sign Manchester City midfielder Rodri, a move that could clear the path for the Red Devils to secure long-term target Aurélien Tchouaméni.",
+      "Reports across European media indicate that Real Madrid have turned their focus toward acquiring Rodri following his dominant international performances, with personal terms reportedly being aligned between the Spanish giants and the Ballon d'Or-winning midfielder.",
+      "To finance a potential mega-deal for Rodri alongside other primary targets, Los Blancos are expected to generate significant funds through high-profile player sales, placing 26-year-old French international Aurélien Tchouaméni on the transfer market.",
+      "Manchester United have maintained a strong interest in Tchouaméni as part of their ongoing midfield restructuring, viewing the former Monaco defensive specialist as an ideal central pivot to fortify their squad ahead of the upcoming campaign.",
+      "With an estimated valuation of around £68 million (€80 million), Tchouaméni's potential departure from the Santiago Bernabéu would provide Real Madrid with the necessary financial flexibility to finalize their midfield overhaul under manager José Mourinho.",
+      "While negotiations between the clubs remain in preliminary stages, the emerging domino effect in the transfer market could provide Old Trafford executives with a unique window of opportunity to complete one of the summer's most significant marquee signings."
+    ]
+  },
+  {
+    "slug": "image of Bruno Guimarães",
+    "category": "Sports",
+    "headline": "Arsenal Intensify Midfield Pursuit as Negotiations Resume for Newcastle Captain Bruno Guimarães",
+    "dek": "Arsenal have reignited negotiations for Newcastle United midfielder Bruno Guimarães as Mikel Arteta aims to reinforce his squad with the £70 million-rated Brazilian star this summer.",
+    "author": "亗BLAK",
+    "date": "Jul 26",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw--r4ICcwDfCVl2Yl6vaLU_6CMI5qBzgmqQ&s",
+    "body": [
+      "Arsenal have officially reopened formal channels with intermediaries as they step up efforts to secure Newcastle United captain Bruno Guimarães, marking one of the most high-profile transfer sagas of the summer window.",
+      "Mikel Arteta has long identified the 28-year-old Brazil international as a prime target to bolster the Gunners' central engine room, seeking a world-class partner to complement Declan Rice and reduce workload pressures across domestic and European campaigns.",
+      "Reports indicate that personal terms between Arsenal and Guimarães will not pose an obstacle, with the dynamic midfielder understood to be keen on securing a move to North London to compete regularly at the highest continental level.",
+      "Despite the player's interest, Newcastle United remain resolute in their stance, maintaining that their club captain is integral to their long-term project and holding out for a valuation closer to £80 million before sanctioning any departure.",
+      "The Magpies have already experienced significant squad turnover during the current transfer window, making the board particularly reluctant to lose another key leader without receiving an extraordinary financial package.",
+      "Negotiations between both clubs are expected to intensify over the coming days as Arsenal prepare an improved proposal, hoping to find common ground with Newcastle before the squad embarks on its scheduled pre-season tour."
+    ]
+  },
+  {
     "slug": "nvidia tech image",
     "category": "Technology",
     "headline": "Tech Giant Nvidia Secures Strategic Multi-Billion-Dollar Memory Supply Deals to Fuel Next-Gen AI Accelerators",
