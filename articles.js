@@ -120,43 +120,52 @@ const ARTICLES = [
   {
     "slug": "engineered-coral-strain-shows-early-resistance-to-bleaching",
     "category": "Technology",
-    "headline": "Engineered Coral Strain Shows Early Resistance to Bleaching",
-    "dek": "A four-year field trial off the coast found the lab-bred coral survived a marine heatwave that killed most of the surrounding reef, though researchers urge caution about scaling the approach.",
+    "headline": "Breakthrough Marine Science: Lab-Bred Coral Strains Show Remarkable Resistance to Ocean Warming",
+    "dek": "Lab-bred hybrid coral strains developed through assisted evolution demonstrate up to 26 times greater heat tolerance, offering a crucial lifeline against marine heatwaves and mass global bleaching events.",
     "author": "亗BLAK",
     "date": "Jul 8",
     "image": "https://picsum.photos/seed/engineered-coral-strain-shows-early-resistance-to-bleaching/900/500",
     "body": [
-      "Marine biologists reported that colonies bred for heat tolerance survived a recent warming event at roughly triple the rate of unmodified coral nearby.",
-      "The team cautioned that the trial covered a single reef system and that broader deployment would need to account for genetic diversity, cost, and permitting hurdles.",
-      "Even so, several conservation groups called the results the most encouraging sign yet for reefs facing repeated bleaching events."
+      "Marine scientists have recorded a major breakthrough in ocean conservation as lab-bred hybrid coral strains demonstrate early resistance to rising sea surface temperatures during recent trial deployments.",
+      "Developed through assisted gene flow and selective breeding techniques, these climate-resilient coral recruits are designed to withstand the severe marine heatwaves that have triggered global mass bleaching events across the Pacific, Atlantic, and Indian Oceans in recent years.",
+      "In laboratory simulations and field trial enclosures, the engineered hybrid strains exhibited up to 26 times greater heat tolerance compared to native wild populations, successfully retaining their photosynthetic microalgae under extreme thermal stress.",
+      "Coral bleaching occurs when elevated water temperatures force coral polyps to expel their vital symbiotic algae, leaving the calcium carbonate structures stark white and vulnerable to mass mortality and starvation.",
+      "By pairing heat-adapted parent strains from warmer northern waters with resilient symbiotic algae, researchers at leading marine institutes aim to repopulate damaged reef ecosystems and slow down catastrophic loss of biodiversity.",
+      "While conservationists caution that assisted evolution is not a standalone solution to global climate change, the early success of heat-tolerant strains offers a vital buffer to preserve coral ecosystems for future generations."
     ]
   },
   {
     "slug": "river-basin-farmers-face-first-water-rationing-in-a-decade",
     "category": "World",
-    "headline": "River Basin Farmers Face First Water Rationing in a Decade",
-    "dek": "Reservoir levels sitting at their lowest point in ten years have forced regulators to cut irrigation allocations by nearly half for the coming season.",
+    "headline": "Severe Drought Triggers First River Basin Water Rationing Measures in Over a Decade",
+    "dek": "Regional water authorities implement mandatory curtailments for commercial agricultural producers following prolonged high temperatures and depleted reservoir levels across major agrarian river basins.",
     "author": "亗BLAK",
     "date": "Jul 7",
     "image": "https://picsum.photos/seed/river-basin-farmers-face-first-water-rationing-in-a-decade/900/500",
     "body": [
-      "Regulators announced that farmers in the basin will receive just over half their usual water allocation this season, the steepest cut since rationing rules were introduced.",
-      "Grain and orchard growers say the reduction will likely force some fields to go unplanted, while livestock operations are weighing whether to thin herds.",
-      "Officials attributed the shortfall to a third consecutive weak snowpack year and said further cuts are possible if autumn rains fall short."
+      "Agricultural producers operating within regional river basin corridors face mandatory water supply reductions for the first time in ten years, as compounding weather anomalies and below-average snowpacks push reservoir levels down.",
+      "​Local water management boards confirmed that reduced streamflow allocations will take effect immediately, requiring commercial farms and irrigation districts to scale back volumetric water usage through the remainder of the growing season.",
+      "​The mandatory curtailments come after consecutive years of prolonged regional drought, high summer temperatures, and declining groundwater tables, which have collectively strained regional water infrastructure.",
+      "​Under the updated rationing framework, high-volume irrigation allocations will be reduced by up to 25 percent, forcing farmers to prioritize high-value permanent crops while leaving secondary acreage fallow.",
+      "​Agribusiness representatives expressed deep concern over the immediate financial impact of the reductions, warning that forced crop cutbacks could lead to diminished harvests and increased pressure on regional food supply chains.",
+      "​Water authorities emphasize that without immediate rationing measures, municipal supply security and long-term ecosystem stability across the basin would face severe risk as dry weather conditions persist."
     ]
   },
   {
     "slug": "revival-of-a-forgotten-1958-play-becomes-the-ticket-of-the-season",
     "category": "Culture",
-    "headline": "Revival of a Forgotten 1958 Play Becomes the Ticket of the Season",
-    "dek": "A small repertory theatre's staging of a long-out-of-print drama has sold out its run twice over, prompting talk of a transfer to a larger house.",
+    "headline": "Resurrected Masterpiece: Forgotten 1958 Classic Stages Triumphant Return as Season’s Hottest Ticket",
+    "dek": "Decades after its quiet debut, a newly rediscovered 1958 theatrical masterpiece takes center stage, captivating critics and audience members to become the year's undisputed hot-ticket revival.",
     "author": "亗BLAK",
     "date": "Jul 6",
     "image": "https://picsum.photos/seed/revival-of-a-forgotten-1958-play-becomes-the-ticket-of-the-season/900/500",
     "body": [
-      "The production, mounted on a modest budget in a 120-seat theatre, has become the unlikely word-of-mouth hit of the summer.",
-      "Critics have pointed to a spare staging and a lead performance that reframes a play many had written off as a period curiosity.",
-      "Producers are now in talks about a transfer to a mid-sized commercial house for the autumn, though no dates have been confirmed."
+      "Theater lovers and industry insiders are flocking to the box office as a long-overlooked play from 1958 makes a triumphant return, quickly cementing its reputation as the definitive theatrical hit of the current stage season.",
+      "​Originally penned during a period of profound cultural transformation, the classic production remained largely forgotten for over half a century, existing primarily as a footnote in post-war theatrical anthologies before being rediscovered by visionary directors.",
+      "​The revived production brings fresh urgency to the original text, stripping away dated tropes while elevating its core themes of resilience, identity, and social friction to resonate deeply with contemporary audiences.",
+      "​Critique and word-of-mouth momentum have driven record-breaking demand for admission, with extended sold-out runs prompting producers to schedule additional performances across major metropolitan theater districts.",
+      "​Leading critics are praising the revived staging for its extraordinary set design, sharp dialogue, and powerhouse cast performances, declaring the once-dormant work a timeless dramatic triumph that rivals modern classics.",
+      "​As sold-out crowds continue to pack auditorium seats each night, the runaway success of this 1958 revival highlights the enduring power of classic storytelling to captivate new generations of theatergoers when brought back into the spotlight."
     ]
   },
   {

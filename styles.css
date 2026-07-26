@@ -76,10 +76,17 @@ a { color: inherit; text-decoration: none; }
   display: flex;
   justify-content: center;
   gap: 28px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.main-nav ul::-webkit-scrollbar {
+  display: none;
 }
 .main-nav a {
   display: inline-block;
+  flex-shrink: 0;
   font-family: var(--sans);
   font-size: 13px;
   font-weight: 600;
@@ -87,6 +94,7 @@ a { color: inherit; text-decoration: none; }
   text-transform: uppercase;
   padding: 12px 0;
   border-bottom: 2px solid transparent;
+  white-space: nowrap;
 }
 .main-nav a:hover,
 .main-nav a.active {
