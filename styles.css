@@ -68,7 +68,6 @@ a { color: inherit; text-decoration: none; }
 
 /* Nav */
 .main-nav {
-  border-bottom: 1px solid var(--rule);
   background: var(--paper);
 }
 .main-nav ul {
@@ -105,82 +104,6 @@ a { color: inherit; text-decoration: none; }
   color: var(--accent);
 }
 
-/* Nav search */
-.nav-search-item {
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin-left: 4px;
-}
-.nav-search-toggle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  padding: 0;
-  background: transparent;
-  border: none;
-  color: var(--brand-navy);
-  cursor: pointer;
-}
-.nav-search-toggle:hover { color: var(--accent); }
-.nav-search-box {
-  position: absolute;
-  top: calc(100% + 8px);
-  right: 0;
-  width: 280px;
-  background: var(--paper);
-  border: 1px solid var(--rule);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
-  padding: 10px;
-  z-index: 20;
-}
-.nav-search-box input[type="search"] {
-  width: 100%;
-  padding: 8px 10px;
-  font-family: var(--sans);
-  font-size: 13px;
-  border: 1px solid var(--rule-light);
-  background: #fff;
-  color: var(--ink);
-}
-.nav-search-box input[type="search"]:focus {
-  outline: none;
-  border-color: var(--brand-navy);
-}
-.nav-search-results { margin-top: 8px; max-height: 320px; overflow-y: auto; }
-.nav-search-result {
-  display: block;
-  padding: 8px 6px;
-  border-bottom: 1px solid var(--rule-light);
-}
-.nav-search-result:last-child { border-bottom: none; }
-.nav-search-result:hover { background: #f4f2ea; }
-.nav-search-result-cat {
-  display: block;
-  font-family: var(--sans);
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--accent);
-}
-.nav-search-result-title {
-  display: block;
-  font-family: var(--sans);
-  font-size: 13px;
-  color: var(--ink);
-  line-height: 1.3;
-  margin-top: 2px;
-}
-.nav-search-empty {
-  font-family: var(--sans);
-  font-size: 12px;
-  color: var(--ink-soft);
-  margin: 4px 2px;
-}
-
 /* Eyebrow / byline icons (trending flame, contact icon) */
 .eyebrow .icon,
 .byline .icon {
@@ -195,15 +118,14 @@ a { color: inherit; text-decoration: none; }
   display: none; /* JS flips this to flex once there's content to show */
   align-items: stretch;
   background: linear-gradient(100deg, var(--brand-navy) 0%, var(--brand-navy) 45%, var(--accent) 100%);
-  border-bottom: 1px solid var(--rule);
   overflow: hidden;
 }
 .breaking-label {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
-  background: var(--paper);
-  color: var(--brand-navy);
+  background: transparent;
+  color: #fff;
   font-family: var(--sans);
   font-size: 12px;
   font-weight: 700;
@@ -278,6 +200,7 @@ a.breaking-item:hover {
   line-height: 1.08;
   margin: 10px 0 14px;
 }
+.hero h2 a:hover { color: var(--accent); }
 .hero p.dek {
   font-size: 1.15rem;
   line-height: 1.5;
@@ -292,18 +215,41 @@ a.breaking-item:hover {
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
+.hero .byline,
+.article-page .byline {
+  position: relative;
+}
+.hero .byline::after,
+.article-page .byline::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 3px;
+  margin-top: 12px;
+  background: linear-gradient(to right, var(--accent) 0 45%, var(--brand-navy) 45% 100%);
+}
 
 /* Section headings */
 .section-heading {
+  position: relative;
   font-family: var(--sans);
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ink);
-  border-bottom: 2px solid var(--rule);
-  padding-bottom: 8px;
+  padding-bottom: 12px;
   margin: 0 0 18px;
+}
+.section-heading::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(to right, var(--accent) 0 45%, var(--brand-navy) 45% 100%);
 }
 
 .section-block { margin-bottom: 36px; }
@@ -318,16 +264,15 @@ a.breaking-item:hover {
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--brand-navy);
-  background: transparent;
-  border: 1px solid var(--brand-navy);
+  color: #fff;
+  background: linear-gradient(100deg, var(--brand-navy) 0%, var(--brand-navy) 45%, var(--accent) 100%);
+  border: none;
+  border-radius: 10px;
   cursor: pointer;
-  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 .load-more-btn:hover {
-  background: linear-gradient(100deg, var(--brand-navy) 0%, var(--accent) 100%);
-  border-color: transparent;
-  color: #fff;
+  opacity: 0.88;
 }
 
 .pagination-controls {
@@ -350,20 +295,32 @@ a.breaking-item:hover {
   gap: 24px;
 }
 
-.card { border-top: 1px solid var(--rule-light); padding-top: 14px; }
+.card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--rule-light);
+  border-radius: 10px;
+  padding: 20px 20px 18px;
+  background: var(--paper);
+}
 .card .eyebrow {
+  display: inline-block;
   font-family: var(--sans);
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 700;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: #fff;
+  background: var(--brand-navy);
+  padding: 5px 12px;
+  border-radius: 999px;
 }
 .card h3 {
   font-size: 1.15rem;
   line-height: 1.25;
   margin: 8px 0 8px;
 }
+.card h3 a:hover { color: var(--accent); }
 .four-col-grid .card h3 { font-size: 1rem; }
 .card p.dek {
   font-size: 0.92rem;
@@ -442,15 +399,39 @@ a.breaking-item:hover {
 }
 .article-page .byline {
   border-top: 1px solid var(--rule-light);
-  border-bottom: 1px solid var(--rule-light);
-  padding: 10px 0;
+  padding-top: 10px;
   margin-bottom: 24px;
 }
+.article-image-wrap {
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 24px;
+}
+.article-image-wrap .article-image { margin: 0; }
 .article-image {
   display: block;
   width: 100%;
   height: auto;
-  margin: 0 0 24px;
+}
+
+/* Brand corner flourish — the blue/orange swoosh tucked into the
+   bottom-right corner of the hero photo and every card. */
+.article-image-wrap::after,
+.card::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 115px;
+  height: 140px;
+  background-image: url("assets/corner-accent.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+.four-col-grid .card::after {
+  width: 72px;
+  height: 88px;
 }
 .article-page p {
   font-size: 1.08rem;

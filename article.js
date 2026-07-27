@@ -37,7 +37,7 @@ try {
       <h1>${article.headline}</h1>
       ${article.dek ? `<p class="dek">${article.dek}</p>` : ""}
       <div class="byline">${bylineHtml(article.author, article.date, true)}</div>
-      ${article.image ? `<img class="article-image" src="${article.image}" alt="${article.headline}">` : ""}
+      ${article.image ? `<div class="article-image-wrap"><img class="article-image" src="${article.image}" alt="${article.headline}"></div>` : ""}
       ${article.body.map(p => `<p>${p}</p>`).join("")}
     `;
   }
