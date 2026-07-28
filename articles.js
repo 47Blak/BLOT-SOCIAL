@@ -84,6 +84,125 @@ const ARTICLES = [
     ]
   },
   {
+    "slug": "court-of-appeal-nullifies-order-deregistering-adc-and-four-other-opposition-parties",
+    "category": "World",
+    "headline": "Court of Appeal Nullifies Order Deregistering ADC and Four Other Opposition Parties",
+    "dek": "The Court of Appeal in Abuja declares the Federal High Court order directing INEC to deregister the African Democratic Congress and four other political parties a complete nullity.",
+    "author": "亗BLAK",
+    "date": "Jul 28",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfmbXK4U0ArE4spkljkD3cEDbYkGrY6qUfPB47WeMuLrecSV3astJITYc&s=10",
+    "body": [
+      "The Court of Appeal sitting in Abuja has officially set aside and vacated the Federal High Court judgment that directed the Independent National Electoral Commission (INEC) to deregister five political parties.",
+      "In a unanimous decision delivered by a three-member panel led by Justice Abba Mohammed, the appellate court ruled that the June 15 order issued by the lower court amounted to a total nullity.",
+      "The court established that the Federal High Court wrongly assumed jurisdiction over the case, noting that the original suit was instituted by an incompetent, non-juristic entity identified as the National Forum of Former Legislators (NFFL).",
+      "In addition to the African Democratic Congress (ADC), the appellate court restored the registration and legal recognition of the Action Peoples Party (APP), Action Alliance (AA), Accord Party (AP), and Zenith Labour Party (ZLP).",
+      "The appellate panel further reprimanded the trial court for ignoring clear evidence proving that the affected political parties had previously won elective seats across various levels of government.",
+      "The justices also berated the lower court for proceeding with judgment in defiance of an existing stay-of-proceedings order, ruling that all five political parties remain duly registered and eligible to participate in upcoming electoral activities."
+    ]
+  },
+  {
+    "slug": "election-must-be-won-at-ballot-not-in-court-atiku-declares-on-2027-elections-",
+    "category": "World",
+    "headline": "Election Must Be Won at Ballot, Not in Court — Atiku Declares on 2027 Elections",
+    "dek": "Former Vice President Atiku Abubakar reacts to the Court of Appeal ruling that restored the African Democratic Congress, insisting political contests must be decided by voters rather than legal maneuvering.",
+    "author": "亗BLAK",
+    "date": "Jul 28",
+    "image": "https://cdn.vanguardngr.com/wp-content/uploads/2023/03/image-669-e1705079407134.png",
+    "body": [
+      "Former Vice President Atiku Abubakar has declared that Nigeria's 2027 general election must be decided strictly by voters at the ballot box rather than through judicial interventions and courtroom litigation.",
+      "Atiku made the assertion in a statement released by his media office in Abuja following the Court of Appeal’s judgment that set aside a Federal High Court order directing the deregistration of the African Democratic Congress (ADC) and four other political parties.",
+      "Commending the appellate justices for what he described as their courage and fidelity to constitutional principles, the former vice president noted that the landmark decision helps protect Nigeria's multi-party democracy from systemic erosion.",
+      "Atiku emphasized that attempts to clear opposition contenders out of the political landscape using legal technicalities undermine public trust in electoral processes and weaken democratic governance.",
+      "\"As the nation advances towards the 2027 general elections, political contests must be decided by the votes of Nigerians—not by contrived lawsuits seeking to achieve in the courtroom what cannot be won at the ballot box,\" he stated.",
+      "The ruling removes immediate legal hurdles facing opposition platforms, allowing political parties to shift focus toward coalition building, candidate selection, and grassroots mobilization ahead of the next electoral cycle."
+    ]
+  },
+  {
+    "slug": "tylas-lagos-concert-announcement-triggers-heated-debate-among-nigerians-over-boycott-calls",
+    "category": "World",
+    "headline": "Tyla’s Lagos Concert Announcement Triggers Heated Debate Among Nigerians Over Boycott Calls",
+    "dek": "Announcement of South African singer Tyla's December performance in Lagos sparks sharp division online, with critics linking the event to recent reports of xenophobic violence against Nigerians in South Africa.",
+    "author": "亗BLAK",
+    "date": "Jul 28",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCDaRrXwP53oh9H7dyNHX2a8Y8vJni1_MaCraeqOdol0G6brBO7Tgp3uM&s=10",
+    "body": [
+      "Nigerians across social media platforms have engaged in a fierce debate following the announcement of Grammy-winning South African pop star Tyla's upcoming tour date in Lagos.",
+      "The singer unveiled her APOP World Tour schedule, which includes a stop in Lagos on December 22 before concluding with performances in Cape Town and Johannesburg in early January.",
+      "The announcement sparked immediate calls for a public boycott on platform X, where many users argued that South African artists should not host commercial shows in Nigeria while reports of systemic xenophobia and attacks against Nigerians in South Africa persist.",
+      "Outrage stems in part from recent reports detailing instances of harassment and the tragic death of Nigerian national Chika Ibe in Cape Town, prompting critics to question the propriety of hosting high-profile South African entertainment events.",
+      "Conversely, another section of social media users rejected the boycott push, insisting that art and music should remain separated from geopolitics and pointing out that Nigerian artists frequently collaborate with South African musicians.",
+      "Neither Tyla nor the official concert promoters have issued a statement regarding the online boycott movement, with ticket sales expected to proceed as scheduled despite the growing online friction."
+    ]
+  },
+  {
+    "slug": "roberto-mancini-makes-dramatic-return-as-italy-head-coach-alongside-claudio-ranieri-in-figc-restructure",
+    "category": "Sports",
+    "headline": "Roberto Mancini Makes Dramatic Return as Italy Head Coach Alongside Claudio Ranieri in FIGC Restructure",
+    "dek": "Roberto Mancini completes a sensational return as Italy manager following FIGC's collapse in talks with Andrea Pirlo, with veteran manager Claudio Ranieri appointed technical director.",
+    "author": "亗BLAK",
+    "date": "Jul 28",
+    "image": "https://pbs.twimg.com/media/HOUbzOqXEAAicQx?format=jpg&name=small",
+    "body": [
+      "Roberto Mancini has officially been reappointed as head coach of the Italian national team, completing a dramatic return to the Azzurri bench following a chaotic leadership reshuffle within the Italian Football Federation (FIGC).",
+      "The 61-year-old manager, who famously guided Italy to European Championship glory at Euro 2020, steps back into the role three years after his departure, tasked once again with steering the national team through a pivotal rebuilding phase.",
+      "FIGC President Giovanni Malagò confirmed the appointment during a federal council meeting, revealing that Mancini was chosen after proposed deals with other high-profile candidates collapsed due to administrative and commercial complications.",
+      "Initial plans to name former midfielder Andrea Pirlo were abruptly shelved after partnership concerns with an external gambling entity came to light, prompting the federation to turn to Mancini's proven track record on the international stage.",
+      "Alongside Mancini’s return, the FIGC confirmed a sweeping restructuring of its technical hierarchy, appointing Premier League-winning manager Claudio Ranieri as the new technical director of Club Italia.",
+      "Mancini’s second tenure comes with immediate pressure as Italy aims to secure competitive stability and rebuild momentum following recent turbulence in international qualifying campaigns."
+    ]
+  },
+  {
+    "slug": "fg-calls-on-south-africa-to-take-urgent-concrete-action-over-persistent-xenophobic-attacks",
+    "category": "Culture",
+    "headline": "FG Calls on South Africa to Take Urgent 'Concrete' Action Over Persistent Xenophobic Attacks",
+    "dek": "The Federal Government demands immediate safeguards and prosecution of perpetrators in Pretoria, revealing that 98 Nigerians have died in anti-immigrant violence since 2022.",
+    "author": "亗BLAK",
+    "date": "Jul 28",
+    "image": "https://www.channelstv.com/wp-content/uploads/2026/07/South-Africa.jpg",
+    "body": [
+      "The Federal Government of Nigeria has called on South African authorities to take urgent and concrete measures to stop the persistent wave of xenophobic and \"Afrophobic\" attacks targeting Nigerian citizens and other African nationals.",
+      "The demand was delivered in Abuja during a high-level diplomatic meeting with South Africa's Minister of International Relations and Cooperation, Ronald Lamola, who arrived as a Special Envoy of President Cyril Ramaphosa.",
+      "Representing the Federal Government, Minister of State for Foreign Affairs Ambassador Sola Enikanolaiye disclosed that official records show 98 Nigerians have lost their lives to mob actions and hate-driven violence in South Africa since 2022.",
+      "While stressing that Nigeria does not condone criminality or drug trafficking, the government emphasized that any accused person must be processed through the judicial system rather than subjected to extrajudicial mob violence or police complicity.",
+      "Enikanolaiye noted that President Bola Tinubu instructed the foreign ministry to address the diplomatic tension with utmost frankness, warning that continued attacks threaten decades of bilateral cooperation and strategic partnership between both nations.",
+      "In response, the South African delegation reaffirmed President Ramaphosa’s firm stance against xenophobia and intolerance, while maintaining that Pretoria reserves the right to address undocumented migration and cross-border crime through legal channels."
+    ]
+  },
+  {
+    "slug": "powerful-71-magnitude-earthquake-hits-southern-japan-causing-infrastructure-collapse-and-widespread-outages",
+    "category": "World",
+    "headline": "Powerful 7.1 Magnitude Earthquake Hits Southern Japan, Causing Infrastructure Collapse and Widespread Outages",
+    "dek": "A shallow 7.1-magnitude quake in Kumamoto Prefecture triggers building collapses, fires, bullet train suspensions, and power outages as emergency responders rush to affected regions.",
+    "author": "亗BLAK",
+    "date": "Jul 28",
+    "image": "https://x.com/hmcrem/status/2082100076298604979/photo/2",
+    "body": [
+      "A powerful 7.1-magnitude earthquake struck Japan's southern island of Kyushu, triggering structural collapses, fires, and major infrastructure disruptions across Kumamoto Prefecture.",
+      "The tremor registered a maximum Shindo 7—the highest level on Japan's seismic intensity scale—at a shallow depth near Uto, causing intense ground shaking that damaged elevated highways, derailed a cargo train, and knocked out electricity to nearly 50,000 households.",
+      "In the town of Kashima, emergency services responded to an explosion and partial floor collapse at an Aeon shopping mall, where several people were reported trapped under rubble.",
+      "Transport operators immediately suspended bullet train and local rail services across the region, while regional airports temporarily grounded flights and shut down runways to conduct safety evaluations.",
+      "Prime Minister Sanae Takaichi confirmed that emergency task forces and Self-Defense Forces personnel have been dispatched to coordinate rescue operations, prioritize life-saving efforts, and assist displaced residents.",
+      "Although initial tsunami advisories issued for the Ariake and Yatsushiro seas were subsequently lifted, the Japan Meteorological Agency urged residents to remain vigilant for potential landslides and powerful aftershocks over the coming days."
+    ]
+  },
+  {
+    "slug": "enraged-market-traders-confront-suspected-fraudster-over-fake-bank-transfer-scheme-in-lagos",
+    "category": "World",
+    "headline": "Enraged Market Traders Confront Suspected Fraudster Over Fake Bank Transfer Scheme in Lagos",
+    "dek": "Angry market vendors and Point of Sale operators apprehend a female suspect in Lagos after she allegedly attempted to defraud small business owners using fake debit alerts.",
+    "author": "亗BLAK",
+    "date": "Jul 27",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoGnHLQVj5LHCrtqvHkgRR2rHC8qFsZmK4qikTRI9Lpw&s=10",
+    "body": [
+      "​Tensions flared across a bustling commercial market in Lagos as an angry crowd of traders and Point of Sale (PoS) operators surrounded and confronted a woman accused of executing fake bank transfer scams targeting local merchants.",
+      "​Eyewitnesses reported that the suspect attempted to exit a shop after purchasing goods and presenting what appeared to be a successful bank transfer notification on her mobile device.",
+      "​Suspicion arose when the vendor noticed that the transaction failed to reflect in her account balance despite the customer displaying a generated transaction receipt on her phone screen.",
+      "​Upon being asked to wait for official credit confirmation, the woman reportedly attempted to leave the premises, prompting the shop owner to raise an alarm that quickly drew a surrounding crowd of neighboring traders.",
+      "​The incident highlights growing frustration among Nigerian small business owners who are increasingly targeted by fraudsters employing spoofed SMS alerts and modified banking applications to simulate digital payments.",
+      "​Local security operatives later intervened to disperse the gathering crowd and take the suspect into custody for questioning, preventing the confrontation from escalating into mob violence."
+    ]
+  },
+  {
     "slug": "bradley-barcola-rejects-paris-saint-germain-extension-as-european-giants-circle-for-summer-transfer",
     "category": "Sports",
     "headline": "Bradley Barcola Rejects Paris Saint-Germain Extension as European Giants Circle for Summer Transfer",
@@ -387,12 +506,19 @@ const ARTICLES = [
   }
 ];
 
-// Up to 5 items shown in the scrolling "Breaking" bar under the nav on
-// every page. Each item is { text, link }. "link" is optional — leave it
-// blank for plain text, set it to an article slug to link to that article,
-// or a full https:// URL to link elsewhere.
 const BREAKING_NEWS = [
-  { text: "Vinícius Júnior Contract Blockbuster: Transfer to Manchester City or Real Madrid Retention Stall!", link: "" }
+  {
+    "text": "Arsenal Eye Blockbuster Vinicius Junior Transfer from Real Madrid",
+    "link": ""
+  },
+  {
+    "text": "OFFICIAL: Roberto Mancini has been appointed as new Italy head coach, the Federation has confirmed.",
+    "link": ""
+  },
+  {
+    "text": "Court of Appeal Nullifies Order Deregistering ADC and Four Other Opposition Parties",
+    "link": ""
+  }
 ];
 
 function getArticleBySlug(slug) {
