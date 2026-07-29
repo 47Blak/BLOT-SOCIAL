@@ -39,25 +39,28 @@ function renderHero() {
   el.insertAdjacentHTML("beforeend", html);
 }
 
-// Eligible articles (not hero, not brief) are split into two separate,
-// non-overlapping pools so "Latest Post" and "Across the Desk" never show
-// the same article as each other, no matter how far either is paginated.
-// Latest Post gets a small, FIXED-size pool (not a 50/50 split) so that
-// Across the Desk always keeps the rest of the articles for its own
-// 12-per-page pagination as the site grows.
-function getEligibleArticles() {
-  return ARTICLES.filter(a => !a.hero && !a.brief);
+// "Latest Post" and "Across the Desk" are fully independent sections now —
+// each article is explicitly tagged (via the "desk" flag in articles.js)
+// as belonging to one or the other, so there's no shared cutoff/count for
+// them to compete over. Both are unlimited: each pages through however
+// many articles carry its own flag, and the two pools can never overlap
+// because an article can't be both "desk" and "not desk" at once.
+function getLatestPostPool() {
+  return ARTICLES.filter(a => !a.hero && !a.brief && !a.desk);
 }
 
-const LATEST_POST_POOL_SIZE = 4;
+function getAcrossDeskPool() {
+  return ARTICLES.filter(a => !a.hero && !a.brief && a.desk);
+}
 
-// "Latest Post" pages through its own pool (the first LATEST_POST_POOL_SIZE
-// eligible articles) 2 at a time, with its own Read More / Newer Posts controls.
-const LATEST_POST_PAGE_SIZE = 2;
+// "Latest Post" pages through its own pool, unlimited, four at a time
+// (two-up, two-down on desktop), with its own Read More / Newer Posts
+// controls.
+const LATEST_POST_PAGE_SIZE = 4;
 let latestPostPage = 0;
 
 function getLatestPostItems() {
-  return getEligibleArticles().slice(0, LATEST_POST_POOL_SIZE);
+  return getLatestPostPool();
 }
 
 function renderLatestPost() {
@@ -80,15 +83,14 @@ function renderLatestPost() {
   if (newerBtn) newerBtn.style.display = hasNewer ? "" : "none";
 }
 
-// "Across the Desk" pages through its own pool (everything NOT in the
-// Latest Post pool) 12 at a time. "Read More" moves to the next page
-// (older posts) and the previous 12 disappear; "Newer Posts" moves back.
-// Nothing is ever appended/accumulated.
+// "Across the Desk" pages through its own pool, unlimited, 12 at a time.
+// "Read More" moves to the next page (older posts) and the previous 12
+// disappear; "Newer Posts" moves back. Nothing is ever appended/accumulated.
 const ACROSS_DESK_PAGE_SIZE = 12;
 let acrossDeskPage = 0;
 
 function getAcrossDeskItems() {
-  return getEligibleArticles().slice(LATEST_POST_POOL_SIZE);
+  return getAcrossDeskPool();
 }
 
 function renderAcrossTheDesk() {

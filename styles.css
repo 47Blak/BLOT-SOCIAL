@@ -467,6 +467,35 @@ a.breaking-item:hover {
 }
 
 /* Responsive */
+
+/* Desktop only: headlines in "Across the Desk" always display in full
+   (never truncated) — the dek is clamped to a fixed number of lines
+   instead, so it's the dek (not the title) that absorbs length
+   differences between cards. The byline is pinned to the bottom of the
+   card so the author's position stays uniform even when the text above
+   it is short. Mobile is left untouched. */
+@media (min-width: 761px) {
+  .four-col-grid .card {
+    display: flex;
+    flex-direction: column;
+  }
+  .four-col-grid .card .eyebrow {
+    align-self: flex-start;
+  }
+  .four-col-grid .card p.dek {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    overflow: hidden;
+    min-height: 4.35em;
+  }
+  .four-col-grid .card .byline {
+    margin-top: auto;
+    padding-top: 10px;
+  }
+}
+
 @media (max-width: 760px) {
   .two-col-grid, .four-col-grid, .category-list {
     grid-template-columns: 1fr;

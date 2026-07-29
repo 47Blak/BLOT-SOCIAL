@@ -98,7 +98,8 @@ const ARTICLES = [
       "In addition to the African Democratic Congress (ADC), the appellate court restored the registration and legal recognition of the Action Peoples Party (APP), Action Alliance (AA), Accord Party (AP), and Zenith Labour Party (ZLP).",
       "The appellate panel further reprimanded the trial court for ignoring clear evidence proving that the affected political parties had previously won elective seats across various levels of government.",
       "The justices also berated the lower court for proceeding with judgment in defiance of an existing stay-of-proceedings order, ruling that all five political parties remain duly registered and eligible to participate in upcoming electoral activities."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "election-must-be-won-at-ballot-not-in-court-atiku-declares-on-2027-elections-",
@@ -115,7 +116,8 @@ const ARTICLES = [
       "Atiku emphasized that attempts to clear opposition contenders out of the political landscape using legal technicalities undermine public trust in electoral processes and weaken democratic governance.",
       "\"As the nation advances towards the 2027 general elections, political contests must be decided by the votes of Nigerians—not by contrived lawsuits seeking to achieve in the courtroom what cannot be won at the ballot box,\" he stated.",
       "The ruling removes immediate legal hurdles facing opposition platforms, allowing political parties to shift focus toward coalition building, candidate selection, and grassroots mobilization ahead of the next electoral cycle."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "tylas-lagos-concert-announcement-triggers-heated-debate-among-nigerians-over-boycott-calls",
@@ -132,7 +134,8 @@ const ARTICLES = [
       "Outrage stems in part from recent reports detailing instances of harassment and the tragic death of Nigerian national Chika Ibe in Cape Town, prompting critics to question the propriety of hosting high-profile South African entertainment events.",
       "Conversely, another section of social media users rejected the boycott push, insisting that art and music should remain separated from geopolitics and pointing out that Nigerian artists frequently collaborate with South African musicians.",
       "Neither Tyla nor the official concert promoters have issued a statement regarding the online boycott movement, with ticket sales expected to proceed as scheduled despite the growing online friction."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "roberto-mancini-makes-dramatic-return-as-italy-head-coach-alongside-claudio-ranieri-in-figc-restructure",
@@ -149,7 +152,8 @@ const ARTICLES = [
       "Initial plans to name former midfielder Andrea Pirlo were abruptly shelved after partnership concerns with an external gambling entity came to light, prompting the federation to turn to Mancini's proven track record on the international stage.",
       "Alongside Mancini’s return, the FIGC confirmed a sweeping restructuring of its technical hierarchy, appointing Premier League-winning manager Claudio Ranieri as the new technical director of Club Italia.",
       "Mancini’s second tenure comes with immediate pressure as Italy aims to secure competitive stability and rebuild momentum following recent turbulence in international qualifying campaigns."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "fg-calls-on-south-africa-to-take-urgent-concrete-action-over-persistent-xenophobic-attacks",
@@ -166,7 +170,8 @@ const ARTICLES = [
       "While stressing that Nigeria does not condone criminality or drug trafficking, the government emphasized that any accused person must be processed through the judicial system rather than subjected to extrajudicial mob violence or police complicity.",
       "Enikanolaiye noted that President Bola Tinubu instructed the foreign ministry to address the diplomatic tension with utmost frankness, warning that continued attacks threaten decades of bilateral cooperation and strategic partnership between both nations.",
       "In response, the South African delegation reaffirmed President Ramaphosa’s firm stance against xenophobia and intolerance, while maintaining that Pretoria reserves the right to address undocumented migration and cross-border crime through legal channels."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "powerful-71-magnitude-earthquake-hits-southern-japan-causing-infrastructure-collapse-and-widespread-outages",
@@ -183,7 +188,8 @@ const ARTICLES = [
       "Transport operators immediately suspended bullet train and local rail services across the region, while regional airports temporarily grounded flights and shut down runways to conduct safety evaluations.",
       "Prime Minister Sanae Takaichi confirmed that emergency task forces and Self-Defense Forces personnel have been dispatched to coordinate rescue operations, prioritize life-saving efforts, and assist displaced residents.",
       "Although initial tsunami advisories issued for the Ariake and Yatsushiro seas were subsequently lifted, the Japan Meteorological Agency urged residents to remain vigilant for potential landslides and powerful aftershocks over the coming days."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "enraged-market-traders-confront-suspected-fraudster-over-fake-bank-transfer-scheme-in-lagos",
@@ -200,7 +206,8 @@ const ARTICLES = [
       "​Upon being asked to wait for official credit confirmation, the woman reportedly attempted to leave the premises, prompting the shop owner to raise an alarm that quickly drew a surrounding crowd of neighboring traders.",
       "​The incident highlights growing frustration among Nigerian small business owners who are increasingly targeted by fraudsters employing spoofed SMS alerts and modified banking applications to simulate digital payments.",
       "​Local security operatives later intervened to disperse the gathering crowd and take the suspect into custody for questioning, preventing the confrontation from escalating into mob violence."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "bradley-barcola-rejects-paris-saint-germain-extension-as-european-giants-circle-for-summer-transfer",
@@ -217,7 +224,8 @@ const ARTICLES = [
       "​To avoid risking his market valuation diminishing as he approaches the final years of his contract, PSG executives are expected to sanction a sale during the current transfer window, with reports indicating a price tag exceeding €90 million to €120 million.",
       "​Premier League giants Liverpool have emerged as the frontrunners for Barcola's signature, viewing the dynamic attacker as a primary target to reinforce their forward line ahead of the upcoming campaign.",
       "​While Chelsea, Arsenal, and Bayern Munich continue to monitor developments, PSG’s high financial demands mean any potential transfer will represent one of the most significant mega-deals of the summer window."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "viral-marriage-unmasked-nigerian-influencer-gehgeh-confirms-secret-wedding-was-publicity-stunt-for-upcoming-film",
@@ -234,7 +242,8 @@ const ARTICLES = [
       "Following widespread debate and trending discussions across X and TikTok, GehGeh cleared the air in a newly released video, clarifying that the elaborate ceremony was part of a behind-the-scenes shoot for an upcoming cinematic production titled Fake Marriage.",
       "He revealed that the strategic rollout was designed to maximize publicity for the movie project, demonstrating how effectively viral sensationalism can capture public attention in Nigeria's fast-moving digital creator space.",
       "While some fans applauded the clever marketing strategy that dominated headline discussions for days, others expressed fatigue over the growing trend among Nigerian influencers who stage major life events to drive commercial engagements."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "image of masquerade",
@@ -251,7 +260,8 @@ const ARTICLES = [
       "​Regarded as one of the most spiritually significant and formidable traditional entities in Yorubaland, the Oloolu masquerade is scheduled to conduct ancestral prayers for the monarch, council members, and the peaceful progress of Ibadanland.",
       "​During its multi-day procession across the ancient city, the masquerade will visit key historical quarters and traditional leadership residences, including Foko, Agodi, Oje Market, Popo-Yemoja, Molete, and Oranmiyan.",
       "​To ensure the cultural exercise remains peaceful, Oba Ladoja called on law enforcement agencies to maintain strict vigilance and urged masquerade followers and religious groups to avoid any form of violence or civil disturbance."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "image of dangote",
@@ -268,7 +278,8 @@ const ARTICLES = [
       "​The private placement attracted a diverse mix of global institutional investors, sovereign-backed funds, development finance institutions, and strategic partners. Key participants in the equity syndicate included the Africa Finance Corporation and India Infra Buildco—a specialized investment vehicle facilitated by the African Export-Import Bank—alongside prominent African pension funds.",
       "​Speaking on the successful completion of the transaction, Aliko Dangote, Chairman of Dangote Petroleum Refinery, highlighted that broadening the shareholder base is a strategic milestone in the company’s evolution. He emphasized that the newly injected funds will complement internal operational cash flows to drive self-sufficiency in refining, curb regional reliance on imported fuels, and bolster energy security across West Africa.",
       "​With a full nameplate processing capacity of 650,000 barrels per day, the complex stands as the world's largest single-train refinery. Financial analysts note that the overwhelming market interest reflects robust investor trust in the asset's execution capabilities, operational performance, and potential to generate substantial long-term value within global energy markets."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "engineered-coral-strain-shows-early-resistance-to-bleaching",
@@ -285,7 +296,8 @@ const ARTICLES = [
       "Coral bleaching occurs when elevated water temperatures force coral polyps to expel their vital symbiotic algae, leaving the calcium carbonate structures stark white and vulnerable to mass mortality and starvation.",
       "By pairing heat-adapted parent strains from warmer northern waters with resilient symbiotic algae, researchers at leading marine institutes aim to repopulate damaged reef ecosystems and slow down catastrophic loss of biodiversity.",
       "While conservationists caution that assisted evolution is not a standalone solution to global climate change, the early success of heat-tolerant strains offers a vital buffer to preserve coral ecosystems for future generations."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "river-basin-farmers-face-first-water-rationing-in-a-decade",
@@ -302,7 +314,8 @@ const ARTICLES = [
       "​Under the updated rationing framework, high-volume irrigation allocations will be reduced by up to 25 percent, forcing farmers to prioritize high-value permanent crops while leaving secondary acreage fallow.",
       "​Agribusiness representatives expressed deep concern over the immediate financial impact of the reductions, warning that forced crop cutbacks could lead to diminished harvests and increased pressure on regional food supply chains.",
       "​Water authorities emphasize that without immediate rationing measures, municipal supply security and long-term ecosystem stability across the basin would face severe risk as dry weather conditions persist."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "new-tunnel-link-cuts-cross-border-commute-by-twenty-minutes",
@@ -332,7 +345,8 @@ const ARTICLES = [
       "​Critique and word-of-mouth momentum have driven record-breaking demand for admission, with extended sold-out runs prompting producers to schedule additional performances across major metropolitan theater districts.",
       "​Leading critics are praising the revived staging for its extraordinary set design, sharp dialogue, and powerhouse cast performances, declaring the once-dormant work a timeless dramatic triumph that rivals modern classics.",
       "​As sold-out crowds continue to pack auditorium seats each night, the runaway success of this 1958 revival highlights the enduring power of classic storytelling to captivate new generations of theatergoers when brought back into the spotlight."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "photo-finish-decides-mens-200m-final-by-two-thousandths",
@@ -346,7 +360,8 @@ const ARTICLES = [
       "The gap between first and second place was too small for the naked eye, sending officials to high-speed camera footage before a winner could be confirmed.",
       "Both athletes said afterward they were unsure of the result until it was announced, describing the wait as the longest ten minutes of the meet.",
       "It was the second photo finish of the week at the meet, prompting organizers to note it may be time to review timing equipment standards."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "downtown-parking-garage-converts-to-mixed-use-tower",
@@ -359,7 +374,8 @@ const ARTICLES = [
     "body": [
       "The seven-story structure will be demolished this fall to make way for housing and ground-floor retail.",
       "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "local-startup-raises-funding-for-battery-recycling",
@@ -372,7 +388,8 @@ const ARTICLES = [
     "body": [
       "The company says its method recovers over ninety percent of lithium from used EV battery packs.",
       "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "coastal-city-completes-decade-long-seawall-project",
@@ -385,7 +402,8 @@ const ARTICLES = [
     "body": [
       "Officials say the barrier should protect the harbor district through at least the next major storm cycle.",
       "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "museum-reopens-after-two-year-renovation",
@@ -398,7 +416,8 @@ const ARTICLES = [
     "body": [
       "The expanded wing adds gallery space for a rotating collection of regional art.",
       "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "local-club-clinches-playoff-spot-in-final-match",
@@ -411,7 +430,8 @@ const ARTICLES = [
     "body": [
       "A late second-half goal secured the win and the club's first postseason berth in five years.",
       "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "regional-bank-opens-three-new-branches",
@@ -424,7 +444,8 @@ const ARTICLES = [
     "body": [
       "The expansion follows a year of steady deposit growth in suburban markets.",
       "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "university-lab-unveils-low-cost-water-filter",
@@ -437,7 +458,8 @@ const ARTICLES = [
     "body": [
       "Researchers say the ceramic filter can be produced for a fraction of commercial alternatives.",
       "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "trade-delegation-concludes-week-long-talks",
@@ -450,7 +472,8 @@ const ARTICLES = [
     "body": [
       "Negotiators say a framework agreement could be finalized before the end of the year.",
       "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "independent-bookstore-marks-fortieth-anniversary",
@@ -463,7 +486,8 @@ const ARTICLES = [
     "body": [
       "The shop has hosted weekly author readings since it opened its doors in the neighborhood.",
       "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "youth-league-expands-to-two-new-neighborhoods",
@@ -476,7 +500,8 @@ const ARTICLES = [
     "body": [
       "Organizers cited rising enrollment as the reason for adding two new fields next season.",
       "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "manufacturer-announces-new-assembly-line-jobs",
@@ -489,7 +514,8 @@ const ARTICLES = [
     "body": [
       "The company expects to hire roughly 150 workers once the line is operational early next year.",
       "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ]
+    ],
+    "desk": true
   },
   {
     "slug": "city-pilots-smart-traffic-signals-on-main-corridor",
@@ -502,7 +528,8 @@ const ARTICLES = [
     "body": [
       "Early data suggests the adaptive signals have cut average commute times along the route.",
       "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ]
+    ],
+    "desk": true
   }
 ];
 
