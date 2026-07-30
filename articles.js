@@ -188,6 +188,7 @@ const ARTICLES = [
     "date": "Jul 30",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHP-4jLBuiAq1DrDTm1og5pdVURIhyC6-ISJPSItaW2MGSmotD3FUnMJ4&s=10",
     "body": [
+      "Apple users across digital community forums have raised widespread complaints regarding persistent disruptions caused by the tech giant's multi-device call ringing feature.",
       "The functionality—part of Apple's Continuity ecosystem—is designed to relay incoming cellular calls and FaceTime requests seamlessly to nearby iPads, MacBooks, and Apple Watches logged into the same Apple ID.",
       "However, many users report growing irritation over delayed call syncing, erratic notification alerts, and loud multi-room chime blasts that occur whenever an incoming call hits a primary iPhone.",
       "The issue becomes particularly severe in households sharing a single Apple account or in quiet office environments, where answering a call on one device fails to immediately silence incoming rings on secondary hardware.",
