@@ -1,5 +1,91 @@
 const ARTICLES = [
   {
+    "slug": "tobi-amusan-blazes-into-commonwealth-games-100m-hurdles-final-with-wind-assisted-1219s",
+    "category": "Sports",
+    "headline": "Tobi Amusan Blazes Into Commonwealth Games 100m Hurdles Final With Wind-Assisted 12.19s",
+    "dek": "World record holder Tobi Amusan dominates Heat One in 12.19 seconds to secure her place in the Commonwealth Games final as Team Nigeria's athletics medal hunt gathers momentum.",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIT6uqe4fSPlOkonTpXcevhnBnFMZ_e56-9RZ1HZKXiL4ui3fq-M4TmSw&s=10",
+    "body": [
+      "Nigeria’s sprint hurdles queen Tobi Amusan delivered a breathtaking performance at the 2026 Commonwealth Games in Glasgow, storming into the women's 100m hurdles final with an explosive 12.19-second victory in her opening heat.",
+      "Amusan took command of Heat One right from the starting blocks, executing a flawless run to cross the finish line well ahead of South Africa’s Marione Fourie (12.50s) and Jamaica’s Kerrica Hill (12.69s).",
+      "The 12.19-second mark stands as the fastest time ever clocked in Commonwealth Games history under any conditions, though it will not count as an official Games record due to a tailwind reading of +3.8m/s exceeding the legal limit.",
+      "Despite the wind assistance, the world record holder displayed supreme composure and rhythm across all ten barriers, asserting herself as the clear favorite to defend her Commonwealth title.",
+      "Amusan’s commanding qualification reinforces Team Nigeria’s impressive showing on the track in Glasgow as the delegation builds on its expanding medal count across track and field events.",
+      "The former world champion returns to the track for the evening final, aiming to secure another gold medal and cement her dominance on the global stage."
+    ],
+    "desk": true
+  },
+  {
+    "slug": "frustrated-apple-owners-take-to-social-media-as-continuity-feature-causes-iphones-ipads-macs-and-apple-watches-to-ring-simultaneously-during-incoming-calls",
+    "category": "Technology",
+    "headline": "Frustrated Apple owners take to social media as Continuity feature causes iPhones, iPads, Macs, and Apple Watches to ring simultaneously during incoming calls.",
+    "dek": "Frustrated Apple owners take to social media as Continuity feature causes iPhones, iPads, Macs, and Apple Watches to ring simultaneously during incoming calls.",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHP-4jLBuiAq1DrDTm1og5pdVURIhyC6-ISJPSItaW2MGSmotD3FUnMJ4&s=10",
+    "body": [
+      "The functionality—part of Apple's Continuity ecosystem—is designed to relay incoming cellular calls and FaceTime requests seamlessly to nearby iPads, MacBooks, and Apple Watches logged into the same Apple ID.",
+      "However, many users report growing irritation over delayed call syncing, erratic notification alerts, and loud multi-room chime blasts that occur whenever an incoming call hits a primary iPhone.",
+      "The issue becomes particularly severe in households sharing a single Apple account or in quiet office environments, where answering a call on one device fails to immediately silence incoming rings on secondary hardware.",
+      "Tech experts advise affected users to manually adjust their Continuity preferences by toggling off \"Allow Calls on Other Devices\" within the iPhone Settings app under the Phone menu.",
+      "While Apple provides options to restrict specific secondary devices, consumers continue to press the Cupertino company for more granular audio controls and improved cross-device signaling in upcoming software updates."
+    ],
+    "desk": true
+  },
+  {
+    "slug": "femi-otedola-expands-first-holdco-control-with-massive-2222-billion-share-acquisition",
+    "category": "World",
+    "headline": "Femi Otedola Expands First HoldCo Control with Massive ₦222.2 Billion Share Acquisition",
+    "dek": "Billionaire businessman and First HoldCo chairman Femi Otedola acquires 1.78 billion additional ordinary shares, elevating his total equity stake to 25.87% and inching closer to the mandatory takeover threshold.",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwrLHxP6OI-t3kz0Ikykeuy0rY--dKiHUQutXTnTQLbAd3oWKpMftA7U8&s=10",
+    "body": [
+      "Billionaire investor and chairman of First HoldCo Plc, Femi Otedola, has significantly cemented his dominant position as the primary equity holder in Nigeria’s oldest financial group after completing a massive ₦222.2 billion share transaction.",
+      "​According to official regulatory filings submitted to the Nigerian Exchange (NGX), Otedola acquired 1.779 billion ordinary shares through his primary investment vehicle, Calvados Global Services Limited, at a unit price of ₦124.90 per share.",
+      "​The capital injection represents a 3.91% increase in outstanding shares, boosting Otedola’s total shareholding in the banking behemoth from 9.99 billion shares to nearly 11.77 billion shares.",
+      "​With the latest acquisition, Otedola’s overall equity stake in First HoldCo rises from 21.96% to 25.87%, placing his cumulative portfolio valuation in the financial group at approximately ₦1.47 trillion.",
+      "​The high-volume purchase marks Otedola's second major block trade within eight days, following a ₦77.58 billion purchase of 706 million shares executed on July 22, bringing his total fresh capital deployment in First HoldCo to nearly ₦300 billion in just over a week.",
+      "​At 25.87%, Otedola’s ownership sits within striking distance of the 30% regulatory trigger under Nigeria's Securities and Exchange Commission (SEC) guidelines, which mandates a formal takeover bid to minority shareholders once reached."
+    ]
+  },
+  {
+    "slug": "fbi-and-efcc-joint-operations-target-nigerian-sextortion-syndicates-preying-on-us-teenagers",
+    "category": "World",
+    "headline": "FBI and EFCC Joint Operations Target Nigerian Sextortion Syndicates Preying on U.S. Teenagers",
+    "dek": "Federal investigators escalate crackdown on cross-border cyber-extortion rings in Lagos following a sharp rise in financially motivated targeting of minors across the United States.",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://thewhistler.ng/wp-content/uploads/2024/10/FBI-and-EFCC.jpg",
+    "body": [
+      "Federal investigators from the FBI, working in close coordination with Nigeria's Economic and Financial Crimes Commission (EFCC), have intensified direct confrontations and raids targeting cyber-extortion networks across major urban centers.",
+      "The joint enforcement initiative, known as Operation Artemis, focuses on dismantling financially motivated sextortion rings that lure teenage boys on platforms like Instagram and Snapchat into sending explicit photos before demanding money under threat of exposure.",
+      "Law enforcement officials report that perpetrators often operate using compromised accounts and deceptive female personas, conducting rapid background research on victims to maximize leverage through coercion and harassment.",
+      "The surge in international operations follows severe tragic outcomes in the U.S., where dozens of minors succumbed to psychological distress caused by relentless blackmail demands before authorities tracked the digital paper trails back to West Africa.",
+      "Recent legal actions have resulted in multiple extraditions and convictions in U.S. federal courts, signaling a historic shift toward prosecuting overseas perpetrators who previously operated with perceived impunity.",
+      "Both American and Nigerian security agencies emphasize that continued technical cooperation and public awareness campaigns remain crucial to disrupting these global syndicates and protecting vulnerable youth online."
+    ]
+  },
+  {
+    "slug": "eddie-howe-steps-down-as-newcastle-united-head-coach-with-immediate-effect",
+    "category": "Sports",
+    "headline": "Eddie Howe Steps Down as Newcastle United Head Coach with Immediate Effect",
+    "dek": "English manager Eddie Howe brings an end to his five-year tenure at St James' Park to take a break from football, with Al-Ahli head coach Matthias Jaissle leading the race to succeed him.",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://ichef.bbci.co.uk/ace/standard/683/cpsprodpb/ad54/live/0ee319a0-eae5-11f0-97ff-1df4f0d33d7f.jpg",
+    "body": [
+      "Eddie Howe has decided to step down as head coach of Newcastle United with immediate effect, bringing an abrupt end to his transformative five-year tenure at St James' Park just weeks before the start of the new Premier League season.",
+      "​The 48-year-old manager informed the club's hierarchy of his decision to take a break from football following months of squad upheaval and a challenging summer transfer window that saw key stars Sandro Tonali and Anthony Gordon depart the club.",
+      "​Howe’s sudden exit comes after overseeing a 4-1 pre-season friendly defeat against Bristol City on Wednesday night, which proved to be his final match in charge of the Tyneside club.",
+      "​Since replacing Steve Bruce in November 2021, Howe etched his name into Newcastle history by ending the club's 70-year wait for a major domestic trophy with a 2025 League Cup victory at Wembley, alongside securing two UEFA Champions League qualifications.",
+      "​However, internal frustration over transfer strategy and a disappointing 12th-place finish in the 2025/26 Premier League campaign prompted deep reflection, ultimately leading Howe to step away despite retaining support from the board.",
+      "​Newcastle executives have moved swiftly to negotiate a replacement, with 38-year-old German tactician Matthias Jaissle of Saudi Pro League side Al-Ahli currently in advanced talks to take over ahead of the upcoming campaign."
+    ]
+  },
+  {
     "slug": "image-aurlien-tchouamni",
     "category": "Sports",
     "headline": "Real Madrid's Rodri Pursuit Paves Way for Manchester United to Land £68 Million Target Aurélien Tchouaméni",
@@ -62,7 +148,8 @@ const ARTICLES = [
       "​The 26-year-old winger enjoyed an impressive campaign, registering 22 goals for Real Madrid despite their La Liga runner-up finish, before continuing his fine form on the international stage by scoring four goals for Brazil at the World Cup. Entering the final year of his deal at the Bernabéu, his long-term future in Spain has become increasingly uncertain.",
       "​Despite the mounting Premier League interest, Real Madrid manager José Mourinho has made his position clear to club executives. Mourinho considers Vinícius a fundamental pillar of his team alongside Kylian Mbappé and Jude Bellingham, warning board members against sanctioning a sale for any of his key attacking leaders.",
       "​Sky Sports and major broadcast outlets confirm Arsenal’s genuine interest in securing top-tier attacking talent, listing Vinícius alongside other marquee targets on their radar, such as Atlético Madrid’s Julián Álvarez. The Gunners remain vigilant as they explore high-caliber options to bolster their squad for the upcoming season.",
-      "​Crucial discussions scheduled in Madrid could dictate the timeline of any potential move. With renewal negotiations currently at a standstill, Los Blancos face pressure to decide whether an agreement can be reached or if they must evaluate market interest.\n​While no direct club-to-club negotiations have taken place between Arsenal and Real Madrid yet, Premier League suitors are monitoring the situation closely. Real Madrid remain reluctant to risk losing the Brazilian superstar on a free transfer next summer, leaving the door open for opportunistic bids if contract talks remain deadlocked."
+      "​Crucial discussions scheduled in Madrid could dictate the timeline of any potential move. With renewal negotiations currently at a standstill, Los Blancos face pressure to decide whether an agreement can be reached or if they must evaluate market interest.\n​While no direct club-to-club negotiations have taken place between Arsenal and Real Madrid yet, Premier League suitors are monitoring the situation closely.",
+      "Real Madrid remain reluctant to risk losing the Brazilian superstar on a free transfer next summer, leaving the door open for opportunistic bids if contract talks remain deadlocked."
     ],
     "hero": true
   },
@@ -180,7 +267,7 @@ const ARTICLES = [
     "dek": "A shallow 7.1-magnitude quake in Kumamoto Prefecture triggers building collapses, fires, bullet train suspensions, and power outages as emergency responders rush to affected regions.",
     "author": "亗BLAK",
     "date": "Jul 28",
-    "image": "https://x.com/hmcrem/status/2082100076298604979/photo/2",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh9_VlQy0nrRrMpYydFa0gsrNumnGk1053XqSPU7ScjMBS5t0lqrT8pUQ&s=10",
     "body": [
       "A powerful 7.1-magnitude earthquake struck Japan's southern island of Kyushu, triggering structural collapses, fires, and major infrastructure disruptions across Kumamoto Prefecture.",
       "The tremor registered a maximum Shindo 7—the highest level on Japan's seismic intensity scale—at a shallow depth near Uto, causing intense ground shaking that damaged elevated highways, derailed a cargo train, and knocked out electricity to nearly 50,000 households.",
