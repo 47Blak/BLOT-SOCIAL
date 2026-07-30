@@ -1,5 +1,22 @@
 const ARTICLES = [
   {
+    "slug": "femi-otedola-expands-first-holdco-control-with-massive-2222-billion-share-acquisition",
+    "category": "World",
+    "headline": "Femi Otedola Expands First HoldCo Control with Massive ₦222.2 Billion Share Acquisition",
+    "dek": "Billionaire businessman and First HoldCo chairman Femi Otedola acquires 1.78 billion additional ordinary shares, elevating his total equity stake to 25.87% and inching closer to the mandatory takeover threshold.",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwrLHxP6OI-t3kz0Ikykeuy0rY--dKiHUQutXTnTQLbAd3oWKpMftA7U8&s=10",
+    "body": [
+      "Billionaire investor and chairman of First HoldCo Plc, Femi Otedola, has significantly cemented his dominant position as the primary equity holder in Nigeria’s oldest financial group after completing a massive ₦222.2 billion share transaction.",
+      "​According to official regulatory filings submitted to the Nigerian Exchange (NGX), Otedola acquired 1.779 billion ordinary shares through his primary investment vehicle, Calvados Global Services Limited, at a unit price of ₦124.90 per share.",
+      "​The capital injection represents a 3.91% increase in outstanding shares, boosting Otedola’s total shareholding in the banking behemoth from 9.99 billion shares to nearly 11.77 billion shares.",
+      "​With the latest acquisition, Otedola’s overall equity stake in First HoldCo rises from 21.96% to 25.87%, placing his cumulative portfolio valuation in the financial group at approximately ₦1.47 trillion.",
+      "​The high-volume purchase marks Otedola's second major block trade within eight days, following a ₦77.58 billion purchase of 706 million shares executed on July 22, bringing his total fresh capital deployment in First HoldCo to nearly ₦300 billion in just over a week.",
+      "​At 25.87%, Otedola’s ownership sits within striking distance of the 30% regulatory trigger under Nigeria's Securities and Exchange Commission (SEC) guidelines, which mandates a formal takeover bid to minority shareholders once reached."
+    ]
+  },
+  {
     "slug": "tobi-amusan-blazes-into-commonwealth-games-100m-hurdles-final-with-wind-assisted-1219s",
     "category": "Sports",
     "headline": "Tobi Amusan Blazes Into Commonwealth Games 100m Hurdles Final With Wind-Assisted 12.19s",
@@ -14,6 +31,151 @@ const ARTICLES = [
       "Despite the wind assistance, the world record holder displayed supreme composure and rhythm across all ten barriers, asserting herself as the clear favorite to defend her Commonwealth title.",
       "Amusan’s commanding qualification reinforces Team Nigeria’s impressive showing on the track in Glasgow as the delegation builds on its expanding medal count across track and field events.",
       "The former world champion returns to the track for the evening final, aiming to secure another gold medal and cement her dominance on the global stage."
+    ],
+    "desk": true
+  },
+  {
+    "slug": "singapore-based-hilleman-laboratories-secures-85m-cepi-funding-to-produce-most-promising-ebola-vaccine-candidate",
+    "category": "World",
+    "headline": "Singapore Based Hilleman Laboratories Secures $8.5M CEPI Funding to Produce 'Most Promising' Ebola Vaccine Candidate",
+    "dek": "Coalition for Epidemic Preparedness Innovations (CEPI) partners with Hilleman Laboratories to advance manufacturing of a single-dose vaccine targeting the Bundibugyo Ebola outbreak in the Democratic Republic of Congo.",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjjI3q6f5n8_UUlJ4AGKjK89N0VXFmHrzby5w7yrmVsiSzyTzGgBc5DF3V&s=10",
+    "body": [
+      "Hilleman Laboratories, a Singapore-based vaccine developer, has partnered with global health body CEPI to manufacture clinical trial doses for a single-dose Ebola vaccine candidate identified by experts as the most promising tool against an escalating outbreak in Central Africa.",
+      "The Coalition for Epidemic Preparedness Innovations (CEPI) announced an investment of up to $8.5 million to support Hilleman Laboratories—a joint venture between pharmaceutical giant MSD (Merck) and British charitable trust Wellcome—in producing clinical supplies of the investigational shot.",
+      "The targeted vaccine candidate focuses on the rare Bundibugyo ebolavirus strain, which currently has no licensed vaccines or approved antiviral treatments. The ongoing outbreak in the Democratic Republic of the Congo has already infected over 3,300 people and claimed nearly 1,500 lives.",
+      "World Health Organization (WHO) experts identified the single-dose candidate as particularly promising because it utilizes the recombinant vesicular stomatitis virus (rVSV) platform—the exact technology behind Ervebo, the licensed vaccine used to combat the more common Zaire Ebola strain.",
+      "Initial vaccine starting materials generated by the International AIDS Vaccine Initiative (IAVI) will be processed by Hilleman Laboratories into finished doses for early human clinical testing, with technical guidance provided by MSD.",
+      "Unlike older formulations that require ultra-cold freezer storage, researchers aim for the new rVSV-Bundibugyo candidate to remain stable in standard refrigeration, dramatically lowering transportation costs and facilitating rapid deployment across remote outbreak regions in low- and middle-income nations."
+    ],
+    "desk": true
+  },
+  {
+    "slug": "manufacturers-violating-ban-on-sachet-alcohol-face-immediate-factory-shutdowns-and-prosecution-nafdac-dg",
+    "category": "World",
+    "headline": "Manufacturers Violating Ban on Sachet Alcohol Face Immediate Factory Shutdowns and Prosecution — NAFDAC DG",
+    "dek": "NAFDAC Director-General Prof. Mojisola Adeyeye warns defiant producers, distributors, and retailers of severe legal consequences after nationwide enforcement uncovers secret factories and fresh production lines.",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZyjp1WMwmKemF2pnLTse1D-YsVBjquoq3FL7Qqla8AOKMlzGN0Ac3IXw&s=10",
+    "body": [
+      "The National Agency for Food and Drug Administration and Control (NAFDAC) has issued a stern warning to alcoholic beverage manufacturers, distributors, and retailers violating the federal ban on sachet alcohol and small-volume PET bottles, threatening total facility shutdowns and criminal prosecution.",
+      "Speaking at a press conference in Lagos, NAFDAC Director-General Prof. Mojisola Adeyeye disclosed that nationwide enforcement operations uncovered widespread, deliberate attempts by manufacturers to circumvent the prohibition on alcoholic drinks packaged in sachets and plastic bottles below 200ml.",
+      "Investigative teams across Lagos, Ogun, and several other states discovered that multiple companies had secretly relocated equipment from registered factories to illegal, unregistered sites, removing company signboards to avoid regulatory detection while continuing active production.",
+      "Raids conducted across distribution channels and factory premises led to the seizure of sachet packaging materials and 100ml PET bottles stamped with production dates as recent as late July 2026, confirming ongoing manufacturing rather than the clearance of old stock.",
+      "Adeyeye strongly condemned recent physical attacks on NAFDAC officers during market mop-up operations in Lagos, revealing that enforcement personnel faced armed hostility and physical assault while carrying out federal directives.",
+      "Reiterating that the prohibition is non-negotiable under the National Alcohol Policy and Senate resolutions aimed at curbing underage drinking and substance abuse, NAFDAC pledged to sustain its nationwide crackdown until all banned sub-200ml alcoholic products are completely eradicated from Nigerian markets."
+    ],
+    "youtubeVideo": "https://youtu.be/Hk6NEPKAkpw?si=82FJi-Qh2wO75UWH",
+    "desk": true
+  },
+  {
+    "slug": "nigeria-canada-advance-direct-flight-negotiations-as-keyamo-meets-canadian-envoy",
+    "category": "World",
+    "headline": "Nigeria, Canada Advance Direct Flight Negotiations as Keyamo Meets Canadian Envoy",
+    "dek": "Minister Festus Keyamo and Canadian Chargé d'Affaires David Sproule push for a bilateral Air Services Agreement, with both sides set for formal negotiations on August 6.",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://www.channelstv.com/wp-content/uploads/2026/07/The-Minister-of-Aviation-and-Aerospace-Development-Festus-Keyamo-the-Charge-dAffaires-of-the-High.jpg",
+    "body": [
+      "The Federal Government of Nigeria has reaffirmed its commitment to establishing direct commercial flight operations with Canada following high-level diplomatic talks aimed at finalizing a bilateral Air Services Agreement.",
+      "The Minister of Aviation and Aerospace Development, Festus Keyamo (SAN), hosted a delegation led by the Chargé d'Affaires of the High Commission of Canada to Nigeria, David Sproule, alongside Deputy High Commissioner Carlos Rojas-Arbulú in Abuja.",
+      "During the meeting, Ambassador Sproule disclosed that a high-level Canadian delegation is scheduled to arrive in Nigeria during the first week of August to resolve outstanding frameworks needed for direct connectivity.",
+      "The Canadian envoy raised the inclusion of Standard Operating Procedures (SOPs) concerning immigration enforcement and the removal of nationals not legally entitled to remain in Canada as a key factor in streamlining flight approvals.",
+      "Keyamo welcomed the progress, highlighting that thousands of Nigerian travelers heading to Canada weekly are currently forced to transit through Europe or the United States due to the absence of direct routes.",
+      "While noting that immigration matters fall under inter-ministerial purview with the Ministry of Interior, Keyamo assured full cross-agency collaboration ahead of the formal bilateral meeting set for August 6, 2026."
+    ],
+    "desk": true
+  },
+  {
+    "slug": "osun-governorship-poll-police-nab-ssg-teslim-igbalaye-and-5-others-over-alleged-vote-buying-scheme",
+    "category": "World",
+    "headline": "Osun Governorship Poll: Police Nab SSG Teslim Igbalaye and 5 Others Over Alleged Vote-Buying Scheme",
+    "dek": "Police operatives raid the Osogbo residence of Osun SSG Teslim Igbalaye, recovering ₦4.8 million in cash, voter registers, and electoral equipment ahead of the August 15 governorship election.",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdUBwkC14x6-zF0KOXKlObV-HtEcoWpmQ0yHU-IbCXsqPqS6ZasZk-yQaU&s=10",
+    "body": [
+      "The Osun State Police Command has arrested the Secretary to the State Government (SSG), Hon. Teslim Igbalaye, alongside five other suspects over alleged involvement in vote merchandising and possession of electoral materials.",
+      "The operational crackdown took place at a residential property linked to the SSG within the Oroki Estate area of Osogbo following intelligence targeting a wanted suspect, Abiodun Arowomole (alias \"Ashipa\"), who was on the command's watchlist for serious crimes including murder.",
+      "Command spokesperson DSP Abiodun Ojelabi confirmed that officers seized ₦4.81 million in cash, voter registers covering Wards 1 to 15 in Osogbo Local Government Area, a Dynabook laptop, printing equipment, and Permanent Voter Cards during the raid.",
+      "Other individuals apprehended during the raid were identified as Akande Taiwo, Oladele Abiodun, Adeyemo Lukman, Olaoye Muftau, and Aderemi Musliu.",
+      "Reacting to the developments, Governor Ademola Adeleke declared that the state government and the people of Osun would not succumb to political intimidation or external interference as campaigning reaches a climax ahead of the August 15 poll.",
+      "Police Commissioner CP Ibrahim Gotan stated that comprehensive investigations into criminal conspiracy, vote-buying, and the harboring of a wanted homicide suspect remain ongoing."
+    ],
+    "desk": true
+  },
+  {
+    "slug": "nigeria-accounts-for-105-of-africas-cancer-burden-targets-30-reduction-by-2030-shettima",
+    "category": "World",
+    "headline": "Nigeria Accounts for 10.5% of Africa’s Cancer Burden, Targets 30% Reduction by 2030 - Shettima",
+    "dek": "Vice President Kashim Shettima unveils the National Cancer Control Plan 2026–2030 at the African Primary Health Care Forum, committing to curb rising cancer cases and leverage technology for early detection.",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMQguLEX19Q3aA8eEPLdxkJgHbHbuXVkIBWHIP_OwfS3GhyGkKB2t4ivo&s=10",
+    "body": [
+      "Vice President Kashim Shettima has raised major concerns over Nigeria's escalating health crisis, revealing that the country currently accounts for approximately 10.5 per cent of all cancer cases and related deaths across the African continent.",
+      "Speaking at the Second African Primary Health Care Forum in Abuja, Shettima announced that the Federal Government has adopted the Nigerian National Cancer Control Plan (2026–2030) with an ambitious target to reduce the nation's cancer burden by at least 30 per cent by the end of the decade.",
+      "Represented by the Senior Special Assistant to the President on Public Health, Dr. Uju Rochas-Anwukah, the Vice President cited data from the Global Cancer Observatory showing over 1.18 million new cancer cases and 721,000 deaths recorded across Africa in 2024, with Nigeria bearing a disproportionate share of the toll.",
+      "To combat the trend, Shettima stated that the new strategic framework focuses on expanding Human Papillomavirus (HPV) vaccination coverage and scaling nationwide cervical cancer screening to eliminate the disease as a public health threat by 2030.",
+      "The Vice President also highlighted the integration of artificial intelligence (AI) tools into the national cancer control policy to improve diagnostic precision, while cautioning that digital algorithms must be trained on local demographic data to ensure clinical accuracy for African populations.",
+      "Reaffirming the administration's commitment to primary healthcare renewal, Shettima called for deeper cross-border research and financial partnerships among African nations to decentralize oncology care, enhance early detection, and lighten the strain on tertiary health institutions."
+    ],
+    "desk": true
+  },
+  {
+    "slug": "meet-oluwami-dosunmu-ogunbi-first-black-woman-to-earn-phd-in-robotics-engineering-at-michigan",
+    "category": "Technology",
+    "headline": "Meet Oluwami Dosunmu-Ogunbi: First Black Woman to Earn PhD in Robotics Engineering at Michigan",
+    "dek": "Nigerian-American scholar Oluwami Dosunmu-Ogunbi makes history at the University of Michigan, dedicating her groundbreaking achievement to the power of community, mentorship, and social responsibility in engineering.",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://cdn.vanguardngr.com/wp-content/uploads/2026/07/Dosunmu-Ogunbi_Oluwami.jpg",
+    "body": [
+      "A Nigerian American engineer and educator, Oluwami Dosunmu-Ogunbi, has etched her name in history by becoming the first Black woman to earn a Doctor of Philosophy (PhD) in Robotics from the University of Michigan.",
+      "The daughter of Nigerian immigrants, Dosunmu-Ogunbi officially marked the historic milestone during the university's College of Engineering graduate student commencement ceremony, where she delivered a powerful address reflecting on the collaborative nature of her academic journey.",
+      "Addressing her fellow graduates, she emphasized that success in highly technical fields is rarely a solitary endeavor. \"I do not stand here on my own two feet alone. None of us got here by our individual merit alone,\" she stated, expressing deep gratitude to the teachers, mentors, friends, and family members who made her accomplishment possible.",
+      "Throughout her doctoral program, Dosunmu-Ogunbi specialized in dynamics and controls, focusing her research heavily on robotic bipedal locomotion. Her chief research result involved developing a new stair-climbing controller for bipedal walking robots.",
+      "Beyond her academic and technical research, she has been widely recognized for her active community-building efforts. She served as a Robotics outreach ambassador for three consecutive years and received the prestigious MLK Spirit Award from the College of Engineering for her dedication to mentoring and inspiring younger students.",
+      "Dosunmu-Ogunbi noted that her ultimate goal is to leave a legacy of positive impact. She challenged her peers to go beyond technical innovation, urging them to become \"socially conscious\" engineers who create collaborative solutions to societal problems and promote an inclusive community for the common good."
+    ],
+    "desk": true
+  },
+  {
+    "slug": "joint-security-operation-kills-three-bandits-rescues-nine-kidnap-victims-in-kwara-state",
+    "category": "World",
+    "headline": "Joint Security Operation Kills Three Bandits, Rescues Nine Kidnap Victims in Kwara State",
+    "dek": "Operatives of the DSS, Kwara State Forest Guards, and local vigilantes intercept an armed gang along the border axis, neutralizing three criminal elements in a heavy exchange of gunfire.",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB0ZfPSOTXDuoa3lMhp0L83N-J-VPVo7nlcT3gHogY_JydmN9kVzMoL6o&s=10",
+    "body": [
+      "Operatives of the Department of State Services (DSS), working in coordination with the Kwara State Forest Guards, local hunters, and vigilante groups, have neutralized three suspected bandits and rescued nine abducted victims during a joint security operation in Kwara State.",
+      "The intelligence-led bush-combing exercise was executed along the Obbo-Aiyegunle, Ejiu-Ora, and Osi axis of Ekiti Local Government Area—a dense forested corridor bordering Kwara, Ekiti, and Kogi states.",
+      "According to official updates confirmed by Prince Dada Sunday, Chief Press Secretary to the Chairman of Ekiti Local Government Council, the armed kidnappers—numbering more than ten—had assembled victims abducted from farmlands in Kwara as well as neighboring communities.",
+      "Security forces intercepted the criminal gang as they attempted to move the captives through the forest route toward Niger State, engaging the gang in a fierce gun battle that forced the surviving attackers to flee into the bush with bullet wounds.",
+      "All nine captives were safely freed during the engagement, though one victim is currently receiving medical treatment after sustaining machete wounds to the head while attempting to resist initial abduction.",
+      "Local government authorities praised the swift intervention of the joint tactical team and called for enhanced operational equipment, including body armor and advanced communication tools to aid forest guards in securing vulnerable border corridors."
+    ],
+    "desk": true
+  },
+  {
+    "slug": "well-marry-the-beautiful-ones-kill-the-rest-terrorists-issue-chilling-ultimatum-over-176-woro-captives",
+    "category": "World",
+    "headline": "We’ll Marry the Beautiful Ones, Kill the Rest' Terrorists Issue Chilling Ultimatum Over 176 Woro Captives",
+    "dek": "A extremist faction holding 176 abductees from Woro, Kwara State releases a terrifying propaganda video threatening mass executions and forced marriages unless demands are met",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://picsum.photos/seed/well-marry-the-beautiful-ones-kill-the-rest-terrorists-issue-chilling-ultimatum-over-176-woro-captives/900/500",
+    "body": [
+      "A brutal terrorist group operating along the Kwara and Niger state border corridors has issued a chilling ultimatum concerning 176 captives abducted from Woro community, threatening to execute the majority of the hostages while forcibly marrying off the younger female victims.",
+      "The ultimatum was issued in a propaganda video released by the extremist faction, in which masked gunmen paraded dozens of exhausted hostages including women, young children, and elderly residents who were seized during a series of violent raids across Kaiama Local Government Area.",
+      "In the video, a spokesperson for the armed group declared that the insurgents would select the \"beautiful ones\" among the captive women for forced marriage to their fighters, while threatening to execute the remaining hostages if military operations in the area continue or if ransoms are delayed.",
+      "The broadcast has sent shockwaves across Kwara State and surrounding communities, triggering intense grief and outrage among family members who have spent months pleading for state and federal government intervention.",
+      "Community leaders and civil society coalitions in Kwara have renewed urgent calls on President Bola Tinubu and security chiefs to order targeted rescue operations before the insurgents carry out their threats.",
+      "State government authorities assured the public that joint military and tactical security operations under Operation Savannah Shield remain active along the forest corridors to track the insurgents' hideouts and secure the safe release of all hostages."
     ],
     "desk": true
   },
@@ -35,23 +197,6 @@ const ARTICLES = [
     "desk": true
   },
   {
-    "slug": "femi-otedola-expands-first-holdco-control-with-massive-2222-billion-share-acquisition",
-    "category": "World",
-    "headline": "Femi Otedola Expands First HoldCo Control with Massive ₦222.2 Billion Share Acquisition",
-    "dek": "Billionaire businessman and First HoldCo chairman Femi Otedola acquires 1.78 billion additional ordinary shares, elevating his total equity stake to 25.87% and inching closer to the mandatory takeover threshold.",
-    "author": "亗BLAK",
-    "date": "Jul 30",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwrLHxP6OI-t3kz0Ikykeuy0rY--dKiHUQutXTnTQLbAd3oWKpMftA7U8&s=10",
-    "body": [
-      "Billionaire investor and chairman of First HoldCo Plc, Femi Otedola, has significantly cemented his dominant position as the primary equity holder in Nigeria’s oldest financial group after completing a massive ₦222.2 billion share transaction.",
-      "​According to official regulatory filings submitted to the Nigerian Exchange (NGX), Otedola acquired 1.779 billion ordinary shares through his primary investment vehicle, Calvados Global Services Limited, at a unit price of ₦124.90 per share.",
-      "​The capital injection represents a 3.91% increase in outstanding shares, boosting Otedola’s total shareholding in the banking behemoth from 9.99 billion shares to nearly 11.77 billion shares.",
-      "​With the latest acquisition, Otedola’s overall equity stake in First HoldCo rises from 21.96% to 25.87%, placing his cumulative portfolio valuation in the financial group at approximately ₦1.47 trillion.",
-      "​The high-volume purchase marks Otedola's second major block trade within eight days, following a ₦77.58 billion purchase of 706 million shares executed on July 22, bringing his total fresh capital deployment in First HoldCo to nearly ₦300 billion in just over a week.",
-      "​At 25.87%, Otedola’s ownership sits within striking distance of the 30% regulatory trigger under Nigeria's Securities and Exchange Commission (SEC) guidelines, which mandates a formal takeover bid to minority shareholders once reached."
-    ]
-  },
-  {
     "slug": "fbi-and-efcc-joint-operations-target-nigerian-sextortion-syndicates-preying-on-us-teenagers",
     "category": "World",
     "headline": "FBI and EFCC Joint Operations Target Nigerian Sextortion Syndicates Preying on U.S. Teenagers",
@@ -67,6 +212,26 @@ const ARTICLES = [
       "Recent legal actions have resulted in multiple extraditions and convictions in U.S. federal courts, signaling a historic shift toward prosecuting overseas perpetrators who previously operated with perceived impunity.",
       "Both American and Nigerian security agencies emphasize that continued technical cooperation and public awareness campaigns remain crucial to disrupting these global syndicates and protecting vulnerable youth online."
     ]
+  },
+  {
+    "slug": "bnxn-and-asake-join-forces-for-euphoric-new-afrobeats-single-eja-meja",
+    "category": "World",
+    "headline": "BNXN and Asake Join Forces for Euphoric New Afrobeats Single ‘Eja Meja’",
+    "dek": "Two of Afrobeats’ biggest hook masters unite on an infectious collaborative track that leads the rollout for BNXN’s upcoming extended play.",
+    "author": "亗BLAK",
+    "date": "Jul 29",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6DfnoFdrEkYun4oLWeX0oXx_Tiyl1gNeY1f1qL-OlbROZMrai1HOAwA&s=10",
+    "body": [
+      "Afrobeats hitmakers BNXN (formerly Buju) and Asake have officially released their highly anticipated collaborative single, titled \"Eja Meja,\" out now via EMPIRE.",
+      "The track marks the first joint recording between the two chart-topping Nigerian artists, combining BNXN’s smooth, reflective vocal delivery with Asake’s signature energetic, choir-backed melodies.",
+      "Released alongside an official mood-setting visualizer featuring sleek styling and vintage dinner aesthetic, \"Eja Meja\" serves as the lead single for BNXN’s upcoming extended play.",
+      "Lyrically, the song touches on themes of gratitude, celebration, and unbothered living, with BNXN singing about navigating fame while expressing appreciation for his artistic journey and continued success.",
+      "Fans across social media platforms reacted with immediate enthusiasm to the drop, praising the natural chemistry between two of the industry's most consistent hitmakers.",
+      "\"Eja Meja\" is now available for streaming across all major digital music platforms worldwide."
+    ],
+    "audiomack": "https://audiomack.com/bnxn/song/eja-meja-7370420?share-user-id=25753014",
+    "spotify": "https://open.spotify.com/album/7BSNh9DOcw3giOwnBAv3qA?si=NGEXbtpnQHKmDanOPcrIiA",
+    "youtubeVideo": "https://m.youtube.com/watch?v=ph32Ub9bbdw"
   },
   {
     "slug": "eddie-howe-steps-down-as-newcastle-united-head-coach-with-immediate-effect",
@@ -626,11 +791,19 @@ const BREAKING_NEWS = [
     "link": ""
   },
   {
-    "text": "OFFICIAL: Roberto Mancini has been appointed as new Italy head coach, the Federation has confirmed.",
+    "text": "Frustrated Apple owners take to social media as Continuity feature causes iPhones, iPads, Macs, and Apple Watches to ring simultaneously during incoming calls.",
     "link": ""
   },
   {
     "text": "Court of Appeal Nullifies Order Deregistering ADC and Four Other Opposition Parties",
+    "link": ""
+  },
+  {
+    "text": "Eddie Howe Steps Down as Newcastle United Head Coach with Immediate Effect",
+    "link": ""
+  },
+  {
+    "text": "OFFICIAL: Roberto Mancini has been appointed as new Italy head coach, the Federation has confirmed.",
     "link": ""
   }
 ];
