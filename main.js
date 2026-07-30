@@ -12,10 +12,14 @@ function articleHref(slug) {
 }
 
 function cardHtml(a) {
+  const media = a.image ? `<div class="card-media"><img src="${a.image}" alt="" loading="lazy"></div>` : "";
   return `
     <div class="card">
       <div class="eyebrow">${eyebrowHtml(a.category)}</div>
-      <h3><a href="${articleHref(a.slug)}">${a.headline}</a></h3>
+      <div class="card-top">
+        ${media}
+        <h3><a href="${articleHref(a.slug)}">${a.headline}</a></h3>
+      </div>
       <p class="dek">${a.dek}</p>
       <div class="byline">${bylineHtml(a.author, a.date, false)}</div>
     </div>
@@ -30,9 +34,13 @@ function renderHero() {
 
   el.textContent = "";
 
+  const media = article.image ? `<div class="hero-media"><img src="${article.image}" alt=""></div>` : "";
   const html = `
     <div class="eyebrow">${eyebrowHtml(article.category)}</div>
-    <h2><a href="${articleHref(article.slug)}">${article.headline}</a></h2>
+    <div class="hero-top">
+      ${media}
+      <h2><a href="${articleHref(article.slug)}">${article.headline}</a></h2>
+    </div>
     <p class="dek">${article.dek}</p>
     <div class="byline">${bylineHtml(article.author, article.date, true)}</div>
   `;

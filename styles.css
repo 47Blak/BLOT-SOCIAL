@@ -187,7 +187,32 @@ a.breaking-item:hover {
   padding-bottom: 30px;
   margin-bottom: 30px;
 }
+.hero-top {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+.hero-media {
+  flex: 0 0 130px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.hero-media img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+.hero h2 {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.08;
+  margin: 0;
+}
 .hero .eyebrow {
+  display: inline-block;
+  margin-bottom: 12px;
   font-family: var(--sans);
   font-size: 12px;
   font-weight: 700;
@@ -195,18 +220,13 @@ a.breaking-item:hover {
   text-transform: uppercase;
   color: var(--accent);
 }
-.hero h2 {
-  font-size: clamp(1.8rem, 4vw, 3rem);
-  line-height: 1.08;
-  margin: 10px 0 14px;
-}
 .hero h2 a:hover { color: var(--accent); }
 .hero p.dek {
   font-size: 1.15rem;
   line-height: 1.5;
   color: var(--ink-soft);
   max-width: 720px;
-  margin: 0 0 14px;
+  margin: 14px 0 14px;
 }
 .byline {
   font-family: var(--sans);
@@ -297,14 +317,48 @@ a.breaking-item:hover {
 
 .card {
   position: relative;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   border: 1px solid var(--rule-light);
   border-radius: 10px;
   padding: 20px 20px 18px;
   background: var(--paper);
 }
+.card-top {
+  display: flex;
+  gap: 14px;
+  align-items: stretch;
+}
+.card-media {
+  flex: 0 0 92px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.card-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card h3 {
+  flex: 1 1 auto;
+  min-width: 0;
+  position: relative;
+  z-index: 1;
+  font-size: 1.15rem;
+  line-height: 1.25;
+  margin: 0;
+}
+.card p.dek,
+.card .byline {
+  position: relative;
+  z-index: 1;
+}
 .card .eyebrow {
   display: inline-block;
+  align-self: flex-start;
+  margin-bottom: 12px;
   font-family: var(--sans);
   font-size: 10px;
   font-weight: 700;
@@ -315,18 +369,13 @@ a.breaking-item:hover {
   padding: 5px 12px;
   border-radius: 999px;
 }
-.card h3 {
-  font-size: 1.15rem;
-  line-height: 1.25;
-  margin: 8px 0 8px;
-}
 .card h3 a:hover { color: var(--accent); }
 .four-col-grid .card h3 { font-size: 1rem; }
 .card p.dek {
   font-size: 0.92rem;
   line-height: 1.45;
   color: var(--ink-soft);
-  margin: 0 0 10px;
+  margin: 12px 0 10px;
 }
 .card .byline { font-size: 11px; }
 
@@ -428,6 +477,7 @@ a.breaking-item:hover {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   pointer-events: none;
+  z-index: 2;
 }
 .four-col-grid .card::after {
   width: 72px;
@@ -475,12 +525,50 @@ a.breaking-item:hover {
    card so the author's position stays uniform even when the text above
    it is short. Mobile is left untouched. */
 @media (min-width: 761px) {
-  .four-col-grid .card {
-    display: flex;
-    flex-direction: column;
+  .hero {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    grid-template-rows: auto auto auto 1fr;
+    grid-template-areas:
+      "eyebrow eyebrow"
+      "media   title"
+      "media   dek"
+      "media   byline";
+    column-gap: 20px;
   }
-  .four-col-grid .card .eyebrow {
-    align-self: flex-start;
+  .hero-top {
+    display: contents;
+  }
+  .hero .eyebrow {
+    grid-area: eyebrow;
+  }
+  .hero-media {
+    grid-area: media;
+  }
+  .hero h2 {
+    grid-area: title;
+  }
+  .hero p.dek {
+    grid-area: dek;
+    min-width: 0;
+  }
+  .hero .byline {
+    grid-area: byline;
+    align-self: end;
+    min-width: 0;
+  }
+  .card-media {
+    flex-basis: 130px;
+  }
+  .four-col-grid .card-media {
+    width: 76px;
+    height: 76px;
+    float: left;
+    margin: 0 14px 6px 0;
+  }
+  .four-col-grid .card-top {
+    display: block;
+    overflow: hidden;
   }
   .four-col-grid .card p.dek {
     display: -webkit-box;

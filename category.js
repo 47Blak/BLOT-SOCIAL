@@ -29,10 +29,14 @@ const CATEGORY_BATCH = 6;
 let visibleCount = CATEGORY_BATCH;
 
 function cardHtml(a) {
+  const media = a.image ? `<div class="card-media"><img src="${a.image}" alt="" loading="lazy"></div>` : "";
   return `
     <div class="card">
       <div class="eyebrow">${eyebrowHtml(a.category)}</div>
-      <h3><a href="${articleHref(a.slug)}">${a.headline}</a></h3>
+      <div class="card-top">
+        ${media}
+        <h3><a href="${articleHref(a.slug)}">${a.headline}</a></h3>
+      </div>
       ${a.dek ? `<p class="dek">${a.dek}</p>` : ""}
       <div class="byline">${bylineHtml(a.author, a.date, false)}</div>
     </div>
