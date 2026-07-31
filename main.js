@@ -11,6 +11,27 @@ function articleHref(slug) {
   return `article.html?slug=${encodeURIComponent(slug)}`;
 }
 
+// Renders one ad-card from an ADS entry into the given container. If the
+// slot has no data (or ADS itself failed to load), the container is just
+// left empty rather than showing a broken ad.
+function renderAdSlot(containerId, ad) {
+  const el = document.getElementById(containerId);
+  if (!el || !ad) return;
+  el.innerHTML = `
+    <div class="ad-card">
+      <a href="${ad.link || "#"}" target="_blank" rel="sponsored noopener" class="ad-link">
+        <img src="${ad.image || ""}" alt="Advertisement" class="ad-image">
+        <div class="ad-content">
+          <span class="ad-tag">${ad.tag || "Ad"}</span>
+          <h3 class="ad-title">${ad.title || ""}</h3>
+          <p class="ad-description">${ad.description || ""}</p>
+          <span class="ad-cta">${ad.cta || ""} &rarr;</span>
+        </div>
+      </a>
+    </div>
+  `;
+}
+
 function cardHtml(a) {
   const media = a.image ? `<div class="card-media"><img src="${a.image}" alt="" loading="lazy"></div>` : "";
   return `
@@ -143,6 +164,12 @@ renderHero();
 renderLatestPost();
 renderAcrossTheDesk();
 renderInBrief();
+
+if (typeof ADS !== "undefined") {
+  renderAdSlot("ad-latest-post", ADS.latestPost);
+  renderAdSlot("ad-across-desk", ADS.acrossDesk);
+  renderAdSlot("ad-in-brief", ADS.inBrief);
+}
 
 const acrossDeskMoreBtn = document.getElementById("across-desk-more");
 if (acrossDeskMoreBtn) {

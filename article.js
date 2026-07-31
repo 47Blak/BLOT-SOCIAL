@@ -100,6 +100,37 @@ function mediaEmbedsHtml(article) {
   return `<div class="media-embeds">${blocks.join("")}</div>`;
 }
 
+// Renders the Artist/Featuring/Producer/etc bullet list — only for Music
+// category articles, and only the individual fields that are actually
+// filled in show up.
+function musicMetaHtml(article) {
+  if (article.category !== "Music") return "";
+  const fields = [
+    ["Artist", article.artist],
+    ["Featuring", article.featuring],
+    ["Producer", article.producer],
+    ["Category", article.musicCategory],
+    ["Genre", article.genre],
+    ["Released", article.released],
+    ["Duration", article.duration]
+  ].filter(([, value]) => value);
+
+  if (fields.length === 0) return "";
+
+  return `<ul class="music-meta">${fields.map(([label, value]) =>
+    `<li><span class="music-meta-label">${label}</span><span class="music-meta-value">${value}</span></li>`
+  ).join("")}</ul>`;
+}
+
+// Renders the selectable tag pills at the bottom of the article — only
+// if the article has one or more tags set.
+function tagsHtml(article) {
+  if (!Array.isArray(article.tags) || article.tags.length === 0) return "";
+  return `<div class="article-tags">${article.tags.map(t =>
+    `<a class="article-tag" href="category.html?cat=${encodeURIComponent(t)}">${t}</a>`
+  ).join("")}</div>`;
+}
+
 try {
   const footerYearEl = document.getElementById("footer-year");
   if (footerYearEl) footerYearEl.textContent = new Date().getFullYear();
@@ -133,30 +164,27 @@ try {
     `;
   } else {
     document.title = `${article.headline} on BLOT SOCIAL`;
-    const adCardHtml = (seed, tag, title, desc, cta, href) => `
+    const adCardHtml = (ad) => (!ad || (!ad.title && !ad.image)) ? "" : `
       <div class="ad-card">
-        <a href="${href}" target="_blank" rel="sponsored noopener" class="ad-link">
-          <img src="https://picsum.photos/seed/${seed}/200/200" alt="Advertisement" class="ad-image">
+        <a href="${ad.link || "#"}" target="_blank" rel="sponsored noopener" class="ad-link">
+          <img src="${ad.image || ""}" alt="Advertisement" class="ad-image">
           <div class="ad-content">
-            <span class="ad-tag">${tag}</span>
-            <h3 class="ad-title">${title}</h3>
-            <p class="ad-description">${desc}</p>
-            <span class="ad-cta">${cta}</span>
+            <span class="ad-tag">${ad.tag || "Ad"}</span>
+            <h3 class="ad-title">${ad.title || ""}</h3>
+            <p class="ad-description">${ad.description || ""}</p>
+            <span class="ad-cta">${ad.cta || ""} &rarr;</span>
           </div>
         </a>
       </div>
     `;
+    const ads = typeof ADS !== "undefined" ? ADS : {};
 
     const bodyHtml = article.body.map((p, i) => {
       let ad = "";
       if (i === 2) {
-        ad = adCardHtml("blot-ad-article-1", "Ad", "Stay Sharp, Stay Informed",
-          "Get curated news briefings delivered straight to your inbox every morning.",
-          "Subscribe Free &rarr;", "https://www.example.com/sponsor-article-1");
+        ad = adCardHtml(ads.articleAd1);
       } else if (i === 4) {
-        ad = adCardHtml("blot-ad-article-2", "Ad", "Invest Smarter Today",
-          "Track markets, set alerts, and manage your portfolio from one simple app.",
-          "Get Started &rarr;", "https://www.example.com/sponsor-article-2");
+        ad = adCardHtml(ads.articleAd2);
       }
       return `${ad}<p>${p}</p>`;
     }).join("");
@@ -168,8 +196,10 @@ try {
       ${article.dek ? `<p class="dek">${article.dek}</p>` : ""}
       <div class="byline">${bylineHtml(article.author, article.date, true)}</div>
       ${article.image ? `<div class="article-image-wrap"><img class="article-image" src="${article.image}" alt="${article.headline}"></div>` : ""}
+      ${musicMetaHtml(article)}
       ${bodyHtml}
       ${mediaEmbedsHtml(article)}
+      ${tagsHtml(article)}
     `;
   }
 } catch (err) {

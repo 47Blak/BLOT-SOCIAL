@@ -1,5 +1,59 @@
 const ARTICLES = [
   {
+    "slug": "bnxn-and-asake-join-forces-for-euphoric-new-afrobeats-single-eja-meja",
+    "category": "World",
+    "headline": "BNXN and Asake Join Forces for Euphoric New Afrobeats Single ‘Eja Meja’",
+    "dek": "Two of Afrobeats’ biggest hook masters unite on an infectious collaborative track that leads the rollout for BNXN’s upcoming extended play.",
+    "author": "亗BLAK",
+    "date": "Jul 29",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6DfnoFdrEkYun4oLWeX0oXx_Tiyl1gNeY1f1qL-OlbROZMrai1HOAwA&s=10",
+    "body": [
+      "Afrobeats hitmakers BNXN (formerly Buju) and Asake have officially released their highly anticipated collaborative single, titled \"Eja Meja,\" out now via EMPIRE.",
+      "The track marks the first joint recording between the two chart-topping Nigerian artists, combining BNXN’s smooth, reflective vocal delivery with Asake’s signature energetic, choir-backed melodies.",
+      "Released alongside an official mood-setting visualizer featuring sleek styling and vintage dinner aesthetic, \"Eja Meja\" serves as the lead single for BNXN’s upcoming extended play.",
+      "Lyrically, the song touches on themes of gratitude, celebration, and unbothered living, with BNXN singing about navigating fame while expressing appreciation for his artistic journey and continued success.",
+      "Fans across social media platforms reacted with immediate enthusiasm to the drop, praising the natural chemistry between two of the industry's most consistent hitmakers.",
+      "\"Eja Meja\" is now available for streaming across all major digital music platforms worldwide."
+    ],
+    "audiomack": "https://audiomack.com/bnxn/song/eja-meja-7370420?share-user-id=25753014",
+    "spotify": "https://open.spotify.com/album/7BSNh9DOcw3giOwnBAv3qA?si=NGEXbtpnQHKmDanOPcrIiA",
+    "youtubeVideo": "https://m.youtube.com/watch?v=ph32Ub9bbdw"
+  },
+  {
+    "slug": "eddie-howe-steps-down-as-newcastle-united-head-coach-with-immediate-effect",
+    "category": "Sports",
+    "headline": "Eddie Howe Steps Down as Newcastle United Head Coach with Immediate Effect",
+    "dek": "English manager Eddie Howe brings an end to his five-year tenure at St James' Park to take a break from football, with Al-Ahli head coach Matthias Jaissle leading the race to succeed him.",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://ichef.bbci.co.uk/ace/standard/683/cpsprodpb/ad54/live/0ee319a0-eae5-11f0-97ff-1df4f0d33d7f.jpg",
+    "body": [
+      "Eddie Howe has decided to step down as head coach of Newcastle United with immediate effect, bringing an abrupt end to his transformative five-year tenure at St James' Park just weeks before the start of the new Premier League season.",
+      "​The 48-year-old manager informed the club's hierarchy of his decision to take a break from football following months of squad upheaval and a challenging summer transfer window that saw key stars Sandro Tonali and Anthony Gordon depart the club.",
+      "​Howe’s sudden exit comes after overseeing a 4-1 pre-season friendly defeat against Bristol City on Wednesday night, which proved to be his final match in charge of the Tyneside club.",
+      "​Since replacing Steve Bruce in November 2021, Howe etched his name into Newcastle history by ending the club's 70-year wait for a major domestic trophy with a 2025 League Cup victory at Wembley, alongside securing two UEFA Champions League qualifications.",
+      "​However, internal frustration over transfer strategy and a disappointing 12th-place finish in the 2025/26 Premier League campaign prompted deep reflection, ultimately leading Howe to step away despite retaining support from the board.",
+      "​Newcastle executives have moved swiftly to negotiate a replacement, with 38-year-old German tactician Matthias Jaissle of Saudi Pro League side Al-Ahli currently in advanced talks to take over ahead of the upcoming campaign."
+    ]
+  },
+  {
+    "slug": "fbi-and-efcc-joint-operations-target-nigerian-sextortion-syndicates-preying-on-us-teenagers",
+    "category": "World",
+    "headline": "FBI and EFCC Joint Operations Target Nigerian Sextortion Syndicates Preying on U.S. Teenagers",
+    "dek": "Federal investigators escalate crackdown on cross-border cyber-extortion rings in Lagos following a sharp rise in financially motivated targeting of minors across the United States.",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://thewhistler.ng/wp-content/uploads/2024/10/FBI-and-EFCC.jpg",
+    "body": [
+      "Federal investigators from the FBI, working in close coordination with Nigeria's Economic and Financial Crimes Commission (EFCC), have intensified direct confrontations and raids targeting cyber-extortion networks across major urban centers.",
+      "The joint enforcement initiative, known as Operation Artemis, focuses on dismantling financially motivated sextortion rings that lure teenage boys on platforms like Instagram and Snapchat into sending explicit photos before demanding money under threat of exposure.",
+      "Law enforcement officials report that perpetrators often operate using compromised accounts and deceptive female personas, conducting rapid background research on victims to maximize leverage through coercion and harassment.",
+      "The surge in international operations follows severe tragic outcomes in the U.S., where dozens of minors succumbed to psychological distress caused by relentless blackmail demands before authorities tracked the digital paper trails back to West Africa.",
+      "Recent legal actions have resulted in multiple extraditions and convictions in U.S. federal courts, signaling a historic shift toward prosecuting overseas perpetrators who previously operated with perceived impunity.",
+      "Both American and Nigerian security agencies emphasize that continued technical cooperation and public awareness campaigns remain crucial to disrupting these global syndicates and protecting vulnerable youth online."
+    ]
+  },
+  {
     "slug": "femi-otedola-expands-first-holdco-control-with-massive-2222-billion-share-acquisition",
     "category": "World",
     "headline": "Femi Otedola Expands First HoldCo Control with Massive ₦222.2 Billion Share Acquisition",
@@ -17,38 +71,38 @@ const ARTICLES = [
     ]
   },
   {
-    "slug": "tobi-amusan-blazes-into-commonwealth-games-100m-hurdles-final-with-wind-assisted-1219s",
-    "category": "Sports",
-    "headline": "Tobi Amusan Blazes Into Commonwealth Games 100m Hurdles Final With Wind-Assisted 12.19s",
-    "dek": "World record holder Tobi Amusan dominates Heat One in 12.19 seconds to secure her place in the Commonwealth Games final as Team Nigeria's athletics medal hunt gathers momentum.",
+    "slug": "frustrated-apple-owners-take-to-social-media-as-continuity-feature-causes-iphones-ipads-macs-and-apple-watches-to-ring-simultaneously-during-incoming-calls",
+    "category": "Technology",
+    "headline": "Frustrated Apple owners take to social media as Continuity feature causes iPhones, iPads, Macs, and Apple Watches to ring simultaneously during incoming calls.",
+    "dek": "Frustrated Apple owners take to social media as Continuity feature causes iPhones, iPads, Macs, and Apple Watches to ring simultaneously during incoming calls.",
     "author": "亗BLAK",
     "date": "Jul 30",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIT6uqe4fSPlOkonTpXcevhnBnFMZ_e56-9RZ1HZKXiL4ui3fq-M4TmSw&s=10",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHP-4jLBuiAq1DrDTm1og5pdVURIhyC6-ISJPSItaW2MGSmotD3FUnMJ4&s=10",
     "body": [
-      "Nigeria’s sprint hurdles queen Tobi Amusan delivered a breathtaking performance at the 2026 Commonwealth Games in Glasgow, storming into the women's 100m hurdles final with an explosive 12.19-second victory in her opening heat.",
-      "Amusan took command of Heat One right from the starting blocks, executing a flawless run to cross the finish line well ahead of South Africa’s Marione Fourie (12.50s) and Jamaica’s Kerrica Hill (12.69s).",
-      "The 12.19-second mark stands as the fastest time ever clocked in Commonwealth Games history under any conditions, though it will not count as an official Games record due to a tailwind reading of +3.8m/s exceeding the legal limit.",
-      "Despite the wind assistance, the world record holder displayed supreme composure and rhythm across all ten barriers, asserting herself as the clear favorite to defend her Commonwealth title.",
-      "Amusan’s commanding qualification reinforces Team Nigeria’s impressive showing on the track in Glasgow as the delegation builds on its expanding medal count across track and field events.",
-      "The former world champion returns to the track for the evening final, aiming to secure another gold medal and cement her dominance on the global stage."
+      "Apple users across digital community forums have raised widespread complaints regarding persistent disruptions caused by the tech giant's multi-device call ringing feature.",
+      "The functionality—part of Apple's Continuity ecosystem—is designed to relay incoming cellular calls and FaceTime requests seamlessly to nearby iPads, MacBooks, and Apple Watches logged into the same Apple ID.",
+      "However, many users report growing irritation over delayed call syncing, erratic notification alerts, and loud multi-room chime blasts that occur whenever an incoming call hits a primary iPhone.",
+      "The issue becomes particularly severe in households sharing a single Apple account or in quiet office environments, where answering a call on one device fails to immediately silence incoming rings on secondary hardware.",
+      "Tech experts advise affected users to manually adjust their Continuity preferences by toggling off \"Allow Calls on Other Devices\" within the iPhone Settings app under the Phone menu.",
+      "While Apple provides options to restrict specific secondary devices, consumers continue to press the Cupertino company for more granular audio controls and improved cross-device signaling in upcoming software updates."
     ],
     "desk": true
   },
   {
-    "slug": "singapore-based-hilleman-laboratories-secures-85m-cepi-funding-to-produce-most-promising-ebola-vaccine-candidate",
+    "slug": "joint-security-operation-kills-three-bandits-rescues-nine-kidnap-victims-in-kwara-state",
     "category": "World",
-    "headline": "Singapore Based Hilleman Laboratories Secures $8.5M CEPI Funding to Produce 'Most Promising' Ebola Vaccine Candidate",
-    "dek": "Coalition for Epidemic Preparedness Innovations (CEPI) partners with Hilleman Laboratories to advance manufacturing of a single-dose vaccine targeting the Bundibugyo Ebola outbreak in the Democratic Republic of Congo.",
+    "headline": "Joint Security Operation Kills Three Bandits, Rescues Nine Kidnap Victims in Kwara State",
+    "dek": "Operatives of the DSS, Kwara State Forest Guards, and local vigilantes intercept an armed gang along the border axis, neutralizing three criminal elements in a heavy exchange of gunfire.",
     "author": "亗BLAK",
     "date": "Jul 30",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjjI3q6f5n8_UUlJ4AGKjK89N0VXFmHrzby5w7yrmVsiSzyTzGgBc5DF3V&s=10",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB0ZfPSOTXDuoa3lMhp0L83N-J-VPVo7nlcT3gHogY_JydmN9kVzMoL6o&s=10",
     "body": [
-      "Hilleman Laboratories, a Singapore-based vaccine developer, has partnered with global health body CEPI to manufacture clinical trial doses for a single-dose Ebola vaccine candidate identified by experts as the most promising tool against an escalating outbreak in Central Africa.",
-      "The Coalition for Epidemic Preparedness Innovations (CEPI) announced an investment of up to $8.5 million to support Hilleman Laboratories—a joint venture between pharmaceutical giant MSD (Merck) and British charitable trust Wellcome—in producing clinical supplies of the investigational shot.",
-      "The targeted vaccine candidate focuses on the rare Bundibugyo ebolavirus strain, which currently has no licensed vaccines or approved antiviral treatments. The ongoing outbreak in the Democratic Republic of the Congo has already infected over 3,300 people and claimed nearly 1,500 lives.",
-      "World Health Organization (WHO) experts identified the single-dose candidate as particularly promising because it utilizes the recombinant vesicular stomatitis virus (rVSV) platform—the exact technology behind Ervebo, the licensed vaccine used to combat the more common Zaire Ebola strain.",
-      "Initial vaccine starting materials generated by the International AIDS Vaccine Initiative (IAVI) will be processed by Hilleman Laboratories into finished doses for early human clinical testing, with technical guidance provided by MSD.",
-      "Unlike older formulations that require ultra-cold freezer storage, researchers aim for the new rVSV-Bundibugyo candidate to remain stable in standard refrigeration, dramatically lowering transportation costs and facilitating rapid deployment across remote outbreak regions in low- and middle-income nations."
+      "Operatives of the Department of State Services (DSS), working in coordination with the Kwara State Forest Guards, local hunters, and vigilante groups, have neutralized three suspected bandits and rescued nine abducted victims during a joint security operation in Kwara State.",
+      "The intelligence-led bush-combing exercise was executed along the Obbo-Aiyegunle, Ejiu-Ora, and Osi axis of Ekiti Local Government Area—a dense forested corridor bordering Kwara, Ekiti, and Kogi states.",
+      "According to official updates confirmed by Prince Dada Sunday, Chief Press Secretary to the Chairman of Ekiti Local Government Council, the armed kidnappers—numbering more than ten—had assembled victims abducted from farmlands in Kwara as well as neighboring communities.",
+      "Security forces intercepted the criminal gang as they attempted to move the captives through the forest route toward Niger State, engaging the gang in a fierce gun battle that forced the surviving attackers to flee into the bush with bullet wounds.",
+      "All nine captives were safely freed during the engagement, though one victim is currently receiving medical treatment after sustaining machete wounds to the head while attempting to resist initial abduction.",
+      "Local government authorities praised the swift intervention of the joint tactical team and called for enhanced operational equipment, including body armor and advanced communication tools to aid forest guards in securing vulnerable border corridors."
     ],
     "desk": true
   },
@@ -69,6 +123,42 @@ const ARTICLES = [
       "Reiterating that the prohibition is non-negotiable under the National Alcohol Policy and Senate resolutions aimed at curbing underage drinking and substance abuse, NAFDAC pledged to sustain its nationwide crackdown until all banned sub-200ml alcoholic products are completely eradicated from Nigerian markets."
     ],
     "youtubeVideo": "https://youtu.be/Hk6NEPKAkpw?si=82FJi-Qh2wO75UWH",
+    "desk": true
+  },
+  {
+    "slug": "meet-oluwami-dosunmu-ogunbi-first-black-woman-to-earn-phd-in-robotics-engineering-at-michigan",
+    "category": "Technology",
+    "headline": "Meet Oluwami Dosunmu-Ogunbi: First Black Woman to Earn PhD in Robotics Engineering at Michigan",
+    "dek": "Nigerian-American scholar Oluwami Dosunmu-Ogunbi makes history at the University of Michigan, dedicating her groundbreaking achievement to the power of community, mentorship, and social responsibility in engineering.",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://cdn.vanguardngr.com/wp-content/uploads/2026/07/Dosunmu-Ogunbi_Oluwami.jpg",
+    "body": [
+      "A Nigerian American engineer and educator, Oluwami Dosunmu-Ogunbi, has etched her name in history by becoming the first Black woman to earn a Doctor of Philosophy (PhD) in Robotics from the University of Michigan.",
+      "The daughter of Nigerian immigrants, Dosunmu-Ogunbi officially marked the historic milestone during the university's College of Engineering graduate student commencement ceremony, where she delivered a powerful address reflecting on the collaborative nature of her academic journey.",
+      "Addressing her fellow graduates, she emphasized that success in highly technical fields is rarely a solitary endeavor. \"I do not stand here on my own two feet alone. None of us got here by our individual merit alone,\" she stated, expressing deep gratitude to the teachers, mentors, friends, and family members who made her accomplishment possible.",
+      "Throughout her doctoral program, Dosunmu-Ogunbi specialized in dynamics and controls, focusing her research heavily on robotic bipedal locomotion. Her chief research result involved developing a new stair-climbing controller for bipedal walking robots.",
+      "Beyond her academic and technical research, she has been widely recognized for her active community-building efforts. She served as a Robotics outreach ambassador for three consecutive years and received the prestigious MLK Spirit Award from the College of Engineering for her dedication to mentoring and inspiring younger students.",
+      "Dosunmu-Ogunbi noted that her ultimate goal is to leave a legacy of positive impact. She challenged her peers to go beyond technical innovation, urging them to become \"socially conscious\" engineers who create collaborative solutions to societal problems and promote an inclusive community for the common good."
+    ],
+    "desk": true
+  },
+  {
+    "slug": "nigeria-accounts-for-105-of-africas-cancer-burden-targets-30-reduction-by-2030-shettima",
+    "category": "World",
+    "headline": "Nigeria Accounts for 10.5% of Africa’s Cancer Burden, Targets 30% Reduction by 2030 - Shettima",
+    "dek": "Vice President Kashim Shettima unveils the National Cancer Control Plan 2026–2030 at the African Primary Health Care Forum, committing to curb rising cancer cases and leverage technology for early detection.",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMQguLEX19Q3aA8eEPLdxkJgHbHbuXVkIBWHIP_OwfS3GhyGkKB2t4ivo&s=10",
+    "body": [
+      "Vice President Kashim Shettima has raised major concerns over Nigeria's escalating health crisis, revealing that the country currently accounts for approximately 10.5 per cent of all cancer cases and related deaths across the African continent.",
+      "Speaking at the Second African Primary Health Care Forum in Abuja, Shettima announced that the Federal Government has adopted the Nigerian National Cancer Control Plan (2026–2030) with an ambitious target to reduce the nation's cancer burden by at least 30 per cent by the end of the decade.",
+      "Represented by the Senior Special Assistant to the President on Public Health, Dr. Uju Rochas-Anwukah, the Vice President cited data from the Global Cancer Observatory showing over 1.18 million new cancer cases and 721,000 deaths recorded across Africa in 2024, with Nigeria bearing a disproportionate share of the toll.",
+      "To combat the trend, Shettima stated that the new strategic framework focuses on expanding Human Papillomavirus (HPV) vaccination coverage and scaling nationwide cervical cancer screening to eliminate the disease as a public health threat by 2030.",
+      "The Vice President also highlighted the integration of artificial intelligence (AI) tools into the national cancer control policy to improve diagnostic precision, while cautioning that digital algorithms must be trained on local demographic data to ensure clinical accuracy for African populations.",
+      "Reaffirming the administration's commitment to primary healthcare renewal, Shettima called for deeper cross-border research and financial partnerships among African nations to decentralize oncology care, enhance early detection, and lighten the strain on tertiary health institutions."
+    ],
     "desk": true
   },
   {
@@ -108,56 +198,38 @@ const ARTICLES = [
     "desk": true
   },
   {
-    "slug": "nigeria-accounts-for-105-of-africas-cancer-burden-targets-30-reduction-by-2030-shettima",
+    "slug": "singapore-based-hilleman-laboratories-secures-85m-cepi-funding-to-produce-most-promising-ebola-vaccine-candidate",
     "category": "World",
-    "headline": "Nigeria Accounts for 10.5% of Africa’s Cancer Burden, Targets 30% Reduction by 2030 - Shettima",
-    "dek": "Vice President Kashim Shettima unveils the National Cancer Control Plan 2026–2030 at the African Primary Health Care Forum, committing to curb rising cancer cases and leverage technology for early detection.",
+    "headline": "Singapore Based Hilleman Laboratories Secures $8.5M CEPI Funding to Produce 'Most Promising' Ebola Vaccine Candidate",
+    "dek": "Coalition for Epidemic Preparedness Innovations (CEPI) partners with Hilleman Laboratories to advance manufacturing of a single-dose vaccine targeting the Bundibugyo Ebola outbreak in the Democratic Republic of Congo.",
     "author": "亗BLAK",
     "date": "Jul 30",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMQguLEX19Q3aA8eEPLdxkJgHbHbuXVkIBWHIP_OwfS3GhyGkKB2t4ivo&s=10",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjjI3q6f5n8_UUlJ4AGKjK89N0VXFmHrzby5w7yrmVsiSzyTzGgBc5DF3V&s=10",
     "body": [
-      "Vice President Kashim Shettima has raised major concerns over Nigeria's escalating health crisis, revealing that the country currently accounts for approximately 10.5 per cent of all cancer cases and related deaths across the African continent.",
-      "Speaking at the Second African Primary Health Care Forum in Abuja, Shettima announced that the Federal Government has adopted the Nigerian National Cancer Control Plan (2026–2030) with an ambitious target to reduce the nation's cancer burden by at least 30 per cent by the end of the decade.",
-      "Represented by the Senior Special Assistant to the President on Public Health, Dr. Uju Rochas-Anwukah, the Vice President cited data from the Global Cancer Observatory showing over 1.18 million new cancer cases and 721,000 deaths recorded across Africa in 2024, with Nigeria bearing a disproportionate share of the toll.",
-      "To combat the trend, Shettima stated that the new strategic framework focuses on expanding Human Papillomavirus (HPV) vaccination coverage and scaling nationwide cervical cancer screening to eliminate the disease as a public health threat by 2030.",
-      "The Vice President also highlighted the integration of artificial intelligence (AI) tools into the national cancer control policy to improve diagnostic precision, while cautioning that digital algorithms must be trained on local demographic data to ensure clinical accuracy for African populations.",
-      "Reaffirming the administration's commitment to primary healthcare renewal, Shettima called for deeper cross-border research and financial partnerships among African nations to decentralize oncology care, enhance early detection, and lighten the strain on tertiary health institutions."
+      "Hilleman Laboratories, a Singapore-based vaccine developer, has partnered with global health body CEPI to manufacture clinical trial doses for a single-dose Ebola vaccine candidate identified by experts as the most promising tool against an escalating outbreak in Central Africa.",
+      "The Coalition for Epidemic Preparedness Innovations (CEPI) announced an investment of up to $8.5 million to support Hilleman Laboratories—a joint venture between pharmaceutical giant MSD (Merck) and British charitable trust Wellcome—in producing clinical supplies of the investigational shot.",
+      "The targeted vaccine candidate focuses on the rare Bundibugyo ebolavirus strain, which currently has no licensed vaccines or approved antiviral treatments. The ongoing outbreak in the Democratic Republic of the Congo has already infected over 3,300 people and claimed nearly 1,500 lives.",
+      "World Health Organization (WHO) experts identified the single-dose candidate as particularly promising because it utilizes the recombinant vesicular stomatitis virus (rVSV) platform—the exact technology behind Ervebo, the licensed vaccine used to combat the more common Zaire Ebola strain.",
+      "Initial vaccine starting materials generated by the International AIDS Vaccine Initiative (IAVI) will be processed by Hilleman Laboratories into finished doses for early human clinical testing, with technical guidance provided by MSD.",
+      "Unlike older formulations that require ultra-cold freezer storage, researchers aim for the new rVSV-Bundibugyo candidate to remain stable in standard refrigeration, dramatically lowering transportation costs and facilitating rapid deployment across remote outbreak regions in low- and middle-income nations."
     ],
     "desk": true
   },
   {
-    "slug": "meet-oluwami-dosunmu-ogunbi-first-black-woman-to-earn-phd-in-robotics-engineering-at-michigan",
-    "category": "Technology",
-    "headline": "Meet Oluwami Dosunmu-Ogunbi: First Black Woman to Earn PhD in Robotics Engineering at Michigan",
-    "dek": "Nigerian-American scholar Oluwami Dosunmu-Ogunbi makes history at the University of Michigan, dedicating her groundbreaking achievement to the power of community, mentorship, and social responsibility in engineering.",
+    "slug": "tobi-amusan-blazes-into-commonwealth-games-100m-hurdles-final-with-wind-assisted-1219s",
+    "category": "Sports",
+    "headline": "Tobi Amusan Blazes Into Commonwealth Games 100m Hurdles Final With Wind-Assisted 12.19s",
+    "dek": "World record holder Tobi Amusan dominates Heat One in 12.19 seconds to secure her place in the Commonwealth Games final as Team Nigeria's athletics medal hunt gathers momentum.",
     "author": "亗BLAK",
     "date": "Jul 30",
-    "image": "https://cdn.vanguardngr.com/wp-content/uploads/2026/07/Dosunmu-Ogunbi_Oluwami.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIT6uqe4fSPlOkonTpXcevhnBnFMZ_e56-9RZ1HZKXiL4ui3fq-M4TmSw&s=10",
     "body": [
-      "A Nigerian American engineer and educator, Oluwami Dosunmu-Ogunbi, has etched her name in history by becoming the first Black woman to earn a Doctor of Philosophy (PhD) in Robotics from the University of Michigan.",
-      "The daughter of Nigerian immigrants, Dosunmu-Ogunbi officially marked the historic milestone during the university's College of Engineering graduate student commencement ceremony, where she delivered a powerful address reflecting on the collaborative nature of her academic journey.",
-      "Addressing her fellow graduates, she emphasized that success in highly technical fields is rarely a solitary endeavor. \"I do not stand here on my own two feet alone. None of us got here by our individual merit alone,\" she stated, expressing deep gratitude to the teachers, mentors, friends, and family members who made her accomplishment possible.",
-      "Throughout her doctoral program, Dosunmu-Ogunbi specialized in dynamics and controls, focusing her research heavily on robotic bipedal locomotion. Her chief research result involved developing a new stair-climbing controller for bipedal walking robots.",
-      "Beyond her academic and technical research, she has been widely recognized for her active community-building efforts. She served as a Robotics outreach ambassador for three consecutive years and received the prestigious MLK Spirit Award from the College of Engineering for her dedication to mentoring and inspiring younger students.",
-      "Dosunmu-Ogunbi noted that her ultimate goal is to leave a legacy of positive impact. She challenged her peers to go beyond technical innovation, urging them to become \"socially conscious\" engineers who create collaborative solutions to societal problems and promote an inclusive community for the common good."
-    ],
-    "desk": true
-  },
-  {
-    "slug": "joint-security-operation-kills-three-bandits-rescues-nine-kidnap-victims-in-kwara-state",
-    "category": "World",
-    "headline": "Joint Security Operation Kills Three Bandits, Rescues Nine Kidnap Victims in Kwara State",
-    "dek": "Operatives of the DSS, Kwara State Forest Guards, and local vigilantes intercept an armed gang along the border axis, neutralizing three criminal elements in a heavy exchange of gunfire.",
-    "author": "亗BLAK",
-    "date": "Jul 30",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB0ZfPSOTXDuoa3lMhp0L83N-J-VPVo7nlcT3gHogY_JydmN9kVzMoL6o&s=10",
-    "body": [
-      "Operatives of the Department of State Services (DSS), working in coordination with the Kwara State Forest Guards, local hunters, and vigilante groups, have neutralized three suspected bandits and rescued nine abducted victims during a joint security operation in Kwara State.",
-      "The intelligence-led bush-combing exercise was executed along the Obbo-Aiyegunle, Ejiu-Ora, and Osi axis of Ekiti Local Government Area—a dense forested corridor bordering Kwara, Ekiti, and Kogi states.",
-      "According to official updates confirmed by Prince Dada Sunday, Chief Press Secretary to the Chairman of Ekiti Local Government Council, the armed kidnappers—numbering more than ten—had assembled victims abducted from farmlands in Kwara as well as neighboring communities.",
-      "Security forces intercepted the criminal gang as they attempted to move the captives through the forest route toward Niger State, engaging the gang in a fierce gun battle that forced the surviving attackers to flee into the bush with bullet wounds.",
-      "All nine captives were safely freed during the engagement, though one victim is currently receiving medical treatment after sustaining machete wounds to the head while attempting to resist initial abduction.",
-      "Local government authorities praised the swift intervention of the joint tactical team and called for enhanced operational equipment, including body armor and advanced communication tools to aid forest guards in securing vulnerable border corridors."
+      "Nigeria’s sprint hurdles queen Tobi Amusan delivered a breathtaking performance at the 2026 Commonwealth Games in Glasgow, storming into the women's 100m hurdles final with an explosive 12.19-second victory in her opening heat.",
+      "Amusan took command of Heat One right from the starting blocks, executing a flawless run to cross the finish line well ahead of South Africa’s Marione Fourie (12.50s) and Jamaica’s Kerrica Hill (12.69s).",
+      "The 12.19-second mark stands as the fastest time ever clocked in Commonwealth Games history under any conditions, though it will not count as an official Games record due to a tailwind reading of +3.8m/s exceeding the legal limit.",
+      "Despite the wind assistance, the world record holder displayed supreme composure and rhythm across all ten barriers, asserting herself as the clear favorite to defend her Commonwealth title.",
+      "Amusan’s commanding qualification reinforces Team Nigeria’s impressive showing on the track in Glasgow as the delegation builds on its expanding medal count across track and field events.",
+      "The former world champion returns to the track for the evening final, aiming to secure another gold medal and cement her dominance on the global stage."
     ],
     "desk": true
   },
@@ -178,78 +250,6 @@ const ARTICLES = [
       "State government authorities assured the public that joint military and tactical security operations under Operation Savannah Shield remain active along the forest corridors to track the insurgents' hideouts and secure the safe release of all hostages."
     ],
     "desk": true
-  },
-  {
-    "slug": "frustrated-apple-owners-take-to-social-media-as-continuity-feature-causes-iphones-ipads-macs-and-apple-watches-to-ring-simultaneously-during-incoming-calls",
-    "category": "Technology",
-    "headline": "Frustrated Apple owners take to social media as Continuity feature causes iPhones, iPads, Macs, and Apple Watches to ring simultaneously during incoming calls.",
-    "dek": "Frustrated Apple owners take to social media as Continuity feature causes iPhones, iPads, Macs, and Apple Watches to ring simultaneously during incoming calls.",
-    "author": "亗BLAK",
-    "date": "Jul 30",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHP-4jLBuiAq1DrDTm1og5pdVURIhyC6-ISJPSItaW2MGSmotD3FUnMJ4&s=10",
-    "body": [
-      "Apple users across digital community forums have raised widespread complaints regarding persistent disruptions caused by the tech giant's multi-device call ringing feature.",
-      "The functionality—part of Apple's Continuity ecosystem—is designed to relay incoming cellular calls and FaceTime requests seamlessly to nearby iPads, MacBooks, and Apple Watches logged into the same Apple ID.",
-      "However, many users report growing irritation over delayed call syncing, erratic notification alerts, and loud multi-room chime blasts that occur whenever an incoming call hits a primary iPhone.",
-      "The issue becomes particularly severe in households sharing a single Apple account or in quiet office environments, where answering a call on one device fails to immediately silence incoming rings on secondary hardware.",
-      "Tech experts advise affected users to manually adjust their Continuity preferences by toggling off \"Allow Calls on Other Devices\" within the iPhone Settings app under the Phone menu.",
-      "While Apple provides options to restrict specific secondary devices, consumers continue to press the Cupertino company for more granular audio controls and improved cross-device signaling in upcoming software updates."
-    ],
-    "desk": true
-  },
-  {
-    "slug": "fbi-and-efcc-joint-operations-target-nigerian-sextortion-syndicates-preying-on-us-teenagers",
-    "category": "World",
-    "headline": "FBI and EFCC Joint Operations Target Nigerian Sextortion Syndicates Preying on U.S. Teenagers",
-    "dek": "Federal investigators escalate crackdown on cross-border cyber-extortion rings in Lagos following a sharp rise in financially motivated targeting of minors across the United States.",
-    "author": "亗BLAK",
-    "date": "Jul 30",
-    "image": "https://thewhistler.ng/wp-content/uploads/2024/10/FBI-and-EFCC.jpg",
-    "body": [
-      "Federal investigators from the FBI, working in close coordination with Nigeria's Economic and Financial Crimes Commission (EFCC), have intensified direct confrontations and raids targeting cyber-extortion networks across major urban centers.",
-      "The joint enforcement initiative, known as Operation Artemis, focuses on dismantling financially motivated sextortion rings that lure teenage boys on platforms like Instagram and Snapchat into sending explicit photos before demanding money under threat of exposure.",
-      "Law enforcement officials report that perpetrators often operate using compromised accounts and deceptive female personas, conducting rapid background research on victims to maximize leverage through coercion and harassment.",
-      "The surge in international operations follows severe tragic outcomes in the U.S., where dozens of minors succumbed to psychological distress caused by relentless blackmail demands before authorities tracked the digital paper trails back to West Africa.",
-      "Recent legal actions have resulted in multiple extraditions and convictions in U.S. federal courts, signaling a historic shift toward prosecuting overseas perpetrators who previously operated with perceived impunity.",
-      "Both American and Nigerian security agencies emphasize that continued technical cooperation and public awareness campaigns remain crucial to disrupting these global syndicates and protecting vulnerable youth online."
-    ]
-  },
-  {
-    "slug": "bnxn-and-asake-join-forces-for-euphoric-new-afrobeats-single-eja-meja",
-    "category": "World",
-    "headline": "BNXN and Asake Join Forces for Euphoric New Afrobeats Single ‘Eja Meja’",
-    "dek": "Two of Afrobeats’ biggest hook masters unite on an infectious collaborative track that leads the rollout for BNXN’s upcoming extended play.",
-    "author": "亗BLAK",
-    "date": "Jul 29",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6DfnoFdrEkYun4oLWeX0oXx_Tiyl1gNeY1f1qL-OlbROZMrai1HOAwA&s=10",
-    "body": [
-      "Afrobeats hitmakers BNXN (formerly Buju) and Asake have officially released their highly anticipated collaborative single, titled \"Eja Meja,\" out now via EMPIRE.",
-      "The track marks the first joint recording between the two chart-topping Nigerian artists, combining BNXN’s smooth, reflective vocal delivery with Asake’s signature energetic, choir-backed melodies.",
-      "Released alongside an official mood-setting visualizer featuring sleek styling and vintage dinner aesthetic, \"Eja Meja\" serves as the lead single for BNXN’s upcoming extended play.",
-      "Lyrically, the song touches on themes of gratitude, celebration, and unbothered living, with BNXN singing about navigating fame while expressing appreciation for his artistic journey and continued success.",
-      "Fans across social media platforms reacted with immediate enthusiasm to the drop, praising the natural chemistry between two of the industry's most consistent hitmakers.",
-      "\"Eja Meja\" is now available for streaming across all major digital music platforms worldwide."
-    ],
-    "audiomack": "https://audiomack.com/bnxn/song/eja-meja-7370420?share-user-id=25753014",
-    "spotify": "https://open.spotify.com/album/7BSNh9DOcw3giOwnBAv3qA?si=NGEXbtpnQHKmDanOPcrIiA",
-    "youtubeVideo": "https://m.youtube.com/watch?v=ph32Ub9bbdw"
-  },
-  {
-    "slug": "eddie-howe-steps-down-as-newcastle-united-head-coach-with-immediate-effect",
-    "category": "Sports",
-    "headline": "Eddie Howe Steps Down as Newcastle United Head Coach with Immediate Effect",
-    "dek": "English manager Eddie Howe brings an end to his five-year tenure at St James' Park to take a break from football, with Al-Ahli head coach Matthias Jaissle leading the race to succeed him.",
-    "author": "亗BLAK",
-    "date": "Jul 30",
-    "image": "https://ichef.bbci.co.uk/ace/standard/683/cpsprodpb/ad54/live/0ee319a0-eae5-11f0-97ff-1df4f0d33d7f.jpg",
-    "body": [
-      "Eddie Howe has decided to step down as head coach of Newcastle United with immediate effect, bringing an abrupt end to his transformative five-year tenure at St James' Park just weeks before the start of the new Premier League season.",
-      "​The 48-year-old manager informed the club's hierarchy of his decision to take a break from football following months of squad upheaval and a challenging summer transfer window that saw key stars Sandro Tonali and Anthony Gordon depart the club.",
-      "​Howe’s sudden exit comes after overseeing a 4-1 pre-season friendly defeat against Bristol City on Wednesday night, which proved to be his final match in charge of the Tyneside club.",
-      "​Since replacing Steve Bruce in November 2021, Howe etched his name into Newcastle history by ending the club's 70-year wait for a major domestic trophy with a 2025 League Cup victory at Wembley, alongside securing two UEFA Champions League qualifications.",
-      "​However, internal frustration over transfer strategy and a disappointing 12th-place finish in the 2025/26 Premier League campaign prompted deep reflection, ultimately leading Howe to step away despite retaining support from the board.",
-      "​Newcastle executives have moved swiftly to negotiate a replacement, with 38-year-old German tactician Matthias Jaissle of Saudi Pro League side Al-Ahli currently in advanced talks to take over ahead of the upcoming campaign."
-    ]
   },
   {
     "slug": "image-aurlien-tchouamni",
@@ -314,8 +314,7 @@ const ARTICLES = [
       "​The 26-year-old winger enjoyed an impressive campaign, registering 22 goals for Real Madrid despite their La Liga runner-up finish, before continuing his fine form on the international stage by scoring four goals for Brazil at the World Cup. Entering the final year of his deal at the Bernabéu, his long-term future in Spain has become increasingly uncertain.",
       "​Despite the mounting Premier League interest, Real Madrid manager José Mourinho has made his position clear to club executives. Mourinho considers Vinícius a fundamental pillar of his team alongside Kylian Mbappé and Jude Bellingham, warning board members against sanctioning a sale for any of his key attacking leaders.",
       "​Sky Sports and major broadcast outlets confirm Arsenal’s genuine interest in securing top-tier attacking talent, listing Vinícius alongside other marquee targets on their radar, such as Atlético Madrid’s Julián Álvarez. The Gunners remain vigilant as they explore high-caliber options to bolster their squad for the upcoming season.",
-      "​Crucial discussions scheduled in Madrid could dictate the timeline of any potential move. With renewal negotiations currently at a standstill, Los Blancos face pressure to decide whether an agreement can be reached or if they must evaluate market interest.\n​While no direct club-to-club negotiations have taken place between Arsenal and Real Madrid yet, Premier League suitors are monitoring the situation closely.",
-      "Real Madrid remain reluctant to risk losing the Brazilian superstar on a free transfer next summer, leaving the door open for opportunistic bids if contract talks remain deadlocked."
+      "​Crucial discussions scheduled in Madrid could dictate the timeline of any potential move. With renewal negotiations currently at a standstill, Los Blancos face pressure to decide whether an agreement can be reached or if they must evaluate market interest.\n​While no direct club-to-club negotiations have taken place between Arsenal and Real Madrid yet, Premier League suitors are monitoring the situation closely. Real Madrid remain reluctant to risk losing the Brazilian superstar on a free transfer next summer, leaving the door open for opportunistic bids if contract talks remain deadlocked."
     ],
     "hero": true
   },
@@ -410,7 +409,7 @@ const ARTICLES = [
   },
   {
     "slug": "fg-calls-on-south-africa-to-take-urgent-concrete-action-over-persistent-xenophobic-attacks",
-    "category": "Culture",
+    "category": "Music",
     "headline": "FG Calls on South Africa to Take Urgent 'Concrete' Action Over Persistent Xenophobic Attacks",
     "dek": "The Federal Government demands immediate safeguards and prosecution of perpetrators in Pretoria, revealing that 98 Nigerians have died in anti-immigrant violence since 2022.",
     "author": "亗BLAK",
@@ -433,7 +432,7 @@ const ARTICLES = [
     "dek": "A shallow 7.1-magnitude quake in Kumamoto Prefecture triggers building collapses, fires, bullet train suspensions, and power outages as emergency responders rush to affected regions.",
     "author": "亗BLAK",
     "date": "Jul 28",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh9_VlQy0nrRrMpYydFa0gsrNumnGk1053XqSPU7ScjMBS5t0lqrT8pUQ&s=10",
+    "image": "https://x.com/hmcrem/status/2082100076298604979/photo/2",
     "body": [
       "A powerful 7.1-magnitude earthquake struck Japan's southern island of Kyushu, triggering structural collapses, fires, and major infrastructure disruptions across Kumamoto Prefecture.",
       "The tremor registered a maximum Shindo 7—the highest level on Japan's seismic intensity scale—at a shallow depth near Uto, causing intense ground shaking that damaged elevated highways, derailed a cargo train, and knocked out electricity to nearly 50,000 households.",
@@ -482,7 +481,7 @@ const ARTICLES = [
   },
   {
     "slug": "viral-marriage-unmasked-nigerian-influencer-gehgeh-confirms-secret-wedding-was-publicity-stunt-for-upcoming-film",
-    "category": "Culture",
+    "category": "Music",
     "headline": "Viral 'Marriage' Unmasked: Nigerian Influencer GehGeh Confirms Secret Wedding Was Publicity Stunt for Upcoming Film",
     "dek": "Social media personality GehGeh confirms viral wedding photos and videos were part of a publicity stunt for an upcoming Nollywood film, putting rumors of his unexpected marriage to rest.",
     "author": "亗BLAK",
@@ -500,7 +499,7 @@ const ARTICLES = [
   },
   {
     "slug": "image of masquerade",
-    "category": "Culture",
+    "category": "Music",
     "headline": "Olubadan Issued Guidelines and Strict Directives for Women as Annual Oloolu Masquerade Festival Begins",
     "dek": "Oba Rashidi Ladoja urges women in Ibadan to stay indoors and prohibits residents from taking photos or videos as the sacred Oloolu masquerade procession commences Monday.",
     "author": "亗BLAK",
@@ -585,7 +584,7 @@ const ARTICLES = [
   },
   {
     "slug": "revival-of-a-forgotten-1958-play-becomes-the-ticket-of-the-season",
-    "category": "Culture",
+    "category": "Music",
     "headline": "Resurrected Masterpiece: Forgotten 1958 Classic Stages Triumphant Return as Season’s Hottest Ticket",
     "dek": "Decades after its quiet debut, a newly rediscovered 1958 theatrical masterpiece takes center stage, captivating critics and audience members to become the year's undisputed hot-ticket revival.",
     "author": "亗BLAK",
@@ -660,7 +659,7 @@ const ARTICLES = [
   },
   {
     "slug": "museum-reopens-after-two-year-renovation",
-    "category": "Culture",
+    "category": "Music",
     "headline": "City Museum Reopens After Two-Year Renovation",
     "dek": "The expanded wing adds gallery space for a rotating collection of regional art.",
     "author": "亗BLAK",
@@ -730,7 +729,7 @@ const ARTICLES = [
   },
   {
     "slug": "independent-bookstore-marks-fortieth-anniversary",
-    "category": "Culture",
+    "category": "Music",
     "headline": "Independent Bookstore Marks Fortieth Anniversary",
     "dek": "The shop has hosted weekly author readings since it opened its doors in the neighborhood.",
     "author": "亗BLAK",
@@ -792,22 +791,60 @@ const BREAKING_NEWS = [
     "link": ""
   },
   {
-    "text": "Frustrated Apple owners take to social media as Continuity feature causes iPhones, iPads, Macs, and Apple Watches to ring simultaneously during incoming calls.",
+    "text": "OFFICIAL: Roberto Mancini has been appointed as new Italy head coach, the Federation has confirmed.",
     "link": ""
   },
   {
     "text": "Court of Appeal Nullifies Order Deregistering ADC and Four Other Opposition Parties",
     "link": ""
-  },
-  {
-    "text": "Eddie Howe Steps Down as Newcastle United Head Coach with Immediate Effect",
-    "link": ""
-  },
-  {
-    "text": "OFFICIAL: Roberto Mancini has been appointed as new Italy head coach, the Federation has confirmed.",
-    "link": ""
   }
 ];
+
+// Editable ad placements. Each key is one ad slot on the site. Any field
+// left blank simply renders empty for that slot — nothing crashes, it
+// just shows a blank spot where that text/image would be.
+const ADS = {
+  latestPost: {
+    image: "https://picsum.photos/seed/blot-ad-latest/200/200",
+    tag: "Ad",
+    title: "Upgrade Your Workspace Today",
+    description: "Discover premium ergonomic office gear designed to improve your comfort and boost productivity.",
+    cta: "Shop Now",
+    link: "https://www.example.com/sponsor-1"
+  },
+  acrossDesk: {
+    image: "https://picsum.photos/seed/blot-ad-desk/200/200",
+    tag: "Ad",
+    title: "Master Coding in 30 Days",
+    description: "Join thousands of developers learning HTML, CSS, and modern web development through interactive lessons.",
+    cta: "Start Free Trial",
+    link: "https://www.example.com/sponsor-2"
+  },
+  inBrief: {
+    image: "https://picsum.photos/seed/blot-ad-brief/200/200",
+    tag: "Ad",
+    title: "Plan Your Next Getaway",
+    description: "Compare flights and hotels in seconds and lock in exclusive rates before they're gone.",
+    cta: "Find Deals",
+    link: "https://www.example.com/sponsor-3"
+  },
+  articleAd1: {
+    image: "https://picsum.photos/seed/blot-ad-article-1/200/200",
+    tag: "Ad",
+    title: "Stay Sharp, Stay Informed",
+    description: "Get curated news briefings delivered straight to your inbox every morning.",
+    cta: "Subscribe Free",
+    link: "https://www.example.com/sponsor-article-1"
+  },
+  articleAd2: {
+    image: "https://picsum.photos/seed/blot-ad-article-2/200/200",
+    tag: "Ad",
+    title: "Invest Smarter Today",
+    description: "Track markets, set alerts, and manage your portfolio from one simple app.",
+    cta: "Get Started",
+    link: "https://www.example.com/sponsor-article-2"
+  }
+};
 
 function getArticleBySlug(slug) {
   return ARTICLES.find(a => a.slug === slug);
