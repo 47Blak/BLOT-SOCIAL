@@ -1,25 +1,5 @@
 const ARTICLES = [
   {
-    "slug": "bnxn-and-asake-join-forces-for-euphoric-new-afrobeats-single-eja-meja",
-    "category": "World",
-    "headline": "BNXN and Asake Join Forces for Euphoric New Afrobeats Single ‘Eja Meja’",
-    "dek": "Two of Afrobeats’ biggest hook masters unite on an infectious collaborative track that leads the rollout for BNXN’s upcoming extended play.",
-    "author": "亗BLAK",
-    "date": "Jul 29",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6DfnoFdrEkYun4oLWeX0oXx_Tiyl1gNeY1f1qL-OlbROZMrai1HOAwA&s=10",
-    "body": [
-      "Afrobeats hitmakers BNXN (formerly Buju) and Asake have officially released their highly anticipated collaborative single, titled \"Eja Meja,\" out now via EMPIRE.",
-      "The track marks the first joint recording between the two chart-topping Nigerian artists, combining BNXN’s smooth, reflective vocal delivery with Asake’s signature energetic, choir-backed melodies.",
-      "Released alongside an official mood-setting visualizer featuring sleek styling and vintage dinner aesthetic, \"Eja Meja\" serves as the lead single for BNXN’s upcoming extended play.",
-      "Lyrically, the song touches on themes of gratitude, celebration, and unbothered living, with BNXN singing about navigating fame while expressing appreciation for his artistic journey and continued success.",
-      "Fans across social media platforms reacted with immediate enthusiasm to the drop, praising the natural chemistry between two of the industry's most consistent hitmakers.",
-      "\"Eja Meja\" is now available for streaming across all major digital music platforms worldwide."
-    ],
-    "audiomack": "https://audiomack.com/bnxn/song/eja-meja-7370420?share-user-id=25753014",
-    "spotify": "https://open.spotify.com/album/7BSNh9DOcw3giOwnBAv3qA?si=NGEXbtpnQHKmDanOPcrIiA",
-    "youtubeVideo": "https://m.youtube.com/watch?v=ph32Ub9bbdw"
-  },
-  {
     "slug": "eddie-howe-steps-down-as-newcastle-united-head-coach-with-immediate-effect",
     "category": "Sports",
     "headline": "Eddie Howe Steps Down as Newcastle United Head Coach with Immediate Effect",
@@ -34,6 +14,10 @@ const ARTICLES = [
       "​Since replacing Steve Bruce in November 2021, Howe etched his name into Newcastle history by ending the club's 70-year wait for a major domestic trophy with a 2025 League Cup victory at Wembley, alongside securing two UEFA Champions League qualifications.",
       "​However, internal frustration over transfer strategy and a disappointing 12th-place finish in the 2025/26 Premier League campaign prompted deep reflection, ultimately leading Howe to step away despite retaining support from the board.",
       "​Newcastle executives have moved swiftly to negotiate a replacement, with 38-year-old German tactician Matthias Jaissle of Saudi Pro League side Al-Ahli currently in advanced talks to take over ahead of the upcoming campaign."
+    ],
+    "tags": [
+      "Sports",
+      "Trending"
     ]
   },
   {
@@ -51,6 +35,39 @@ const ARTICLES = [
       "The surge in international operations follows severe tragic outcomes in the U.S., where dozens of minors succumbed to psychological distress caused by relentless blackmail demands before authorities tracked the digital paper trails back to West Africa.",
       "Recent legal actions have resulted in multiple extraditions and convictions in U.S. federal courts, signaling a historic shift toward prosecuting overseas perpetrators who previously operated with perceived impunity.",
       "Both American and Nigerian security agencies emphasize that continued technical cooperation and public awareness campaigns remain crucial to disrupting these global syndicates and protecting vulnerable youth online."
+    ],
+    "tags": [
+      "World",
+      "Business"
+    ]
+  },
+  {
+    "slug": "bnxn-and-asake-join-forces-for-euphoric-new-afrobeats-single-eja-meja",
+    "category": "Music",
+    "headline": "BNXN and Asake Join Forces for Euphoric New Afrobeats Single ‘Eja Meja’",
+    "dek": "Two of Afrobeats’ biggest hook masters unite on an infectious collaborative track that leads the rollout for BNXN’s upcoming extended play.",
+    "author": "亗BLAK",
+    "date": "Jul 29",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz6DfnoFdrEkYun4oLWeX0oXx_Tiyl1gNeY1f1qL-OlbROZMrai1HOAwA&s=10",
+    "body": [
+      "Afrobeats hitmakers BNXN (formerly Buju) and Asake have officially released their highly anticipated collaborative single, titled \"Eja Meja,\" out now via EMPIRE.",
+      "The track marks the first joint recording between the two chart-topping Nigerian artists, combining BNXN’s smooth, reflective vocal delivery with Asake’s signature energetic, choir-backed melodies.",
+      "Released alongside an official mood-setting visualizer featuring sleek styling and vintage dinner aesthetic, \"Eja Meja\" serves as the lead single for BNXN’s upcoming extended play.",
+      "Lyrically, the song touches on themes of gratitude, celebration, and unbothered living, with BNXN singing about navigating fame while expressing appreciation for his artistic journey and continued success.",
+      "Fans across social media platforms reacted with immediate enthusiasm to the drop, praising the natural chemistry between two of the industry's most consistent hitmakers.",
+      "\"Eja Meja\" is now available for streaming across all major digital music platforms worldwide."
+    ],
+    "audiomack": "https://audiomack.com/bnxn/song/eja-meja-7370420?share-user-id=25753014",
+    "spotify": "https://open.spotify.com/album/7BSNh9DOcw3giOwnBAv3qA?si=NGEXbtpnQHKmDanOPcrIiA",
+    "youtubeVideo": "https://m.youtube.com/watch?v=ph32Ub9bbdw",
+    "artist": "BNXN",
+    "featuring": "Asake",
+    "producer": "Blaise Beatz",
+    "genre": "Afrobeats",
+    "released": "July 29, 2026",
+    "tags": [
+      "Music",
+      "Trending"
     ]
   },
   {
@@ -68,23 +85,27 @@ const ARTICLES = [
       "​With the latest acquisition, Otedola’s overall equity stake in First HoldCo rises from 21.96% to 25.87%, placing his cumulative portfolio valuation in the financial group at approximately ₦1.47 trillion.",
       "​The high-volume purchase marks Otedola's second major block trade within eight days, following a ₦77.58 billion purchase of 706 million shares executed on July 22, bringing his total fresh capital deployment in First HoldCo to nearly ₦300 billion in just over a week.",
       "​At 25.87%, Otedola’s ownership sits within striking distance of the 30% regulatory trigger under Nigeria's Securities and Exchange Commission (SEC) guidelines, which mandates a formal takeover bid to minority shareholders once reached."
+    ],
+    "tags": [
+      "Business",
+      "Technology"
     ]
   },
   {
-    "slug": "frustrated-apple-owners-take-to-social-media-as-continuity-feature-causes-iphones-ipads-macs-and-apple-watches-to-ring-simultaneously-during-incoming-calls",
+    "slug": "meet-oluwami-dosunmu-ogunbi-first-black-woman-to-earn-phd-in-robotics-engineering-at-michigan",
     "category": "Technology",
-    "headline": "Frustrated Apple owners take to social media as Continuity feature causes iPhones, iPads, Macs, and Apple Watches to ring simultaneously during incoming calls.",
-    "dek": "Frustrated Apple owners take to social media as Continuity feature causes iPhones, iPads, Macs, and Apple Watches to ring simultaneously during incoming calls.",
+    "headline": "Meet Oluwami Dosunmu-Ogunbi: First Black Woman to Earn PhD in Robotics Engineering at Michigan",
+    "dek": "Nigerian-American scholar Oluwami Dosunmu-Ogunbi makes history at the University of Michigan, dedicating her groundbreaking achievement to the power of community, mentorship, and social responsibility in engineering.",
     "author": "亗BLAK",
     "date": "Jul 30",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHP-4jLBuiAq1DrDTm1og5pdVURIhyC6-ISJPSItaW2MGSmotD3FUnMJ4&s=10",
+    "image": "https://cdn.vanguardngr.com/wp-content/uploads/2026/07/Dosunmu-Ogunbi_Oluwami.jpg",
     "body": [
-      "Apple users across digital community forums have raised widespread complaints regarding persistent disruptions caused by the tech giant's multi-device call ringing feature.",
-      "The functionality—part of Apple's Continuity ecosystem—is designed to relay incoming cellular calls and FaceTime requests seamlessly to nearby iPads, MacBooks, and Apple Watches logged into the same Apple ID.",
-      "However, many users report growing irritation over delayed call syncing, erratic notification alerts, and loud multi-room chime blasts that occur whenever an incoming call hits a primary iPhone.",
-      "The issue becomes particularly severe in households sharing a single Apple account or in quiet office environments, where answering a call on one device fails to immediately silence incoming rings on secondary hardware.",
-      "Tech experts advise affected users to manually adjust their Continuity preferences by toggling off \"Allow Calls on Other Devices\" within the iPhone Settings app under the Phone menu.",
-      "While Apple provides options to restrict specific secondary devices, consumers continue to press the Cupertino company for more granular audio controls and improved cross-device signaling in upcoming software updates."
+      "A Nigerian American engineer and educator, Oluwami Dosunmu-Ogunbi, has etched her name in history by becoming the first Black woman to earn a Doctor of Philosophy (PhD) in Robotics from the University of Michigan.",
+      "The daughter of Nigerian immigrants, Dosunmu-Ogunbi officially marked the historic milestone during the university's College of Engineering graduate student commencement ceremony, where she delivered a powerful address reflecting on the collaborative nature of her academic journey.",
+      "Addressing her fellow graduates, she emphasized that success in highly technical fields is rarely a solitary endeavor. \"I do not stand here on my own two feet alone. None of us got here by our individual merit alone,\" she stated, expressing deep gratitude to the teachers, mentors, friends, and family members who made her accomplishment possible.",
+      "Throughout her doctoral program, Dosunmu-Ogunbi specialized in dynamics and controls, focusing her research heavily on robotic bipedal locomotion. Her chief research result involved developing a new stair-climbing controller for bipedal walking robots.",
+      "Beyond her academic and technical research, she has been widely recognized for her active community-building efforts. She served as a Robotics outreach ambassador for three consecutive years and received the prestigious MLK Spirit Award from the College of Engineering for her dedication to mentoring and inspiring younger students.",
+      "Dosunmu-Ogunbi noted that her ultimate goal is to leave a legacy of positive impact. She challenged her peers to go beyond technical innovation, urging them to become \"socially conscious\" engineers who create collaborative solutions to societal problems and promote an inclusive community for the common good."
     ],
     "desk": true
   },
@@ -123,23 +144,27 @@ const ARTICLES = [
       "Reiterating that the prohibition is non-negotiable under the National Alcohol Policy and Senate resolutions aimed at curbing underage drinking and substance abuse, NAFDAC pledged to sustain its nationwide crackdown until all banned sub-200ml alcoholic products are completely eradicated from Nigerian markets."
     ],
     "youtubeVideo": "https://youtu.be/Hk6NEPKAkpw?si=82FJi-Qh2wO75UWH",
+    "tags": [
+      "World",
+      "Business"
+    ],
     "desk": true
   },
   {
-    "slug": "meet-oluwami-dosunmu-ogunbi-first-black-woman-to-earn-phd-in-robotics-engineering-at-michigan",
+    "slug": "frustrated-apple-owners-take-to-social-media-as-continuity-feature-causes-iphones-ipads-macs-and-apple-watches-to-ring-simultaneously-during-incoming-calls",
     "category": "Technology",
-    "headline": "Meet Oluwami Dosunmu-Ogunbi: First Black Woman to Earn PhD in Robotics Engineering at Michigan",
-    "dek": "Nigerian-American scholar Oluwami Dosunmu-Ogunbi makes history at the University of Michigan, dedicating her groundbreaking achievement to the power of community, mentorship, and social responsibility in engineering.",
+    "headline": "Frustrated Apple owners take to social media as Continuity feature causes iPhones, iPads, Macs, and Apple Watches to ring simultaneously during incoming calls.",
+    "dek": "Frustrated Apple owners take to social media as Continuity feature causes iPhones, iPads, Macs, and Apple Watches to ring simultaneously during incoming calls.",
     "author": "亗BLAK",
     "date": "Jul 30",
-    "image": "https://cdn.vanguardngr.com/wp-content/uploads/2026/07/Dosunmu-Ogunbi_Oluwami.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHP-4jLBuiAq1DrDTm1og5pdVURIhyC6-ISJPSItaW2MGSmotD3FUnMJ4&s=10",
     "body": [
-      "A Nigerian American engineer and educator, Oluwami Dosunmu-Ogunbi, has etched her name in history by becoming the first Black woman to earn a Doctor of Philosophy (PhD) in Robotics from the University of Michigan.",
-      "The daughter of Nigerian immigrants, Dosunmu-Ogunbi officially marked the historic milestone during the university's College of Engineering graduate student commencement ceremony, where she delivered a powerful address reflecting on the collaborative nature of her academic journey.",
-      "Addressing her fellow graduates, she emphasized that success in highly technical fields is rarely a solitary endeavor. \"I do not stand here on my own two feet alone. None of us got here by our individual merit alone,\" she stated, expressing deep gratitude to the teachers, mentors, friends, and family members who made her accomplishment possible.",
-      "Throughout her doctoral program, Dosunmu-Ogunbi specialized in dynamics and controls, focusing her research heavily on robotic bipedal locomotion. Her chief research result involved developing a new stair-climbing controller for bipedal walking robots.",
-      "Beyond her academic and technical research, she has been widely recognized for her active community-building efforts. She served as a Robotics outreach ambassador for three consecutive years and received the prestigious MLK Spirit Award from the College of Engineering for her dedication to mentoring and inspiring younger students.",
-      "Dosunmu-Ogunbi noted that her ultimate goal is to leave a legacy of positive impact. She challenged her peers to go beyond technical innovation, urging them to become \"socially conscious\" engineers who create collaborative solutions to societal problems and promote an inclusive community for the common good."
+      "Apple users across digital community forums have raised widespread complaints regarding persistent disruptions caused by the tech giant's multi-device call ringing feature.",
+      "The functionality—part of Apple's Continuity ecosystem—is designed to relay incoming cellular calls and FaceTime requests seamlessly to nearby iPads, MacBooks, and Apple Watches logged into the same Apple ID.",
+      "However, many users report growing irritation over delayed call syncing, erratic notification alerts, and loud multi-room chime blasts that occur whenever an incoming call hits a primary iPhone.",
+      "The issue becomes particularly severe in households sharing a single Apple account or in quiet office environments, where answering a call on one device fails to immediately silence incoming rings on secondary hardware.",
+      "Tech experts advise affected users to manually adjust their Continuity preferences by toggling off \"Allow Calls on Other Devices\" within the iPhone Settings app under the Phone menu.",
+      "While Apple provides options to restrict specific secondary devices, consumers continue to press the Cupertino company for more granular audio controls and improved cross-device signaling in upcoming software updates."
     ],
     "desk": true
   },
@@ -159,6 +184,10 @@ const ARTICLES = [
       "The Vice President also highlighted the integration of artificial intelligence (AI) tools into the national cancer control policy to improve diagnostic precision, while cautioning that digital algorithms must be trained on local demographic data to ensure clinical accuracy for African populations.",
       "Reaffirming the administration's commitment to primary healthcare renewal, Shettima called for deeper cross-border research and financial partnerships among African nations to decentralize oncology care, enhance early detection, and lighten the strain on tertiary health institutions."
     ],
+    "tags": [
+      "World",
+      "Business"
+    ],
     "desk": true
   },
   {
@@ -177,6 +206,10 @@ const ARTICLES = [
       "Keyamo welcomed the progress, highlighting that thousands of Nigerian travelers heading to Canada weekly are currently forced to transit through Europe or the United States due to the absence of direct routes.",
       "While noting that immigration matters fall under inter-ministerial purview with the Ministry of Interior, Keyamo assured full cross-agency collaboration ahead of the formal bilateral meeting set for August 6, 2026."
     ],
+    "tags": [
+      "World",
+      "Business"
+    ],
     "desk": true
   },
   {
@@ -194,6 +227,9 @@ const ARTICLES = [
       "Other individuals apprehended during the raid were identified as Akande Taiwo, Oladele Abiodun, Adeyemo Lukman, Olaoye Muftau, and Aderemi Musliu.",
       "Reacting to the developments, Governor Ademola Adeleke declared that the state government and the people of Osun would not succumb to political intimidation or external interference as campaigning reaches a climax ahead of the August 15 poll.",
       "Police Commissioner CP Ibrahim Gotan stated that comprehensive investigations into criminal conspiracy, vote-buying, and the harboring of a wanted homicide suspect remain ongoing."
+    ],
+    "tags": [
+      "World"
     ],
     "desk": true
   },
@@ -266,6 +302,10 @@ const ARTICLES = [
       "Manchester United have maintained a strong interest in Tchouaméni as part of their ongoing midfield restructuring, viewing the former Monaco defensive specialist as an ideal central pivot to fortify their squad ahead of the upcoming campaign.",
       "With an estimated valuation of around £68 million (€80 million), Tchouaméni's potential departure from the Santiago Bernabéu would provide Real Madrid with the necessary financial flexibility to finalize their midfield overhaul under manager José Mourinho.",
       "While negotiations between the clubs remain in preliminary stages, the emerging domino effect in the transfer market could provide Old Trafford executives with a unique window of opportunity to complete one of the summer's most significant marquee signings."
+    ],
+    "tags": [
+      "Sports",
+      "Trending"
     ]
   },
   {
@@ -299,6 +339,10 @@ const ARTICLES = [
       "​Under the terms of the strategic partnership, SK Hynix will co-develop advanced next-generation HBM architectures specifically tailored for Nvidia’s upcoming Vera Rubin AI supercomputing platforms, as well as its Vera CPUs and robotic computing systems.\n​\nHigh-bandwidth memory has emerged as the single most critical supply bottleneck in the artificial intelligence hardware ecosystem, as massive neural network models require unprecedented bandwidth to transfer data rapidly between memory pools and graphics processing units.",
       "​By securing priority allocation over SK Hynix’s advanced manufacturing capacity, Nvidia fortifies its supply chain continuity against industry-wide shortages while ensuring that rival chip designers face steeper hurdles when attempting to source equivalent memory volumes.",
       "​Industry analysts note that the multi-billion-dollar commitment underscores the staggering capital expenditures required to sustain the current AI wave, positioning Nvidia to maintain its market dominance as global enterprise and sovereign AI buildouts accelerate."
+    ],
+    "tags": [
+      "World",
+      "Technology"
     ]
   },
   {
@@ -315,6 +359,11 @@ const ARTICLES = [
       "​Despite the mounting Premier League interest, Real Madrid manager José Mourinho has made his position clear to club executives. Mourinho considers Vinícius a fundamental pillar of his team alongside Kylian Mbappé and Jude Bellingham, warning board members against sanctioning a sale for any of his key attacking leaders.",
       "​Sky Sports and major broadcast outlets confirm Arsenal’s genuine interest in securing top-tier attacking talent, listing Vinícius alongside other marquee targets on their radar, such as Atlético Madrid’s Julián Álvarez. The Gunners remain vigilant as they explore high-caliber options to bolster their squad for the upcoming season.",
       "​Crucial discussions scheduled in Madrid could dictate the timeline of any potential move. With renewal negotiations currently at a standstill, Los Blancos face pressure to decide whether an agreement can be reached or if they must evaluate market interest.\n​While no direct club-to-club negotiations have taken place between Arsenal and Real Madrid yet, Premier League suitors are monitoring the situation closely. Real Madrid remain reluctant to risk losing the Brazilian superstar on a free transfer next summer, leaving the door open for opportunistic bids if contract talks remain deadlocked."
+    ],
+    "tags": [
+      "World",
+      "Sports",
+      "Trending"
     ],
     "hero": true
   },
@@ -336,24 +385,6 @@ const ARTICLES = [
     ]
   },
   {
-    "slug": "court-of-appeal-nullifies-order-deregistering-adc-and-four-other-opposition-parties",
-    "category": "World",
-    "headline": "Court of Appeal Nullifies Order Deregistering ADC and Four Other Opposition Parties",
-    "dek": "The Court of Appeal in Abuja declares the Federal High Court order directing INEC to deregister the African Democratic Congress and four other political parties a complete nullity.",
-    "author": "亗BLAK",
-    "date": "Jul 28",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfmbXK4U0ArE4spkljkD3cEDbYkGrY6qUfPB47WeMuLrecSV3astJITYc&s=10",
-    "body": [
-      "The Court of Appeal sitting in Abuja has officially set aside and vacated the Federal High Court judgment that directed the Independent National Electoral Commission (INEC) to deregister five political parties.",
-      "In a unanimous decision delivered by a three-member panel led by Justice Abba Mohammed, the appellate court ruled that the June 15 order issued by the lower court amounted to a total nullity.",
-      "The court established that the Federal High Court wrongly assumed jurisdiction over the case, noting that the original suit was instituted by an incompetent, non-juristic entity identified as the National Forum of Former Legislators (NFFL).",
-      "In addition to the African Democratic Congress (ADC), the appellate court restored the registration and legal recognition of the Action Peoples Party (APP), Action Alliance (AA), Accord Party (AP), and Zenith Labour Party (ZLP).",
-      "The appellate panel further reprimanded the trial court for ignoring clear evidence proving that the affected political parties had previously won elective seats across various levels of government.",
-      "The justices also berated the lower court for proceeding with judgment in defiance of an existing stay-of-proceedings order, ruling that all five political parties remain duly registered and eligible to participate in upcoming electoral activities."
-    ],
-    "desk": true
-  },
-  {
     "slug": "election-must-be-won-at-ballot-not-in-court-atiku-declares-on-2027-elections-",
     "category": "World",
     "headline": "Election Must Be Won at Ballot, Not in Court — Atiku Declares on 2027 Elections",
@@ -368,6 +399,24 @@ const ARTICLES = [
       "Atiku emphasized that attempts to clear opposition contenders out of the political landscape using legal technicalities undermine public trust in electoral processes and weaken democratic governance.",
       "\"As the nation advances towards the 2027 general elections, political contests must be decided by the votes of Nigerians—not by contrived lawsuits seeking to achieve in the courtroom what cannot be won at the ballot box,\" he stated.",
       "The ruling removes immediate legal hurdles facing opposition platforms, allowing political parties to shift focus toward coalition building, candidate selection, and grassroots mobilization ahead of the next electoral cycle."
+    ],
+    "desk": true
+  },
+  {
+    "slug": "court-of-appeal-nullifies-order-deregistering-adc-and-four-other-opposition-parties",
+    "category": "World",
+    "headline": "Court of Appeal Nullifies Order Deregistering ADC and Four Other Opposition Parties",
+    "dek": "The Court of Appeal in Abuja declares the Federal High Court order directing INEC to deregister the African Democratic Congress and four other political parties a complete nullity.",
+    "author": "亗BLAK",
+    "date": "Jul 28",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfmbXK4U0ArE4spkljkD3cEDbYkGrY6qUfPB47WeMuLrecSV3astJITYc&s=10",
+    "body": [
+      "The Court of Appeal sitting in Abuja has officially set aside and vacated the Federal High Court judgment that directed the Independent National Electoral Commission (INEC) to deregister five political parties.",
+      "In a unanimous decision delivered by a three-member panel led by Justice Abba Mohammed, the appellate court ruled that the June 15 order issued by the lower court amounted to a total nullity.",
+      "The court established that the Federal High Court wrongly assumed jurisdiction over the case, noting that the original suit was instituted by an incompetent, non-juristic entity identified as the National Forum of Former Legislators (NFFL).",
+      "In addition to the African Democratic Congress (ADC), the appellate court restored the registration and legal recognition of the Action Peoples Party (APP), Action Alliance (AA), Accord Party (AP), and Zenith Labour Party (ZLP).",
+      "The appellate panel further reprimanded the trial court for ignoring clear evidence proving that the affected political parties had previously won elective seats across various levels of government.",
+      "The justices also berated the lower court for proceeding with judgment in defiance of an existing stay-of-proceedings order, ruling that all five political parties remain duly registered and eligible to participate in upcoming electoral activities."
     ],
     "desk": true
   },
@@ -409,7 +458,7 @@ const ARTICLES = [
   },
   {
     "slug": "fg-calls-on-south-africa-to-take-urgent-concrete-action-over-persistent-xenophobic-attacks",
-    "category": "Music",
+    "category": "World",
     "headline": "FG Calls on South Africa to Take Urgent 'Concrete' Action Over Persistent Xenophobic Attacks",
     "dek": "The Federal Government demands immediate safeguards and prosecution of perpetrators in Pretoria, revealing that 98 Nigerians have died in anti-immigrant violence since 2022.",
     "author": "亗BLAK",
@@ -422,6 +471,10 @@ const ARTICLES = [
       "While stressing that Nigeria does not condone criminality or drug trafficking, the government emphasized that any accused person must be processed through the judicial system rather than subjected to extrajudicial mob violence or police complicity.",
       "Enikanolaiye noted that President Bola Tinubu instructed the foreign ministry to address the diplomatic tension with utmost frankness, warning that continued attacks threaten decades of bilateral cooperation and strategic partnership between both nations.",
       "In response, the South African delegation reaffirmed President Ramaphosa’s firm stance against xenophobia and intolerance, while maintaining that Pretoria reserves the right to address undocumented migration and cross-border crime through legal channels."
+    ],
+    "tags": [
+      "World",
+      "Business"
     ],
     "desk": true
   },
@@ -481,7 +534,7 @@ const ARTICLES = [
   },
   {
     "slug": "viral-marriage-unmasked-nigerian-influencer-gehgeh-confirms-secret-wedding-was-publicity-stunt-for-upcoming-film",
-    "category": "Music",
+    "category": "World",
     "headline": "Viral 'Marriage' Unmasked: Nigerian Influencer GehGeh Confirms Secret Wedding Was Publicity Stunt for Upcoming Film",
     "dek": "Social media personality GehGeh confirms viral wedding photos and videos were part of a publicity stunt for an upcoming Nollywood film, putting rumors of his unexpected marriage to rest.",
     "author": "亗BLAK",
@@ -495,11 +548,14 @@ const ARTICLES = [
       "He revealed that the strategic rollout was designed to maximize publicity for the movie project, demonstrating how effectively viral sensationalism can capture public attention in Nigeria's fast-moving digital creator space.",
       "While some fans applauded the clever marketing strategy that dominated headline discussions for days, others expressed fatigue over the growing trend among Nigerian influencers who stage major life events to drive commercial engagements."
     ],
+    "tags": [
+      "World"
+    ],
     "desk": true
   },
   {
     "slug": "image of masquerade",
-    "category": "Music",
+    "category": "World",
     "headline": "Olubadan Issued Guidelines and Strict Directives for Women as Annual Oloolu Masquerade Festival Begins",
     "dek": "Oba Rashidi Ladoja urges women in Ibadan to stay indoors and prohibits residents from taking photos or videos as the sacred Oloolu masquerade procession commences Monday.",
     "author": "亗BLAK",
@@ -512,6 +568,9 @@ const ARTICLES = [
       "​Regarded as one of the most spiritually significant and formidable traditional entities in Yorubaland, the Oloolu masquerade is scheduled to conduct ancestral prayers for the monarch, council members, and the peaceful progress of Ibadanland.",
       "​During its multi-day procession across the ancient city, the masquerade will visit key historical quarters and traditional leadership residences, including Foko, Agodi, Oje Market, Popo-Yemoja, Molete, and Oranmiyan.",
       "​To ensure the cultural exercise remains peaceful, Oba Ladoja called on law enforcement agencies to maintain strict vigilance and urged masquerade followers and religious groups to avoid any form of violence or civil disturbance."
+    ],
+    "tags": [
+      "World"
     ],
     "desk": true
   },
@@ -584,7 +643,7 @@ const ARTICLES = [
   },
   {
     "slug": "revival-of-a-forgotten-1958-play-becomes-the-ticket-of-the-season",
-    "category": "Music",
+    "category": "World",
     "headline": "Resurrected Masterpiece: Forgotten 1958 Classic Stages Triumphant Return as Season’s Hottest Ticket",
     "dek": "Decades after its quiet debut, a newly rediscovered 1958 theatrical masterpiece takes center stage, captivating critics and audience members to become the year's undisputed hot-ticket revival.",
     "author": "亗BLAK",
@@ -597,6 +656,9 @@ const ARTICLES = [
       "​Critique and word-of-mouth momentum have driven record-breaking demand for admission, with extended sold-out runs prompting producers to schedule additional performances across major metropolitan theater districts.",
       "​Leading critics are praising the revived staging for its extraordinary set design, sharp dialogue, and powerhouse cast performances, declaring the once-dormant work a timeless dramatic triumph that rivals modern classics.",
       "​As sold-out crowds continue to pack auditorium seats each night, the runaway success of this 1958 revival highlights the enduring power of classic storytelling to captivate new generations of theatergoers when brought back into the spotlight."
+    ],
+    "tags": [
+      "World"
     ],
     "desk": true
   },
@@ -659,7 +721,7 @@ const ARTICLES = [
   },
   {
     "slug": "museum-reopens-after-two-year-renovation",
-    "category": "Music",
+    "category": "World",
     "headline": "City Museum Reopens After Two-Year Renovation",
     "dek": "The expanded wing adds gallery space for a rotating collection of regional art.",
     "author": "亗BLAK",
@@ -668,6 +730,10 @@ const ARTICLES = [
     "body": [
       "The expanded wing adds gallery space for a rotating collection of regional art.",
       "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
+    ],
+    "tags": [
+      "World",
+      "Business"
     ],
     "desk": true
   },
@@ -729,7 +795,7 @@ const ARTICLES = [
   },
   {
     "slug": "independent-bookstore-marks-fortieth-anniversary",
-    "category": "Music",
+    "category": "Technology",
     "headline": "Independent Bookstore Marks Fortieth Anniversary",
     "dek": "The shop has hosted weekly author readings since it opened its doors in the neighborhood.",
     "author": "亗BLAK",
@@ -738,6 +804,10 @@ const ARTICLES = [
     "body": [
       "The shop has hosted weekly author readings since it opened its doors in the neighborhood.",
       "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
+    ],
+    "tags": [
+      "World",
+      "Technology"
     ],
     "desk": true
   },
@@ -791,58 +861,63 @@ const BREAKING_NEWS = [
     "link": ""
   },
   {
-    "text": "OFFICIAL: Roberto Mancini has been appointed as new Italy head coach, the Federation has confirmed.",
+    "text": "BNXN and Asake Join Forces for Euphoric New Afrobeats Single ‘Eja Meja’",
     "link": ""
   },
   {
     "text": "Court of Appeal Nullifies Order Deregistering ADC and Four Other Opposition Parties",
     "link": ""
+  },
+  {
+    "text": "Eddie Howe Steps Down as Newcastle United Head Coach with Immediate Effect",
+    "link": ""
+  },
+  {
+    "text": "OFFICIAL: Roberto Mancini has been appointed as new Italy head coach, the Federation has confirmed.",
+    "link": ""
   }
 ];
 
-// Editable ad placements. Each key is one ad slot on the site. Any field
-// left blank simply renders empty for that slot — nothing crashes, it
-// just shows a blank spot where that text/image would be.
 const ADS = {
-  latestPost: {
-    image: "https://picsum.photos/seed/blot-ad-latest/200/200",
-    tag: "Ad",
-    title: "Upgrade Your Workspace Today",
-    description: "Discover premium ergonomic office gear designed to improve your comfort and boost productivity.",
-    cta: "Shop Now",
-    link: "https://www.example.com/sponsor-1"
+  "latestPost": {
+    "image": "https://pbs.twimg.com/media/HOqrioAXMAASq-p?format=jpg&name=small",
+    "tag": "Ad",
+    "title": "Thilda Style Collection",
+    "description": "Upgrade your look with our glasses, caps, and scarves (cotton vintage and jersey scarf),  Quality and style with no stress. Everything you need is in stock.",
+    "cta": "Shop Now",
+    "link": "https://wa.me/message/I6CQLHNFA4KZP1"
   },
-  acrossDesk: {
-    image: "https://picsum.photos/seed/blot-ad-desk/200/200",
-    tag: "Ad",
-    title: "Master Coding in 30 Days",
-    description: "Join thousands of developers learning HTML, CSS, and modern web development through interactive lessons.",
-    cta: "Start Free Trial",
-    link: "https://www.example.com/sponsor-2"
+  "acrossDesk": {
+    "image": "https://pbs.twimg.com/media/HOqsA10WAAAeghL?format=jpg&name=small",
+    "tag": "Ad",
+    "title": "NeedleCraft by Precious",
+    "description": "An indigenous Nigerian women's fashion and tailoring brand based in Abeokuta, Ogun State, known for creating elegant, well-fitted corporate outfits, two-piece sets, jumpsuits, and special event gowns.",
+    "cta": "Book Now",
+    "link": "https://wa.me/message/3PU5ZFOQ6MBFG1"
   },
-  inBrief: {
-    image: "https://picsum.photos/seed/blot-ad-brief/200/200",
-    tag: "Ad",
-    title: "Plan Your Next Getaway",
-    description: "Compare flights and hotels in seconds and lock in exclusive rates before they're gone.",
-    cta: "Find Deals",
-    link: "https://www.example.com/sponsor-3"
+  "inBrief": {
+    "image": "https://picsum.photos/seed/blot-ad-brief/200/200",
+    "tag": "Ad",
+    "title": "Plan Your Next Getaway",
+    "description": "Compare flights and hotels in seconds and lock in exclusive rates before they're gone.",
+    "cta": "Find Deals",
+    "link": "https://www.example.com/sponsor-3"
   },
-  articleAd1: {
-    image: "https://picsum.photos/seed/blot-ad-article-1/200/200",
-    tag: "Ad",
-    title: "Stay Sharp, Stay Informed",
-    description: "Get curated news briefings delivered straight to your inbox every morning.",
-    cta: "Subscribe Free",
-    link: "https://www.example.com/sponsor-article-1"
+  "articleAd1": {
+    "image": "https://pbs.twimg.com/media/HOqsA10WAAAeghL?format=jpg&name=small",
+    "tag": "Ad",
+    "title": "NeedleCraft by Precious",
+    "description": "An indigenous Nigerian women's fashion and tailoring brand based in Abeokuta, Ogun State, known for creating elegant, well-fitted corporate outfits, two-piece sets, jumpsuits, and special event gowns.",
+    "cta": "Book Now",
+    "link": "https://wa.me/message/3PU5ZFOQ6MBFG1"
   },
-  articleAd2: {
-    image: "https://picsum.photos/seed/blot-ad-article-2/200/200",
-    tag: "Ad",
-    title: "Invest Smarter Today",
-    description: "Track markets, set alerts, and manage your portfolio from one simple app.",
-    cta: "Get Started",
-    link: "https://www.example.com/sponsor-article-2"
+  "articleAd2": {
+    "image": "https://pbs.twimg.com/media/HOqrioAXMAASq-p?format=jpg&name=small",
+    "tag": "Ad",
+    "title": "Thilda Style Collection",
+    "description": "Upgrade your look with our glasses, caps, and scarves (cotton vintage and jersey scarf),  Quality and style with no stress. Everything you need is in stock.",
+    "cta": "Shop Now",
+    "link": "https://wa.me/message/I6CQLHNFA4KZP1"
   }
 };
 

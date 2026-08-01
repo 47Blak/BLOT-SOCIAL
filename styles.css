@@ -582,6 +582,13 @@ a.breaking-item:hover {
     margin-top: auto;
     padding-top: 10px;
   }
+  .four-col-grid .card {
+    max-height: 320px;
+  }
+  .two-col-grid .card .byline,
+  .category-list .card .byline {
+    margin-top: auto;
+  }
 }
 
 @media (max-width: 760px) {
