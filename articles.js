@@ -1,5 +1,59 @@
 const ARTICLES = [
   {
+    "slug": "ef-moon-teams-up-with-ayo-maff-for-soulful-street-anthem-life-is-slo-ii",
+    "category": "Music",
+    "headline": "EF Moon Teams Up With Ayo Maff for Soulful Street Anthem ‘Life is Slo II’",
+    "dek": "Fast-rising Afro-fusion star EF Moon recruits street-hop sensation Ayo Maff for a reflective sequel exploring ambition, perseverance, and navigating life's heavy burdens.",
+    "author": "亗BLAK",
+    "date": "Jul 31",
+    "image": "https://i.ytimg.com/vi/8sdaY7CrV1U/maxresdefault.jpg",
+    "body": [
+      "Rising Nigerian Afro-fusion artist EF Moon (Elijah Friday) has released his highly anticipated new single, \"Life is Slo II,\" featuring fast-rising street-pop talent Ayo Maff.",
+      "Distributed via Inner Circle Entertainment, the track serves as a direct follow-up to EF Moon's breakout record \"Life is Slo,\" expanding on the reflective storytelling and soulful melodies that established his presence in the Afrobeats ecosystem.",
+      "\"Life is Slo II\" pairs EF Moon’s smooth vocal delivery and atmospheric production with Ayo Maff's raw, gritty verse, creating a powerful synergy that captures the struggles and quiet resilience of everyday street hustle.",
+      "Lyrically, the collaboration touches on themes of endurance, self-reliance, and patience, with both artists delivering heartfelt lines about carrying heavy personal burdens while keeping faith in their artistic journey.",
+      "Following its debut across digital streaming platforms including Audiomack, Apple Music, and Spotify, the single received an immediate surge of support from fans and music curators, quickly charting on regional Afro-fusion playlists.",
+      "\"Life is Slo II\" further solidifies EF Moon's position among the most promising new voices in contemporary Nigerian music, setting the tone for his upcoming project rollouts."
+    ],
+    "audiomack": "https://audiomack.com/ef_moon/song/life-is-slo-ii-1613278",
+    "artist": "Ef Moon",
+    "featuring": "Ayo Maff",
+    "genre": "Afrobeats",
+    "released": "2026",
+    "tags": [
+      "Music"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "seyi-vibez-drops-explosive-new-street-pop-single-gta",
+    "category": "Music",
+    "headline": "Seyi Vibez Drops Explosive New Street-Pop Single ‘GTA’",
+    "dek": "Street-pop sensation Seyi Vibez returns with a high-octane single inspired by the iconic video game franchise, released via No Seyi No Vibez (NSNV) and EMPIRE.",
+    "author": "亗BLAK",
+    "date": "Jul 31",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmiouyA0y3m3gdjBxFkB4gjse1_a6wnL10UJ3AYGm8qw&s=10",
+    "body": [
+      "​Nigerian street-pop trailblazer Seyi Vibez has officially released his latest single, titled \"GTA,\" continuing his remarkable streak of energetic releases.",
+      "​Distributed through NSNV Inc and EMPIRE, \"GTA\" draws stylistic inspiration from the high-stakes, fast-paced world of Grand Theft Auto, blending Seyi Vibez's trademark Fuji-infused vocals with heavy percussion and energetic Afrosounds production.",
+      "​The single showcases the artist's signature introspective yet boastful songwriting, touching on street hustle, resilience, rapid financial growth, and staying ahead of detractor narratives.",
+      "​Following its drop across major digital streaming platforms including Audiomack, Spotify, and Apple Music, \"GTA\" sparked immediate excitement across social media platforms, with fans praising its infectious tempo and street appeal.",
+      "​An official lyrics video accompanied the audio drop on YouTube, further accelerating momentum across Nigerian music charts and playlists.",
+      "​\"GTA\" serves as another strong statement of intent from Seyi Vibez, reinforcing his status as one of the most prolific and influential voices shaping contemporary indigenous West African sound."
+    ],
+    "audiomack": "https://audiomack.com/seyivibezmusic/song/gta-5130466",
+    "youtubeVideo": "https://m.youtube.com/watch?v=kCYL8kjNfDA",
+    "artist": "Seyi Vibez",
+    "producer": "Larry Lanez",
+    "genre": "Afrobeats",
+    "released": "2026",
+    "tags": [
+      "Music",
+      "Trending"
+    ],
+    "desk": true
+  },
+  {
     "slug": "eddie-howe-steps-down-as-newcastle-united-head-coach-with-immediate-effect",
     "category": "Sports",
     "headline": "Eddie Howe Steps Down as Newcastle United Head Coach with Immediate Effect",
