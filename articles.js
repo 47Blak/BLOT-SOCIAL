@@ -1,5 +1,174 @@
 const ARTICLES = [
   {
+    "slug": "osun-election-group-raises-alarm-over-alleged-police-and-traditional-rulers-partisanship",
+    "category": "World",
+    "headline": "Osun Election: Group Raises Alarm Over Alleged Police and Traditional Rulers’ Partisanship",
+    "dek": "Stakeholders and coalition groups express deep concern over institutional bias, urging security agencies and royal fathers to maintain strict neutrality ahead of the August 15 governorship poll.",
+    "author": "亗BLAK",
+    "date": "Aug 1",
+    "image": "https://cdn.guardian.ng/wp-content/uploads/2018/09/Dnsasf6WwAA63wZ-1062x598.jpg",
+    "body": [
+      "Civil society organizations and political coalitions in Osun State have raised strong concerns over alleged partisan conduct by security personnel and certain traditional rulers as preparations intensify for the August 15 governorship election.",
+      "Addressing newsmen in Osogbo, spokesperson for the advocacy group highlighted troubling reports of selective enforcement, intimidation of opposition members, and open political endorsements by prominent community figures.",
+      "The group specifically called on the Inspector-General of Police to monitor operations of the state police command to prevent the force from being used as a tool for political victimization prior to and during the polls.",
+      "Concerns were also directed at royal fathers across various local government areas, reminding them of their sacred role as custodians of culture and neutral fathers to all citizens regardless of political affiliation.",
+      "Responding to the allegations, police authorities reaffirmed their commitment to absolute neutrality, assuring that all security measures are aimed strictly at preventing violence and guaranteeing a peaceful electoral process.",
+      "The Independent National Electoral Commission (INEC) and domestic election observers have reiterated that institutional integrity and security non-partisanship remain crucial to ensuring a free, fair, and credible election in Osun State."
+    ],
+    "tags": [
+      "World"
+    ],
+    "brief": true
+  },
+  {
+    "slug": "fire-outbreak-at-lagos-airport-terminal-extinguished-with-zero-casualties-faan-confirms",
+    "category": "World",
+    "headline": "Fire Outbreak at Lagos Airport Terminal Extinguished With Zero Casualties, FAAN Confirms",
+    "dek": "Emergency response teams respond swiftly after smoke triggers alarm at Murtala Muhammed International Airport, restoring normal flight operations without injuries.",
+    "author": "亗BLAK",
+    "date": "Aug 3",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjxnEhVb3FWq8wB-swFOka5ohAfflb8LygfvfOZKrmQw&s=10",
+    "body": [
+      "The Federal Airports Authority of Nigeria (FAAN) has confirmed that a fire outbreak at the Murtala Muhammed International Airport (MMIA) terminal in Lagos has been fully brought under control, with no injuries or loss of life reported.",
+      "The incident, which occurred during peak operational hours, was detected after thick smoke billowed from a section of the main terminal building, triggering fire suppression systems and emergency evacuation protocols.",
+      "Airport fire fighters alongside emergency rescue services responded rapidly to the scene, isolating the source of the flame and preventing the fire from spreading to adjacent passenger halls and departure lounges.",
+      "FAAN Management confirmed that the swift intervention of safety officers contained the damage within minutes, allowing airport security to orderly manage passenger movement while smoke evacuation systems cleared affected corridors.",
+      "Preliminary assessments indicate that the outbreak originated from a localized electrical fault in an equipment room, though a full technical investigation has been launched to determine the precise root cause.",
+      "FAAN assured passengers, airlines, and the general public that flight processing and terminal operations have resumed, reiterating its commitment to maintaining strict safety standards across all international gateways."
+    ],
+    "tags": [
+      "World"
+    ]
+  },
+  {
+    "slug": "pay-us-now-or-face-our-wrath-civil-servants-issue-direct-ultimatum-to-finance-minister",
+    "category": "World",
+    "headline": "Pay Us Now or Face Our Wrath: Civil Servants Issue Direct Ultimatum to Finance Minister",
+    "dek": "Federal workers under the Association of Senior Civil Servants of Nigeria threaten nationwide industrial action over months of unpaid wage awards, promotion arrears, and pending allowance disbursements",
+    "author": "亗BLAK",
+    "date": "Aug 3",
+    "image": "https://cdn.pmnewsnigeria.com/wp-content/uploads/2022/08/20220823_090044.jpg",
+    "body": [
+      "Federal civil servants have issued a fiery ultimatum to the Minister of Finance and Coordinating Minister of the Economy, demanding the immediate settlement of all outstanding wage awards and promotion arrears or face a complete shutdown of federal government operations.",
+      "The warning was issued by union leadership during an emergency congress of federal workers in Abuja, where representatives expressed deep frustration over mounting economic hardship compounded by delayed statutory payments.",
+      "Labor leaders highlighted that several months of agreed wage awards designed to cushion the impact of fuel subsidy removal and inflationary pressures remain unpaid despite repeated assurances from the Ministry of Finance.",
+      "In addition to wage awards, the unions cited multi-year arrears arising from recent promotion exercises, duty tour allowances, and unpaid benefits across several ministries, departments, and agencies (MDAs).",
+      "Addressing union members, labor representatives warned that workers' patience has been completely exhausted and that no further notice would be given before organized labor activates a nationwide industrial action.",
+      "The union urged federal authorities to disburse all trapped funds immediately to prevent prolonged operational disruptions across critical public institutions and government secretariats"
+    ],
+    "tags": [
+      "World"
+    ]
+  },
+  {
+    "slug": "inec-displays-tinubu-and-shettimas-credentials-for-public-scrutiny",
+    "category": "World",
+    "headline": "INEC Displays Tinubu and Shettima’s Credentials for Public Scrutiny",
+    "dek": "Electoral commission publishes Form EC9 detailing academic records and personal particulars of the APC presidential candidate and running mate in compliance with the Electoral Act.",
+    "author": "亗BLAK",
+    "date": "Aug 3",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt_PFElnedR4hSmxSwAk_XOTMf_vVeRwayY0cwqHD5f8wezvd19WbMJOY&s=10",
+    "body": [
+      "The Independent National Electoral Commission (INEC) has officially commenced the public display of personal particulars and academic credentials submitted by President Bola Tinubu and Vice President Kashim Shettima ahead of the 2027 general elections.",
+      "​The statutory exercise, which opened across INEC offices nationwide and on its online portal, fulfills requirements under Section 29(3) of the Electoral Act, mandate the commission to publish candidate details within 21 days of receipt for public verification.",
+      "​Form EC9 records made available by the commission highlight President Tinubu’s qualifications, including his Bachelor of Science degree in Business Administration from Chicago State University in the United States, awarded with honors on June 22, 1979.",
+      "​The documents also contain details of his National Youth Service Corps (NYSC) participation, confirming he served in Oyo State between December 1982 and November 1983.",
+      "​Similarly displayed were the personal particulars and academic records of Vice President Kashim Shettima as the official running mate sponsored by the All Progressives Congress (APC) for the upcoming executive race.",
+      "​INEC urged members of the public, political parties, and civil society organizations to inspect the published particulars and submit any legitimate legal challenges or petitions regarding the claims made by candidates before the statutory deadline closes."
+    ],
+    "tags": [
+      "World"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "industrial-growth-demands-more-than-macro-reforms-says-cfg-advisory",
+    "category": "Technology",
+    "headline": "Industrial Growth Demands More Than Macro Reforms, Says CFG Advisory",
+    "dek": "CFG Advisory CEO Tilewa Adebajo warns that exchange rate unification and macroeconomic adjustments are merely a foundation, urging a coordinated industrial policy to lower financing costs and spur 8–10% annual GDP growth.",
+    "author": "亗BLAK",
+    "date": "Aug 3",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEAVm4hnSiG84H3p6Ceayh-iG3XzJmRide5kwdi1KeGSIWNW-g2_1Nah4&s=10",
+    "body": [
+      "Nigeria urgently requires a coordinated national industrial growth strategy beyond basic macroeconomic reforms to unlock real investment in manufacturing and accelerate broad-based economic expansion.",
+      "Speaking in an interview on CNBC Africa, the Chief Executive Officer of CFG Advisory, Tilewa Adebajo, emphasized that foundational reforms such as exchange rate liberalization and subsidy removal are starting points rather than ultimate policy destinations.",
+      "Adebajo argued that Nigeria's current annual economic growth rate of around 4 per cent remains insufficient for its expanding population, asserting that the country must achieve sustained annual GDP expansion of 8 to 10 per cent to significantly boost productivity, create jobs, and restore household purchasing power.",
+      "Highlighting persistent structural bottlenecks, the advisory boss noted that domestic manufacturers remain heavily constrained by prohibitive commercial lending rates reaching up to 35 per cent, high energy costs, inadequate transport logistics, and high debt-service obligations that crowd out private sector credit.",
+      "\"Reforms alone are not the magic bullet; we need growth strategies that remove the structural impediments limiting productivity and investment,\" Adebajo stated, calling for strict fiscal discipline to complement monetary and trade policies.",
+      "To build sustainable industrial capacity, CFG Advisory urged federal authorities to develop a bankable pipeline of large-scale infrastructure projects—spanning power generation, transport logistics, agro-processing, and targeted industrial clusters—beyond mega-projects like the Dangote Refinery and NLNG Train 7."
+    ],
+    "tags": [
+      "World",
+      "Business",
+      "Technology"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "six-soldiers-killed-father-and-sons-burnt-alive-as-bandits-attack-communities",
+    "category": "World",
+    "headline": "Six Soldiers Killed, Father and Sons Burnt Alive as Bandits Attack Communities Across Zamfara and Sokoto",
+    "dek": "Heavily armed bandits launch coordinated strikes across border communities, ambushing a military patrol team and setting homes ablaze in a fresh wave of violence across the Northwest.",
+    "author": "亗BLAK",
+    "date": "Aug 3",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0EO6koAufUM5-mKlFotNblmTLXXaMWzsg1o9nyCFvD4xgD3OTa4Zd3Jw&s=10",
+    "body": [
+      "Six soldiers were killed and a father alongside his two sons were burnt alive in their residence following violent attacks by armed bandits across agrarian communities in Zamfara and Sokoto states.",
+      "​The coordinated attacks targeted farming settlements and security outposts along the volatile border corridors linking both states, where armed groups have intensified raids despite ongoing tactical operations by military forces.",
+      "​In Zamfara, security sources confirmed that an army patrol convoy ran into a sophisticated ambush laid by dozens of armed bandits, triggering an intense firefight that led to the death of six military personnel.",
+      "​Concurrently, during a raid on a nearby rural community, the attackers set residential structures on fire, trapping a local resident and his two sons inside their family home, where all three victims burned to death before help could arrive.",
+      "​Local community leaders reported that several other villagers sustained gunshot injuries while attempting to escape into nearby bushes, with an unconfirmed number of livestock rustled during the raid.",
+      "​Reinforcement troops from the joint tactical task force have been deployed to the affected axes in Sokoto and Zamfara to track down the fleeing assailants, restore stability, and secure vulnerable border communities."
+    ],
+    "tags": [
+      "World"
+    ],
+    "brief": true
+  },
+  {
+    "slug": "n10trn-investments-in-13-years-fail-to-lift-power-supply-as-fg-begins-sector-reset",
+    "category": "World",
+    "headline": "N10trn Investments in 13 Years Fail to Lift Power Supply as FG Begins Sector Reset",
+    "dek": "Financial analysis reveals over ₦10 trillion in public interventions and loans has been trapped or frittered away since the 2013 power privatization, leaving grid output stagnant at an average of 4,500 megawatts.",
+    "author": "亗BLAK",
+    "date": "Aug 3",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ZFI1YHoDXTki26eEEQ6-hoBJ1Vlnq4AOnKP7CgmzJTMXUjKBkKZHiCw&s=10",
+    "body": [
+      "Over ₦10 trillion in public funding, intervention facilities, multilateral loans, and debt settlement schemes injected into Nigeria’s power sector over the past 13 years has failed to produce a meaningful increase in electricity supply.",
+      "Analysis of post-privatization spending since November 2013 reveals a pattern of sustained stagnation, with nationwide electricity generation hovering at an average of 4,500 megawatts falling drastically short of the 20,000 MW target and the estimated 30,000 MW required to power the national economy.",
+      "Despite heavy federal bailouts and tariff shortfalls absorbed by the government, persistent structural bottlenecks, equipment obsolescence, and gas supply constraints continue to trigger frequent grid collapses and leave millions of households and businesses without reliable power.",
+      "Responding to the findings, the Minister of Power, Joseph Tegbe, acknowledged that the sector has been hampered by long-standing structural deficiencies spanning over four decades, promising a comprehensive operational reset rather than short-term fixes.",
+      "Tegbe outlined immediate reform priorities, including a full technical audit of the national transmission network, harmonisation of federal and state electricity regulations, a dedicated grid stabilization program, and measures to address sector liquidity without immediate tariff hikes.",
+      "The Ministry of Power projected that the ongoing structural overhaul—working alongside the Transmission Company of Nigeria (TCN) and state regulators—will yield a resilient grid, lower technical losses, and expanded generation capacity within the next two to three years."
+    ],
+    "tags": [
+      "World",
+      "Technology"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "northern-christians-atiku-senator-shehu-sani-rally-behind-catholic-bishops-following-presidency-backlash",
+    "category": "World",
+    "headline": "Northern Christians, Atiku, Senator Shehu Sani Rally Behind Catholic Bishops Following Presidency Backlash",
+    "dek": "Key opposition figures and religious groups reject presidential aide Daniel Bwala's claims of political bias, defending Cardinal John Onaiyekan and the Catholic Bishops Conference for speaking truth to power.",
+    "author": "亗BLAK",
+    "date": "Aug 3",
+    "image": "https://cdn.vanguardngr.com/wp-content/uploads/2026/08/Tinubu-Onaiyekan.jpg?auto_optimize=low&width=600",
+    "body": [
+      "Prominent political figures, including former Vice President Atiku Abubakar and Senator Shehu Sani, along with the Northern Christian Association (NCA), have united in defense of the Catholic Bishops Conference of Nigeria (CBCN) following verbal attacks from the presidency.",
+      "​The controversy erupted after Archbishop Emeritus of Abuja, John Cardinal Onaiyekan, disclosed in a broadcast interview that Catholic bishops had frankly informed President Bola Tinubu during an Aso Rock meeting about the severe economic hardship confronting ordinary Nigerians.",
+      "​Onaiyekan further cautioned that the President appeared isolated from ground realities and expressed concerns over early political maneuvering toward the 2027 general elections.",
+      "​In response, Special Adviser to the President on Policy Communication, Daniel Bwala, dismissed Onaiyekan’s commentary as politically motivated, arguing that the cardinal spoke solely for Catholics rather than the broader Christian body and described him as \"more political than spiritual\".",
+      "​Atiku Abubakar strongly condemned the presidency’s reaction, demanding an immediate and unreserved apology to Cardinal Onaiyekan and the Catholic Church, while praising the clergy’s historical role as an unwavering moral compass for the oppressed.",
+      "​Echoing those sentiments, Senator Shehu Sani and the Northern Christian Association rejected allegations of partisanship, \nemphasizing that Catholic bishops have consistently challenged successive administrations on governance, social justice, and national welfare regardless of who holds power."
+    ],
+    "tags": [
+      "World"
+    ],
+    "desk": true
+  },
+  {
     "slug": "ef-moon-teams-up-with-ayo-maff-for-soulful-street-anthem-life-is-slo-ii",
     "category": "Music",
     "headline": "EF Moon Teams Up With Ayo Maff for Soulful Street Anthem ‘Life is Slo II’",
@@ -75,27 +244,6 @@ const ARTICLES = [
     ]
   },
   {
-    "slug": "fbi-and-efcc-joint-operations-target-nigerian-sextortion-syndicates-preying-on-us-teenagers",
-    "category": "World",
-    "headline": "FBI and EFCC Joint Operations Target Nigerian Sextortion Syndicates Preying on U.S. Teenagers",
-    "dek": "Federal investigators escalate crackdown on cross-border cyber-extortion rings in Lagos following a sharp rise in financially motivated targeting of minors across the United States.",
-    "author": "亗BLAK",
-    "date": "Jul 30",
-    "image": "https://thewhistler.ng/wp-content/uploads/2024/10/FBI-and-EFCC.jpg",
-    "body": [
-      "Federal investigators from the FBI, working in close coordination with Nigeria's Economic and Financial Crimes Commission (EFCC), have intensified direct confrontations and raids targeting cyber-extortion networks across major urban centers.",
-      "The joint enforcement initiative, known as Operation Artemis, focuses on dismantling financially motivated sextortion rings that lure teenage boys on platforms like Instagram and Snapchat into sending explicit photos before demanding money under threat of exposure.",
-      "Law enforcement officials report that perpetrators often operate using compromised accounts and deceptive female personas, conducting rapid background research on victims to maximize leverage through coercion and harassment.",
-      "The surge in international operations follows severe tragic outcomes in the U.S., where dozens of minors succumbed to psychological distress caused by relentless blackmail demands before authorities tracked the digital paper trails back to West Africa.",
-      "Recent legal actions have resulted in multiple extraditions and convictions in U.S. federal courts, signaling a historic shift toward prosecuting overseas perpetrators who previously operated with perceived impunity.",
-      "Both American and Nigerian security agencies emphasize that continued technical cooperation and public awareness campaigns remain crucial to disrupting these global syndicates and protecting vulnerable youth online."
-    ],
-    "tags": [
-      "World",
-      "Business"
-    ]
-  },
-  {
     "slug": "bnxn-and-asake-join-forces-for-euphoric-new-afrobeats-single-eja-meja",
     "category": "Music",
     "headline": "BNXN and Asake Join Forces for Euphoric New Afrobeats Single ‘Eja Meja’",
@@ -122,6 +270,27 @@ const ARTICLES = [
     "tags": [
       "Music",
       "Trending"
+    ]
+  },
+  {
+    "slug": "fbi-and-efcc-joint-operations-target-nigerian-sextortion-syndicates-preying-on-us-teenagers",
+    "category": "World",
+    "headline": "FBI and EFCC Joint Operations Target Nigerian Sextortion Syndicates Preying on U.S. Teenagers",
+    "dek": "Federal investigators escalate crackdown on cross-border cyber-extortion rings in Lagos following a sharp rise in financially motivated targeting of minors across the United States.",
+    "author": "亗BLAK",
+    "date": "Jul 30",
+    "image": "https://thewhistler.ng/wp-content/uploads/2024/10/FBI-and-EFCC.jpg",
+    "body": [
+      "Federal investigators from the FBI, working in close coordination with Nigeria's Economic and Financial Crimes Commission (EFCC), have intensified direct confrontations and raids targeting cyber-extortion networks across major urban centers.",
+      "The joint enforcement initiative, known as Operation Artemis, focuses on dismantling financially motivated sextortion rings that lure teenage boys on platforms like Instagram and Snapchat into sending explicit photos before demanding money under threat of exposure.",
+      "Law enforcement officials report that perpetrators often operate using compromised accounts and deceptive female personas, conducting rapid background research on victims to maximize leverage through coercion and harassment.",
+      "The surge in international operations follows severe tragic outcomes in the U.S., where dozens of minors succumbed to psychological distress caused by relentless blackmail demands before authorities tracked the digital paper trails back to West Africa.",
+      "Recent legal actions have resulted in multiple extraditions and convictions in U.S. federal courts, signaling a historic shift toward prosecuting overseas perpetrators who previously operated with perceived impunity.",
+      "Both American and Nigerian security agencies emphasize that continued technical cooperation and public awareness campaigns remain crucial to disrupting these global syndicates and protecting vulnerable youth online."
+    ],
+    "tags": [
+      "World",
+      "Business"
     ]
   },
   {
@@ -685,15 +854,23 @@ const ARTICLES = [
   {
     "slug": "new-tunnel-link-cuts-cross-border-commute-by-twenty-minutes",
     "category": "World",
-    "headline": "New Tunnel Link Cuts Cross-Border Commute by Twenty Minutes",
-    "dek": "",
+    "headline": "Commonwealth Games: Nigeria Finishes 7th With 24 Medals, Emerges Africa’s Best",
+    "dek": "Team Nigeria closes out a landmark campaign at the Glasgow 2026 Commonwealth Games, securing 10 gold, seven silver, and seven bronze medals to lead all African contingents on the final standings.",
     "author": "亗BLAK",
     "date": "Jul 4",
-    "image": "https://picsum.photos/seed/new-tunnel-link-cuts-cross-border-commute-by-twenty-minutes/900/500",
-    "brief": true,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuuUDEfCPj2odBbxCt6vK_l3T2vW20EWDWWa-jNaPhAVI9Scqs0r-i6aua&s=10",
     "body": [
-      "The long-delayed rail tunnel opened to commuter traffic this week, shaving roughly twenty minutes off the busiest cross-border route and easing pressure on the aging bridge crossing it was built to supplement."
-    ]
+      "Team Nigeria concluded an impressive campaign at the Glasgow 2026 Commonwealth Games in Scotland, finishing seventh on the overall medals table and emerging as Africa's top-performing nation.",
+      "​The Nigerian contingent accumulated a total of 24 medals—comprising 10 gold, seven silver, and seven bronze—placing ahead of continental rivals South Africa (11th) and Kenya (13th). Australia topped the global standings with 171 medals, followed by England, Canada, India, Scotland, and New Zealand.",
+      "​Esther Nworgu set the tone early for Team Nigeria by capturing the country's first gold medal in the women’s lightweight para-powerlifting event. Para-athlete Goodness Nwachukwu also delivered a standout performance, shattering her own world record to claim gold in the women’s F42 discus throw.",
+      "​On the track and field, Samuel Ogazi made history by winning the men’s 400 meters in 44.25 seconds—becoming the first Nigerian to claim Commonwealth gold in the event. Ezekiel Nathaniel echoed the feat by securing Nigeria’s first-ever Commonwealth title in the men’s 400m hurdles, while Chukwuebuka Enekwechi took gold in the men’s shot put.",
+      "​Further medal successes included silver finishes for Ruth Usoro in the women’s long jump and Udodi Onwuzurike in the men’s 200m. Bronze medals were added by world record holder Tobi Amusan in the 100m hurdles, Ella Onojuvwevwo in the women’s 400m, and the men’s 4x100m and mixed 4x400m relay teams.",
+      "​Sports officials and athletes lauded Team Nigeria's performance in Glasgow as one of the nation's most memorable Commonwealth outings in recent history, cementing momentum ahead of upcoming global track and field championships."
+    ],
+    "tags": [
+      "World"
+    ],
+    "brief": true
   },
   {
     "slug": "revival-of-a-forgotten-1958-play-becomes-the-ticket-of-the-season",
