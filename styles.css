@@ -584,6 +584,7 @@ a.breaking-item:hover {
   }
   .four-col-grid .card {
     max-height: 320px;
+    overflow: visible;
   }
   .two-col-grid .card .byline,
   .category-list .card .byline {

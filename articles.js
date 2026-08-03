@@ -1,7 +1,7 @@
 const ARTICLES = [
   {
     "slug": "osun-election-group-raises-alarm-over-alleged-police-and-traditional-rulers-partisanship",
-    "category": "World",
+    "category": "News",
     "headline": "Osun Election: Group Raises Alarm Over Alleged Police and Traditional Rulers’ Partisanship",
     "dek": "Stakeholders and coalition groups express deep concern over institutional bias, urging security agencies and royal fathers to maintain strict neutrality ahead of the August 15 governorship poll.",
     "author": "亗BLAK",
@@ -22,7 +22,7 @@ const ARTICLES = [
   },
   {
     "slug": "fire-outbreak-at-lagos-airport-terminal-extinguished-with-zero-casualties-faan-confirms",
-    "category": "World",
+    "category": "News",
     "headline": "Fire Outbreak at Lagos Airport Terminal Extinguished With Zero Casualties, FAAN Confirms",
     "dek": "Emergency response teams respond swiftly after smoke triggers alarm at Murtala Muhammed International Airport, restoring normal flight operations without injuries.",
     "author": "亗BLAK",
@@ -42,7 +42,7 @@ const ARTICLES = [
   },
   {
     "slug": "pay-us-now-or-face-our-wrath-civil-servants-issue-direct-ultimatum-to-finance-minister",
-    "category": "World",
+    "category": "News",
     "headline": "Pay Us Now or Face Our Wrath: Civil Servants Issue Direct Ultimatum to Finance Minister",
     "dek": "Federal workers under the Association of Senior Civil Servants of Nigeria threaten nationwide industrial action over months of unpaid wage awards, promotion arrears, and pending allowance disbursements",
     "author": "亗BLAK",
@@ -62,7 +62,7 @@ const ARTICLES = [
   },
   {
     "slug": "inec-displays-tinubu-and-shettimas-credentials-for-public-scrutiny",
-    "category": "World",
+    "category": "News",
     "headline": "INEC Displays Tinubu and Shettima’s Credentials for Public Scrutiny",
     "dek": "Electoral commission publishes Form EC9 detailing academic records and personal particulars of the APC presidential candidate and running mate in compliance with the Electoral Act.",
     "author": "亗BLAK",
@@ -106,7 +106,7 @@ const ARTICLES = [
   },
   {
     "slug": "six-soldiers-killed-father-and-sons-burnt-alive-as-bandits-attack-communities",
-    "category": "World",
+    "category": "News",
     "headline": "Six Soldiers Killed, Father and Sons Burnt Alive as Bandits Attack Communities Across Zamfara and Sokoto",
     "dek": "Heavily armed bandits launch coordinated strikes across border communities, ambushing a military patrol team and setting homes ablaze in a fresh wave of violence across the Northwest.",
     "author": "亗BLAK",
@@ -127,7 +127,7 @@ const ARTICLES = [
   },
   {
     "slug": "n10trn-investments-in-13-years-fail-to-lift-power-supply-as-fg-begins-sector-reset",
-    "category": "World",
+    "category": "News",
     "headline": "N10trn Investments in 13 Years Fail to Lift Power Supply as FG Begins Sector Reset",
     "dek": "Financial analysis reveals over ₦10 trillion in public interventions and loans has been trapped or frittered away since the 2013 power privatization, leaving grid output stagnant at an average of 4,500 megawatts.",
     "author": "亗BLAK",
@@ -149,7 +149,7 @@ const ARTICLES = [
   },
   {
     "slug": "northern-christians-atiku-senator-shehu-sani-rally-behind-catholic-bishops-following-presidency-backlash",
-    "category": "World",
+    "category": "News",
     "headline": "Northern Christians, Atiku, Senator Shehu Sani Rally Behind Catholic Bishops Following Presidency Backlash",
     "dek": "Key opposition figures and religious groups reject presidential aide Daniel Bwala's claims of political bias, defending Cardinal John Onaiyekan and the Catholic Bishops Conference for speaking truth to power.",
     "author": "亗BLAK",
@@ -274,7 +274,7 @@ const ARTICLES = [
   },
   {
     "slug": "fbi-and-efcc-joint-operations-target-nigerian-sextortion-syndicates-preying-on-us-teenagers",
-    "category": "World",
+    "category": "News",
     "headline": "FBI and EFCC Joint Operations Target Nigerian Sextortion Syndicates Preying on U.S. Teenagers",
     "dek": "Federal investigators escalate crackdown on cross-border cyber-extortion rings in Lagos following a sharp rise in financially motivated targeting of minors across the United States.",
     "author": "亗BLAK",
@@ -295,7 +295,7 @@ const ARTICLES = [
   },
   {
     "slug": "femi-otedola-expands-first-holdco-control-with-massive-2222-billion-share-acquisition",
-    "category": "World",
+    "category": "News",
     "headline": "Femi Otedola Expands First HoldCo Control with Massive ₦222.2 Billion Share Acquisition",
     "dek": "Billionaire businessman and First HoldCo chairman Femi Otedola acquires 1.78 billion additional ordinary shares, elevating his total equity stake to 25.87% and inching closer to the mandatory takeover threshold.",
     "author": "亗BLAK",
@@ -334,7 +334,7 @@ const ARTICLES = [
   },
   {
     "slug": "joint-security-operation-kills-three-bandits-rescues-nine-kidnap-victims-in-kwara-state",
-    "category": "World",
+    "category": "News",
     "headline": "Joint Security Operation Kills Three Bandits, Rescues Nine Kidnap Victims in Kwara State",
     "dek": "Operatives of the DSS, Kwara State Forest Guards, and local vigilantes intercept an armed gang along the border axis, neutralizing three criminal elements in a heavy exchange of gunfire.",
     "author": "亗BLAK",
@@ -352,7 +352,7 @@ const ARTICLES = [
   },
   {
     "slug": "manufacturers-violating-ban-on-sachet-alcohol-face-immediate-factory-shutdowns-and-prosecution-nafdac-dg",
-    "category": "World",
+    "category": "News",
     "headline": "Manufacturers Violating Ban on Sachet Alcohol Face Immediate Factory Shutdowns and Prosecution — NAFDAC DG",
     "dek": "NAFDAC Director-General Prof. Mojisola Adeyeye warns defiant producers, distributors, and retailers of severe legal consequences after nationwide enforcement uncovers secret factories and fresh production lines.",
     "author": "亗BLAK",
@@ -393,7 +393,7 @@ const ARTICLES = [
   },
   {
     "slug": "nigeria-accounts-for-105-of-africas-cancer-burden-targets-30-reduction-by-2030-shettima",
-    "category": "World",
+    "category": "News",
     "headline": "Nigeria Accounts for 10.5% of Africa’s Cancer Burden, Targets 30% Reduction by 2030 - Shettima",
     "dek": "Vice President Kashim Shettima unveils the National Cancer Control Plan 2026–2030 at the African Primary Health Care Forum, committing to curb rising cancer cases and leverage technology for early detection.",
     "author": "亗BLAK",
@@ -415,7 +415,7 @@ const ARTICLES = [
   },
   {
     "slug": "nigeria-canada-advance-direct-flight-negotiations-as-keyamo-meets-canadian-envoy",
-    "category": "World",
+    "category": "News",
     "headline": "Nigeria, Canada Advance Direct Flight Negotiations as Keyamo Meets Canadian Envoy",
     "dek": "Minister Festus Keyamo and Canadian Chargé d'Affaires David Sproule push for a bilateral Air Services Agreement, with both sides set for formal negotiations on August 6.",
     "author": "亗BLAK",
@@ -437,7 +437,7 @@ const ARTICLES = [
   },
   {
     "slug": "osun-governorship-poll-police-nab-ssg-teslim-igbalaye-and-5-others-over-alleged-vote-buying-scheme",
-    "category": "World",
+    "category": "News",
     "headline": "Osun Governorship Poll: Police Nab SSG Teslim Igbalaye and 5 Others Over Alleged Vote-Buying Scheme",
     "dek": "Police operatives raid the Osogbo residence of Osun SSG Teslim Igbalaye, recovering ₦4.8 million in cash, voter registers, and electoral equipment ahead of the August 15 governorship election.",
     "author": "亗BLAK",
@@ -458,7 +458,7 @@ const ARTICLES = [
   },
   {
     "slug": "singapore-based-hilleman-laboratories-secures-85m-cepi-funding-to-produce-most-promising-ebola-vaccine-candidate",
-    "category": "World",
+    "category": "News",
     "headline": "Singapore Based Hilleman Laboratories Secures $8.5M CEPI Funding to Produce 'Most Promising' Ebola Vaccine Candidate",
     "dek": "Coalition for Epidemic Preparedness Innovations (CEPI) partners with Hilleman Laboratories to advance manufacturing of a single-dose vaccine targeting the Bundibugyo Ebola outbreak in the Democratic Republic of Congo.",
     "author": "亗BLAK",
@@ -494,7 +494,7 @@ const ARTICLES = [
   },
   {
     "slug": "well-marry-the-beautiful-ones-kill-the-rest-terrorists-issue-chilling-ultimatum-over-176-woro-captives",
-    "category": "World",
+    "category": "News",
     "headline": "We’ll Marry the Beautiful Ones, Kill the Rest' Terrorists Issue Chilling Ultimatum Over 176 Woro Captives",
     "dek": "A extremist faction holding 176 abductees from Woro, Kwara State releases a terrifying propaganda video threatening mass executions and forced marriages unless demands are met",
     "author": "亗BLAK",
@@ -609,7 +609,7 @@ const ARTICLES = [
   },
   {
     "slug": "election-must-be-won-at-ballot-not-in-court-atiku-declares-on-2027-elections-",
-    "category": "World",
+    "category": "News",
     "headline": "Election Must Be Won at Ballot, Not in Court — Atiku Declares on 2027 Elections",
     "dek": "Former Vice President Atiku Abubakar reacts to the Court of Appeal ruling that restored the African Democratic Congress, insisting political contests must be decided by voters rather than legal maneuvering.",
     "author": "亗BLAK",
@@ -627,7 +627,7 @@ const ARTICLES = [
   },
   {
     "slug": "court-of-appeal-nullifies-order-deregistering-adc-and-four-other-opposition-parties",
-    "category": "World",
+    "category": "News",
     "headline": "Court of Appeal Nullifies Order Deregistering ADC and Four Other Opposition Parties",
     "dek": "The Court of Appeal in Abuja declares the Federal High Court order directing INEC to deregister the African Democratic Congress and four other political parties a complete nullity.",
     "author": "亗BLAK",
@@ -645,7 +645,7 @@ const ARTICLES = [
   },
   {
     "slug": "tylas-lagos-concert-announcement-triggers-heated-debate-among-nigerians-over-boycott-calls",
-    "category": "World",
+    "category": "News",
     "headline": "Tyla’s Lagos Concert Announcement Triggers Heated Debate Among Nigerians Over Boycott Calls",
     "dek": "Announcement of South African singer Tyla's December performance in Lagos sparks sharp division online, with critics linking the event to recent reports of xenophobic violence against Nigerians in South Africa.",
     "author": "亗BLAK",
@@ -681,7 +681,7 @@ const ARTICLES = [
   },
   {
     "slug": "fg-calls-on-south-africa-to-take-urgent-concrete-action-over-persistent-xenophobic-attacks",
-    "category": "World",
+    "category": "News",
     "headline": "FG Calls on South Africa to Take Urgent 'Concrete' Action Over Persistent Xenophobic Attacks",
     "dek": "The Federal Government demands immediate safeguards and prosecution of perpetrators in Pretoria, revealing that 98 Nigerians have died in anti-immigrant violence since 2022.",
     "author": "亗BLAK",
@@ -703,7 +703,7 @@ const ARTICLES = [
   },
   {
     "slug": "powerful-71-magnitude-earthquake-hits-southern-japan-causing-infrastructure-collapse-and-widespread-outages",
-    "category": "World",
+    "category": "News",
     "headline": "Powerful 7.1 Magnitude Earthquake Hits Southern Japan, Causing Infrastructure Collapse and Widespread Outages",
     "dek": "A shallow 7.1-magnitude quake in Kumamoto Prefecture triggers building collapses, fires, bullet train suspensions, and power outages as emergency responders rush to affected regions.",
     "author": "亗BLAK",
@@ -721,7 +721,7 @@ const ARTICLES = [
   },
   {
     "slug": "enraged-market-traders-confront-suspected-fraudster-over-fake-bank-transfer-scheme-in-lagos",
-    "category": "World",
+    "category": "News",
     "headline": "Enraged Market Traders Confront Suspected Fraudster Over Fake Bank Transfer Scheme in Lagos",
     "dek": "Angry market vendors and Point of Sale operators apprehend a female suspect in Lagos after she allegedly attempted to defraud small business owners using fake debit alerts.",
     "author": "亗BLAK",
@@ -757,7 +757,7 @@ const ARTICLES = [
   },
   {
     "slug": "viral-marriage-unmasked-nigerian-influencer-gehgeh-confirms-secret-wedding-was-publicity-stunt-for-upcoming-film",
-    "category": "World",
+    "category": "News",
     "headline": "Viral 'Marriage' Unmasked: Nigerian Influencer GehGeh Confirms Secret Wedding Was Publicity Stunt for Upcoming Film",
     "dek": "Social media personality GehGeh confirms viral wedding photos and videos were part of a publicity stunt for an upcoming Nollywood film, putting rumors of his unexpected marriage to rest.",
     "author": "亗BLAK",
@@ -778,7 +778,7 @@ const ARTICLES = [
   },
   {
     "slug": "image of masquerade",
-    "category": "World",
+    "category": "News",
     "headline": "Olubadan Issued Guidelines and Strict Directives for Women as Annual Oloolu Masquerade Festival Begins",
     "dek": "Oba Rashidi Ladoja urges women in Ibadan to stay indoors and prohibits residents from taking photos or videos as the sacred Oloolu masquerade procession commences Monday.",
     "author": "亗BLAK",
@@ -835,7 +835,7 @@ const ARTICLES = [
   },
   {
     "slug": "river-basin-farmers-face-first-water-rationing-in-a-decade",
-    "category": "World",
+    "category": "News",
     "headline": "Severe Drought Triggers First River Basin Water Rationing Measures in Over a Decade",
     "dek": "Regional water authorities implement mandatory curtailments for commercial agricultural producers following prolonged high temperatures and depleted reservoir levels across major agrarian river basins.",
     "author": "亗BLAK",
@@ -853,7 +853,7 @@ const ARTICLES = [
   },
   {
     "slug": "new-tunnel-link-cuts-cross-border-commute-by-twenty-minutes",
-    "category": "World",
+    "category": "News",
     "headline": "Commonwealth Games: Nigeria Finishes 7th With 24 Medals, Emerges Africa’s Best",
     "dek": "Team Nigeria closes out a landmark campaign at the Glasgow 2026 Commonwealth Games, securing 10 gold, seven silver, and seven bronze medals to lead all African contingents on the final standings.",
     "author": "亗BLAK",
@@ -874,7 +874,7 @@ const ARTICLES = [
   },
   {
     "slug": "revival-of-a-forgotten-1958-play-becomes-the-ticket-of-the-season",
-    "category": "World",
+    "category": "News",
     "headline": "Resurrected Masterpiece: Forgotten 1958 Classic Stages Triumphant Return as Season’s Hottest Ticket",
     "dek": "Decades after its quiet debut, a newly rediscovered 1958 theatrical masterpiece takes center stage, captivating critics and audience members to become the year's undisputed hot-ticket revival.",
     "author": "亗BLAK",
@@ -938,7 +938,7 @@ const ARTICLES = [
   },
   {
     "slug": "coastal-city-completes-decade-long-seawall-project",
-    "category": "World",
+    "category": "News",
     "headline": "Coastal City Completes Decade-Long Seawall Project",
     "dek": "Officials say the barrier should protect the harbor district through at least the next major storm cycle.",
     "author": "亗BLAK",
@@ -952,7 +952,7 @@ const ARTICLES = [
   },
   {
     "slug": "museum-reopens-after-two-year-renovation",
-    "category": "World",
+    "category": "News",
     "headline": "City Museum Reopens After Two-Year Renovation",
     "dek": "The expanded wing adds gallery space for a rotating collection of regional art.",
     "author": "亗BLAK",
@@ -1012,7 +1012,7 @@ const ARTICLES = [
   },
   {
     "slug": "trade-delegation-concludes-week-long-talks",
-    "category": "World",
+    "category": "News",
     "headline": "Trade Delegation Concludes Week-Long Talks",
     "dek": "Negotiators say a framework agreement could be finalized before the end of the year.",
     "author": "亗BLAK",
