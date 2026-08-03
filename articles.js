@@ -1,5 +1,27 @@
 const ARTICLES = [
   {
+    "slug": "commonwealth-games-nigeria-finishes-7th-with-24-medals-emerges-africas-best",
+    "category": "News",
+    "headline": "Commonwealth Games: Nigeria Finishes 7th With 24 Medals, Emerges Africa’s Best",
+    "dek": "Team Nigeria closes out a landmark campaign at the Glasgow 2026 Commonwealth Games, securing 10 gold, seven silver, and seven bronze medals to lead all African contingents on the final standings.",
+    "author": "亗BLAK",
+    "date": "Aug 3",
+    "image": "https://www.channelstv.com/wp-content/uploads/2026/08/Team-Nigeria-Commonwealth-Games-2026.jpg",
+    "body": [
+      "Team Nigeria concluded an impressive campaign at the Glasgow 2026 Commonwealth Games in Scotland, finishing seventh on the overall medals table and emerging as Africa's top-performing nation.",
+      "The Nigerian contingent accumulated a total of 24 medals—comprising 10 gold, seven silver, and seven bronze—placing ahead of continental rivals South Africa (11th) and Kenya (13th). Australia topped the global standings with 171 medals, followed by England, Canada, India, Scotland, and New Zealand.",
+      "Esther Nworgu set the tone early for Team Nigeria by capturing the country's first gold medal in the women’s lightweight para-powerlifting event. Para-athlete Goodness Nwachukwu also delivered a standout performance, shattering her own world record to claim gold in the women’s F42 discus throw.",
+      "On the track and field, Samuel Ogazi made history by winning the men’s 400 meters in 44.25 seconds—becoming the first Nigerian to claim Commonwealth gold in the event. Ezekiel Nathaniel echoed the feat by securing Nigeria’s first-ever Commonwealth title in the men’s 400m hurdles, while Chukwuebuka Enekwechi took gold in the men’s shot put.",
+      "Further medal successes included silver finishes for Ruth Usoro in the women’s long jump and Udodi Onwuzurike in the men’s 200m. Bronze medals were added by world record holder Tobi Amusan in the 100m hurdles, Ella Onojuvwevwo in the women’s 400m, and the men’s 4x100m and mixed 4x400m relay teams.",
+      "Sports officials and athletes lauded Team Nigeria's performance in Glasgow as one of the nation's most memorable Commonwealth outings in recent history, cementing momentum ahead of upcoming global track and field championships."
+    ],
+    "tags": [
+      "News",
+      "Sports"
+    ],
+    "brief": true
+  },
+  {
     "slug": "osun-election-group-raises-alarm-over-alleged-police-and-traditional-rulers-partisanship",
     "category": "News",
     "headline": "Osun Election: Group Raises Alarm Over Alleged Police and Traditional Rulers’ Partisanship",
@@ -16,7 +38,8 @@ const ARTICLES = [
       "The Independent National Electoral Commission (INEC) and domestic election observers have reiterated that institutional integrity and security non-partisanship remain crucial to ensuring a free, fair, and credible election in Osun State."
     ],
     "tags": [
-      "World"
+      "News",
+      "Politics"
     ],
     "brief": true
   },
@@ -37,7 +60,7 @@ const ARTICLES = [
       "FAAN assured passengers, airlines, and the general public that flight processing and terminal operations have resumed, reiterating its commitment to maintaining strict safety standards across all international gateways."
     ],
     "tags": [
-      "World"
+      "News"
     ]
   },
   {
@@ -57,7 +80,8 @@ const ARTICLES = [
       "The union urged federal authorities to disburse all trapped funds immediately to prevent prolonged operational disruptions across critical public institutions and government secretariats"
     ],
     "tags": [
-      "World"
+      "News",
+      "Politics"
     ]
   },
   {
@@ -77,7 +101,8 @@ const ARTICLES = [
       "​INEC urged members of the public, political parties, and civil society organizations to inspect the published particulars and submit any legitimate legal challenges or petitions regarding the claims made by candidates before the statutory deadline closes."
     ],
     "tags": [
-      "World"
+      "News",
+      "Politics"
     ],
     "desk": true
   },
@@ -98,7 +123,7 @@ const ARTICLES = [
       "To build sustainable industrial capacity, CFG Advisory urged federal authorities to develop a bankable pipeline of large-scale infrastructure projects—spanning power generation, transport logistics, agro-processing, and targeted industrial clusters—beyond mega-projects like the Dangote Refinery and NLNG Train 7."
     ],
     "tags": [
-      "World",
+      "News",
       "Business",
       "Technology"
     ],
@@ -121,7 +146,7 @@ const ARTICLES = [
       "​Reinforcement troops from the joint tactical task force have been deployed to the affected axes in Sokoto and Zamfara to track down the fleeing assailants, restore stability, and secure vulnerable border communities."
     ],
     "tags": [
-      "World"
+      "News"
     ],
     "brief": true
   },
@@ -142,7 +167,8 @@ const ARTICLES = [
       "The Ministry of Power projected that the ongoing structural overhaul—working alongside the Transmission Company of Nigeria (TCN) and state regulators—will yield a resilient grid, lower technical losses, and expanded generation capacity within the next two to three years."
     ],
     "tags": [
-      "World",
+      "News",
+      "Business",
       "Technology"
     ],
     "desk": true
@@ -164,7 +190,8 @@ const ARTICLES = [
       "​Echoing those sentiments, Senator Shehu Sani and the Northern Christian Association rejected allegations of partisanship, \nemphasizing that Catholic bishops have consistently challenged successive administrations on governance, social justice, and national welfare regardless of who holds power."
     ],
     "tags": [
-      "World"
+      "News",
+      "Politics"
     ],
     "desk": true
   },
@@ -190,6 +217,7 @@ const ARTICLES = [
     "genre": "Afrobeats",
     "released": "2026",
     "tags": [
+      "News",
       "Music"
     ],
     "desk": true
@@ -217,6 +245,7 @@ const ARTICLES = [
     "genre": "Afrobeats",
     "released": "2026",
     "tags": [
+      "News",
       "Music",
       "Trending"
     ],
@@ -239,6 +268,7 @@ const ARTICLES = [
       "​Newcastle executives have moved swiftly to negotiate a replacement, with 38-year-old German tactician Matthias Jaissle of Saudi Pro League side Al-Ahli currently in advanced talks to take over ahead of the upcoming campaign."
     ],
     "tags": [
+      "News",
       "Sports",
       "Trending"
     ]
@@ -268,6 +298,7 @@ const ARTICLES = [
     "genre": "Afrobeats",
     "released": "July 29, 2026",
     "tags": [
+      "News",
       "Music",
       "Trending"
     ]
@@ -289,7 +320,7 @@ const ARTICLES = [
       "Both American and Nigerian security agencies emphasize that continued technical cooperation and public awareness campaigns remain crucial to disrupting these global syndicates and protecting vulnerable youth online."
     ],
     "tags": [
-      "World",
+      "News",
       "Business"
     ]
   },
@@ -310,6 +341,7 @@ const ARTICLES = [
       "​At 25.87%, Otedola’s ownership sits within striking distance of the 30% regulatory trigger under Nigeria's Securities and Exchange Commission (SEC) guidelines, which mandates a formal takeover bid to minority shareholders once reached."
     ],
     "tags": [
+      "News",
       "Business",
       "Technology"
     ]
@@ -330,6 +362,10 @@ const ARTICLES = [
       "Beyond her academic and technical research, she has been widely recognized for her active community-building efforts. She served as a Robotics outreach ambassador for three consecutive years and received the prestigious MLK Spirit Award from the College of Engineering for her dedication to mentoring and inspiring younger students.",
       "Dosunmu-Ogunbi noted that her ultimate goal is to leave a legacy of positive impact. She challenged her peers to go beyond technical innovation, urging them to become \"socially conscious\" engineers who create collaborative solutions to societal problems and promote an inclusive community for the common good."
     ],
+    "tags": [
+      "News",
+      "Technology"
+    ],
     "desk": true
   },
   {
@@ -347,6 +383,9 @@ const ARTICLES = [
       "Security forces intercepted the criminal gang as they attempted to move the captives through the forest route toward Niger State, engaging the gang in a fierce gun battle that forced the surviving attackers to flee into the bush with bullet wounds.",
       "All nine captives were safely freed during the engagement, though one victim is currently receiving medical treatment after sustaining machete wounds to the head while attempting to resist initial abduction.",
       "Local government authorities praised the swift intervention of the joint tactical team and called for enhanced operational equipment, including body armor and advanced communication tools to aid forest guards in securing vulnerable border corridors."
+    ],
+    "tags": [
+      "News"
     ],
     "desk": true
   },
@@ -368,7 +407,7 @@ const ARTICLES = [
     ],
     "youtubeVideo": "https://youtu.be/Hk6NEPKAkpw?si=82FJi-Qh2wO75UWH",
     "tags": [
-      "World",
+      "News",
       "Business"
     ],
     "desk": true
@@ -389,6 +428,10 @@ const ARTICLES = [
       "Tech experts advise affected users to manually adjust their Continuity preferences by toggling off \"Allow Calls on Other Devices\" within the iPhone Settings app under the Phone menu.",
       "While Apple provides options to restrict specific secondary devices, consumers continue to press the Cupertino company for more granular audio controls and improved cross-device signaling in upcoming software updates."
     ],
+    "tags": [
+      "News",
+      "Technology"
+    ],
     "desk": true
   },
   {
@@ -408,7 +451,7 @@ const ARTICLES = [
       "Reaffirming the administration's commitment to primary healthcare renewal, Shettima called for deeper cross-border research and financial partnerships among African nations to decentralize oncology care, enhance early detection, and lighten the strain on tertiary health institutions."
     ],
     "tags": [
-      "World",
+      "News",
       "Business"
     ],
     "desk": true
@@ -430,7 +473,7 @@ const ARTICLES = [
       "While noting that immigration matters fall under inter-ministerial purview with the Ministry of Interior, Keyamo assured full cross-agency collaboration ahead of the formal bilateral meeting set for August 6, 2026."
     ],
     "tags": [
-      "World",
+      "News",
       "Business"
     ],
     "desk": true
@@ -452,7 +495,8 @@ const ARTICLES = [
       "Police Commissioner CP Ibrahim Gotan stated that comprehensive investigations into criminal conspiracy, vote-buying, and the harboring of a wanted homicide suspect remain ongoing."
     ],
     "tags": [
-      "World"
+      "News",
+      "Politics"
     ],
     "desk": true
   },
@@ -472,6 +516,10 @@ const ARTICLES = [
       "Initial vaccine starting materials generated by the International AIDS Vaccine Initiative (IAVI) will be processed by Hilleman Laboratories into finished doses for early human clinical testing, with technical guidance provided by MSD.",
       "Unlike older formulations that require ultra-cold freezer storage, researchers aim for the new rVSV-Bundibugyo candidate to remain stable in standard refrigeration, dramatically lowering transportation costs and facilitating rapid deployment across remote outbreak regions in low- and middle-income nations."
     ],
+    "tags": [
+      "News",
+      "Technology"
+    ],
     "desk": true
   },
   {
@@ -490,6 +538,10 @@ const ARTICLES = [
       "Amusan’s commanding qualification reinforces Team Nigeria’s impressive showing on the track in Glasgow as the delegation builds on its expanding medal count across track and field events.",
       "The former world champion returns to the track for the evening final, aiming to secure another gold medal and cement her dominance on the global stage."
     ],
+    "tags": [
+      "News",
+      "Sports"
+    ],
     "desk": true
   },
   {
@@ -507,6 +559,9 @@ const ARTICLES = [
       "The broadcast has sent shockwaves across Kwara State and surrounding communities, triggering intense grief and outrage among family members who have spent months pleading for state and federal government intervention.",
       "Community leaders and civil society coalitions in Kwara have renewed urgent calls on President Bola Tinubu and security chiefs to order targeted rescue operations before the insurgents carry out their threats.",
       "State government authorities assured the public that joint military and tactical security operations under Operation Savannah Shield remain active along the forest corridors to track the insurgents' hideouts and secure the safe release of all hostages."
+    ],
+    "tags": [
+      "News"
     ],
     "desk": true
   },
@@ -527,6 +582,7 @@ const ARTICLES = [
       "While negotiations between the clubs remain in preliminary stages, the emerging domino effect in the transfer market could provide Old Trafford executives with a unique window of opportunity to complete one of the summer's most significant marquee signings."
     ],
     "tags": [
+      "News",
       "Sports",
       "Trending"
     ]
@@ -546,6 +602,10 @@ const ARTICLES = [
       "Despite the player's interest, Newcastle United remain resolute in their stance, maintaining that their club captain is integral to their long-term project and holding out for a valuation closer to £80 million before sanctioning any departure.",
       "The Magpies have already experienced significant squad turnover during the current transfer window, making the board particularly reluctant to lose another key leader without receiving an extraordinary financial package.",
       "Negotiations between both clubs are expected to intensify over the coming days as Arsenal prepare an improved proposal, hoping to find common ground with Newcastle before the squad embarks on its scheduled pre-season tour."
+    ],
+    "tags": [
+      "News",
+      "Sports"
     ]
   },
   {
@@ -564,7 +624,7 @@ const ARTICLES = [
       "​Industry analysts note that the multi-billion-dollar commitment underscores the staggering capital expenditures required to sustain the current AI wave, positioning Nvidia to maintain its market dominance as global enterprise and sovereign AI buildouts accelerate."
     ],
     "tags": [
-      "World",
+      "News",
       "Technology"
     ]
   },
@@ -584,7 +644,7 @@ const ARTICLES = [
       "​Crucial discussions scheduled in Madrid could dictate the timeline of any potential move. With renewal negotiations currently at a standstill, Los Blancos face pressure to decide whether an agreement can be reached or if they must evaluate market interest.\n​While no direct club-to-club negotiations have taken place between Arsenal and Real Madrid yet, Premier League suitors are monitoring the situation closely. Real Madrid remain reluctant to risk losing the Brazilian superstar on a free transfer next summer, leaving the door open for opportunistic bids if contract talks remain deadlocked."
     ],
     "tags": [
-      "World",
+      "News",
       "Sports",
       "Trending"
     ],
@@ -605,6 +665,10 @@ const ARTICLES = [
       "​Industry leader Transcorp Hotels Plc spearheaded the surge, generating N10.54 billion in profit after tax for the six months ended June 2026, up 21.4 percent year-on-year. Despite revenue softening slightly in international segments, strict operational expense discipline and cost controls expanded operating margins, allowing the company to cushion higher finance costs on new expansion projects.",
       "​Similarly, Ikeja Hotel Plc, which owns the flagship Sheraton Lagos Hotel, delivered a robust performance with revenue climbing 9.2 percent to N13.25 billion. Profit after tax for the company jumped by over 30 percent to hit N4.06 billion, while its liquid cash balance strengthened to N36.80 billion, highlighting unmatched liquidity in the sector.",
       "​Market analysts attribute the sustained boom to the hospitality industry’s unique pricing power compared to traditional manufacturing entities. Hotels retain the flexibility to adjust room rates dynamically on a daily basis in response to occupancy trends, enabling operators to protect profitability and pass inflationary pressure onto corporate clients without depressing core occupancy levels."
+    ],
+    "tags": [
+      "News",
+      "Business"
     ]
   },
   {
@@ -622,6 +686,10 @@ const ARTICLES = [
       "Atiku emphasized that attempts to clear opposition contenders out of the political landscape using legal technicalities undermine public trust in electoral processes and weaken democratic governance.",
       "\"As the nation advances towards the 2027 general elections, political contests must be decided by the votes of Nigerians—not by contrived lawsuits seeking to achieve in the courtroom what cannot be won at the ballot box,\" he stated.",
       "The ruling removes immediate legal hurdles facing opposition platforms, allowing political parties to shift focus toward coalition building, candidate selection, and grassroots mobilization ahead of the next electoral cycle."
+    ],
+    "tags": [
+      "News",
+      "Politics"
     ],
     "desk": true
   },
@@ -641,6 +709,10 @@ const ARTICLES = [
       "The appellate panel further reprimanded the trial court for ignoring clear evidence proving that the affected political parties had previously won elective seats across various levels of government.",
       "The justices also berated the lower court for proceeding with judgment in defiance of an existing stay-of-proceedings order, ruling that all five political parties remain duly registered and eligible to participate in upcoming electoral activities."
     ],
+    "tags": [
+      "News",
+      "Politics"
+    ],
     "desk": true
   },
   {
@@ -659,6 +731,10 @@ const ARTICLES = [
       "Conversely, another section of social media users rejected the boycott push, insisting that art and music should remain separated from geopolitics and pointing out that Nigerian artists frequently collaborate with South African musicians.",
       "Neither Tyla nor the official concert promoters have issued a statement regarding the online boycott movement, with ticket sales expected to proceed as scheduled despite the growing online friction."
     ],
+    "tags": [
+      "News",
+      "Entertainment"
+    ],
     "desk": true
   },
   {
@@ -676,6 +752,10 @@ const ARTICLES = [
       "Initial plans to name former midfielder Andrea Pirlo were abruptly shelved after partnership concerns with an external gambling entity came to light, prompting the federation to turn to Mancini's proven track record on the international stage.",
       "Alongside Mancini’s return, the FIGC confirmed a sweeping restructuring of its technical hierarchy, appointing Premier League-winning manager Claudio Ranieri as the new technical director of Club Italia.",
       "Mancini’s second tenure comes with immediate pressure as Italy aims to secure competitive stability and rebuild momentum following recent turbulence in international qualifying campaigns."
+    ],
+    "tags": [
+      "News",
+      "Sports"
     ],
     "desk": true
   },
@@ -696,8 +776,9 @@ const ARTICLES = [
       "In response, the South African delegation reaffirmed President Ramaphosa’s firm stance against xenophobia and intolerance, while maintaining that Pretoria reserves the right to address undocumented migration and cross-border crime through legal channels."
     ],
     "tags": [
-      "World",
-      "Business"
+      "News",
+      "Business",
+      "Politics"
     ],
     "desk": true
   },
@@ -717,6 +798,9 @@ const ARTICLES = [
       "Prime Minister Sanae Takaichi confirmed that emergency task forces and Self-Defense Forces personnel have been dispatched to coordinate rescue operations, prioritize life-saving efforts, and assist displaced residents.",
       "Although initial tsunami advisories issued for the Ariake and Yatsushiro seas were subsequently lifted, the Japan Meteorological Agency urged residents to remain vigilant for potential landslides and powerful aftershocks over the coming days."
     ],
+    "tags": [
+      "News"
+    ],
     "desk": true
   },
   {
@@ -735,6 +819,9 @@ const ARTICLES = [
       "​The incident highlights growing frustration among Nigerian small business owners who are increasingly targeted by fraudsters employing spoofed SMS alerts and modified banking applications to simulate digital payments.",
       "​Local security operatives later intervened to disperse the gathering crowd and take the suspect into custody for questioning, preventing the confrontation from escalating into mob violence."
     ],
+    "tags": [
+      "News"
+    ],
     "desk": true
   },
   {
@@ -752,6 +839,10 @@ const ARTICLES = [
       "​To avoid risking his market valuation diminishing as he approaches the final years of his contract, PSG executives are expected to sanction a sale during the current transfer window, with reports indicating a price tag exceeding €90 million to €120 million.",
       "​Premier League giants Liverpool have emerged as the frontrunners for Barcola's signature, viewing the dynamic attacker as a primary target to reinforce their forward line ahead of the upcoming campaign.",
       "​While Chelsea, Arsenal, and Bayern Munich continue to monitor developments, PSG’s high financial demands mean any potential transfer will represent one of the most significant mega-deals of the summer window."
+    ],
+    "tags": [
+      "News",
+      "Sports"
     ],
     "desk": true
   },
@@ -772,7 +863,8 @@ const ARTICLES = [
       "While some fans applauded the clever marketing strategy that dominated headline discussions for days, others expressed fatigue over the growing trend among Nigerian influencers who stage major life events to drive commercial engagements."
     ],
     "tags": [
-      "World"
+      "News",
+      "Entertainment"
     ],
     "desk": true
   },
@@ -793,7 +885,7 @@ const ARTICLES = [
       "​To ensure the cultural exercise remains peaceful, Oba Ladoja called on law enforcement agencies to maintain strict vigilance and urged masquerade followers and religious groups to avoid any form of violence or civil disturbance."
     ],
     "tags": [
-      "World"
+      "News"
     ],
     "desk": true
   },
@@ -813,6 +905,10 @@ const ARTICLES = [
       "​Speaking on the successful completion of the transaction, Aliko Dangote, Chairman of Dangote Petroleum Refinery, highlighted that broadening the shareholder base is a strategic milestone in the company’s evolution. He emphasized that the newly injected funds will complement internal operational cash flows to drive self-sufficiency in refining, curb regional reliance on imported fuels, and bolster energy security across West Africa.",
       "​With a full nameplate processing capacity of 650,000 barrels per day, the complex stands as the world's largest single-train refinery. Financial analysts note that the overwhelming market interest reflects robust investor trust in the asset's execution capabilities, operational performance, and potential to generate substantial long-term value within global energy markets."
     ],
+    "tags": [
+      "News",
+      "Business"
+    ],
     "desk": true
   },
   {
@@ -831,23 +927,9 @@ const ARTICLES = [
       "By pairing heat-adapted parent strains from warmer northern waters with resilient symbiotic algae, researchers at leading marine institutes aim to repopulate damaged reef ecosystems and slow down catastrophic loss of biodiversity.",
       "While conservationists caution that assisted evolution is not a standalone solution to global climate change, the early success of heat-tolerant strains offers a vital buffer to preserve coral ecosystems for future generations."
     ],
-    "desk": true
-  },
-  {
-    "slug": "river-basin-farmers-face-first-water-rationing-in-a-decade",
-    "category": "News",
-    "headline": "Severe Drought Triggers First River Basin Water Rationing Measures in Over a Decade",
-    "dek": "Regional water authorities implement mandatory curtailments for commercial agricultural producers following prolonged high temperatures and depleted reservoir levels across major agrarian river basins.",
-    "author": "亗BLAK",
-    "date": "Jul 7",
-    "image": "https://picsum.photos/seed/river-basin-farmers-face-first-water-rationing-in-a-decade/900/500",
-    "body": [
-      "Agricultural producers operating within regional river basin corridors face mandatory water supply reductions for the first time in ten years, as compounding weather anomalies and below-average snowpacks push reservoir levels down.",
-      "​Local water management boards confirmed that reduced streamflow allocations will take effect immediately, requiring commercial farms and irrigation districts to scale back volumetric water usage through the remainder of the growing season.",
-      "​The mandatory curtailments come after consecutive years of prolonged regional drought, high summer temperatures, and declining groundwater tables, which have collectively strained regional water infrastructure.",
-      "​Under the updated rationing framework, high-volume irrigation allocations will be reduced by up to 25 percent, forcing farmers to prioritize high-value permanent crops while leaving secondary acreage fallow.",
-      "​Agribusiness representatives expressed deep concern over the immediate financial impact of the reductions, warning that forced crop cutbacks could lead to diminished harvests and increased pressure on regional food supply chains.",
-      "​Water authorities emphasize that without immediate rationing measures, municipal supply security and long-term ecosystem stability across the basin would face severe risk as dry weather conditions persist."
+    "tags": [
+      "News",
+      "Technology"
     ],
     "desk": true
   },
@@ -868,221 +950,10 @@ const ARTICLES = [
       "​Sports officials and athletes lauded Team Nigeria's performance in Glasgow as one of the nation's most memorable Commonwealth outings in recent history, cementing momentum ahead of upcoming global track and field championships."
     ],
     "tags": [
-      "World"
+      "News",
+      "Sports"
     ],
     "brief": true
-  },
-  {
-    "slug": "revival-of-a-forgotten-1958-play-becomes-the-ticket-of-the-season",
-    "category": "News",
-    "headline": "Resurrected Masterpiece: Forgotten 1958 Classic Stages Triumphant Return as Season’s Hottest Ticket",
-    "dek": "Decades after its quiet debut, a newly rediscovered 1958 theatrical masterpiece takes center stage, captivating critics and audience members to become the year's undisputed hot-ticket revival.",
-    "author": "亗BLAK",
-    "date": "Jul 6",
-    "image": "https://picsum.photos/seed/revival-of-a-forgotten-1958-play-becomes-the-ticket-of-the-season/900/500",
-    "body": [
-      "Theater lovers and industry insiders are flocking to the box office as a long-overlooked play from 1958 makes a triumphant return, quickly cementing its reputation as the definitive theatrical hit of the current stage season.",
-      "​Originally penned during a period of profound cultural transformation, the classic production remained largely forgotten for over half a century, existing primarily as a footnote in post-war theatrical anthologies before being rediscovered by visionary directors.",
-      "​The revived production brings fresh urgency to the original text, stripping away dated tropes while elevating its core themes of resilience, identity, and social friction to resonate deeply with contemporary audiences.",
-      "​Critique and word-of-mouth momentum have driven record-breaking demand for admission, with extended sold-out runs prompting producers to schedule additional performances across major metropolitan theater districts.",
-      "​Leading critics are praising the revived staging for its extraordinary set design, sharp dialogue, and powerhouse cast performances, declaring the once-dormant work a timeless dramatic triumph that rivals modern classics.",
-      "​As sold-out crowds continue to pack auditorium seats each night, the runaway success of this 1958 revival highlights the enduring power of classic storytelling to captivate new generations of theatergoers when brought back into the spotlight."
-    ],
-    "tags": [
-      "World"
-    ],
-    "desk": true
-  },
-  {
-    "slug": "photo-finish-decides-mens-200m-final-by-two-thousandths",
-    "category": "Sports",
-    "headline": "Photo Finish Decides Men's 200m Final by Two Thousandths",
-    "dek": "Officials needed nearly ten minutes of camera review before confirming the result, one of the closest finishes in the event's history.",
-    "author": "亗BLAK",
-    "date": "Jul 5",
-    "image": "https://picsum.photos/seed/photo-finish-decides-mens-200m-final-by-two-thousandths/900/500",
-    "body": [
-      "The gap between first and second place was too small for the naked eye, sending officials to high-speed camera footage before a winner could be confirmed.",
-      "Both athletes said afterward they were unsure of the result until it was announced, describing the wait as the longest ten minutes of the meet.",
-      "It was the second photo finish of the week at the meet, prompting organizers to note it may be time to review timing equipment standards."
-    ],
-    "desk": true
-  },
-  {
-    "slug": "downtown-parking-garage-converts-to-mixed-use-tower",
-    "category": "Business",
-    "headline": "Downtown Parking Garage to Become Mixed-Use Tower",
-    "dek": "The seven-story structure will be demolished this fall to make way for housing and ground-floor retail.",
-    "author": "亗BLAK",
-    "date": "Jul 3",
-    "image": "https://picsum.photos/seed/downtown-parking-garage-converts-to-mixed-use-tower/900/500",
-    "body": [
-      "The seven-story structure will be demolished this fall to make way for housing and ground-floor retail.",
-      "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ],
-    "desk": true
-  },
-  {
-    "slug": "local-startup-raises-funding-for-battery-recycling",
-    "category": "Technology",
-    "headline": "Local Startup Raises Funding for Battery Recycling Process",
-    "dek": "The company says its method recovers over ninety percent of lithium from used EV battery packs.",
-    "author": "亗BLAK",
-    "date": "Jul 2",
-    "image": "https://picsum.photos/seed/local-startup-raises-funding-for-battery-recycling/900/500",
-    "body": [
-      "The company says its method recovers over ninety percent of lithium from used EV battery packs.",
-      "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ],
-    "desk": true
-  },
-  {
-    "slug": "coastal-city-completes-decade-long-seawall-project",
-    "category": "News",
-    "headline": "Coastal City Completes Decade-Long Seawall Project",
-    "dek": "Officials say the barrier should protect the harbor district through at least the next major storm cycle.",
-    "author": "亗BLAK",
-    "date": "Jul 1",
-    "image": "https://picsum.photos/seed/coastal-city-completes-decade-long-seawall-project/900/500",
-    "body": [
-      "Officials say the barrier should protect the harbor district through at least the next major storm cycle.",
-      "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ],
-    "desk": true
-  },
-  {
-    "slug": "museum-reopens-after-two-year-renovation",
-    "category": "News",
-    "headline": "City Museum Reopens After Two-Year Renovation",
-    "dek": "The expanded wing adds gallery space for a rotating collection of regional art.",
-    "author": "亗BLAK",
-    "date": "Jun 30",
-    "image": "https://picsum.photos/seed/museum-reopens-after-two-year-renovation/900/500",
-    "body": [
-      "The expanded wing adds gallery space for a rotating collection of regional art.",
-      "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ],
-    "tags": [
-      "World",
-      "Business"
-    ],
-    "desk": true
-  },
-  {
-    "slug": "local-club-clinches-playoff-spot-in-final-match",
-    "category": "Sports",
-    "headline": "Local Club Clinches Playoff Spot in Final Match",
-    "dek": "A late second-half goal secured the win and the club's first postseason berth in five years.",
-    "author": "亗BLAK",
-    "date": "Jun 29",
-    "image": "https://picsum.photos/seed/local-club-clinches-playoff-spot-in-final-match/900/500",
-    "body": [
-      "A late second-half goal secured the win and the club's first postseason berth in five years.",
-      "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ],
-    "desk": true
-  },
-  {
-    "slug": "regional-bank-opens-three-new-branches",
-    "category": "Business",
-    "headline": "Regional Bank Opens Three New Branches This Quarter",
-    "dek": "The expansion follows a year of steady deposit growth in suburban markets.",
-    "author": "亗BLAK",
-    "date": "Jun 28",
-    "image": "https://picsum.photos/seed/regional-bank-opens-three-new-branches/900/500",
-    "body": [
-      "The expansion follows a year of steady deposit growth in suburban markets.",
-      "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ],
-    "desk": true
-  },
-  {
-    "slug": "university-lab-unveils-low-cost-water-filter",
-    "category": "Technology",
-    "headline": "University Lab Unveils Low-Cost Water Filter Design",
-    "dek": "Researchers say the ceramic filter can be produced for a fraction of commercial alternatives.",
-    "author": "亗BLAK",
-    "date": "Jun 27",
-    "image": "https://picsum.photos/seed/university-lab-unveils-low-cost-water-filter/900/500",
-    "body": [
-      "Researchers say the ceramic filter can be produced for a fraction of commercial alternatives.",
-      "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ],
-    "desk": true
-  },
-  {
-    "slug": "trade-delegation-concludes-week-long-talks",
-    "category": "News",
-    "headline": "Trade Delegation Concludes Week-Long Talks",
-    "dek": "Negotiators say a framework agreement could be finalized before the end of the year.",
-    "author": "亗BLAK",
-    "date": "Jun 26",
-    "image": "https://picsum.photos/seed/trade-delegation-concludes-week-long-talks/900/500",
-    "body": [
-      "Negotiators say a framework agreement could be finalized before the end of the year.",
-      "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ],
-    "desk": true
-  },
-  {
-    "slug": "independent-bookstore-marks-fortieth-anniversary",
-    "category": "Technology",
-    "headline": "Independent Bookstore Marks Fortieth Anniversary",
-    "dek": "The shop has hosted weekly author readings since it opened its doors in the neighborhood.",
-    "author": "亗BLAK",
-    "date": "Jun 25",
-    "image": "https://picsum.photos/seed/independent-bookstore-marks-fortieth-anniversary/900/500",
-    "body": [
-      "The shop has hosted weekly author readings since it opened its doors in the neighborhood.",
-      "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ],
-    "tags": [
-      "World",
-      "Technology"
-    ],
-    "desk": true
-  },
-  {
-    "slug": "youth-league-expands-to-two-new-neighborhoods",
-    "category": "Sports",
-    "headline": "Youth League Expands to Two New Neighborhoods",
-    "dek": "Organizers cited rising enrollment as the reason for adding two new fields next season.",
-    "author": "亗BLAK",
-    "date": "Jun 24",
-    "image": "https://picsum.photos/seed/youth-league-expands-to-two-new-neighborhoods/900/500",
-    "body": [
-      "Organizers cited rising enrollment as the reason for adding two new fields next season.",
-      "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ],
-    "desk": true
-  },
-  {
-    "slug": "manufacturer-announces-new-assembly-line-jobs",
-    "category": "Business",
-    "headline": "Manufacturer Announces New Assembly Line and Jobs",
-    "dek": "The company expects to hire roughly 150 workers once the line is operational early next year.",
-    "author": "亗BLAK",
-    "date": "Jun 23",
-    "image": "https://picsum.photos/seed/manufacturer-announces-new-assembly-line-jobs/900/500",
-    "body": [
-      "The company expects to hire roughly 150 workers once the line is operational early next year.",
-      "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ],
-    "desk": true
-  },
-  {
-    "slug": "city-pilots-smart-traffic-signals-on-main-corridor",
-    "category": "Technology",
-    "headline": "City Pilots Smart Traffic Signals on Main Corridor",
-    "dek": "Early data suggests the adaptive signals have cut average commute times along the route.",
-    "author": "亗BLAK",
-    "date": "Jun 22",
-    "image": "https://picsum.photos/seed/city-pilots-smart-traffic-signals-on-main-corridor/900/500",
-    "body": [
-      "Early data suggests the adaptive signals have cut average commute times along the route.",
-      "This is placeholder body copy standing in for the full story text — replace it with the real reporting when this article is ready to publish."
-    ],
-    "desk": true
   }
 ];
 
