@@ -1,5 +1,28 @@
 const ARTICLES = [
   {
+    "slug": "delta-police-arrest-suspects-neutralize-kidnap-attempt-in-swift-operation",
+    "category": "News",
+    "headline": "Delta Police Arrest Suspects, Neutralize Kidnap Attempt in Swift Operation",
+    "dek": "Swift operational response by the Delta State Police Command neutralizes an active abduction threat, leading to the apprehension of key syndicate members and recovery of weapons.",
+    "author": "亗BLAK",
+    "date": "Aug 5",
+    "image": "https://punchng.com/wp-content/uploads/2026/08/z_1785941947.webp",
+    "body": [
+      "The Delta State Police Command has successfully foiled a major kidnapping plot in the state, apprehending several members of an armed criminal syndicate during a coordinated intelligence-led operation.",
+      "The operational breakthrough occurred following credible intelligence received by local security operatives regarding suspicious movements and planned abductions targeting prominent residents within the community.",
+      "Acting swiftly on the directive of the State Commissioner of Police, tactical teams alongside local vigilante groups mobilized to the scene and intercepted the suspects before they could execute their ambush.",
+      "During the tactical engagement, police operatives subdued the armed gang, arresting key suspects while recovering dangerous weapons, ammunition, and operational vehicles used by the syndicate.",
+      "Preliminary investigations revealed that the gang had been monitoring specific targets in the area and was responsible for previous kidnapping attempts and armed robbery incidents across neighboring communities.",
+      "State police authorities confirmed that the arrested suspects are currently in custody undergoing rigorous interrogation to identify other fleeing members, sponsors, and hidden arms caches linked to the network.",
+      "Community leaders praised the police command for its proactive response, noting that the timely intervention prevented severe trauma and restored public confidence among residents and local business owners.",
+      "The police command reaffirmed its total commitment to eradicating violent crime in Delta State, urging members of the public to remain vigilant and continuously report suspicious activities to security agencies."
+    ],
+    "tags": [
+      "News"
+    ],
+    "desk": true
+  },
+  {
     "slug": "nollywood-mourns-as-yoruba-actress-temitope-osoba-dies-at-40",
     "category": "News",
     "headline": "Nollywood Mourns as Yoruba Actress Temitope Osoba Dies at 40",
