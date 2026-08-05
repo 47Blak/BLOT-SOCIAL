@@ -312,24 +312,23 @@ const ARTICLES = [
     "brief": true
   },
   {
-    "slug": "osun-election-group-raises-alarm-over-alleged-police-and-traditional-rulers-partisanship",
+    "slug": "six-soldiers-killed-father-and-sons-burnt-alive-as-bandits-attack-communities",
     "category": "News",
-    "headline": "Osun Election: Group Raises Alarm Over Alleged Police and Traditional Rulers’ Partisanship",
-    "dek": "Stakeholders and coalition groups express deep concern over institutional bias, urging security agencies and royal fathers to maintain strict neutrality ahead of the August 15 governorship poll.",
+    "headline": "Six Soldiers Killed, Father and Sons Burnt Alive as Bandits Attack Communities Across Zamfara and Sokoto",
+    "dek": "Heavily armed bandits launch coordinated strikes across border communities, ambushing a military patrol team and setting homes ablaze in a fresh wave of violence across the Northwest.",
     "author": "亗BLAK",
-    "date": "Aug 1",
-    "image": "https://cdn.guardian.ng/wp-content/uploads/2018/09/Dnsasf6WwAA63wZ-1062x598.jpg",
+    "date": "Aug 3",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0EO6koAufUM5-mKlFotNblmTLXXaMWzsg1o9nyCFvD4xgD3OTa4Zd3Jw&s=10",
     "body": [
-      "Civil society organizations and political coalitions in Osun State have raised strong concerns over alleged partisan conduct by security personnel and certain traditional rulers as preparations intensify for the August 15 governorship election.",
-      "Addressing newsmen in Osogbo, spokesperson for the advocacy group highlighted troubling reports of selective enforcement, intimidation of opposition members, and open political endorsements by prominent community figures.",
-      "The group specifically called on the Inspector-General of Police to monitor operations of the state police command to prevent the force from being used as a tool for political victimization prior to and during the polls.",
-      "Concerns were also directed at royal fathers across various local government areas, reminding them of their sacred role as custodians of culture and neutral fathers to all citizens regardless of political affiliation.",
-      "Responding to the allegations, police authorities reaffirmed their commitment to absolute neutrality, assuring that all security measures are aimed strictly at preventing violence and guaranteeing a peaceful electoral process.",
-      "The Independent National Electoral Commission (INEC) and domestic election observers have reiterated that institutional integrity and security non-partisanship remain crucial to ensuring a free, fair, and credible election in Osun State."
+      "Six soldiers were killed and a father alongside his two sons were burnt alive in their residence following violent attacks by armed bandits across agrarian communities in Zamfara and Sokoto states.",
+      "​The coordinated attacks targeted farming settlements and security outposts along the volatile border corridors linking both states, where armed groups have intensified raids despite ongoing tactical operations by military forces.",
+      "​In Zamfara, security sources confirmed that an army patrol convoy ran into a sophisticated ambush laid by dozens of armed bandits, triggering an intense firefight that led to the death of six military personnel.",
+      "​Concurrently, during a raid on a nearby rural community, the attackers set residential structures on fire, trapping a local resident and his two sons inside their family home, where all three victims burned to death before help could arrive.",
+      "​Local community leaders reported that several other villagers sustained gunshot injuries while attempting to escape into nearby bushes, with an unconfirmed number of livestock rustled during the raid.",
+      "​Reinforcement troops from the joint tactical task force have been deployed to the affected axes in Sokoto and Zamfara to track down the fleeing assailants, restore stability, and secure vulnerable border communities."
     ],
     "tags": [
-      "News",
-      "Politics"
+      "News"
     ],
     "brief": true
   },
@@ -420,23 +419,24 @@ const ARTICLES = [
     "desk": true
   },
   {
-    "slug": "six-soldiers-killed-father-and-sons-burnt-alive-as-bandits-attack-communities",
+    "slug": "osun-election-group-raises-alarm-over-alleged-police-and-traditional-rulers-partisanship",
     "category": "News",
-    "headline": "Six Soldiers Killed, Father and Sons Burnt Alive as Bandits Attack Communities Across Zamfara and Sokoto",
-    "dek": "Heavily armed bandits launch coordinated strikes across border communities, ambushing a military patrol team and setting homes ablaze in a fresh wave of violence across the Northwest.",
+    "headline": "Osun Election: Group Raises Alarm Over Alleged Police and Traditional Rulers’ Partisanship",
+    "dek": "Stakeholders and coalition groups express deep concern over institutional bias, urging security agencies and royal fathers to maintain strict neutrality ahead of the August 15 governorship poll.",
     "author": "亗BLAK",
-    "date": "Aug 3",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0EO6koAufUM5-mKlFotNblmTLXXaMWzsg1o9nyCFvD4xgD3OTa4Zd3Jw&s=10",
+    "date": "Aug 1",
+    "image": "https://cdn.guardian.ng/wp-content/uploads/2018/09/Dnsasf6WwAA63wZ-1062x598.jpg",
     "body": [
-      "Six soldiers were killed and a father alongside his two sons were burnt alive in their residence following violent attacks by armed bandits across agrarian communities in Zamfara and Sokoto states.",
-      "​The coordinated attacks targeted farming settlements and security outposts along the volatile border corridors linking both states, where armed groups have intensified raids despite ongoing tactical operations by military forces.",
-      "​In Zamfara, security sources confirmed that an army patrol convoy ran into a sophisticated ambush laid by dozens of armed bandits, triggering an intense firefight that led to the death of six military personnel.",
-      "​Concurrently, during a raid on a nearby rural community, the attackers set residential structures on fire, trapping a local resident and his two sons inside their family home, where all three victims burned to death before help could arrive.",
-      "​Local community leaders reported that several other villagers sustained gunshot injuries while attempting to escape into nearby bushes, with an unconfirmed number of livestock rustled during the raid.",
-      "​Reinforcement troops from the joint tactical task force have been deployed to the affected axes in Sokoto and Zamfara to track down the fleeing assailants, restore stability, and secure vulnerable border communities."
+      "Civil society organizations and political coalitions in Osun State have raised strong concerns over alleged partisan conduct by security personnel and certain traditional rulers as preparations intensify for the August 15 governorship election.",
+      "Addressing newsmen in Osogbo, spokesperson for the advocacy group highlighted troubling reports of selective enforcement, intimidation of opposition members, and open political endorsements by prominent community figures.",
+      "The group specifically called on the Inspector-General of Police to monitor operations of the state police command to prevent the force from being used as a tool for political victimization prior to and during the polls.",
+      "Concerns were also directed at royal fathers across various local government areas, reminding them of their sacred role as custodians of culture and neutral fathers to all citizens regardless of political affiliation.",
+      "Responding to the allegations, police authorities reaffirmed their commitment to absolute neutrality, assuring that all security measures are aimed strictly at preventing violence and guaranteeing a peaceful electoral process.",
+      "The Independent National Electoral Commission (INEC) and domestic election observers have reiterated that institutional integrity and security non-partisanship remain crucial to ensuring a free, fair, and credible election in Osun State."
     ],
     "tags": [
-      "News"
+      "News",
+      "Politics"
     ],
     "brief": true
   },
