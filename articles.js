@@ -1,5 +1,28 @@
 const ARTICLES = [
   {
+    "slug": "nollywood-mourns-as-yoruba-actress-temitope-osoba-dies-at-40",
+    "category": "News",
+    "headline": "Nollywood Mourns as Yoruba Actress Temitope Osoba Dies at 40",
+    "dek": "The Nigerian film industry is plunged into grief following the sudden demise of the prominent actress and producer, coming nearly two years after her public battle with breast cancer.",
+    "author": "亗BLAK",
+    "date": "Aug 5",
+    "image": "https://cdn.thenationonlineng.net/wp-content/uploads/2026/08/05142020/Temitope-Osoba.jpg",
+    "body": [
+      "The Nigerian film industry has been thrown into deep mourning following the death of popular Yoruba Nollywood actress and producer, Temitope Kofoworola Osoba, who passed away at the age of 40.",
+      "News of her passing was confirmed on Wednesday, August 5, 2026, by her close colleague and friend, actor Alesh Sanni, who shared a heartbreaking tribute on his social media page reflecting on their cherished memories together.",
+      "Following the initial announcement, several prominent film figures, including Bimpe Akintunde and Adeyemo Seilat, expressed profound shock and grief, describing her untimely death as a devastating blow to the entertainment community.",
+      "Born in Abeokuta, Ogun State, and educated at Olabisi Onabanjo University, Osoba initially entered the entertainment sector as a professional dancer and video vixen before establishing herself as a talented actress in films such as Ile Owo, Omo Iya Kan, and Gucci Girls.",
+      "The late actress had previously made headlines in late 2024 after opening up about her diagnosis with breast cancer at age 38, undergoing surgery, and seeking public financial assistance to fund her critical medical treatments.",
+      "In mid-2025, Osoba joyfully announced to her fans and colleagues that she had successfully overcome the illness and was declared cancer-free, expressing immense gratitude to God and the well-wishers who supported her through recovery.",
+      "Her emotional return to screen acting was celebrated across the Yoruba movie sector as an inspiring story of resilience, making the sudden news of her passing a painful surprise to both industry peers and fans worldwide.",
+      "Tributes continue to pour in from across the Nigerian creative arts landscape as colleagues honor her memory and talent, while her family is expected to announce official burial arrangements in the coming days."
+    ],
+    "tags": [
+      "News",
+      "Entertainment"
+    ]
+  },
+  {
     "slug": "inter-milan-and-ac-milan-battle-to-1-1-draw-in-pre-season-derby-friendly",
     "category": "Sports",
     "headline": "Inter Milan and AC Milan Battle to 1-1 Draw in Pre-Season Derby Friendly",
