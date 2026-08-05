@@ -1,5 +1,28 @@
 const ARTICLES = [
   {
+    "slug": "bbnaijas-big-brother-unveils-secret-assignment-to-aikou-you-are-the-gambit",
+    "category": "News",
+    "headline": "BBNaija's Big Brother Unveils Secret Assignment to Aikou - \"You Are the Gambit\"",
+    "dek": "Tension mounts inside the Big Brother house as Biggie selects Aikou for a clandestine strategic role, issuing direct instructions that could dramatically reshape house dynamics and upcoming nominations.",
+    "author": "亗BLAK",
+    "date": "Aug 5",
+    "image": "https://static.wixstatic.com/media/67cd72_0644fc140853429b81cd6fc5d4fac049~mv2.webp/v1/fill/w_1600,h_900,al_c/67cd72_0644fc140853429b81cd6fc5d4fac049~mv2.webp",
+    "body": [
+      "The reality television landscape witnessed a high-stakes twist in the Big Brother Naija house when Big Brother called Aikou into the executive Diary Room to reveal a game-changing secret assignment.",
+      "During an intense and private session, Biggie delivered a cryptic yet decisive declaration to the housemate, stating explicitly, \"You are the Gambit,\" signaling the start of a covert operational role within the game.",
+      "The unexpected directive places Aikou at the center of Big Brother's strategic masterplan, granting unique influence over group dynamics while keeping fellow housemates completely in the dark regarding the mission's true nature.",
+      "Big Brother instructed Aikou to execute specific undercover tasks designed to test the loyalty, alliances, and resilience of competing contestants without raising suspicion or compromising the secret directive.",
+      "The revelation immediately sent shockwaves among viewers and fans across social media platforms, with audiences speculating heavily on how the new leverage will alter voting patterns and upcoming eviction nominations.",
+      "Failure to maintain absolute secrecy or fulfill the assigned objectives could carry heavy penalties for Aikou, including immediate forfeiture of immunity, nomination privileges, or direct disciplinary action from Biggie.",
+      "Housemates have already begun noticing subtle shifts in Aikou’s demeanor following the Diary Room session, leading to heightened paranoia and tactical maneuvering across competing cliques in the house.",
+      "As the strategic assignment unfolds over the coming days, viewers remain glued to live coverage to see whether Aikou can successfully execute the \"Gambit\" role and secure a clear advantage in the race for the grand prize."
+    ],
+    "tags": [
+      "News",
+      "Entertainment"
+    ]
+  },
+  {
     "slug": "inter-milan-and-ac-milan-battle-to-1-1-draw-in-pre-season-derby-friendly",
     "category": "Sports",
     "headline": "Inter Milan and AC Milan Battle to 1-1 Draw in Pre-Season Derby Friendly",
@@ -118,26 +141,36 @@ const ARTICLES = [
     "desk": true
   },
   {
-    "slug": "bbnaijas-big-brother-unveils-secret-assignment-to-aikou-you-are-the-gambit",
-    "category": "News",
-    "headline": "BBNaija's Big Brother Unveils Secret Assignment to Aikou - \"You Are the Gambit\"",
-    "dek": "Tension mounts inside the Big Brother house as Biggie selects Aikou for a clandestine strategic role, issuing direct instructions that could dramatically reshape house dynamics and upcoming nominations.",
+    "slug": "zlatan-drops-high-energy-street-hop-single-italawa",
+    "category": "Music",
+    "headline": "Zlatan Drops High-Energy Street-Hop Single ‘ITALAWA’",
+    "dek": "Zanku Records pioneer Zlatan Ibile makes a triumphant return to the music scene with an infectious new anthem, celebrating street culture, hustle, and unyielding resilience.",
     "author": "亗BLAK",
     "date": "Aug 5",
-    "image": "https://static.wixstatic.com/media/67cd72_0644fc140853429b81cd6fc5d4fac049~mv2.webp/v1/fill/w_1600,h_900,al_c/67cd72_0644fc140853429b81cd6fc5d4fac049~mv2.webp",
+    "image": "https://jukeboxmusic.com.ng/wp-content/uploads/2026/08/ITALAWA-COVER-ART-300x300.webp",
     "body": [
-      "The reality television landscape witnessed a high-stakes twist in the Big Brother Naija house when Big Brother called Aikou into the executive Diary Room to reveal a game-changing secret assignment.",
-      "During an intense and private session, Biggie delivered a cryptic yet decisive declaration to the housemate, stating explicitly, \"You are the Gambit,\" signaling the start of a covert operational role within the game.",
-      "The unexpected directive places Aikou at the center of Big Brother's strategic masterplan, granting unique influence over group dynamics while keeping fellow housemates completely in the dark regarding the mission's true nature.",
-      "Big Brother instructed Aikou to execute specific undercover tasks designed to test the loyalty, alliances, and resilience of competing contestants without raising suspicion or compromising the secret directive.",
-      "The revelation immediately sent shockwaves among viewers and fans across social media platforms, with audiences speculating heavily on how the new leverage will alter voting patterns and upcoming eviction nominations.",
-      "Failure to maintain absolute secrecy or fulfill the assigned objectives could carry heavy penalties for Aikou, including immediate forfeiture of immunity, nomination privileges, or direct disciplinary action from Biggie.",
-      "Housemates have already begun noticing subtle shifts in Aikou’s demeanor following the Diary Room session, leading to heightened paranoia and tactical maneuvering across competing cliques in the house.",
-      "As the strategic assignment unfolds over the coming days, viewers remain glued to live coverage to see whether Aikou can successfully execute the \"Gambit\" role and secure a clear advantage in the race for the grand prize."
+      "Nigerian street-hop icon and Zanku Records headliner, Zlatan, has officially released his highly anticipated single titled \"ITALAWA,\" further solidifying his position as a primary mouthpiece of Nigerian street culture.",
+      "​The track delivers Zlatan's signature high-energy delivery, combining catchy Yoruba slang, rhythmic cadence, and punchy ad-libs over a heavily textured, percussive Afro-fusion beat.",
+      "​Titled after a popular street expression representing toughness, identity, and standing out from the crowd, \"ITALAWA\" serves as an uplifting anthem for hustlers navigating daily struggles.",
+      "​Music critics and listeners have praised the record's dynamic production, which seamlessly blends traditional street-hop elements with contemporary log-drum percussion and vibrant brass accents.",
+      "​The release has already sparked viral dance challenges across major social media platforms, with fans and influencers enthusiastically recreating the signature moves associated with Zlatan's energetic sound.",
+      "​Known for consistently delivering hit records that define urban pop culture, Zlatan uses \"ITALAWA\" to demonstrate his continued relevance and growth as a songwriter and performer.",
+      "​Industry insiders anticipate that the single will dominate radio airplay, club playlists, and streaming charts over the coming months as momentum behind the track continues to build rapidly.",
+      "​\"ITALAWA\" is now available across all major global digital streaming platforms, accompanied by a colorful visualizer that captures the vibrant spirit and authentic energy of the Nigerian streets."
     ],
+    "audiomack": "https://audiomack.com/zlatan_ibile/song/italawa",
+    "spotify": "https://open.spotify.com/track/44K1rPDc6B0dIXt5Iub1yP?si=mqI-yb8pR6Oj9GcYxlZr8g",
+    "appleMusic": "https://music.apple.com/ng/song/italawa/6796399395",
+    "youtubeVideo": "https://youtu.be/8yQn1Ilm7oA?si=Zg_q-sRp7mQQj5te",
+    "artist": "Zlatan",
+    "producer": "PuffyBeatz & Chech",
+    "genre": "Afrobeats",
+    "released": "2056",
+    "duration": "02:53",
     "tags": [
       "News",
-      "Entertainment"
+      "Music",
+      "Trending"
     ]
   },
   {
