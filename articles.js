@@ -1,5 +1,51 @@
 const ARTICLES = [
   {
+    "slug": "bbnaijas-big-brother-unveils-secret-assignment-to-aikou-you-are-the-gambit",
+    "category": "News",
+    "headline": "BBNaija's Big Brother Unveils Secret Assignment to Aikou - \"You Are the Gambit\"",
+    "dek": "Tension mounts inside the Big Brother house as Biggie selects Aikou for a clandestine strategic role, issuing direct instructions that could dramatically reshape house dynamics and upcoming nominations.",
+    "author": "亗BLAK",
+    "date": "Aug 5",
+    "image": "https://static.wixstatic.com/media/67cd72_0644fc140853429b81cd6fc5d4fac049~mv2.webp/v1/fill/w_1600,h_900,al_c/67cd72_0644fc140853429b81cd6fc5d4fac049~mv2.webp",
+    "body": [
+      "The reality television landscape witnessed a high-stakes twist in the Big Brother Naija house when Big Brother called Aikou into the executive Diary Room to reveal a game-changing secret assignment.",
+      "During an intense and private session, Biggie delivered a cryptic yet decisive declaration to the housemate, stating explicitly, \"You are the Gambit,\" signaling the start of a covert operational role within the game.",
+      "The unexpected directive places Aikou at the center of Big Brother's strategic masterplan, granting unique influence over group dynamics while keeping fellow housemates completely in the dark regarding the mission's true nature.",
+      "Big Brother instructed Aikou to execute specific undercover tasks designed to test the loyalty, alliances, and resilience of competing contestants without raising suspicion or compromising the secret directive.",
+      "The revelation immediately sent shockwaves among viewers and fans across social media platforms, with audiences speculating heavily on how the new leverage will alter voting patterns and upcoming eviction nominations.",
+      "Failure to maintain absolute secrecy or fulfill the assigned objectives could carry heavy penalties for Aikou, including immediate forfeiture of immunity, nomination privileges, or direct disciplinary action from Biggie.",
+      "Housemates have already begun noticing subtle shifts in Aikou’s demeanor following the Diary Room session, leading to heightened paranoia and tactical maneuvering across competing cliques in the house.",
+      "As the strategic assignment unfolds over the coming days, viewers remain glued to live coverage to see whether Aikou can successfully execute the \"Gambit\" role and secure a clear advantage in the race for the grand prize."
+    ],
+    "tags": [
+      "News",
+      "Entertainment"
+    ]
+  },
+  {
+    "slug": "waec-releases-2026-wassce-results-as-12m-candidates-pass-english-and-mathematics",
+    "category": "News",
+    "headline": "WAEC Releases 2026 WASSCE Results as 1.2m Candidates Pass English and Mathematics",
+    "dek": "The West African Examinations Council records a 61.54 per cent pass rate in five key subjects including English and Maths, with overall performance reflecting a slight 1.42 per cent dip from the 2025 academic session.",
+    "author": "亗BLAK",
+    "date": "Aug 5",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEaU_u4oW5r-rVHoxrX8LIwxEcBBkJrUXWWzFfPcAT6FCOu6hDHNUF0MfP&s=10",
+    "body": [
+      "The West African Examinations Council (WAEC) has officially released the results of the 2026 West African Senior School Certificate Examination (WASSCE) for school candidates, confirming that 1,200,514 candidates secured credits in a minimum of five subjects, including English Language and Mathematics.",
+      "Announcing the performance statistics at a press briefing in Lagos on Wednesday, August 5, 2026, the Head of the WAEC Nigeria National Office, Dr. Amos Josiah Dangut, revealed that the successful candidates represent 61.54 per cent of the total 1,950,726 students who sat the examination.",
+      "Dr. Dangut noted that while the overall pass rate remains substantial, the 2026 figures mark a modest 1.42 per cent decline compared to the performance recorded during the 2025 examination cycle.",
+      "A total of 1,959,668 candidates from 24,207 secondary schools registered for the diet across Nigeria, Benin Republic, Côte d'Ivoire, and Equatorial Guinea, with 1,687,378 candidates (86.50 per cent) obtaining five credits with or without English Language and Mathematics.",
+      "A detailed gender breakdown of the successful cohort showed that female candidates outperformed their male counterparts, with 641,631 females (32.89 per cent) obtaining five credits including English and Maths, compared to 558,883 males (28.65 per cent).",
+      "The examination council also reported that the results of 1,834,695 candidates representing 94.05 per cent of all participants—have been fully processed and uploaded, while 116,031 results (5.95 per cent) remain under ongoing processing due to minor technical and center-level reconciliations.",
+      "However, WAEC confirmed that the results of 167,486 candidates, representing 8.59 per cent of the total candidates, were withheld in connection with reported cases of examination malpractice, though the figure represents a 1.11 per cent decrease from the 9.7 per cent recorded in 2025.",
+      "The council instructed candidates to generate a personal identification number (PIN) on its official portal to check their results online within 12 hours, adding that successful candidates can apply for digital certificates within 48 hours of accessing their scores."
+    ],
+    "tags": [
+      "News"
+    ],
+    "desk": true
+  },
+  {
     "slug": "nans-urges-urgent-dialogue-as-asuu-threatens-strike-action-at-kebbi-state-university",
     "category": "News",
     "headline": "NANS Urges Urgent Dialogue as ASUU Threatens Strike Action at Kebbi State University",
