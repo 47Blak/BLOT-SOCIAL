@@ -48,29 +48,6 @@ const ARTICLES = [
     "desk": true
   },
   {
-    "slug": "bbnaijas-big-brother-unveils-secret-assignment-to-aikou-you-are-the-gambit",
-    "category": "News",
-    "headline": "BBNaija's Big Brother Unveils Secret Assignment to Aikou - \"You Are the Gambit\"",
-    "dek": "Tension mounts inside the Big Brother house as Biggie selects Aikou for a clandestine strategic role, issuing direct instructions that could dramatically reshape house dynamics and upcoming nominations.",
-    "author": "亗BLAK",
-    "date": "Aug 5",
-    "image": "https://static.wixstatic.com/media/67cd72_0644fc140853429b81cd6fc5d4fac049~mv2.webp/v1/fill/w_1600,h_900,al_c/67cd72_0644fc140853429b81cd6fc5d4fac049~mv2.webp",
-    "body": [
-      "The reality television landscape witnessed a high-stakes twist in the Big Brother Naija house when Big Brother called Aikou into the executive Diary Room to reveal a game-changing secret assignment.",
-      "During an intense and private session, Biggie delivered a cryptic yet decisive declaration to the housemate, stating explicitly, \"You are the Gambit,\" signaling the start of a covert operational role within the game.",
-      "The unexpected directive places Aikou at the center of Big Brother's strategic masterplan, granting unique influence over group dynamics while keeping fellow housemates completely in the dark regarding the mission's true nature.",
-      "Big Brother instructed Aikou to execute specific undercover tasks designed to test the loyalty, alliances, and resilience of competing contestants without raising suspicion or compromising the secret directive.",
-      "The revelation immediately sent shockwaves among viewers and fans across social media platforms, with audiences speculating heavily on how the new leverage will alter voting patterns and upcoming eviction nominations.",
-      "Failure to maintain absolute secrecy or fulfill the assigned objectives could carry heavy penalties for Aikou, including immediate forfeiture of immunity, nomination privileges, or direct disciplinary action from Biggie.",
-      "Housemates have already begun noticing subtle shifts in Aikou’s demeanor following the Diary Room session, leading to heightened paranoia and tactical maneuvering across competing cliques in the house.",
-      "As the strategic assignment unfolds over the coming days, viewers remain glued to live coverage to see whether Aikou can successfully execute the \"Gambit\" role and secure a clear advantage in the race for the grand prize."
-    ],
-    "tags": [
-      "News",
-      "Entertainment"
-    ]
-  },
-  {
     "slug": "delta-police-arrest-suspects-neutralize-kidnap-attempt-in-swift-operation",
     "category": "News",
     "headline": "Delta Police Arrest Suspects, Neutralize Kidnap Attempt in Swift Operation",
@@ -94,22 +71,22 @@ const ARTICLES = [
     "desk": true
   },
   {
-    "slug": "nollywood-mourns-as-yoruba-actress-temitope-osoba-dies-at-40",
+    "slug": "bbnaijas-big-brother-unveils-secret-assignment-to-aikou-you-are-the-gambit",
     "category": "News",
-    "headline": "Nollywood Mourns as Yoruba Actress Temitope Osoba Dies at 40",
-    "dek": "The Nigerian film industry is plunged into grief following the sudden demise of the prominent actress and producer, coming nearly two years after her public battle with breast cancer.",
+    "headline": "BBNaija's Big Brother Unveils Secret Assignment to Aikou - \"You Are the Gambit\"",
+    "dek": "Tension mounts inside the Big Brother house as Biggie selects Aikou for a clandestine strategic role, issuing direct instructions that could dramatically reshape house dynamics and upcoming nominations.",
     "author": "亗BLAK",
     "date": "Aug 5",
-    "image": "https://cdn.thenationonlineng.net/wp-content/uploads/2026/08/05142020/Temitope-Osoba.jpg",
+    "image": "https://static.wixstatic.com/media/67cd72_0644fc140853429b81cd6fc5d4fac049~mv2.webp/v1/fill/w_1600,h_900,al_c/67cd72_0644fc140853429b81cd6fc5d4fac049~mv2.webp",
     "body": [
-      "The Nigerian film industry has been thrown into deep mourning following the death of popular Yoruba Nollywood actress and producer, Temitope Kofoworola Osoba, who passed away at the age of 40.",
-      "News of her passing was confirmed on Wednesday, August 5, 2026, by her close colleague and friend, actor Alesh Sanni, who shared a heartbreaking tribute on his social media page reflecting on their cherished memories together.",
-      "Following the initial announcement, several prominent film figures, including Bimpe Akintunde and Adeyemo Seilat, expressed profound shock and grief, describing her untimely death as a devastating blow to the entertainment community.",
-      "Born in Abeokuta, Ogun State, and educated at Olabisi Onabanjo University, Osoba initially entered the entertainment sector as a professional dancer and video vixen before establishing herself as a talented actress in films such as Ile Owo, Omo Iya Kan, and Gucci Girls.",
-      "The late actress had previously made headlines in late 2024 after opening up about her diagnosis with breast cancer at age 38, undergoing surgery, and seeking public financial assistance to fund her critical medical treatments.",
-      "In mid-2025, Osoba joyfully announced to her fans and colleagues that she had successfully overcome the illness and was declared cancer-free, expressing immense gratitude to God and the well-wishers who supported her through recovery.",
-      "Her emotional return to screen acting was celebrated across the Yoruba movie sector as an inspiring story of resilience, making the sudden news of her passing a painful surprise to both industry peers and fans worldwide.",
-      "Tributes continue to pour in from across the Nigerian creative arts landscape as colleagues honor her memory and talent, while her family is expected to announce official burial arrangements in the coming days."
+      "The reality television landscape witnessed a high-stakes twist in the Big Brother Naija house when Big Brother called Aikou into the executive Diary Room to reveal a game-changing secret assignment.",
+      "During an intense and private session, Biggie delivered a cryptic yet decisive declaration to the housemate, stating explicitly, \"You are the Gambit,\" signaling the start of a covert operational role within the game.",
+      "The unexpected directive places Aikou at the center of Big Brother's strategic masterplan, granting unique influence over group dynamics while keeping fellow housemates completely in the dark regarding the mission's true nature.",
+      "Big Brother instructed Aikou to execute specific undercover tasks designed to test the loyalty, alliances, and resilience of competing contestants without raising suspicion or compromising the secret directive.",
+      "The revelation immediately sent shockwaves among viewers and fans across social media platforms, with audiences speculating heavily on how the new leverage will alter voting patterns and upcoming eviction nominations.",
+      "Failure to maintain absolute secrecy or fulfill the assigned objectives could carry heavy penalties for Aikou, including immediate forfeiture of immunity, nomination privileges, or direct disciplinary action from Biggie.",
+      "Housemates have already begun noticing subtle shifts in Aikou’s demeanor following the Diary Room session, leading to heightened paranoia and tactical maneuvering across competing cliques in the house.",
+      "As the strategic assignment unfolds over the coming days, viewers remain glued to live coverage to see whether Aikou can successfully execute the \"Gambit\" role and secure a clear advantage in the race for the grand prize."
     ],
     "tags": [
       "News",
@@ -140,6 +117,53 @@ const ARTICLES = [
     "desk": true
   },
   {
+    "slug": "nollywood-mourns-as-yoruba-actress-temitope-osoba-dies-at-40",
+    "category": "News",
+    "headline": "Nollywood Mourns as Yoruba Actress Temitope Osoba Dies at 40",
+    "dek": "The Nigerian film industry is plunged into grief following the sudden demise of the prominent actress and producer, coming nearly two years after her public battle with breast cancer.",
+    "author": "亗BLAK",
+    "date": "Aug 5",
+    "image": "https://cdn.thenationonlineng.net/wp-content/uploads/2026/08/05142020/Temitope-Osoba.jpg",
+    "body": [
+      "The Nigerian film industry has been thrown into deep mourning following the death of popular Yoruba Nollywood actress and producer, Temitope Kofoworola Osoba, who passed away at the age of 40.",
+      "News of her passing was confirmed on Wednesday, August 5, 2026, by her close colleague and friend, actor Alesh Sanni, who shared a heartbreaking tribute on his social media page reflecting on their cherished memories together.",
+      "Following the initial announcement, several prominent film figures, including Bimpe Akintunde and Adeyemo Seilat, expressed profound shock and grief, describing her untimely death as a devastating blow to the entertainment community.",
+      "Born in Abeokuta, Ogun State, and educated at Olabisi Onabanjo University, Osoba initially entered the entertainment sector as a professional dancer and video vixen before establishing herself as a talented actress in films such as Ile Owo, Omo Iya Kan, and Gucci Girls.",
+      "The late actress had previously made headlines in late 2024 after opening up about her diagnosis with breast cancer at age 38, undergoing surgery, and seeking public financial assistance to fund her critical medical treatments.",
+      "In mid-2025, Osoba joyfully announced to her fans and colleagues that she had successfully overcome the illness and was declared cancer-free, expressing immense gratitude to God and the well-wishers who supported her through recovery.",
+      "Her emotional return to screen acting was celebrated across the Yoruba movie sector as an inspiring story of resilience, making the sudden news of her passing a painful surprise to both industry peers and fans worldwide.",
+      "Tributes continue to pour in from across the Nigerian creative arts landscape as colleagues honor her memory and talent, while her family is expected to announce official burial arrangements in the coming days."
+    ],
+    "tags": [
+      "News",
+      "Entertainment"
+    ]
+  },
+  {
+    "slug": "adeleke-heads-to-court-over-efcc-freezing-of-osun-state-accounts",
+    "category": "News",
+    "headline": "Adeleke Heads to Court Over EFCC Freezing of Osun State Accounts.",
+    "dek": "Governor Ademola Adeleke institutes urgent legal action against the Economic and Financial Crimes Commission following the restrictions placed on the state government's First Bank accounts ahead of the August 15 governorship election.",
+    "author": "亗BLAK",
+    "date": "Aug 5",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr9oHLdcZNMvK7d-TYpsr84RYCKmSIq_2GFRIFYmjNsHdU-PX_uPsyVyo&s=10",
+    "body": [
+      "Osun State Governor, Senator Ademola Adeleke, has initiated high-stakes legal proceedings against the Economic and Financial Crimes Commission (EFCC) to challenge the sudden freezing of the state government’s main operational bank accounts.",
+      "​The legal confrontation escalated after the state government received official correspondence from its primary financial institution, First Bank Plc, confirming that an executive restriction order had been placed on the accounts following a direct mandate from the anti-graft agency.",
+      "​Addressing newsmen and key stakeholders at a press briefing held inside the Government House in Osogbo, Governor Adeleke strongly condemned the action, describing it as an unconstitutional, illegal, and heavy-handed overreach by the federal agency.",
+      "​The governor argued that the EFCC lacks the constitutional power to arbitrarily freeze the statutory accounts of a subnational government, emphasizing that such actions violate the principles of federalism and established legal precedents regarding public treasury management.",
+      "​State officials and cabinet members further labeled the anti-graft agency’s intervention as a politically motivated maneuver, alleging that the timing was deliberately calculated to paralyze administrative functions and cripple the state's day-to-day governance.",
+      "​With the Osun State governorship election scheduled for August 15, the state administration warned that blocking access to public funds directly threatens the timely payment of civil servants' salaries, pension disbursements, and emergency public health services.",
+      "​The suit, filed through the Office of the Attorney General of Osun State, seeks immediate injunctive relief from the court to unfreeze all affected accounts, restrain the EFCC from further interference, and declare the agency's actions null and void.",
+      "​Legal representatives for the state government reaffirmed their commitment to pursuing the matter to a logical conclusion, maintaining that preserving subnational financial autonomy is vital to safeguarding democratic stability and public order across the state."
+    ],
+    "tags": [
+      "News",
+      "Politics"
+    ],
+    "desk": true
+  },
+  {
     "slug": "nans-urges-urgent-dialogue-as-asuu-threatens-strike-action-at-kebbi-state-university",
     "category": "News",
     "headline": "NANS Urges Urgent Dialogue as ASUU Threatens Strike Action at Kebbi State University",
@@ -163,22 +187,22 @@ const ARTICLES = [
     ]
   },
   {
-    "slug": "adeleke-heads-to-court-over-efcc-freezing-of-osun-state-accounts",
+    "slug": "civil-society-brands-aig-jimoh-moshood-thug-in-uniform-demands-immediate-suspension-and-prosecution-over-alleged-rights-abuses",
     "category": "News",
-    "headline": "Adeleke Heads to Court Over EFCC Freezing of Osun State Accounts.",
-    "dek": "Governor Ademola Adeleke institutes urgent legal action against the Economic and Financial Crimes Commission following the restrictions placed on the state government's First Bank accounts ahead of the August 15 governorship election.",
+    "headline": "Civil Society Brands AIG Jimoh Moshood ‘Thug in Uniform,’ Demands Immediate Suspension and Prosecution Over Alleged Rights Abuses",
+    "dek": "Rights groups and legal advocates accuse the senior police officer of high-handedness and severe human rights violations, calling on the Police Service Commission to initiate formal criminal proceedings.",
     "author": "亗BLAK",
-    "date": "Aug 5",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr9oHLdcZNMvK7d-TYpsr84RYCKmSIq_2GFRIFYmjNsHdU-PX_uPsyVyo&s=10",
+    "date": "Aug 4",
+    "image": "https://weekendersmagazine.com/wp-content/uploads/2026/07/1000320793.jpg",
     "body": [
-      "Osun State Governor, Senator Ademola Adeleke, has initiated high-stakes legal proceedings against the Economic and Financial Crimes Commission (EFCC) to challenge the sudden freezing of the state government’s main operational bank accounts.",
-      "​The legal confrontation escalated after the state government received official correspondence from its primary financial institution, First Bank Plc, confirming that an executive restriction order had been placed on the accounts following a direct mandate from the anti-graft agency.",
-      "​Addressing newsmen and key stakeholders at a press briefing held inside the Government House in Osogbo, Governor Adeleke strongly condemned the action, describing it as an unconstitutional, illegal, and heavy-handed overreach by the federal agency.",
-      "​The governor argued that the EFCC lacks the constitutional power to arbitrarily freeze the statutory accounts of a subnational government, emphasizing that such actions violate the principles of federalism and established legal precedents regarding public treasury management.",
-      "​State officials and cabinet members further labeled the anti-graft agency’s intervention as a politically motivated maneuver, alleging that the timing was deliberately calculated to paralyze administrative functions and cripple the state's day-to-day governance.",
-      "​With the Osun State governorship election scheduled for August 15, the state administration warned that blocking access to public funds directly threatens the timely payment of civil servants' salaries, pension disbursements, and emergency public health services.",
-      "​The suit, filed through the Office of the Attorney General of Osun State, seeks immediate injunctive relief from the court to unfreeze all affected accounts, restrain the EFCC from further interference, and declare the agency's actions null and void.",
-      "​Legal representatives for the state government reaffirmed their commitment to pursuing the matter to a logical conclusion, maintaining that preserving subnational financial autonomy is vital to safeguarding democratic stability and public order across the state."
+      "A coalition of civil rights organizations and human rights advocates has launched a fierce campaign against Assistant Inspector-General of Police (AIG) Jimoh Moshood, publicly labeling him a \"thug in police uniform\" over alleged widespread rights abuses.",
+      "The activist coalition made the scathing assessment during a press briefing in Abuja, citing multiple documented instances of illegal detentions, executive overreach, and brutal suppression of peaceful citizens under his command.",
+      "Leading figures within the civil society sector expressed deep concern over the continued rise of high-ranking police officers who allegedly operate above the law, damaging public trust in the Nigeria Police Force.",
+      "The coalition formally submitted a petition to the Police Service Commission (PSC) and the Inspector-General of Police, demanding Moshood’s immediate interdiction and suspension to ensure an unhindered administrative investigation into his conduct.",
+      "Legal advocates at the briefing emphasized that police officers found guilty of violating fundamental human rights must face direct criminal prosecution in court rather than mere internal disciplinary transfers or administrative reprimands.",
+      "The groups highlighted specific cases where victims allegedly suffered arbitrary arrests and extortion, arguing that failing to hold senior leadership accountable fosters a culture of impunity across lower police ranks.",
+      "Rights activists warned that if the federal government and police leadership fail to act on the petition, they will mobilize nationwide peaceful protests and escalate the complaints to international human rights bodies.",
+      "As public outrage mounts over the allegations, the Police Service Commission and police authorities are under intense pressure to issue an official response regarding the demands for AIG Moshood's suspension and prosecution."
     ],
     "tags": [
       "News",
