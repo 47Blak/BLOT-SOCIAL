@@ -1,5 +1,76 @@
 const ARTICLES = [
   {
+    "slug": "inter-milan-and-ac-milan-battle-to-1-1-draw-in-pre-season-derby-friendly",
+    "category": "Sports",
+    "headline": "Inter Milan and AC Milan Battle to 1-1 Draw in Pre-Season Derby Friendly",
+    "dek": "The rival Italian giants share the spoils in a hard-fought pre-season encounter, showcasing sharp attacking play and early tactical adjustments ahead of their upcoming domestic campaigns.",
+    "author": "亗BLAK",
+    "date": "Aug 5",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJNzrVlGdRIRpeQ5XWBFP33BlYiGbkecjUdnstTXoMCg&s=10",
+    "body": [
+      "Lombardy rivals Inter Milan and AC Milan fought out a hard-contested 1-1 draw in a high-profile pre-season friendly, giving both managers a valuable test of their squad readiness ahead of the new campaign.",
+      "Played in front of a packed stadium of enthusiastic supporters, the legendary Derby della Madonnina matchup maintained its trademark intensity despite its non-competitive friendly status.",
+      "Inter Milan struck first in the opening half, establishing early dominance through quick combination play in midfield before converting a well-worked tactical move inside the penalty area.",
+      "AC Milan responded with determination after the break, adjusting their press to pin Inter back and eventually restoring parity with a clinical equalizer past the opposing goalkeeper.",
+      "Both managers utilized the fixture to rotate their squads heavily, granting valuable minutes to summer signings and academy prospects seeking to secure starting roles for the season ahead.",
+      "Tactical flexibility was on full display as both coaching staffs experimented with defensive setups and mid-block transitions to gauge player fitness and positional discipline.",
+      "The match featured occasional heated exchanges between players, demonstrating that the fiercely competitive spirit of the Milan derby remains fully intact regardless of the venue or occasion.",
+      "With the pre-season schedule nearing completion, both clubs expressed satisfaction with the high-tempo physical test as they refine their final strategies for the upcoming Serie A campaign."
+    ],
+    "tags": [
+      "News",
+      "Sports"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "us-authorities-charge-nigerian-basketball-player-daniel-adegboyega-over-alleged-rape-in-alabama-",
+    "category": "Sports",
+    "headline": "US Authorities Charge Nigerian Basketball Player Daniel Adegboyega Over Alleged Rape in Alabama",
+    "dek": "The US-based athlete faces serious felony charges following an investigation by local law enforcement, sparking widespread attention across international sports communities",
+    "author": "亗BLAK",
+    "date": "Aug 5",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdPj3AmAPMqTHAHePkHMi7Kk1DaKXdPG5WL6aDT3O0dK93lZohLK9Igllp&s=10",
+    "body": [
+      "United States law enforcement authorities in Alabama have formally charged and arrested US-based Nigerian basketball player Daniel Adegboyega in connection with rape allegations.",
+      "The arrest followed a detailed investigation by local law enforcement officers, who acted upon formal complaints regarding a alleged sexual assault incident within their jurisdiction.",
+      "According to preliminary reports released by local authorities, Adegboyega was taken into custody in Alabama without major incident after sufficient evidence was gathered to secure an arrest warrant.",
+      "Details surrounding the specific circumstances of the alleged assault remain restricted as prosecutors work to safeguard the integrity of the ongoing legal proceedings and protect the victim's privacy.",
+      "The development has sent shockwaves through both the Nigerian sports diaspora and local athletic circles in the US, where Adegboyega had been pursuing his basketball career.",
+      "Legal representatives for the athlete have yet to issue an official public statement regarding the formal charges, though court filings indicate he will remain in custody pending a preliminary hearing.",
+      "US prosecutors reiterated that the charges remain accusations at this stage, emphasizing that the defendant is presumed innocent until proven guilty in a court of law.",
+      "Further details are expected to emerge as the Alabama judicial system schedules formal arraignment proceedings and preliminary trial dates over the coming weeks."
+    ],
+    "tags": [
+      "News",
+      "Sports"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "bbnaijas-big-brother-unveils-secret-assignment-to-aikou-you-are-the-gambit",
+    "category": "News",
+    "headline": "BBNaija's Big Brother Unveils Secret Assignment to Aikou - \"You Are the Gambit\"",
+    "dek": "Tension mounts inside the Big Brother house as Biggie selects Aikou for a clandestine strategic role, issuing direct instructions that could dramatically reshape house dynamics and upcoming nominations.",
+    "author": "亗BLAK",
+    "date": "Aug 5",
+    "image": "https://static.wixstatic.com/media/67cd72_0644fc140853429b81cd6fc5d4fac049~mv2.webp/v1/fill/w_1600,h_900,al_c/67cd72_0644fc140853429b81cd6fc5d4fac049~mv2.webp",
+    "body": [
+      "The reality television landscape witnessed a high-stakes twist in the Big Brother Naija house when Big Brother called Aikou into the executive Diary Room to reveal a game-changing secret assignment.",
+      "During an intense and private session, Biggie delivered a cryptic yet decisive declaration to the housemate, stating explicitly, \"You are the Gambit,\" signaling the start of a covert operational role within the game.",
+      "The unexpected directive places Aikou at the center of Big Brother's strategic masterplan, granting unique influence over group dynamics while keeping fellow housemates completely in the dark regarding the mission's true nature.",
+      "Big Brother instructed Aikou to execute specific undercover tasks designed to test the loyalty, alliances, and resilience of competing contestants without raising suspicion or compromising the secret directive.",
+      "The revelation immediately sent shockwaves among viewers and fans across social media platforms, with audiences speculating heavily on how the new leverage will alter voting patterns and upcoming eviction nominations.",
+      "Failure to maintain absolute secrecy or fulfill the assigned objectives could carry heavy penalties for Aikou, including immediate forfeiture of immunity, nomination privileges, or direct disciplinary action from Biggie.",
+      "Housemates have already begun noticing subtle shifts in Aikou’s demeanor following the Diary Room session, leading to heightened paranoia and tactical maneuvering across competing cliques in the house.",
+      "As the strategic assignment unfolds over the coming days, viewers remain glued to live coverage to see whether Aikou can successfully execute the \"Gambit\" role and secure a clear advantage in the race for the grand prize."
+    ],
+    "tags": [
+      "News",
+      "Entertainment"
+    ]
+  },
+  {
     "slug": "delta-police-arrest-suspects-neutralize-kidnap-attempt-in-swift-operation",
     "category": "News",
     "headline": "Delta Police Arrest Suspects, Neutralize Kidnap Attempt in Swift Operation",
@@ -39,53 +110,6 @@ const ARTICLES = [
       "In mid-2025, Osoba joyfully announced to her fans and colleagues that she had successfully overcome the illness and was declared cancer-free, expressing immense gratitude to God and the well-wishers who supported her through recovery.",
       "Her emotional return to screen acting was celebrated across the Yoruba movie sector as an inspiring story of resilience, making the sudden news of her passing a painful surprise to both industry peers and fans worldwide.",
       "Tributes continue to pour in from across the Nigerian creative arts landscape as colleagues honor her memory and talent, while her family is expected to announce official burial arrangements in the coming days."
-    ],
-    "tags": [
-      "News",
-      "Entertainment"
-    ]
-  },
-  {
-    "slug": "inter-milan-and-ac-milan-battle-to-1-1-draw-in-pre-season-derby-friendly",
-    "category": "Sports",
-    "headline": "Inter Milan and AC Milan Battle to 1-1 Draw in Pre-Season Derby Friendly",
-    "dek": "The rival Italian giants share the spoils in a hard-fought pre-season encounter, showcasing sharp attacking play and early tactical adjustments ahead of their upcoming domestic campaigns.",
-    "author": "亗BLAK",
-    "date": "Aug 5",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJNzrVlGdRIRpeQ5XWBFP33BlYiGbkecjUdnstTXoMCg&s=10",
-    "body": [
-      "Lombardy rivals Inter Milan and AC Milan fought out a hard-contested 1-1 draw in a high-profile pre-season friendly, giving both managers a valuable test of their squad readiness ahead of the new campaign.",
-      "Played in front of a packed stadium of enthusiastic supporters, the legendary Derby della Madonnina matchup maintained its trademark intensity despite its non-competitive friendly status.",
-      "Inter Milan struck first in the opening half, establishing early dominance through quick combination play in midfield before converting a well-worked tactical move inside the penalty area.",
-      "AC Milan responded with determination after the break, adjusting their press to pin Inter back and eventually restoring parity with a clinical equalizer past the opposing goalkeeper.",
-      "Both managers utilized the fixture to rotate their squads heavily, granting valuable minutes to summer signings and academy prospects seeking to secure starting roles for the season ahead.",
-      "Tactical flexibility was on full display as both coaching staffs experimented with defensive setups and mid-block transitions to gauge player fitness and positional discipline.",
-      "The match featured occasional heated exchanges between players, demonstrating that the fiercely competitive spirit of the Milan derby remains fully intact regardless of the venue or occasion.",
-      "With the pre-season schedule nearing completion, both clubs expressed satisfaction with the high-tempo physical test as they refine their final strategies for the upcoming Serie A campaign."
-    ],
-    "tags": [
-      "News",
-      "Sports"
-    ],
-    "desk": true
-  },
-  {
-    "slug": "bbnaijas-big-brother-unveils-secret-assignment-to-aikou-you-are-the-gambit",
-    "category": "News",
-    "headline": "BBNaija's Big Brother Unveils Secret Assignment to Aikou - \"You Are the Gambit\"",
-    "dek": "Tension mounts inside the Big Brother house as Biggie selects Aikou for a clandestine strategic role, issuing direct instructions that could dramatically reshape house dynamics and upcoming nominations.",
-    "author": "亗BLAK",
-    "date": "Aug 5",
-    "image": "https://static.wixstatic.com/media/67cd72_0644fc140853429b81cd6fc5d4fac049~mv2.webp/v1/fill/w_1600,h_900,al_c/67cd72_0644fc140853429b81cd6fc5d4fac049~mv2.webp",
-    "body": [
-      "The reality television landscape witnessed a high-stakes twist in the Big Brother Naija house when Big Brother called Aikou into the executive Diary Room to reveal a game-changing secret assignment.",
-      "During an intense and private session, Biggie delivered a cryptic yet decisive declaration to the housemate, stating explicitly, \"You are the Gambit,\" signaling the start of a covert operational role within the game.",
-      "The unexpected directive places Aikou at the center of Big Brother's strategic masterplan, granting unique influence over group dynamics while keeping fellow housemates completely in the dark regarding the mission's true nature.",
-      "Big Brother instructed Aikou to execute specific undercover tasks designed to test the loyalty, alliances, and resilience of competing contestants without raising suspicion or compromising the secret directive.",
-      "The revelation immediately sent shockwaves among viewers and fans across social media platforms, with audiences speculating heavily on how the new leverage will alter voting patterns and upcoming eviction nominations.",
-      "Failure to maintain absolute secrecy or fulfill the assigned objectives could carry heavy penalties for Aikou, including immediate forfeiture of immunity, nomination privileges, or direct disciplinary action from Biggie.",
-      "Housemates have already begun noticing subtle shifts in Aikou’s demeanor following the Diary Room session, leading to heightened paranoia and tactical maneuvering across competing cliques in the house.",
-      "As the strategic assignment unfolds over the coming days, viewers remain glued to live coverage to see whether Aikou can successfully execute the \"Gambit\" role and secure a clear advantage in the race for the grand prize."
     ],
     "tags": [
       "News",
