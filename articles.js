@@ -1,28 +1,5 @@
 const ARTICLES = [
   {
-    "slug": "bbnaijas-big-brother-unveils-secret-assignment-to-aikou-you-are-the-gambit",
-    "category": "News",
-    "headline": "BBNaija's Big Brother Unveils Secret Assignment to Aikou - \"You Are the Gambit\"",
-    "dek": "Tension mounts inside the Big Brother house as Biggie selects Aikou for a clandestine strategic role, issuing direct instructions that could dramatically reshape house dynamics and upcoming nominations.",
-    "author": "亗BLAK",
-    "date": "Aug 5",
-    "image": "https://static.wixstatic.com/media/67cd72_0644fc140853429b81cd6fc5d4fac049~mv2.webp/v1/fill/w_1600,h_900,al_c/67cd72_0644fc140853429b81cd6fc5d4fac049~mv2.webp",
-    "body": [
-      "The reality television landscape witnessed a high-stakes twist in the Big Brother Naija house when Big Brother called Aikou into the executive Diary Room to reveal a game-changing secret assignment.",
-      "During an intense and private session, Biggie delivered a cryptic yet decisive declaration to the housemate, stating explicitly, \"You are the Gambit,\" signaling the start of a covert operational role within the game.",
-      "The unexpected directive places Aikou at the center of Big Brother's strategic masterplan, granting unique influence over group dynamics while keeping fellow housemates completely in the dark regarding the mission's true nature.",
-      "Big Brother instructed Aikou to execute specific undercover tasks designed to test the loyalty, alliances, and resilience of competing contestants without raising suspicion or compromising the secret directive.",
-      "The revelation immediately sent shockwaves among viewers and fans across social media platforms, with audiences speculating heavily on how the new leverage will alter voting patterns and upcoming eviction nominations.",
-      "Failure to maintain absolute secrecy or fulfill the assigned objectives could carry heavy penalties for Aikou, including immediate forfeiture of immunity, nomination privileges, or direct disciplinary action from Biggie.",
-      "Housemates have already begun noticing subtle shifts in Aikou’s demeanor following the Diary Room session, leading to heightened paranoia and tactical maneuvering across competing cliques in the house.",
-      "As the strategic assignment unfolds over the coming days, viewers remain glued to live coverage to see whether Aikou can successfully execute the \"Gambit\" role and secure a clear advantage in the race for the grand prize."
-    ],
-    "tags": [
-      "News",
-      "Entertainment"
-    ]
-  },
-  {
     "slug": "inter-milan-and-ac-milan-battle-to-1-1-draw-in-pre-season-derby-friendly",
     "category": "Sports",
     "headline": "Inter Milan and AC Milan Battle to 1-1 Draw in Pre-Season Derby Friendly",
@@ -47,6 +24,29 @@ const ARTICLES = [
     "desk": true
   },
   {
+    "slug": "bbnaijas-big-brother-unveils-secret-assignment-to-aikou-you-are-the-gambit",
+    "category": "News",
+    "headline": "BBNaija's Big Brother Unveils Secret Assignment to Aikou - \"You Are the Gambit\"",
+    "dek": "Tension mounts inside the Big Brother house as Biggie selects Aikou for a clandestine strategic role, issuing direct instructions that could dramatically reshape house dynamics and upcoming nominations.",
+    "author": "亗BLAK",
+    "date": "Aug 5",
+    "image": "https://static.wixstatic.com/media/67cd72_0644fc140853429b81cd6fc5d4fac049~mv2.webp/v1/fill/w_1600,h_900,al_c/67cd72_0644fc140853429b81cd6fc5d4fac049~mv2.webp",
+    "body": [
+      "The reality television landscape witnessed a high-stakes twist in the Big Brother Naija house when Big Brother called Aikou into the executive Diary Room to reveal a game-changing secret assignment.",
+      "During an intense and private session, Biggie delivered a cryptic yet decisive declaration to the housemate, stating explicitly, \"You are the Gambit,\" signaling the start of a covert operational role within the game.",
+      "The unexpected directive places Aikou at the center of Big Brother's strategic masterplan, granting unique influence over group dynamics while keeping fellow housemates completely in the dark regarding the mission's true nature.",
+      "Big Brother instructed Aikou to execute specific undercover tasks designed to test the loyalty, alliances, and resilience of competing contestants without raising suspicion or compromising the secret directive.",
+      "The revelation immediately sent shockwaves among viewers and fans across social media platforms, with audiences speculating heavily on how the new leverage will alter voting patterns and upcoming eviction nominations.",
+      "Failure to maintain absolute secrecy or fulfill the assigned objectives could carry heavy penalties for Aikou, including immediate forfeiture of immunity, nomination privileges, or direct disciplinary action from Biggie.",
+      "Housemates have already begun noticing subtle shifts in Aikou’s demeanor following the Diary Room session, leading to heightened paranoia and tactical maneuvering across competing cliques in the house.",
+      "As the strategic assignment unfolds over the coming days, viewers remain glued to live coverage to see whether Aikou can successfully execute the \"Gambit\" role and secure a clear advantage in the race for the grand prize."
+    ],
+    "tags": [
+      "News",
+      "Entertainment"
+    ]
+  },
+  {
     "slug": "us-authorities-charge-nigerian-basketball-player-daniel-adegboyega-over-alleged-rape-in-alabama-",
     "category": "Sports",
     "headline": "US Authorities Charge Nigerian Basketball Player Daniel Adegboyega Over Alleged Rape in Alabama",
@@ -67,6 +67,37 @@ const ARTICLES = [
     "tags": [
       "News",
       "Sports"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "by-now-evado-teams-up-with-bella-shmurda-for-electrifying-new-single",
+    "category": "Music",
+    "headline": "BY NOW - Evado Teams Up With Bella Shmurda for Electrifying New Single.",
+    "dek": "Fast-rising Afro-fusion artist Evado joins forces with street-hop sensation Bella Shmurda to deliver an emotionally charged anthem about ambition, success, and overcoming adversity.",
+    "author": "亗BLAK",
+    "date": "Aug 5",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJE7-qy8hbTbhs2uVkhTiJUPZU7-pAPDDd07KS-tXybpZFizaX9Pgx9jE&s=10",
+    "body": [
+      "Fast-rising music star Evado has officially released his highly anticipated collaboration, \"By Now,\" featuring acclaimed Nigerian street-hop artist Bella Shmurda.",
+      "The track delivers a powerful mix of Afro-pop and street-conscious melodies, capturing the personal journeys, hustles, and aspirations of both artists as they reflect on their rise to prominence.",
+      "Evado lays down smooth, introspective verses on the track, setting a vibrant acoustic and percussive foundation before passing the mic to Bella Shmurda for an explosive chorus.",
+      "Bella Shmurda elevates the record with his signature vocal texture and passionate delivery, infusing the anthem with high energy and deep-rooted street authenticity.",
+      "Music reviewers have commended the seamless chemistry between both vocalists, highlighting how their distinct musical styles blend effortlessly over a rich, mid-tempo Afro-fusion beat.",
+      "Lyrically, \"By Now\" touches on theme of resilience, self-belief, and quiet triumph over naysayers, making it an instant favorite among youth and street-culture enthusiasts alike.",
+      "The single has rapidly gained momentum across social media platforms, sparking viral lyric video clips and playlist placements within hours of its official drop.",
+      "\"By Now\" is currently streaming across all major digital platforms, marking a significant milestone in Evado’s growing career and adding another stellar feature to Bella Shmurda’s impressive catalog."
+    ],
+    "audiomack": "https://audiomack.com/eva-lee1/song/by-now",
+    "youtubeVideo": "https://youtu.be/v7OyTfmdmZU?si=dukwu1bNHxRoJVhH",
+    "artist": "Evado",
+    "featuring": "Bella Shmurda",
+    "producer": "Enaps",
+    "genre": "Afrobeats",
+    "released": "2026",
+    "tags": [
+      "Music",
+      "Entertainment"
     ],
     "desk": true
   },
