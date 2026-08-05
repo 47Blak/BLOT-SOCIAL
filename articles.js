@@ -71,6 +71,53 @@ const ARTICLES = [
     "desk": true
   },
   {
+    "slug": "waec-releases-2026-wassce-results-as-12m-candidates-pass-english-and-mathematics",
+    "category": "News",
+    "headline": "WAEC Releases 2026 WASSCE Results as 1.2m Candidates Pass English and Mathematics",
+    "dek": "The West African Examinations Council records a 61.54 per cent pass rate in five key subjects including English and Maths, with overall performance reflecting a slight 1.42 per cent dip from the 2025 academic session.",
+    "author": "亗BLAK",
+    "date": "Aug 5",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEaU_u4oW5r-rVHoxrX8LIwxEcBBkJrUXWWzFfPcAT6FCOu6hDHNUF0MfP&s=10",
+    "body": [
+      "The West African Examinations Council (WAEC) has officially released the results of the 2026 West African Senior School Certificate Examination (WASSCE) for school candidates, confirming that 1,200,514 candidates secured credits in a minimum of five subjects, including English Language and Mathematics.",
+      "Announcing the performance statistics at a press briefing in Lagos on Wednesday, August 5, 2026, the Head of the WAEC Nigeria National Office, Dr. Amos Josiah Dangut, revealed that the successful candidates represent 61.54 per cent of the total 1,950,726 students who sat the examination.",
+      "Dr. Dangut noted that while the overall pass rate remains substantial, the 2026 figures mark a modest 1.42 per cent decline compared to the performance recorded during the 2025 examination cycle.",
+      "A total of 1,959,668 candidates from 24,207 secondary schools registered for the diet across Nigeria, Benin Republic, Côte d'Ivoire, and Equatorial Guinea, with 1,687,378 candidates (86.50 per cent) obtaining five credits with or without English Language and Mathematics.",
+      "A detailed gender breakdown of the successful cohort showed that female candidates outperformed their male counterparts, with 641,631 females (32.89 per cent) obtaining five credits including English and Maths, compared to 558,883 males (28.65 per cent).",
+      "The examination council also reported that the results of 1,834,695 candidates representing 94.05 per cent of all participants—have been fully processed and uploaded, while 116,031 results (5.95 per cent) remain under ongoing processing due to minor technical and center-level reconciliations.",
+      "However, WAEC confirmed that the results of 167,486 candidates, representing 8.59 per cent of the total candidates, were withheld in connection with reported cases of examination malpractice, though the figure represents a 1.11 per cent decrease from the 9.7 per cent recorded in 2025.",
+      "The council instructed candidates to generate a personal identification number (PIN) on its official portal to check their results online within 12 hours, adding that successful candidates can apply for digital certificates within 48 hours of accessing their scores."
+    ],
+    "tags": [
+      "News"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "bbnaija-season-11-flora-sparks-drama-over-alleged-age-falsification-among-housemates",
+    "category": "News",
+    "headline": "BBNaija Season 11: Flora Sparks Drama over Alleged Age Falsification Among Housemates",
+    "dek": "Tensions rise inside the Big Brother Naija house after contestant Flora Egbedi claims several housemates lied about their true ages, sparking intense debate among viewers and fellow contestants.",
+    "author": "亗BLAK",
+    "date": "Aug 5",
+    "image": "https://cdn.legit.ng/images/1120/6fa50eecefada6d9.jpeg?v=1",
+    "body": [
+      "Controversy has erupted inside the Big Brother Naija Season 11 house following outspoken allegations by housemate Flora Egbedi regarding widespread age falsification among her fellow contestants.",
+      "During a late-night conversation in the lounge, the 30-year-old housemate openly accused several contestants of fabricating significantly lower ages before entering the reality television show.",
+      "Flora claimed that a large portion of the current housemates are considerably older than they publicly declared, though she deliberately withheld specific names during her candid remarks.",
+      "Expressing regret over her own honesty, Flora humorously stated that she should have lied about being 20 years old to fit in better, identifying fellow contestant Trams as the only peer whose stated age she genuinely believed.",
+      "The allegations immediately ignited widespread discussion across social media platforms, with show enthusiasts and commentators debating whether age claims influence strategic alliances and public voting patterns.",
+      "Reviewers and fans have called on show host Ebuka Obi-Uchendu to address the accusations directly during the upcoming live eviction show by pressing Flora to name the specific housemates involved.",
+      "Age falsification claims have remained a recurring talking point throughout past seasons of the popular franchise, with viewers frequently scrutinizing contestant biographies for inconsistencies.",
+      "As the housemates prepare for the next eviction cycle, Flora’s bold assertions have added another layer of suspicion and psychological tension to the ongoing competition"
+    ],
+    "tags": [
+      "News",
+      "Entertainment"
+    ],
+    "desk": true
+  },
+  {
     "slug": "bbnaijas-big-brother-unveils-secret-assignment-to-aikou-you-are-the-gambit",
     "category": "News",
     "headline": "BBNaija's Big Brother Unveils Secret Assignment to Aikou - \"You Are the Gambit\"",
@@ -94,25 +141,32 @@ const ARTICLES = [
     ]
   },
   {
-    "slug": "waec-releases-2026-wassce-results-as-12m-candidates-pass-english-and-mathematics",
+    "slug": "they-dont-like-me-bbnaijas-abi-weighs-voluntary-exit-over-isolation-in-the-house",
     "category": "News",
-    "headline": "WAEC Releases 2026 WASSCE Results as 1.2m Candidates Pass English and Mathematics",
-    "dek": "The West African Examinations Council records a 61.54 per cent pass rate in five key subjects including English and Maths, with overall performance reflecting a slight 1.42 per cent dip from the 2025 academic session.",
+    "headline": "They Don't Like Me\"  BBNaija's Abi Weighs Voluntary Exit Over Isolation in the House",
+    "dek": "Feeling targeted and unwanted, Abi considers walking away from the BBNaija house, but fellow housemates urge her to reconsider and prioritize her mental health.",
     "author": "亗BLAK",
-    "date": "Aug 5",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEaU_u4oW5r-rVHoxrX8LIwxEcBBkJrUXWWzFfPcAT6FCOu6hDHNUF0MfP&s=10",
+    "date": "Aug 4",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH4FAibU3Nr6gJW89F7L1XFfwT8xxCFnefdO6SLDe0wA&s=10",
     "body": [
-      "The West African Examinations Council (WAEC) has officially released the results of the 2026 West African Senior School Certificate Examination (WASSCE) for school candidates, confirming that 1,200,514 candidates secured credits in a minimum of five subjects, including English Language and Mathematics.",
-      "Announcing the performance statistics at a press briefing in Lagos on Wednesday, August 5, 2026, the Head of the WAEC Nigeria National Office, Dr. Amos Josiah Dangut, revealed that the successful candidates represent 61.54 per cent of the total 1,950,726 students who sat the examination.",
-      "Dr. Dangut noted that while the overall pass rate remains substantial, the 2026 figures mark a modest 1.42 per cent decline compared to the performance recorded during the 2025 examination cycle.",
-      "A total of 1,959,668 candidates from 24,207 secondary schools registered for the diet across Nigeria, Benin Republic, Côte d'Ivoire, and Equatorial Guinea, with 1,687,378 candidates (86.50 per cent) obtaining five credits with or without English Language and Mathematics.",
-      "A detailed gender breakdown of the successful cohort showed that female candidates outperformed their male counterparts, with 641,631 females (32.89 per cent) obtaining five credits including English and Maths, compared to 558,883 males (28.65 per cent).",
-      "The examination council also reported that the results of 1,834,695 candidates representing 94.05 per cent of all participants—have been fully processed and uploaded, while 116,031 results (5.95 per cent) remain under ongoing processing due to minor technical and center-level reconciliations.",
-      "However, WAEC confirmed that the results of 167,486 candidates, representing 8.59 per cent of the total candidates, were withheld in connection with reported cases of examination malpractice, though the figure represents a 1.11 per cent decrease from the 9.7 per cent recorded in 2025.",
-      "The council instructed candidates to generate a personal identification number (PIN) on its official portal to check their results online within 12 hours, adding that successful candidates can apply for digital certificates within 48 hours of accessing their scores."
+      "BBNaija Season 11 housemate Abi has revealed she is contemplating a voluntary exit from the reality show, citing growing feelings of isolation and hostility from other contestants.",
+      "The situation came to a head following the latest nomination process, which placed Abi among a staggering 19 housemates facing possible eviction this week .",
+      "During a heartfelt conversation with fellow housemates Temi and Nomy, Abi expressed her deep frustration and doubts about continuing in the competition.",
+      "\"I feel like they're all against me. Some of them don't like me, and I can see it in the way they treat me,\" she said, sharing her belief that several contestants are actively excluding her .",
+      "The emotional toll of feeling unwanted in the house has made Abi question whether the competition is worth the mental strain she is currently experiencing.",
+      "However, Nomy immediately encouraged her to stay, urging her not to let the attitudes of other contestants dictate her fate in the game.",
+      "\"You should check in with your mental health first before making that decision,\" Temi advised, appealing to Abi to carefully think through her choice before taking any drastic action .",
+      "This week, 19 housemates are at risk of eviction, making it the first potential elimination of the season .",
+      "The large number of nominees means several contestants are in danger when voting results are announced on Sunday's live show.",
+      "Abi has not yet confirmed whether she will proceed with a voluntary exit or choose to remain and fight for her place in the house .",
+      "The nomination process itself was altered this week, with housemates asked to save three contestants rather than nominate them for eviction.",
+      "In the end, only Tram, Barry, Goddessa, and Chimsom Chuka secured immunity for the week, leaving the majority of the house vulnerable .",
+      "Meanwhile, Sheba emerged as the new Head of House for week two after winning a series of competitive games .",
+      "All eyes remain on Abi as viewers wait to see whether she will overcome her struggles or become the first housemate to voluntarily leave the season."
     ],
     "tags": [
-      "News"
+      "News",
+      "Entertainment"
     ],
     "desk": true
   },
