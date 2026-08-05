@@ -1,5 +1,52 @@
 const ARTICLES = [
   {
+    "slug": "nans-urges-urgent-dialogue-as-asuu-threatens-strike-action-at-kebbi-state-university",
+    "category": "News",
+    "headline": "NANS Urges Urgent Dialogue as ASUU Threatens Strike Action at Kebbi State University",
+    "dek": "Student leadership intervenes to prevent an impending industrial crisis at KSUSTA, calling on the Kebbi State Government and university lecturers to resolve funding and welfare disputes amicably.",
+    "author": "亗BLAK",
+    "date": "Aug 5",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpJlC_GgUCvyx1u-kTeWdZ3OY_pZNJPDICIPQV7tznYNUGblpbAsAN2cs&s=10",
+    "body": [
+      "The National Association of Nigerian Students (NANS) has appealed to both the Kebbi State Government and the Academic Staff Union of Universities (ASUU) to prioritize constructive dialogue to avert an impending industrial action at the Kebbi State University of Science and Technology, Aliero (KSUSTA).",
+      "The intervention follows formal warnings issued by the KSUSTA chapter of ASUU, threatening to down tools over unresolved welfare grievances, multi-year promotion arrears, and severe infrastructural funding deficits within the institution.",
+      "In a statement released on Wednesday, NANS student leaders expressed deep concern over the escalating tension, warning that any disruption to the academic calendar would further prolong the educational pursuits of thousands of innocent students.",
+      "The student body noted that Nigerian undergraduates have continuously borne the brunt of recurring strikes in public tertiary institutions, emphasizing that protracted industrial disputes severely diminish the quality of higher education nationwide.",
+      "NANS urged Governor Nasir Idris to intervene directly in the dispute, calling for the immediate establishment of a joint reconciliation committee to address the legitimate demands of the university's academic staff.",
+      "Concurrently, the student leadership appealed to the university's ASUU executives to remain open to negotiations, urging the union to exhaust all administrative dispute-resolution mechanisms before taking extreme measures like a full strike.",
+      "The association highlighted that resolving issue-based grievances through calm negotiation rather than abrupt shutdowns remains essential for maintaining academic stability, student mental health, and institutional integrity.",
+      "NANS reaffirmed its commitment to monitoring negotiations closely, maintaining that it will continue to advocate for both the welfare of university staff and the uninterrupted educational progress of Nigerian students."
+    ],
+    "tags": [
+      "News",
+      "Politics"
+    ]
+  },
+  {
+    "slug": "adeleke-heads-to-court-over-efcc-freezing-of-osun-state-accounts",
+    "category": "News",
+    "headline": "Adeleke Heads to Court Over EFCC Freezing of Osun State Accounts.",
+    "dek": "Governor Ademola Adeleke institutes urgent legal action against the Economic and Financial Crimes Commission following the restrictions placed on the state government's First Bank accounts ahead of the August 15 governorship election.",
+    "author": "亗BLAK",
+    "date": "Aug 5",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr9oHLdcZNMvK7d-TYpsr84RYCKmSIq_2GFRIFYmjNsHdU-PX_uPsyVyo&s=10",
+    "body": [
+      "Osun State Governor, Senator Ademola Adeleke, has initiated high-stakes legal proceedings against the Economic and Financial Crimes Commission (EFCC) to challenge the sudden freezing of the state government’s main operational bank accounts.",
+      "​The legal confrontation escalated after the state government received official correspondence from its primary financial institution, First Bank Plc, confirming that an executive restriction order had been placed on the accounts following a direct mandate from the anti-graft agency.",
+      "​Addressing newsmen and key stakeholders at a press briefing held inside the Government House in Osogbo, Governor Adeleke strongly condemned the action, describing it as an unconstitutional, illegal, and heavy-handed overreach by the federal agency.",
+      "​The governor argued that the EFCC lacks the constitutional power to arbitrarily freeze the statutory accounts of a subnational government, emphasizing that such actions violate the principles of federalism and established legal precedents regarding public treasury management.",
+      "​State officials and cabinet members further labeled the anti-graft agency’s intervention as a politically motivated maneuver, alleging that the timing was deliberately calculated to paralyze administrative functions and cripple the state's day-to-day governance.",
+      "​With the Osun State governorship election scheduled for August 15, the state administration warned that blocking access to public funds directly threatens the timely payment of civil servants' salaries, pension disbursements, and emergency public health services.",
+      "​The suit, filed through the Office of the Attorney General of Osun State, seeks immediate injunctive relief from the court to unfreeze all affected accounts, restrain the EFCC from further interference, and declare the agency's actions null and void.",
+      "​Legal representatives for the state government reaffirmed their commitment to pursuing the matter to a logical conclusion, maintaining that preserving subnational financial autonomy is vital to safeguarding democratic stability and public order across the state."
+    ],
+    "tags": [
+      "News",
+      "Politics"
+    ],
+    "desk": true
+  },
+  {
     "slug": "tactical-masterclass-juventus-proves-categorically-superior-to-chelsea-in-dominant-display",
     "category": "Trending",
     "headline": "Tactical Masterclass: Juventus Proves Categorically Superior to Chelsea in Dominant Display",
