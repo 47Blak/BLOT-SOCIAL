@@ -11,9 +11,11 @@ const ARTICLES = [
       "Juventus delivered a commanding European performance, outclassing Chelsea across all departments to demonstrate their categorical superiority on the pitch.",
       "From the opening whistle, the Bianconeri controlled the tempo, deploying a disciplined tactical setup that completely neutralized Chelsea’s attacking setup while relentlessly exploiting gaps in the Blues' defensive transition.",
       "Chelsea struggled to assert any meaningful authority over the contest, pinned back by Juventus' sharp pressing, superior midfield structure, and clinical execution in the final third.",
-      "Key tactical shifts executed by Juventus exposed structural vulnerabilities in Chelsea's backline, allowing the Italian side to dominate possession metrics and create the game's clearest scoring opportunities.",
-      "The defeat highlights growing concerns for Chelsea's technical staff, who now face pressing questions regarding squad cohesion, midfield stability, and tactical flexibility when competing against elite European opposition.",
-      "For Juventus, the decisive result serves as a powerful statement of intent, reinforcing their status as formidable contenders and establishing a clear blueprint for success in top-tier international competition."
+      "Key tactical shifts executed by Juventus exposed structural vulnerabilities in Chelsea's backline, allowing the Italian side to dominate possession metrics and create the game's clearest scoring opportunities.\nThe defeat highlights growing concerns for Chelsea's technical staff, who now face pressing questions regarding squad cohesion, midfield stability, and tactical flexibility when competing against elite European opposition.",
+      "For Juventus, the decisive result serves as a powerful statement of intent, reinforcing their status as formidable contenders and establishing a clear blueprint for success in top-tier international competition.",
+      "Speaking after the match, the Juventus manager praised his side’s discipline and tactical maturity, noting that every player executed the pre-match game plan to perfection. He emphasized that controlling the spaces and limiting Chelsea’s central link-up play were key factors in controlling the outcome from start to finish.\nIn contrast, the Chelsea camp faced sharp criticism from pundits and supporters alike for a passive performance that lacked urgency and creative spark.",
+      "The Blues failed to register a single shot on target during key stretches of the match, leaving their forward line isolated and struggling to make an impact against a resolute Italian defense.",
+      "The outcome leaves Chelsea with little margin for error in their upcoming fixtures as they fight to stay competitive in the tournament.\nMeanwhile, Juventus move forward with immense momentum, having delivered a resounding reminder of their tactical authority on the biggest stage."
     ],
     "tags": [
       "News",
