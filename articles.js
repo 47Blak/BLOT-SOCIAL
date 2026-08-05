@@ -1,5 +1,28 @@
 const ARTICLES = [
   {
+    "slug": "tactical-masterclass-juventus-proves-categorically-superior-to-chelsea-in-dominant-display",
+    "category": "Trending",
+    "headline": "Tactical Masterclass: Juventus Proves Categorically Superior to Chelsea in Dominant Display",
+    "dek": "A ruthless performance from the Italian giants exposes structural flaws in the Blues, securing a statement victory that leaves Chelsea searching for answers.",
+    "author": "亗BLAK",
+    "date": "Aug 5",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8l9LqvwgY04GOb2BOo-6wSpDriyYfSWQqM_cyu94562nYrjeRbOza8MUK&s=10",
+    "body": [
+      "Juventus delivered a commanding European performance, outclassing Chelsea across all departments to demonstrate their categorical superiority on the pitch.",
+      "From the opening whistle, the Bianconeri controlled the tempo, deploying a disciplined tactical setup that completely neutralized Chelsea’s attacking setup while relentlessly exploiting gaps in the Blues' defensive transition.",
+      "Chelsea struggled to assert any meaningful authority over the contest, pinned back by Juventus' sharp pressing, superior midfield structure, and clinical execution in the final third.",
+      "Key tactical shifts executed by Juventus exposed structural vulnerabilities in Chelsea's backline, allowing the Italian side to dominate possession metrics and create the game's clearest scoring opportunities.",
+      "The defeat highlights growing concerns for Chelsea's technical staff, who now face pressing questions regarding squad cohesion, midfield stability, and tactical flexibility when competing against elite European opposition.",
+      "For Juventus, the decisive result serves as a powerful statement of intent, reinforcing their status as formidable contenders and establishing a clear blueprint for success in top-tier international competition."
+    ],
+    "tags": [
+      "News",
+      "Sports",
+      "Trending"
+    ],
+    "hero": true
+  },
+  {
     "slug": "commonwealth-games-nigeria-finishes-7th-with-24-medals-emerges-africas-best",
     "category": "News",
     "headline": "Commonwealth Games: Nigeria Finishes 7th With 24 Medals, Emerges Africa’s Best",
@@ -648,7 +671,7 @@ const ARTICLES = [
       "Sports",
       "Trending"
     ],
-    "hero": true
+    "desk": true
   },
   {
     "slug": "image of hotels",
@@ -932,28 +955,6 @@ const ARTICLES = [
       "Technology"
     ],
     "desk": true
-  },
-  {
-    "slug": "new-tunnel-link-cuts-cross-border-commute-by-twenty-minutes",
-    "category": "News",
-    "headline": "Commonwealth Games: Nigeria Finishes 7th With 24 Medals, Emerges Africa’s Best",
-    "dek": "Team Nigeria closes out a landmark campaign at the Glasgow 2026 Commonwealth Games, securing 10 gold, seven silver, and seven bronze medals to lead all African contingents on the final standings.",
-    "author": "亗BLAK",
-    "date": "Jul 4",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuuUDEfCPj2odBbxCt6vK_l3T2vW20EWDWWa-jNaPhAVI9Scqs0r-i6aua&s=10",
-    "body": [
-      "Team Nigeria concluded an impressive campaign at the Glasgow 2026 Commonwealth Games in Scotland, finishing seventh on the overall medals table and emerging as Africa's top-performing nation.",
-      "​The Nigerian contingent accumulated a total of 24 medals—comprising 10 gold, seven silver, and seven bronze—placing ahead of continental rivals South Africa (11th) and Kenya (13th). Australia topped the global standings with 171 medals, followed by England, Canada, India, Scotland, and New Zealand.",
-      "​Esther Nworgu set the tone early for Team Nigeria by capturing the country's first gold medal in the women’s lightweight para-powerlifting event. Para-athlete Goodness Nwachukwu also delivered a standout performance, shattering her own world record to claim gold in the women’s F42 discus throw.",
-      "​On the track and field, Samuel Ogazi made history by winning the men’s 400 meters in 44.25 seconds—becoming the first Nigerian to claim Commonwealth gold in the event. Ezekiel Nathaniel echoed the feat by securing Nigeria’s first-ever Commonwealth title in the men’s 400m hurdles, while Chukwuebuka Enekwechi took gold in the men’s shot put.",
-      "​Further medal successes included silver finishes for Ruth Usoro in the women’s long jump and Udodi Onwuzurike in the men’s 200m. Bronze medals were added by world record holder Tobi Amusan in the 100m hurdles, Ella Onojuvwevwo in the women’s 400m, and the men’s 4x100m and mixed 4x400m relay teams.",
-      "​Sports officials and athletes lauded Team Nigeria's performance in Glasgow as one of the nation's most memorable Commonwealth outings in recent history, cementing momentum ahead of upcoming global track and field championships."
-    ],
-    "tags": [
-      "News",
-      "Sports"
-    ],
-    "brief": true
   }
 ];
 
