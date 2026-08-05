@@ -1,5 +1,29 @@
 const ARTICLES = [
   {
+    "slug": "inter-milan-and-ac-milan-battle-to-1-1-draw-in-pre-season-derby-friendly",
+    "category": "Sports",
+    "headline": "Inter Milan and AC Milan Battle to 1-1 Draw in Pre-Season Derby Friendly",
+    "dek": "The rival Italian giants share the spoils in a hard-fought pre-season encounter, showcasing sharp attacking play and early tactical adjustments ahead of their upcoming domestic campaigns.",
+    "author": "亗BLAK",
+    "date": "Aug 5",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJNzrVlGdRIRpeQ5XWBFP33BlYiGbkecjUdnstTXoMCg&s=10",
+    "body": [
+      "Lombardy rivals Inter Milan and AC Milan fought out a hard-contested 1-1 draw in a high-profile pre-season friendly, giving both managers a valuable test of their squad readiness ahead of the new campaign.",
+      "Played in front of a packed stadium of enthusiastic supporters, the legendary Derby della Madonnina matchup maintained its trademark intensity despite its non-competitive friendly status.",
+      "Inter Milan struck first in the opening half, establishing early dominance through quick combination play in midfield before converting a well-worked tactical move inside the penalty area.",
+      "AC Milan responded with determination after the break, adjusting their press to pin Inter back and eventually restoring parity with a clinical equalizer past the opposing goalkeeper.",
+      "Both managers utilized the fixture to rotate their squads heavily, granting valuable minutes to summer signings and academy prospects seeking to secure starting roles for the season ahead.",
+      "Tactical flexibility was on full display as both coaching staffs experimented with defensive setups and mid-block transitions to gauge player fitness and positional discipline.",
+      "The match featured occasional heated exchanges between players, demonstrating that the fiercely competitive spirit of the Milan derby remains fully intact regardless of the venue or occasion.",
+      "With the pre-season schedule nearing completion, both clubs expressed satisfaction with the high-tempo physical test as they refine their final strategies for the upcoming Serie A campaign."
+    ],
+    "tags": [
+      "News",
+      "Sports"
+    ],
+    "desk": true
+  },
+  {
     "slug": "bbnaijas-big-brother-unveils-secret-assignment-to-aikou-you-are-the-gambit",
     "category": "News",
     "headline": "BBNaija's Big Brother Unveils Secret Assignment to Aikou - \"You Are the Gambit\"",
