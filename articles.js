@@ -1,51 +1,5 @@
 const ARTICLES = [
   {
-    "slug": "manchester-city-reject-barcelonas-385m-opening-bid-for-rodri",
-    "category": "Sports",
-    "headline": "Manchester City Reject Barcelona's £38.5m Opening Bid for Rodri",
-    "dek": "The Premier League champions turn down La Liga's initial proposal for the World Cup-winning midfielder, holding out for a fee above £60 million as transfer negotiations continue.",
-    "author": "亗BLAK",
-    "date": "Aug 7",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtEpKj1S0Mu4_XpGssGIAZsyi7NpMlgOo9yWRaYheUfsUEr-LzeGoFb3pL&s=10",
-    "body": [
-      "Manchester City have officially rejected an opening transfer bid of £38.5 million (€45 million) from Barcelona for star midfielder Rodri, setting up a high-profile saga in the closing weeks of the summer transfer window.",
-      "The Catalan club submitted their first formal offer following positive discussions with the 30-year-old's representatives, who indicated a strong desire for the Spanish international to return to his homeland.",
-      "City quickly dismissed the proposal, holding firm to their valuation of over £60 million for the 2024 Ballon d'Or winner, who recently captained Spain to World Cup glory and earned the tournament's Golden Ball.",
-      "Barcelona emerged as the frontrunner for Rodri's signature after competing interest from Real Madrid cooled earlier in the week, making Catalunya the player's preferred destination.",
-      "Reports suggest that personal terms between the Spanish champions and the midfielder have largely been agreed upon, with the player seeking a new challenge after entering the final year of his contract at the Etihad Stadium.",
-      "Barça manager Hansi Flick and sporting director Deco identified Rodri as an immediate priority target to fortify their midfield following a severe knee injury that has sidelined key starter Frenkie de Jong.",
-      "The midfielder is currently recovering from a minor back operation and is expected back in Manchester to continue his post-World Cup rehabilitation program with City's medical staff.",
-      "Despite the initial rejection, negotiations between the two European giants are ongoing as Barcelona prepare a revised bid to bridge the valuation gap before the transfer deadline."
-    ],
-    "tags": [
-      "News",
-      "Sports"
-    ]
-  },
-  {
-    "slug": "tinubu-is-a-friend-of-the-catholic-church-not-a-critic-says-orji-kalu",
-    "category": "News",
-    "headline": "Tinubu is a Friend of the Catholic Church, Not a Critic, Says Orji Kalu",
-    "dek": "Senator Orji Uzor Kalu dismisses claims that President Bola Tinubu holds animosity toward Catholic bishops, describing the President as an ally of the faith who values institutional collaboration.",
-    "author": "亗BLAK",
-    "date": "Aug 7",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT35r16qm5zVshh7wz2vZScrS4Ma7MOV9kqtDZY2_foRXKx1Z2mYV5oZBI&s=10",
-    "body": [
-      "Former Abia State Governor and Senator, Orji Uzor Kalu, has publicly refuted allegations that President Bola Ahmed Tinubu recently insulted or disparaged Catholic bishops in Nigeria.",
-      "Speaking to journalists in Abuja on Friday, Kalu emphasized that the President maintains a deep respect for the Catholic clergy and views the church as a critical partner in the country's national development and social cohesion efforts.\n\"President Tinubu is one of the best friends the Catholic Church has in the Nigerian political space,\" Kalu stated. \"Any narrative suggesting he harbors disrespect toward the bishops is a gross misinterpretation of his administration's engagement with religious leadership.\"",
-      "The Senator urged critics and political opponents to avoid stoking religious tensions by taking the President's policy-focused remarks out of context or attributing divisive motives to his governance style.",
-      "According to Kalu, the President frequently seeks counsel from religious leaders across various denominations to navigate the country's economic and security challenges, proving his commitment to an inclusive administration.",
-      "The clarification comes amid swirling social media debates regarding the government’s relationship with organized religious bodies following recent critiques of federal economic policies by certain members of the clergy.",
-      "Kalu noted that while the Catholic Bishops Conference of Nigeria (CBCN) occasionally offers \"constructive criticism\" regarding national governance, such feedback is received by the Presidency as a patriotic duty rather than an act of hostility.",
-      "The former governor reaffirmed his confidence in the President’s \"Renewed Hope\" agenda, calling on Nigerians to focus on collective nation-building efforts rather than engaging in rhetoric that could exacerbate sectarian divides.",
-      "Political analysts suggest that Kalu’s intervention is a strategic move to soften the optics between the federal government and the influential Catholic bloc as the administration seeks broader support for its ongoing fiscal reforms."
-    ],
-    "tags": [
-      "News",
-      "Politics"
-    ]
-  },
-  {
     "slug": "youths-and-students-stage-massive-rallies-in-ogun-to-support-tinubu-abiodun-and-adeola-for-2027",
     "category": "News",
     "headline": "Youths and Students Stage Massive Rallies in Ogun to Support Tinubu, Abiodun, and Adeola for 2027",
@@ -94,6 +48,101 @@ const ARTICLES = [
     "desk": true
   },
   {
+    "slug": "my-son-will-be-bigger-than-me-cristiano-ronaldo-backs-cristiano-jr-to-surpass-him-physically-",
+    "category": "Sports",
+    "headline": "My Son Will Be Bigger Than Me – Cristiano Ronaldo Backs Cristiano Jr. to Surpass Him Physically 😂",
+    "dek": "The Portuguese football icon praises his 16-year-old son's physical development at Al Nassr's academy but emphasizes that elite success depends on internal drive and hunger.",
+    "author": "亗BLAK",
+    "date": "Aug 7",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ982TDYOAEa5lNLu6PAPMuLIyyw5demND7YKtME_6gc12SBZxI5zvqwx9q&s=10",
+    "body": [
+      "Five-time Ballon d'Or winner Cristiano Ronaldo has stated that his eldest son, Cristiano Jr., possesses the physical attributes to grow bigger and stronger than he was at the same age.",
+      "Speaking in a video shared by Netflix Sports while observing the 16-year-old training with the Al Nassr youth academy, the 41-year-old legendary forward reflected on his son's rapid physical development.",
+      "\"He's a good kid. The other ones are tougher, the ones at home, the small ones. This one is no problem,\" Ronaldo said. \"When I was his age, he is a little bit bigger and stronger. I was smaller. I think he will be bigger than me.\"",
+      "Despite praising his son's stature and technique, the former Real Madrid and Manchester United star cautioned that physical advantages alone do not guarantee a elite career in professional football.",
+      "When asked whether Cristiano Jr. would develop the same fierce determination that propelled his own legendary career, Ronaldo pointed to elite mentality as the hardest quality to cultivate.",
+      "\"Hunger is the most difficult,\" Ronaldo acknowledged, reiterating the relentless sacrifice and discipline required to sustain performance at the highest level for over two decades.",
+      "Cristiano Jr., born in June 2010, has previously spent time in the youth academies of Juventus and Manchester United alongside his father's tenure at those clubs before joining Al Nassr's youth setup in late 2022.",
+      "As the teenager continues his progression through the Saudi Arabian club's youth system, global football fans and analysts continue to track his development to see if he can forge his own legacy on the professional stage."
+    ],
+    "tags": [
+      "News",
+      "Sports"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "manchester-city-reject-barcelonas-385m-opening-bid-for-rodri",
+    "category": "Sports",
+    "headline": "Manchester City Reject Barcelona's £38.5m Opening Bid for Rodri",
+    "dek": "The Premier League champions turn down La Liga's initial proposal for the World Cup-winning midfielder, holding out for a fee above £60 million as transfer negotiations continue.",
+    "author": "亗BLAK",
+    "date": "Aug 7",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtEpKj1S0Mu4_XpGssGIAZsyi7NpMlgOo9yWRaYheUfsUEr-LzeGoFb3pL&s=10",
+    "body": [
+      "Manchester City have officially rejected an opening transfer bid of £38.5 million (€45 million) from Barcelona for star midfielder Rodri, setting up a high-profile saga in the closing weeks of the summer transfer window.",
+      "The Catalan club submitted their first formal offer following positive discussions with the 30-year-old's representatives, who indicated a strong desire for the Spanish international to return to his homeland.",
+      "City quickly dismissed the proposal, holding firm to their valuation of over £60 million for the 2024 Ballon d'Or winner, who recently captained Spain to World Cup glory and earned the tournament's Golden Ball.",
+      "Barcelona emerged as the frontrunner for Rodri's signature after competing interest from Real Madrid cooled earlier in the week, making Catalunya the player's preferred destination.",
+      "Reports suggest that personal terms between the Spanish champions and the midfielder have largely been agreed upon, with the player seeking a new challenge after entering the final year of his contract at the Etihad Stadium.",
+      "Barça manager Hansi Flick and sporting director Deco identified Rodri as an immediate priority target to fortify their midfield following a severe knee injury that has sidelined key starter Frenkie de Jong.",
+      "The midfielder is currently recovering from a minor back operation and is expected back in Manchester to continue his post-World Cup rehabilitation program with City's medical staff.",
+      "Despite the initial rejection, negotiations between the two European giants are ongoing as Barcelona prepare a revised bid to bridge the valuation gap before the transfer deadline."
+    ],
+    "tags": [
+      "News",
+      "Sports"
+    ]
+  },
+  {
+    "slug": "tinubu-is-a-friend-of-the-catholic-church-not-a-critic-says-orji-kalu",
+    "category": "News",
+    "headline": "Tinubu is a Friend of the Catholic Church, Not a Critic, Says Orji Kalu",
+    "dek": "Senator Orji Uzor Kalu dismisses claims that President Bola Tinubu holds animosity toward Catholic bishops, describing the President as an ally of the faith who values institutional collaboration.",
+    "author": "亗BLAK",
+    "date": "Aug 7",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT35r16qm5zVshh7wz2vZScrS4Ma7MOV9kqtDZY2_foRXKx1Z2mYV5oZBI&s=10",
+    "body": [
+      "Former Abia State Governor and Senator, Orji Uzor Kalu, has publicly refuted allegations that President Bola Ahmed Tinubu recently insulted or disparaged Catholic bishops in Nigeria.",
+      "Speaking to journalists in Abuja on Friday, Kalu emphasized that the President maintains a deep respect for the Catholic clergy and views the church as a critical partner in the country's national development and social cohesion efforts.\n\"President Tinubu is one of the best friends the Catholic Church has in the Nigerian political space,\" Kalu stated. \"Any narrative suggesting he harbors disrespect toward the bishops is a gross misinterpretation of his administration's engagement with religious leadership.\"",
+      "The Senator urged critics and political opponents to avoid stoking religious tensions by taking the President's policy-focused remarks out of context or attributing divisive motives to his governance style.",
+      "According to Kalu, the President frequently seeks counsel from religious leaders across various denominations to navigate the country's economic and security challenges, proving his commitment to an inclusive administration.",
+      "The clarification comes amid swirling social media debates regarding the government’s relationship with organized religious bodies following recent critiques of federal economic policies by certain members of the clergy.",
+      "Kalu noted that while the Catholic Bishops Conference of Nigeria (CBCN) occasionally offers \"constructive criticism\" regarding national governance, such feedback is received by the Presidency as a patriotic duty rather than an act of hostility.",
+      "The former governor reaffirmed his confidence in the President’s \"Renewed Hope\" agenda, calling on Nigerians to focus on collective nation-building efforts rather than engaging in rhetoric that could exacerbate sectarian divides.",
+      "Political analysts suggest that Kalu’s intervention is a strategic move to soften the optics between the federal government and the influential Catholic bloc as the administration seeks broader support for its ongoing fiscal reforms."
+    ],
+    "tags": [
+      "News",
+      "Politics"
+    ]
+  },
+  {
+    "slug": "tensions-escalate-as-customs-licensed-agents-clash-over-national-single-window-operations",
+    "category": "Business",
+    "headline": "Tensions Escalate as Customs, Licensed Agents Clash Over National Single Window Operations",
+    "dek": "A deepening rift between the Nigeria Customs Service and port stakeholders threatens to derail the federal government’s flagship digital trade reform, with agents alleging operational paralysis and administrative overlap.",
+    "author": "亗BLAK",
+    "date": "Aug 7",
+    "image": "https://cdn.guardian.ng/wp-content/uploads/2017/06/Nigeria-Customs-Service-e1554689903751.jpg",
+    "body": [
+      "A fresh wave of industrial friction has broken out at Nigeria’s major ports as licensed clearing agents and the Nigeria Customs Service (NCS) remain deadlocked over the functionality and management of the National Single Window (NSW) project.",
+      "Industry stakeholders, spearheaded by the National Council of Managing Directors of Licensed Customs Agents (NCMDLCA), have formally expressed \"total dissatisfaction\" with the platform, characterizing it as a regulatory bottleneck rather than the promised trade-facilitation tool.",
+      "The core of the dispute lies in what agents describe as the \"usurpation\" of statutory customs functions. Stakeholders argue that the NSW currently spearheaded by the Federal Inland Revenue Service (FIRS) and the Nigerian Sovereign Investment Authority (NSIA) infringes upon the Nigeria Customs Service Act No. 35 of 2023, which mandates the NCS as the primary authority for cargo clearance and manifest administration.",
+      "\"Instead of a single window, we are currently navigating multiple, disjointed portals that have created transactional paralysis,\" noted a representative for the clearing agents. \"The system is prioritizing aggressive tax collection over the seamless movement of goods, leading to astronomical demurrage costs for importers.\"",
+      "Conversely, the NSW Secretariat maintains that the platform is a globally standardized modernization effort essential for blocking revenue leakages and fostering inter-agency transparency. Officials report that the portal has successfully processed over 100,000 regulatory permits since its March 2026 launch, serving as a foundational step toward reducing clearance timelines to under 48 hours.",
+      "The NCS, caught in the middle of the dispute, has urged patience, emphasizing that the transition to electronic manifest submission is a complex technical migration requiring ongoing calibration between the agency’s legacy systems and the new centralized interface.",
+      "However, the clearing agents remain unconvinced, calling on the federal government to yield full administrative control of the NSW to the Customs Service, citing their technical expertise in international trade law and classification.",
+      "As stakeholders warn of potential nationwide protests at port terminals if their demands for a streamlined interface are not met, the federal government faces mounting pressure to mediate the conflict before it further degrades ease-of-doing-business ratings at the nation’s gateway ports.",
+      "The ongoing standoff highlights the delicate balance between digitizing revenue collection and maintaining port efficiency, a challenge that remains a critical test for Nigeria's current economic reform agenda."
+    ],
+    "tags": [
+      "News",
+      "Business"
+    ],
+    "desk": true
+  },
+  {
     "slug": "fa-bans-solid-concrete-walls-around-pitches-following-death-of-former-arsenal-youth-player-billy-vigar-",
     "category": "Sports",
     "headline": "FA Bans Solid Concrete Walls Around Pitches Following Death of Former Arsenal Youth Player Billy Vigar",
@@ -114,6 +163,29 @@ const ARTICLES = [
     "tags": [
       "News",
       "Sports"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "ndic-begins-automatic-payouts-to-depositors-of-46-closed-microfinance-banks",
+    "category": "Business",
+    "headline": "NDIC Begins Automatic Payouts to Depositors of 46 Closed Microfinance Banks",
+    "dek": "The Nigeria Deposit Insurance Corporation leverages BVN integration to directly reimburse customers of liquidated microfinance institutions, prioritizing fast resolution and full asset recovery.",
+    "author": "亗BLAK",
+    "date": "Aug 6",
+    "image": "https://gazettengr.com/wp-content/uploads/IMG_6436-1200x675.jpeg",
+    "body": [
+      "The Nigeria Deposit Insurance Corporation (NDIC) has officially commenced the disbursement of insured funds to depositors following the Central Bank of Nigeria's (CBN) revocation of operating licenses for 46 microfinance banks.",
+      "Speaking at a legislative retreat in Lagos, NDIC Managing Director and CEO Thompson Oludare Sunday confirmed that the Corporation immediately assumed the role of provisional liquidator to initiate an orderly payout process.  \nTo eliminate physical queues and administrative friction, the NDIC partnered with the Nigeria Inter-Bank Settlement System (NIBSS) to automate reimbursements using Bank Verification Numbers (BVN).",
+      "Under the automated system, depositors holding linked accounts at other financial institutions automatically receive their insured balances up to the statutory limit of ₦2 million without needing to file physical claim forms.",
+      "For depositors whose balances exceed the ₦2 million insured threshold, Mr. Sunday assured that additional disbursements known as liquidation dividends will be paid as the Corporation recovers outstanding debts and liquidates physical bank assets.",
+      "The NDIC chief appealed to depositors whose accounts lack updated BVNs or alternate bank records to submit verification details through the official NDIC portal or visit designated physical branch offices.",
+      "The regulatory takeover forms part of broader financial sector consolidation efforts by the apex bank aimed at clearing out non-viable operators and safeguarding system-wide stability.",
+      "The Corporation reaffirmed its statutory commitment to protecting small depositors, emphasizing that ongoing liquidation and asset recovery exercises will continue until all eligible claims are resolved."
+    ],
+    "tags": [
+      "News",
+      "Business"
     ],
     "desk": true
   },
