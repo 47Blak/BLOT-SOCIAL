@@ -72,6 +72,31 @@ const ARTICLES = [
     "desk": true
   },
   {
+    "slug": "tensions-escalate-as-customs-licensed-agents-clash-over-national-single-window-operations",
+    "category": "Business",
+    "headline": "Tensions Escalate as Customs, Licensed Agents Clash Over National Single Window Operations",
+    "dek": "A deepening rift between the Nigeria Customs Service and port stakeholders threatens to derail the federal government’s flagship digital trade reform, with agents alleging operational paralysis and administrative overlap.",
+    "author": "亗BLAK",
+    "date": "Aug 7",
+    "image": "https://cdn.guardian.ng/wp-content/uploads/2017/06/Nigeria-Customs-Service-e1554689903751.jpg",
+    "body": [
+      "A fresh wave of industrial friction has broken out at Nigeria’s major ports as licensed clearing agents and the Nigeria Customs Service (NCS) remain deadlocked over the functionality and management of the National Single Window (NSW) project.",
+      "Industry stakeholders, spearheaded by the National Council of Managing Directors of Licensed Customs Agents (NCMDLCA), have formally expressed \"total dissatisfaction\" with the platform, characterizing it as a regulatory bottleneck rather than the promised trade-facilitation tool.",
+      "The core of the dispute lies in what agents describe as the \"usurpation\" of statutory customs functions. Stakeholders argue that the NSW currently spearheaded by the Federal Inland Revenue Service (FIRS) and the Nigerian Sovereign Investment Authority (NSIA) infringes upon the Nigeria Customs Service Act No. 35 of 2023, which mandates the NCS as the primary authority for cargo clearance and manifest administration.",
+      "\"Instead of a single window, we are currently navigating multiple, disjointed portals that have created transactional paralysis,\" noted a representative for the clearing agents. \"The system is prioritizing aggressive tax collection over the seamless movement of goods, leading to astronomical demurrage costs for importers.\"",
+      "Conversely, the NSW Secretariat maintains that the platform is a globally standardized modernization effort essential for blocking revenue leakages and fostering inter-agency transparency. Officials report that the portal has successfully processed over 100,000 regulatory permits since its March 2026 launch, serving as a foundational step toward reducing clearance timelines to under 48 hours.",
+      "The NCS, caught in the middle of the dispute, has urged patience, emphasizing that the transition to electronic manifest submission is a complex technical migration requiring ongoing calibration between the agency’s legacy systems and the new centralized interface.",
+      "However, the clearing agents remain unconvinced, calling on the federal government to yield full administrative control of the NSW to the Customs Service, citing their technical expertise in international trade law and classification.",
+      "As stakeholders warn of potential nationwide protests at port terminals if their demands for a streamlined interface are not met, the federal government faces mounting pressure to mediate the conflict before it further degrades ease-of-doing-business ratings at the nation’s gateway ports.",
+      "The ongoing standoff highlights the delicate balance between digitizing revenue collection and maintaining port efficiency, a challenge that remains a critical test for Nigeria's current economic reform agenda."
+    ],
+    "tags": [
+      "News",
+      "Business"
+    ],
+    "desk": true
+  },
+  {
     "slug": "manchester-city-reject-barcelonas-385m-opening-bid-for-rodri",
     "category": "Sports",
     "headline": "Manchester City Reject Barcelona's £38.5m Opening Bid for Rodri",
@@ -118,31 +143,6 @@ const ARTICLES = [
     ]
   },
   {
-    "slug": "tensions-escalate-as-customs-licensed-agents-clash-over-national-single-window-operations",
-    "category": "Business",
-    "headline": "Tensions Escalate as Customs, Licensed Agents Clash Over National Single Window Operations",
-    "dek": "A deepening rift between the Nigeria Customs Service and port stakeholders threatens to derail the federal government’s flagship digital trade reform, with agents alleging operational paralysis and administrative overlap.",
-    "author": "亗BLAK",
-    "date": "Aug 7",
-    "image": "https://cdn.guardian.ng/wp-content/uploads/2017/06/Nigeria-Customs-Service-e1554689903751.jpg",
-    "body": [
-      "A fresh wave of industrial friction has broken out at Nigeria’s major ports as licensed clearing agents and the Nigeria Customs Service (NCS) remain deadlocked over the functionality and management of the National Single Window (NSW) project.",
-      "Industry stakeholders, spearheaded by the National Council of Managing Directors of Licensed Customs Agents (NCMDLCA), have formally expressed \"total dissatisfaction\" with the platform, characterizing it as a regulatory bottleneck rather than the promised trade-facilitation tool.",
-      "The core of the dispute lies in what agents describe as the \"usurpation\" of statutory customs functions. Stakeholders argue that the NSW currently spearheaded by the Federal Inland Revenue Service (FIRS) and the Nigerian Sovereign Investment Authority (NSIA) infringes upon the Nigeria Customs Service Act No. 35 of 2023, which mandates the NCS as the primary authority for cargo clearance and manifest administration.",
-      "\"Instead of a single window, we are currently navigating multiple, disjointed portals that have created transactional paralysis,\" noted a representative for the clearing agents. \"The system is prioritizing aggressive tax collection over the seamless movement of goods, leading to astronomical demurrage costs for importers.\"",
-      "Conversely, the NSW Secretariat maintains that the platform is a globally standardized modernization effort essential for blocking revenue leakages and fostering inter-agency transparency. Officials report that the portal has successfully processed over 100,000 regulatory permits since its March 2026 launch, serving as a foundational step toward reducing clearance timelines to under 48 hours.",
-      "The NCS, caught in the middle of the dispute, has urged patience, emphasizing that the transition to electronic manifest submission is a complex technical migration requiring ongoing calibration between the agency’s legacy systems and the new centralized interface.",
-      "However, the clearing agents remain unconvinced, calling on the federal government to yield full administrative control of the NSW to the Customs Service, citing their technical expertise in international trade law and classification.",
-      "As stakeholders warn of potential nationwide protests at port terminals if their demands for a streamlined interface are not met, the federal government faces mounting pressure to mediate the conflict before it further degrades ease-of-doing-business ratings at the nation’s gateway ports.",
-      "The ongoing standoff highlights the delicate balance between digitizing revenue collection and maintaining port efficiency, a challenge that remains a critical test for Nigeria's current economic reform agenda."
-    ],
-    "tags": [
-      "News",
-      "Business"
-    ],
-    "desk": true
-  },
-  {
     "slug": "fa-bans-solid-concrete-walls-around-pitches-following-death-of-former-arsenal-youth-player-billy-vigar-",
     "category": "Sports",
     "headline": "FA Bans Solid Concrete Walls Around Pitches Following Death of Former Arsenal Youth Player Billy Vigar",
@@ -182,6 +182,30 @@ const ARTICLES = [
       "The NDIC chief appealed to depositors whose accounts lack updated BVNs or alternate bank records to submit verification details through the official NDIC portal or visit designated physical branch offices.",
       "The regulatory takeover forms part of broader financial sector consolidation efforts by the apex bank aimed at clearing out non-viable operators and safeguarding system-wide stability.",
       "The Corporation reaffirmed its statutory commitment to protecting small depositors, emphasizing that ongoing liquidation and asset recovery exercises will continue until all eligible claims are resolved."
+    ],
+    "tags": [
+      "News",
+      "Business"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "manufacturers-confidence-rebounds-to-521-points-despite-high-borrowing-costs-and-power-woes",
+    "category": "Business",
+    "headline": "Manufacturers’ Confidence Rebounds to 52.1 Points Despite High Borrowing Costs and Power Woes",
+    "dek": "The Manufacturers Association of Nigeria reports a return to positive business sentiment in Q2 2026, driven by forward-looking expectations of government reforms despite lingering operational bottlenecks.",
+    "author": "亗BLAK",
+    "date": "Aug 6",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuOBBMWFRT4oGMC4w5RL7V2rE25YsdcbdzErKZggkVktllcHbaxfE7v84&s=10",
+    "body": [
+      "Business confidence among Nigerian manufacturers recorded a notable recovery in the second quarter of 2026, with the aggregate Manufacturers CEO Confidence Index (MCCI) climbing to 52.1 points from 48.7 points in Q1.",
+      "The benchmark rise above the 50-point threshold signals a return to positive sentiment across the real sector, according to the latest MCCI survey conducted by the Manufacturers Association of Nigeria (MAN) across 400 chief executives.",
+      "Speaking on the survey findings, MAN Director General Segun Ajayi-Kadir explained that the surge in confidence is largely forward-looking, fueled by optimism around government reform frameworks such as the Nigeria Industrial Policy, Executive Orders 003 and 005, and the Nigeria Tax Act 2025.",
+      "However, the association cautioned that current business conditions and employment indices remain fragile, as factory operators continue to face severe operational headwinds.",
+      "Chief among these obstacles is the high cost of bank credit, driven by the Central Bank of Nigeria's Monetary Policy Rate (MPR) of 26.5 percent, which MAN notes has pushed commercial lending rates to levels that discourage capital investment and expansion.",
+      "In addition to credit constraints, manufacturers highlighted persistent electricity outages, high energy tariffs, inadequate access to foreign exchange, weak local consumer demand, and overlapping regulatory taxes as key disincentives.",
+      "Sectoral data showed that the Motor Vehicle and Miscellaneous Assembly subsector recorded the highest confidence boost, alongside wood products and textiles, while industrial zones like Edo/Delta and Kano posted the strongest sentiment scores.",
+      "To sustain the recovery, MAN has urged the central bank to lower the policy rate below 20 percent and called on federal ministries and agencies to prioritize locally manufactured goods by directing at least 80 percent of public procurement toward domestic firms."
     ],
     "tags": [
       "News",
