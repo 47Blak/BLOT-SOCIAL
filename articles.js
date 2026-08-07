@@ -1,5 +1,145 @@
 const ARTICLES = [
   {
+    "slug": "manchester-city-reject-barcelonas-385m-opening-bid-for-rodri",
+    "category": "Sports",
+    "headline": "Manchester City Reject Barcelona's £38.5m Opening Bid for Rodri",
+    "dek": "The Premier League champions turn down La Liga's initial proposal for the World Cup-winning midfielder, holding out for a fee above £60 million as transfer negotiations continue.",
+    "author": "亗BLAK",
+    "date": "Aug 7",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtEpKj1S0Mu4_XpGssGIAZsyi7NpMlgOo9yWRaYheUfsUEr-LzeGoFb3pL&s=10",
+    "body": [
+      "Manchester City have officially rejected an opening transfer bid of £38.5 million (€45 million) from Barcelona for star midfielder Rodri, setting up a high-profile saga in the closing weeks of the summer transfer window.",
+      "The Catalan club submitted their first formal offer following positive discussions with the 30-year-old's representatives, who indicated a strong desire for the Spanish international to return to his homeland.",
+      "City quickly dismissed the proposal, holding firm to their valuation of over £60 million for the 2024 Ballon d'Or winner, who recently captained Spain to World Cup glory and earned the tournament's Golden Ball.",
+      "Barcelona emerged as the frontrunner for Rodri's signature after competing interest from Real Madrid cooled earlier in the week, making Catalunya the player's preferred destination.",
+      "Reports suggest that personal terms between the Spanish champions and the midfielder have largely been agreed upon, with the player seeking a new challenge after entering the final year of his contract at the Etihad Stadium.",
+      "Barça manager Hansi Flick and sporting director Deco identified Rodri as an immediate priority target to fortify their midfield following a severe knee injury that has sidelined key starter Frenkie de Jong.",
+      "The midfielder is currently recovering from a minor back operation and is expected back in Manchester to continue his post-World Cup rehabilitation program with City's medical staff.",
+      "Despite the initial rejection, negotiations between the two European giants are ongoing as Barcelona prepare a revised bid to bridge the valuation gap before the transfer deadline."
+    ],
+    "tags": [
+      "News",
+      "Sports"
+    ]
+  },
+  {
+    "slug": "tinubu-is-a-friend-of-the-catholic-church-not-a-critic-says-orji-kalu",
+    "category": "News",
+    "headline": "Tinubu is a Friend of the Catholic Church, Not a Critic, Says Orji Kalu",
+    "dek": "Senator Orji Uzor Kalu dismisses claims that President Bola Tinubu holds animosity toward Catholic bishops, describing the President as an ally of the faith who values institutional collaboration.",
+    "author": "亗BLAK",
+    "date": "Aug 7",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT35r16qm5zVshh7wz2vZScrS4Ma7MOV9kqtDZY2_foRXKx1Z2mYV5oZBI&s=10",
+    "body": [
+      "Former Abia State Governor and Senator, Orji Uzor Kalu, has publicly refuted allegations that President Bola Ahmed Tinubu recently insulted or disparaged Catholic bishops in Nigeria.",
+      "Speaking to journalists in Abuja on Friday, Kalu emphasized that the President maintains a deep respect for the Catholic clergy and views the church as a critical partner in the country's national development and social cohesion efforts.\n\"President Tinubu is one of the best friends the Catholic Church has in the Nigerian political space,\" Kalu stated. \"Any narrative suggesting he harbors disrespect toward the bishops is a gross misinterpretation of his administration's engagement with religious leadership.\"",
+      "The Senator urged critics and political opponents to avoid stoking religious tensions by taking the President's policy-focused remarks out of context or attributing divisive motives to his governance style.",
+      "According to Kalu, the President frequently seeks counsel from religious leaders across various denominations to navigate the country's economic and security challenges, proving his commitment to an inclusive administration.",
+      "The clarification comes amid swirling social media debates regarding the government’s relationship with organized religious bodies following recent critiques of federal economic policies by certain members of the clergy.",
+      "Kalu noted that while the Catholic Bishops Conference of Nigeria (CBCN) occasionally offers \"constructive criticism\" regarding national governance, such feedback is received by the Presidency as a patriotic duty rather than an act of hostility.",
+      "The former governor reaffirmed his confidence in the President’s \"Renewed Hope\" agenda, calling on Nigerians to focus on collective nation-building efforts rather than engaging in rhetoric that could exacerbate sectarian divides.",
+      "Political analysts suggest that Kalu’s intervention is a strategic move to soften the optics between the federal government and the influential Catholic bloc as the administration seeks broader support for its ongoing fiscal reforms."
+    ],
+    "tags": [
+      "News",
+      "Politics"
+    ]
+  },
+  {
+    "slug": "youths-and-students-stage-massive-rallies-in-ogun-to-support-tinubu-abiodun-and-adeola-for-2027",
+    "category": "News",
+    "headline": "Youths and Students Stage Massive Rallies in Ogun to Support Tinubu, Abiodun, and Adeola for 2027",
+    "dek": "A series of large-scale grassroots demonstrations across Ogun State highlights growing mobilization for President Tinubu, Governor Dapo Abiodun, and Senator Solomon Adeola ahead of the 2027 electoral cycle.",
+    "author": "亗BLAK",
+    "date": "Aug 7",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq0CCV2H6WriWMFvjisMEdOvHU_ulG7fBUoaeuNDs9TLCaMrdugDL6FAM&s=10",
+    "body": [
+      "Political momentum in Ogun State has intensified as various youth and student organizations recently mobilized thousands of participants for awareness treks and peaceful rallies in support of key All Progressives Congress (APC) leaders.",
+      "The most recent large-scale demonstration, described as a \"10,000-man awareness trek,\" saw students and youth groups flood the streets to publicly endorse President Bola Ahmed Tinubu’s national policies and the leadership trajectories of Governor Dapo Abiodun and Senator Solomon Adeola (widely known as Yayi).",
+      "These rallies serve as a visible display of grassroots political alignment, with organizers emphasizing their commitment to ensuring continuity and stability within the state and federal government ahead of the 2027 general elections.",
+      "Political discourse in the state has increasingly centered on the potential transition of power, with various groups including the Yayi Progressives Movement (YPM) openly advocating for Senator Solomon Adeola as a consensus governorship candidate, reportedly with the backing of key party stakeholders.",
+      "The surge in youth-led activity follows a pattern of organized endorsements from diverse segments of Ogun society, including progressive lawmakers, women’s wings of the APC, and traditional institutions like the Awori monarchs, all of whom have publicly declared their support for the current political alliance.",
+      "Supporters maintain that this unified front is essential for consolidating infrastructure projects initiated by Governor Abiodun and aligning Ogun State’s development goals with President Tinubu’s \"Renewed Hope\" agenda.",
+      "While these public displays indicate strong mobilization for the incumbent party’s preferred candidates, they also reflect the highly active and sometimes factional nature of Ogun State politics, where various power blocs continue to jockey for influence.",
+      "As the 2027 election cycle approaches, political analysts expect further grassroots campaigning, as these youth-led movements aim to solidify their influence and secure dominance for their chosen leaders across the state's electoral map."
+    ],
+    "tags": [
+      "News",
+      "Politics"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "federal-high-court-reserves-judgment-for-august-31-in-shinkafis-suit-against-apc-and-inec",
+    "category": "News",
+    "headline": "Federal High Court Reserves Judgment for August 31 in Shinkafi’s Suit Against APC and INEC",
+    "dek": "The Gusau Division of the Federal High Court has concluded proceedings in the legal challenge filed by Sani Abdullahi Shinkafi, setting the final verdict for the end of August.",
+    "author": "亗BLAK",
+    "date": "Aug 7",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEVMcAKN1wOl4J24NN-kDuT1njA_HymOJqsLQd_d1N3CTMnjbqEZMTZ0-0&s=10",
+    "body": [
+      "The Federal High Court sitting in Gusau, Zamfara State, has officially scheduled August 31, 2026, for the delivery of its judgment in the suit filed by Sani Abdullahi Shinkafi, a former All Progressives Congress (APC) senatorial aspirant for Zamfara North.",
+      "The legal action, which names the Independent National Electoral Commission (INEC), the All Progressives Congress (APC), and Senator Sahabi Ya’u Kaura as respondents, centers on disputes regarding candidate selection and internal party primary processes.",
+      "During the final hearing, the presiding judge reviewed the arguments presented by the respective legal counsels, who debated the validity of the party's nomination procedures and compliance with the Electoral Act.",
+      "The litigation has been a focal point of local political discourse, as the plaintiff seeks judicial intervention to challenge the emergence of Senator Sahabi Ya’u Kaura as the party’s flagbearer, citing alleged irregularities in the primary election conducted in the senatorial district.",
+      "Throughout the trial, both the APC and the electoral commission maintained that the primary process adhered to the party’s constitution and the guidelines set forth by the electoral umpire, urging the court to dismiss the case for lack of merit.",
+      "Having heard the closing submissions from all parties, the court formally adjourned the matter to August 31, 2026, to deliver a final ruling that will determine the legal status of the disputed candidacy.",
+      "Security agencies in Zamfara State have been alerted to maintain order around the court premises on the judgment date, as supporters from opposing political factions are expected to gather to await the court's decision.",
+      "The outcome of this case is expected to have significant implications for the APC’s internal cohesion in Zamfara North and may set a precedent for how the court handles similar disputes regarding primary election integrity in the current political cycle."
+    ],
+    "tags": [
+      "News",
+      "Politics"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "fa-bans-solid-concrete-walls-around-pitches-following-death-of-former-arsenal-youth-player-billy-vigar-",
+    "category": "Sports",
+    "headline": "FA Bans Solid Concrete Walls Around Pitches Following Death of Former Arsenal Youth Player Billy Vigar",
+    "dek": "The Football Association updates pitch perimeter criteria across non-league and women's divisions, requiring clubs to immediately remove or pad brick and breeze block barriers to safeguard players",
+    "author": "亗BLAK",
+    "date": "Aug 7",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkNyP4chNddZDDpaxqIwRiebJHexKXlgz4UaNGf7Brc8rsUZUFhPbZ3hGz&s=10",
+    "body": [
+      "The Football Association (FA) has issued comprehensive new safety regulations prohibiting the use of solid brick, breeze block, or concrete perimeter walls around pitches across lower-league football.",
+      "The decision follows a formal safety review prompted by the tragic death of former Arsenal academy striker Billy Vigar, who died at the age of 21 after suffering a fatal brain injury from colliding with a concrete barrier during a match in September 2025.",
+      "Under the newly published criteria, clubs competing in the men's National League System (Steps 1–6) and the Women's National League (Tiers 3–4) must remove solid masonry barriers as soon as reasonably practicable.",
+      "Where immediate removal is not structurally feasible, the FA mandates that clubs must cover existing concrete or brick structures with approved protective padding to mitigate impact risks.",
+      "It is estimated that around 160 grounds across the English football pyramid will be directly impacted by the updated stadium accreditation guidelines.",
+      "The Professional Footballers' Association (PFA), which had previously campaigned for centralized perimeter safety standards alongside fans calling for \"Vigar's Law,\" welcomed the FA's policy overhaul.",
+      "Safety experts and player unions emphasized that hard-surface barriers placed close to touchlines present severe, avoidable dangers to player welfare during high-speed play.",
+      "The FA confirmed it is actively working with affected leagues and local authorities to assist clubs with transitioning their perimeter setups ahead of the 2026–27 season."
+    ],
+    "tags": [
+      "News",
+      "Sports"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "naira-appreciates-to-n1416-in-parallel-market-as-fx-liquidity-improves",
+    "category": "Business",
+    "headline": "Naira Appreciates to N1,416/$ in Parallel Market as FX Liquidity Improves",
+    "dek": "The Nigerian currency gains significant ground against the US dollar in the unofficial market, driven by increased liquidity, foreign reserve growth, and sustained Central Bank interventions.",
+    "author": "亗BLAK",
+    "date": "Aug 7",
+    "image": "https://global.ariseplay.com/amg/www.arise.tv/uploads/2025/01/Naira-Strengthens-Against-Dollar.jpeg",
+    "body": [
+      "The Naira has recorded notable gains against the US dollar in the parallel market, appreciating to trade at N1,416/$ during Friday’s trading sessions across major commercial hubs in the country.\nBureau De Change (BDC) operators and currency traders in Lagos and Abuja attributed the strengthening of the local currency to improved FX availability and a temporary decline in speculative demand from retail buyers.",
+      "The latest appreciation reflects a narrowing gap between the parallel market and the official Nigerian Foreign Exchange Market (NFEM), where the currency has stabilized following ongoing monetary policy adjustments.",
+      "Financial analysts attribute the recent momentum to the Central Bank of Nigeria's (CBN) continuous efforts to boost market liquidity, coupled with the recent growth in the nation's external reserves, which recently reached a multi-year high of over $50 billion.",
+      "The surge in foreign reserves fueled by sustained crude oil output, diaspora remittances, and foreign portfolio investments has bolstered investor confidence and provided the central bank with sufficient buffer to defend the currency.",
+      "Importers and local business operators have welcomed the gradual firming of the exchange rate, noting that sustained stability in the parallel market could help ease inflationary pressures on imported goods and raw materials.",
+      "Despite the positive momentum, market watchers emphasize that long-term stability will depend heavily on structural economic reforms, non-oil export growth, and the execution of the ongoing banking sector recapitalization exercise.",
+      "Traders expect the exchange rate to remain within a stable band over the coming days as the apex bank continues to monitor liquidity flows and enforce regulatory compliance across FX market operators."
+    ],
+    "tags": [
+      "News",
+      "Business"
+    ]
+  },
+  {
     "slug": "inter-milan-and-ac-milan-battle-to-1-1-draw-in-pre-season-derby-friendly",
     "category": "Sports",
     "headline": "Inter Milan and AC Milan Battle to 1-1 Draw in Pre-Season Derby Friendly",
