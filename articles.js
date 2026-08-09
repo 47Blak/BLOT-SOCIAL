@@ -1,5 +1,102 @@
 const ARTICLES = [
   {
+    "slug": "he-has-no-electoral-value-wike-mocks-pdp-chieftain-bode-george",
+    "category": "News",
+    "headline": "He Has No Electoral Value – Wike Mocks PDP Chieftain Bode George",
+    "dek": "Minister of the Federal Capital Territory Nyesom Wike dismisses criticisms from elder statesman Chief Olabode George, declaring that the PDP chieftain lacks political clout and voting power in Lagos State.",
+    "author": "亗BLAK",
+    "date": "Aug 8",
+    "image": "https://dailypost.ng/wp-content/uploads/2025/06/MixCollage-02-Jun-2025-11-37-AM-5127.jpg",
+    "body": [
+      "Minister of the Federal Capital Territory (FCT), Nyesom Wike, has launched a blistering verbal attack on Chief Olabode George, a former Deputy National Chairman of the Peoples Democratic Party (PDP), dismissing his political relevance ahead of future elections.",
+      "​Speaking during a live media engagement, Wike criticized George's frequent public commentaries on internal party governance and national affairs, asserting that the elder statesman holds no significant electoral weight in his home state of Lagos.",
+      "​\"What electoral value does Bode George bring to the table?\" Wike questioned. \"Since 1999, tell me one election that Bode George has won in Lagos State. People who cannot deliver their polling units or local governments shouldn't be lecturing others on party leadership.\"",
+      "​The ongoing feud between both political heavyweights stems from long-standing disagreements over the leadership structure, zoning arrangements, and political strategy within the Peoples Democratic Party.",
+      "​George had previously accused Wike of working against the PDP's interests during past electoral cycles and criticized his decision to accept a ministerial position in President Bola Ahmed Tinubu's All Progressives Congress (APC)-led federal cabinet.",
+      "​In response, Wike defended his track record as a two-term Governor of Rivers State, challenging his critics to compare their grassroots mobilization capacity and election delivery records against his own.",
+      "​The Minister added that political authority is earned through consistent grassroots delivery and winning elections for one's party, rather than relying on media appearances and legacy titles.",
+      "​The public exchange highlights the persistent division and power struggles within the PDP's leadership, as various factions continue to contend for control and direction over the party's future political alliances.",
+      "​Wike Shocks Nigerians with His Powerful Response to Bode George\nThis video provides direct coverage and commentary on the ongoing verbal clash between FCT Minister Nyesom Wike and PDP elder statesman Chief Olabode George."
+    ],
+    "youtubeVideo": "https://youtu.be/sKeaKgvLxyo?si=gil0k5trONtC-KGg",
+    "tags": [
+      "News",
+      "Politics"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "jamb-registrar-clears-5000-pending-complaints-in-five-days-takes-servicom-reforms-directly-to-candidates",
+    "category": "News",
+    "headline": "JAMB Registrar Clears 5,000 Pending Complaints in Five Days, Takes SERVICOM Reforms Directly to Candidates",
+    "dek": "In a major push for operational efficiency, new JAMB Registrar Prof. Segun Aina personally relocates his office to the SERVICOM unit to resolve candidate grievances and eliminate administrative backlogs.",
+    "author": "亗BLAK",
+    "date": "Aug 8",
+    "image": "https://punchng.com/wp-content/uploads/2026/07/1e2edbb1-04f7-43f5-9046-78ce9bce0971_1785500282.webp",
+    "body": [
+      "The Joint Admissions and Matriculation Board (JAMB) has announced the resolution of over 5,000 pending candidate complaints within five days following a direct intervention by its newly appointed Registrar, Prof. Segun Aina.",
+      "​In a statement issued on Sunday by JAMB's Acting Director of Public Affairs and Protocol, Dr. Fabian Benjamin, the board disclosed that Prof. Aina personally relocated his seat to the Service Compact with All Nigerians (SERVICOM) unit to gain firsthand insight into candidates' daily operational challenges.",
+      "​The Registrar's hands-on approach forms part of his administrative agenda anchor dubbed the \"Five Enduring Pillars\"which prioritizes \"Service at Heart\" to ensure applicants receive swift and efficient responses commensurate with their registration fees.",
+      "​Among the thousands of backlog cases cleared were complex profile code generation issues for candidates who lost access to phone numbers tied to previous UTME registrations.",
+      "​The five-day clearance exercise also resolved confirmed biometric verification failures encountered during registration and examination cycles, alongside long-standing payment glitches and e-PIN issues.",
+      "​Operations within the Central Admissions Processing System (CAPS) were similarly streamlined, addressing cases involving candidates converting from Direct Entry (DE) to UTME, document upload errors, and graduates omitted from the National Matriculation List.",
+      "​Prof. Aina directed all SERVICOM desk officers across the country to adopt a holistic and proactive approach to candidate grievances, warning against allowing routine technical issues to accumulate into systemic backlogs.",
+      "​The Board reaffirmed its commitment to leveraging strategic communication and transparent digital support channels to eliminate unnecessary administrative friction for tertiary education candidates nationwide."
+    ],
+    "tags": [
+      "News",
+      "Technology"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "ui-removes-quota-barriers-to-expand-university-access-via-distance-learning",
+    "category": "News",
+    "headline": "UI Removes Quota Barriers to Expand University Access via Distance Learning",
+    "dek": "The University of Ibadan opens a flexible admission window through its Open Distance and e-Learning (ODeL) framework, allowing qualified applicants to gain higher education without physical campus constraints.",
+    "author": "亗BLAK",
+    "date": "Aug 8",
+    "image": "https://pub-5bcc3edf34304d04b59dc91e1ad9d2fd.r2.dev/schoolfinder.tortoisepath.com/uploads/2026/01/14040900/tp-image-12421.jpg",
+    "body": [
+      "The University of Ibadan (UI) has eliminated physical admission quota constraints for prospective undergraduate students by expanding enrollment through its Open Distance and e-Learning (ODeL) Distance Learning Centre (DLC).",
+      "The initiative provides a dedicated admission window for qualified UTME and Post-UTME candidates who were unable to secure slots in the traditional face-to-face mode due to strict carrying-capacity limitations.",
+      "Under the ODeL model, qualified applicants can transition their application to distance learning without facing the rigid quota caps imposed on conventional physical classrooms by regulatory bodies like the National Universities Commission (NUC).",
+      "Management emphasized that distance learning candidates are subject to the university's \"Parity of Esteem\" policy, guaranteeing that ODeL students receive the exact same curriculum, lectures, and degree certificates as their full-time, on-campus peers.",
+      "Furthermore, graduates from the ODeL program remain fully eligible for mobilization into the National Youth Service Corps (NYSC) scheme, provided they meet the standard statutory age and academic criteria.",
+      "The expanding distance learning catalog covers major degree programs across multiple faculties, including Computer Science, Nursing Science, Economics, Political Science, Psychology, Sociology, and Mass Communication.",
+      "The move aims to reduce the massive backlog of qualified university admission seekers nationwide, offering a flexible digital alternative for working adults and students unable to pursue full-time residency.",
+      "Prospective candidates with the required five O'Level credits can complete their registration and mode-of-study adjustments directly through the university's official ODeL application portal."
+    ],
+    "tags": [
+      "News"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "our-mother-didnt-want-jude-to-manage-p-square-eldest-brother-henry-reveals",
+    "category": "News",
+    "headline": "Our Mother Didn’t Want Jude to Manage P-Square, Eldest Brother Henry Reveals",
+    "dek": "Henry Okoye, the eldest sibling of the Okoye family, breaks his silence on the recurring disputes between Peter and Paul, offering new insight into their late mother’s warnings about the group's managerial structure.",
+    "author": "亗BLAK",
+    "date": "Aug 8",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLQAC8vF6hiCVb7cfl5Bg7MlkMX8zXPI_LN5yiW0WZiLu4DR-lPYWiUFY&s=10",
+    "body": [
+      "Henry Okoye, the eldest brother in the Okoye family, has opened up about the lingering internal conflicts that led to the repeated breakups of the iconic Nigerian R&B and pop duo, P-Square.",
+      "In a candid interview, Henry revealed that their late mother, Mrs. Josephine Okoye, had originally voiced strong objections to their elder brother, Jude Okoye, taking on the role of sole manager for the music group.",
+      "According to Henry, their mother foresaw potential conflicts of interest and family friction if Jude was tasked with balancing professional business management alongside sibling dynamics within the trio.",
+      "\"Our mother specifically warned against Jude managing Peter and Paul,\" Henry stated, reflecting on the early years of the group's rapid rise to fame across Africa and the global music scene. \"She knew that mixing core family structure with corporate entertainment business without clear boundaries would eventually lead to what we are witnessing today.\"",
+      "The revelations come amid renewed public interest in the fractured relationship between twin brothers Peter and Paul Okoye (Mr. P and Rudeboy), who split for a second time following a brief reconciliation in recent years.",
+      "Henry noted that despite their mother's early advice, Jude went on to direct and manage P-Square's affairs for over a decade, overseeing their most successful album releases, tours, and commercial endorsement deals.",
+      "He expressed deep regret over how public the family's internal affairs have become, emphasizing that the lack of neutral external mediation and a failure to heed their mother's counsel contributed heavily to the breakdown of trust among the brothers.",
+      "While fans continue to hold out hope for another reunion of the legendary music group, Henry's statements highlight the deep-seated personal and managerial issues that continue to keep the brothers apart."
+    ],
+    "tags": [
+      "News",
+      "Music",
+      "Entertainment"
+    ]
+  },
+  {
     "slug": "youths-and-students-stage-massive-rallies-in-ogun-to-support-tinubu-abiodun-and-adeola-for-2027",
     "category": "News",
     "headline": "Youths and Students Stage Massive Rallies in Ogun to Support Tinubu, Abiodun, and Adeola for 2027",
