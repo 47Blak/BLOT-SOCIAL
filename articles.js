@@ -1,5 +1,32 @@
 const ARTICLES = [
   {
+    "slug": "mbeumo-strikes-as-manchester-united-hold-european-champions-psg-to-1-1-draw",
+    "category": "Sports",
+    "headline": "Mbeumo Strikes as Manchester United Hold European Champions PSG to 1-1 Draw",
+    "dek": "Bryan Mbeumo cancels out Ibrahim Mbaye’s early opener in Gothenburg as Michael Carrick’s side delivers an encouraging pre-season display despite a fitness scare for Mason Mount.",
+    "author": "亗BLAK",
+    "date": "Aug 8",
+    "image": "https://i.guim.co.uk/img/media/2ab739adca642ca1865b7220ea9565e27319088c/27_0_1812_1449/master/1812.jpg?width=465&dpr=1&s=none&crop=none",
+    "body": [
+      "Manchester United continued their pre-season preparations with an impressive performance, holding reigning European champions Paris Saint-Germain to a 1-1 draw at the Ullevi Stadium in Gothenburg, Sweden.",
+      "​The French giants caught United off guard in just the second minute when 18-year-old Ibrahim Mbaye tapped home a low cross from Dro Fernández at the back post to give Luis Enrique’s side an early lead.",
+      "​However, United gradually settled into the contest, spearheaded by an energetic press from Amad Diallo that repeatedly disrupted PSG’s build-up play from the back.",
+      "​The Red Devils found their equalizer in the 32nd minute after Amad dispossessed PSG high up the pitch and threaded a precise pass to Bryan Mbeumo, who coolly slotted a low left-footed finish past goalkeeper Matvey Safonov into the bottom corner.",
+      "​The positive result was partially overshadowed by an injury concern in the first half when midfielder Mason Mount was forced off after fewer than 20 minutes with a foot issue, though manager Michael Carrick later downplayed the severity of the knock.",
+      "​The second half saw both managers rotate heavily, with Carrick handing a debut to summer signing Youri Tielemans while reintroducing captain Bruno Fernandes and Diogo Dalot following their extended post-World Cup breaks.",
+      "​United created the cleaner chances late in the game, registering 14 shots compared to PSG's six, with Bruno Fernandes and youth prospect Tyler Fletcher coming close to securing a late winner.",
+      "​Michael Carrick’s squad will now travel to the Republic of Ireland for a training camp before heading to Dublin’s Croke Park to face rivals Leeds United in their penultimate pre-season fixture.",
+      "Watch the match highlights below."
+    ],
+    "youtubeVideo": "https://m.youtube.com/watch?v=-OdJSlccBIc",
+    "tags": [
+      "News",
+      "Sports",
+      "Trending"
+    ],
+    "hero": true
+  },
+  {
     "slug": "he-has-no-electoral-value-wike-mocks-pdp-chieftain-bode-george",
     "category": "News",
     "headline": "He Has No Electoral Value – Wike Mocks PDP Chieftain Bode George",
@@ -663,7 +690,7 @@ const ARTICLES = [
   },
   {
     "slug": "tactical-masterclass-juventus-proves-categorically-superior-to-chelsea-in-dominant-display",
-    "category": "Trending",
+    "category": "Sports",
     "headline": "Tactical Masterclass: Juventus Proves Categorically Superior to Chelsea in Dominant Display",
     "dek": "A ruthless performance from the Italian giants exposes structural flaws in the Blues, securing a statement victory that leaves Chelsea searching for answers.",
     "author": "亗BLAK",
@@ -684,7 +711,7 @@ const ARTICLES = [
       "Sports",
       "Trending"
     ],
-    "hero": true
+    "desk": true
   },
   {
     "slug": "commonwealth-games-nigeria-finishes-7th-with-24-medals-emerges-africas-best",
