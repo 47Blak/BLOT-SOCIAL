@@ -1,5 +1,53 @@
 const ARTICLES = [
   {
+    "slug": "only-6-banks-pay-n127-trillion-dividends-despite-record-sector-profits",
+    "category": "Business",
+    "headline": "Only 6 Banks Pay N1.27 Trillion Dividends Despite Record Sector Profits",
+    "dek": "Strict Central Bank retention guidelines, massive loan loss impairments, and ongoing recapitalization targets keep the majority of Nigerian lenders from distributing cash payouts to shareholders.",
+    "author": "亗BLAK",
+    "date": "Aug 10",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ60WOw2ndUKnkfD4Er9u3szoRHjD08p_1JQYmyb566NmEAEpZl0jPvbsGv&s=10",
+    "body": [
+      "Despite record-breaking profit figures across Nigeria’s banking sector for the latest financial year, only six commercial banks managed to distribute dividends to their shareholders, totaling ₦1.27 trillion in aggregate payouts.",
+      "The selective dividend distribution highlights a stark divergence between top-line profitability and actual cash returns for investors, as regulatory hurdles and balance-sheet adjustments continue to constrain payout capacity.",
+      "Industry analysts point to regulatory directives from the Central Bank of Nigeria (CBN), which strictly prohibit commercial banks from distributing foreign exchange (FX) revaluation gains and unappropriated profits as cash dividends.",
+      "To meet the apex bank's mandatory minimum capital thresholds ahead of the upcoming recapitalization deadline, several tier-1 and tier-2 lenders were forced to absorb these windfall earnings into retained reserves rather than cash payouts.",
+      "In addition, heavy impairment provisions linked to major corporate debt exposures particularly across the energy, manufacturing, and telecommunications sectors severely curtailed the net cash positions of several major banks.",
+      "Among the six institutions that successfully declared dividends, financial heavyweights like Zenith Bank, Guaranty Trust Holding Company (GTCO), and Stanbic IBTC Holdings accounted for the lion's share of the ₦1.27 trillion total, supported by strong capital adequacy ratios and robust interest income.",
+      "Conversely, several prominent commercial banks withheld dividend payouts entirely, citing the need to fortify core Tier-1 capital and maintain adequate liquidity buffers against potential credit default shocks.",
+      "Shareholder associations have voiced mixed reactions to the dividend results, acknowledging the necessity of regulatory compliance while calling on bank boards to prioritize capital efficiency so investors can participate in the sector's recorded growth.",
+      "Nestoil Rebuts Claims Linking Its Debt to Bank Dividends Fails\nThis video offers financial analysis on how corporate loan impairments and regulatory reserve requirements are directly impacting bank dividend distributions and balance sheet stability across Nigeria's banking sector."
+    ],
+    "tags": [
+      "News",
+      "Business",
+      "Technology"
+    ]
+  },
+  {
+    "slug": "star-studded-cast-4-ex-bbnaija-housemates-feature-in-funke-akindeles-latest-blockbuster",
+    "category": "News",
+    "headline": "Star-Studded Cast: 4 Ex-BBNaija Housemates Feature in Funke Akindele’s Latest Blockbuster",
+    "dek": "Renowned filmmaker Funke Akindele continues her trend of blending Nollywood veterans with reality TV stars, casting four Big Brother Naija alumni in her highly anticipated upcoming project.",
+    "author": "亗BLAK",
+    "date": "Aug 10",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9fL88_Slb17kznTsT5Kv7FA8GWQJHRueGwox_aigiReltgNH0PYeyUF6-&s=10",
+    "body": [
+      "Award-winning producer and director Funke Akindele has unveiled the star-studded cast for her latest cinematic project, confirming that four former Big Brother Naija (BBNaija) housemates have secured featured roles in the film.",
+      "​Akindele, known for breaking Nigerian box office records with hits like A Tribe Called Judah and Battle on Buka Street, is leveraging the immense social media influence and burgeoning acting talents of these reality stars to expand her film’s reach across digital and traditional platforms.",
+      "​The inclusion of BBNaija alumni has become a signature strategy for Akindele, who frequently casts fan-favorite reality stars to bridge the gap between television audiences and cinema-goers.\n​The Ex-BBNaija Stars in the Cast",
+      "​The four former housemates confirmed to star in the production are:\n​• Mercy Eke (Winner, Pepper Dem): The reality star and entrepreneur returns to the big screen, building on her previous appearances in major Nollywood productions.\n​• Whitemoney (Winner, Shine Ya Eye): Known for his vibrant personality and musical background, the reality star takes on a character role designed to showcase his versatility beyond the BBNaija house.\n• ​Beauty Tukura (Housemate, Level Up): A fast-rising actress and former beauty queen, Beauty continues her transition into professional acting with this high-profile collaboration.\n• ​Neo Akpofure (Housemate, Lockdown): Adding to his growing filmography, the model and media personality joins the cast to bring his screen presence to the narrative.",
+      "​While plot details remain under wraps, production sources suggest the film is a high-stakes dramatic comedy that explores themes of social ambition and family dynamics in modern Lagos.",
+      "​The BBNaija stars join an ensemble of veteran Nollywood heavyweights, including Bimbo Ademoye, Femi Adebayo, and Tina Mba, who are also attached to the project.",
+      "​Fans of the reality stars have already begun trending the cast announcement on X (formerly Twitter) and Instagram, signaling massive pre-release buzz for the project.",
+      "​Filming is currently underway in various locations across Lagos, with a nationwide theatrical release scheduled for the upcoming holiday season."
+    ],
+    "tags": [
+      "News",
+      "Entertainment"
+    ]
+  },
+  {
     "slug": "president-walks-to-office-eats-once-daily-nrs-boss-defends-tinubus-lifestyle",
     "category": "News",
     "headline": "President Walks to Office, Eats Once Daily — NRS Boss Defends Tinubu’s Lifestyle",
