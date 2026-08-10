@@ -1,5 +1,82 @@
 const ARTICLES = [
   {
+    "slug": "president-walks-to-office-eats-once-daily-nrs-boss-defends-tinubus-lifestyle",
+    "category": "News",
+    "headline": "President Walks to Office, Eats Once Daily — NRS Boss Defends Tinubu’s Lifestyle",
+    "dek": "The Executive Chairman of the Nigeria Revenue Service (NRS), Zacch Adedeji, dismisses public criticism regarding the President’s spending, characterizing his daily routine as austere and work-focused.",
+    "author": "亗BLAK",
+    "date": "Aug 10",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY1zP2gJXfkw7zWhpgiWw8KS-owb6d7TzDijDNP4fDqLlYxbHGdvObI5g&s=10",
+    "body": [
+      "The Executive Chairman of the Nigeria Revenue Service (NRS), Zacch Adedeji, has publicly defended President Bola Ahmed Tinubu against allegations of maintaining a lavish lifestyle amidst Nigeria’s current economic challenges.",
+      "​Speaking during an appearance on Channels Television’s \"Sunday Politics\" program on August 9, 2026, Adedeji argued that the President is deeply focused on governance and does not indulge in the extravagant personal habits often attributed to political officeholders.",
+      "​\"Mr. President goes from home to office on foot; he is not even driving, except when he is going to the airport,\" Adedeji stated. \"I don’t know where you see the convoy. Before he became president, what was he riding? He has not even left the shores of this country in the last three months.\"",
+      "​The NRS boss further claimed that the President’s personal discipline extends to his dietary habits, asserting that \"he eats only once a day\" due to his preoccupation with reviewing state documents and managing national affairs.",
+      "​Addressing concerns regarding the high number of luxury vehicles, specifically Cadillac Escalades, often seen in the Presidential convoy, Adedeji challenged the criticism by framing it as a matter of official necessity rather than personal indulgence.",
+      "​\"How much is an Escalade that the President of Nigeria cannot afford? Please, let us not embarrass this country,\" he remarked. \"If you go to his office now, you will see him reviewing one document or the other. He does not attend social parties.\"",
+      "​Adedeji also used the interview to reiterate his support for the administration’s fiscal policies, describing the removal of the petrol subsidy a major point of contention regarding the cost of living as the \"best thing that has happened to this country\" and a \"courageous decision\" necessary for long-term economic stability.",
+      "​The comments have sparked significant social media discourse, with critics questioning the practical feasibility of a President walking to work within the Aso Rock Villa complex, while supporters view the remarks as a necessary reframing of the President’s commitment to national service.",
+      "​As the federal government continues to navigate public sentiment regarding inflation and austerity measures, the defense highlights the administration's ongoing effort to project an image of shared sacrifice at the highest levels of leadership."
+    ],
+    "tags": [
+      "News",
+      "Trending",
+      "Politics"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "harry-kane-claims-202526-european-golden-shoe-as-continents-top-scorer",
+    "category": "News",
+    "headline": "Harry Kane Claims 2025/26 European Golden Shoe as Continent’s Top Scorer",
+    "dek": "The Bayern Munich striker nets 26 league goals in the Bundesliga to capture back-to-back Golden Shoe awards, holding off fierce competition from Kylian Mbappé and Erling Haaland.",
+    "author": "亗BLAK",
+    "date": "Aug 10",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0fstx4GbEVmIDVo6-GwgIPCfsDcOnzeyx394o0rbr8M3ZcYru2DRPoKvF&s=10",
+    "body": [
+      "Bayern Munich striker Harry Kane has officially won the 2025/26 European Golden Shoe award, finishing the season as the highest scoring player in league football across Europe.",
+      "​The England captain secured the prestigious individual accolade after finishing the Bundesliga campaign with 26 goals, accumulating 52 points under UEFA's coefficient ranking system for top-tier European leagues.",
+      "​The victory marks the second consecutive year that Kane has claimed the award, cementing his reputation as one of world football's most lethal and consistent central forwards following his move to Germany.",
+      "​\"Winning this award once was a huge honor, but to retain it is incredible,\" Kane said in a statement. \"It's a testament to the hard work of the entire team, the manager, and the staff at Bayern who create so many chances for me every week.\"",
+      "​Kane narrowly edged out Real Madrid forward Kylian Mbappé and Manchester City striker Erling Haaland, both of whom finished just behind in the continent-wide goalscoring standings.",
+      "​The award's point calculation weights goals scored in Europe's top five leagues (Premier League, La Liga, Serie A, Bundesliga, and Ligue 1) by a factor of 2.0, giving elite-tier forwards the primary advantage in the race.",
+      "​Despite battling minor muscle injuries midway through the domestic campaign, Kane's clinical conversion rate in crucial fixtures ensured Bayern remained a dominant force throughout the league title race.",
+      "​With another Golden Shoe added to his individual trophy cabinet, the 33-year-old forward now turns his focus toward international duty as he leads England into the upcoming competitive tournament cycle."
+    ],
+    "tags": [
+      "News",
+      "Sports"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "nscdc-deploys-10210-personnel-and-tactical-units-to-secure-osun-governorship-election",
+    "category": "News",
+    "headline": "NSCDC Deploys 10,210 Personnel and Tactical Units to Secure Osun Governorship Election",
+    "dek": "The Nigeria Security and Civil Defence Corps beefs up security across all 30 local government areas, deploying specialized units to forestall violence and ensure a peaceful electoral process.",
+    "author": "亗BLAK",
+    "date": "Aug 10",
+    "image": "https://www.thecable.ng/wp-content/uploads/2023/03/Armed-NSCDC-Officers.jpg",
+    "body": [
+      "​The Nigeria Security and Civil Defence Corps (NSCDC) has announced the massive deployment of 10,210 personnel to Osun State to guarantee the security of voters, election officials, and sensitive materials during the upcoming governorship election.",
+      "​The Commandant General of the NSCDC, Dr. Ahmed Abubakar Audi, confirmed the deployment on Monday, stating that the force has mapped out critical flashpoints across all 30 local government areas to maintain order and prevent electoral malpractice.",
+      "​In addition to conventional officers, the Corps has mobilized specialized tactical squads, including the Counter-Terrorism Unit (CTU), Chemical, Biological, Radiological, Nuclear and Explosives (CBRNE) unit, and the Female Squad, to provide rapid response capabilities.",
+      "​\"We are committed to creating a secure environment where every citizen can exercise their franchise without fear of intimidation or harassment,\" Dr. Audi stated during a security briefing in Abuja. \"Our personnel have been strictly briefed on the code of conduct, emphasizing neutrality and respect for human rights.\"",
+      "​According to the operational plan, the NSCDC will collaborate closely with the Nigeria Police Force and other sister security agencies under the Inter-Agency Consultative Committee on Election Security (ICCES) framework.",
+      "​The NSCDC deployment strategy includes:\n• ​Static Guard Duties: Continuous protection of Independent National Electoral Commission (INEC) offices, collation centers, and storage facilities.",
+      "• ​Mobile Patrols: High-visibility surveillance teams deployed to major highways and entry/exit points of the state to deter movement of political thugs.",
+      "• ​Vulnerability Mapping: Special monitoring of high-risk polling units identified by intelligence reports to preempt potential skirmishes.",
+      "​The Corps has also established an \"Election Situation Room\" at the Osun State Command headquarters in Osogbo to provide real-time monitoring and swift coordination between field operatives and emergency response teams.",
+      "​Dr. Audi urged political stakeholders and the electorate to cooperate with security personnel on duty, warning that the NSCDC will deal decisively with anyone caught attempting to disrupt the democratic process, engage in vote-buying, or incite violence.",
+      "​The large-scale mobilization follows recent assessments by electoral observers, who identified the Osun poll as a high-stakes contest requiring robust inter-agency cooperation to ensure a credible outcome."
+    ],
+    "tags": [
+      "News",
+      "Politics"
+    ],
+    "desk": true
+  },
+  {
     "slug": "mbeumo-strikes-as-manchester-united-hold-european-champions-psg-to-1-1-draw",
     "category": "Sports",
     "headline": "Mbeumo Strikes as Manchester United Hold European Champions PSG to 1-1 Draw",
