@@ -1,0 +1,311 @@
+/* ==========================================================================
+   BLOT SOCIAL — Motion & Bootstrap-compatibility layer
+   Purely additive: does not edit styles.css, and intentionally sets NO
+   font-family anywhere (styles.css already owns typography — including
+   .masthead-logo / .masthead-tagline, which this file never selects).
+   ========================================================================== */
+
+/* ---- 1. Scroll progress bar (functional, always on) --------------------- */
+#bs-scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: linear-gradient(90deg, var(--brand-navy, #06327d), var(--accent, #fb6c05));
+  z-index: 10000;
+  transition: width 0.08s linear;
+}
+
+/* ---- 2. Loading preloader (animated emoji, functional) ------------------ */
+#bs-preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: var(--paper, #fbfaf6);
+  transition: opacity 0.4s ease;
+}
+#bs-preloader.bs-preloader-hide {
+  opacity: 0;
+  pointer-events: none;
+}
+.bs-preloader-emoji {
+  font-size: 46px;
+  animation: bs-bounce 1s ease-in-out infinite;
+}
+.bs-preloader-text {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft, #4a4a4a);
+}
+@keyframes bs-bounce {
+  0%, 100% { transform: translateY(0) rotate(-6deg); }
+  50% { transform: translateY(-14px) rotate(6deg); }
+}
+
+/* ---- All headlines bold (home, category, and article page) -------------- */
+.card h3,
+.hero h2,
+#article-root h1 {
+  font-weight: 700;
+}
+
+/* ---- Footer takes the header's navy-to-accent gradient ------------------ */
+.site-footer {
+  background: linear-gradient(100deg, var(--brand-navy, #06327d) 0%, var(--brand-navy, #06327d) 55%, var(--accent, #fb6c05) 100%);
+}
+.footer-col h3,
+.footer-col h4,
+.footer-col p,
+.footer-col ul li,
+.footer-col a {
+  color: #f3f1ea;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+  /* ---- 3. Scroll-reveal for card/hero/section containers ---------------- */
+  .reveal-up {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  .reveal-up.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ---- 4. Hover: card lift + media zoom ---------------------------------- */
+  .card {
+    transition: transform 0.28s ease, box-shadow 0.28s ease;
+  }
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 28px -12px rgba(6, 50, 125, 0.28);
+  }
+  .card-media img,
+  .hero-media img {
+    transition: transform 0.5s ease;
+  }
+  .card:hover .card-media img,
+  .hero:hover .hero-media img {
+    transform: scale(1.05);
+  }
+
+  /* ---- 5. Hover: nav underline sweep ------------------------------------- */
+  .main-nav a {
+    position: relative;
+  }
+  .main-nav a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: var(--accent, #fb6c05);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.25s ease;
+  }
+  .main-nav a:hover::before,
+  .main-nav a.active::before {
+    transform: scaleX(1);
+  }
+
+  /* ---- 6. Breaking bar label pulse --------------------------------------- */
+  .breaking-label {
+    animation: bs-pulse 2.2s ease-in-out infinite;
+  }
+  @keyframes bs-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.55; }
+  }
+
+  /* ---- 7. On-click: button press + hover lift ---------------------------- */
+  .load-more-btn,
+  .btn {
+    transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease, background-color 0.2s ease;
+  }
+  .load-more-btn:hover,
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px -8px rgba(26, 26, 26, 0.35);
+  }
+  .load-more-btn:active,
+  .btn:active {
+    transform: translateY(0) scale(0.96);
+  }
+
+  /* ---- 8. Ambient shine loop on Trending posts (flame-tagged eyebrow) ---- */
+  .card:has(.icon-flame),
+  .hero:has(.icon-flame) {
+    position: relative;
+    overflow: hidden;
+  }
+  .card:has(.icon-flame)::after,
+  .hero:has(.icon-flame)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -160%;
+    width: 55%;
+    height: 100%;
+    background: linear-gradient(115deg, transparent 0%, rgba(255, 255, 255, 0.55) 45%, transparent 90%);
+    transform: skewX(-20deg);
+    animation: bs-ambient-shine 4.5s ease-in-out infinite;
+    pointer-events: none;
+  }
+  @keyframes bs-ambient-shine {
+    0% { left: -160%; }
+    35% { left: 140%; }
+    100% { left: 140%; }
+  }
+
+  /* ---- 9. Typewriter cursor (used by animations.js, repeats on re-entry) - */
+  .type-cursor {
+    display: inline-block;
+    margin-left: 1px;
+    color: var(--accent, #fb6c05);
+    animation: bs-blink 0.8s steps(1) infinite;
+  }
+  @keyframes bs-blink {
+    50% { opacity: 0; }
+  }
+
+  /* ---- 10. On-click: slide right + fade before navigating to a post ------ */
+  .slide-right-out {
+    animation: bs-slide-right 0.35s ease forwards;
+    pointer-events: none;
+  }
+  @keyframes bs-slide-right {
+    to { transform: translateX(70px); opacity: 0; }
+  }
+
+  /* ---- 11. Footer link hover --------------------------------------------- */
+  .footer-col a {
+    transition: color 0.2s ease, padding-left 0.2s ease;
+  }
+  .footer-col a:hover {
+    color: var(--accent, #fb6c05);
+    padding-left: 4px;
+  }
+
+  /* ---- 12. Shine sweep on hover AND on click, repeatable -----------------
+     .shine / .shine-overlay:hover .shine are exactly as supplied. The
+     .shine-active variant + keyframes are added so a click can replay the
+     same sweep on demand (animations.js toggles that class per click). --- */
+  .shine-overlay {
+    position: relative;
+  }
+  .shine {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 100%);
+    pointer-events: none;
+    z-index: 3;
+    opacity: 0;
+    transform: skew(-25deg);
+  }
+  .shine-overlay:hover .shine,
+  .shine-overlay.shine-active .shine {
+    animation: shine-sweep 0.75s ease-in-out;
+  }
+  @keyframes shine-sweep {
+    0%   { opacity: 0; transform: translateX(-120%) skew(-25deg); }
+    40%  { opacity: 1; }
+    100% { opacity: 0; transform: translateX(120%) skew(-25deg); }
+  }
+
+  /* ---- 13. Shine-text on every headline (home + reading page) ------------
+     Base text is black; a gold band sweeps across continuously. (Opaque
+     black requires -webkit-text-fill-color: transparent + solid gradient
+     stops for the clip to actually show the gold, unlike the earlier
+     translucent-white version.) --------------------------------------- */
+  .shine-text {
+    color: var(--ink, #1a1a1a); /* fallback if background-clip: text isn't supported */
+    background: linear-gradient(
+      110deg,
+      var(--ink, #1a1a1a) 35%,
+      #f8c630 50%,
+      var(--ink, #1a1a1a) 65%
+    );
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine-text-sweep 3s infinite linear;
+  }
+  @keyframes shine-text-sweep {
+    0%   { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+}
+
+/* ---- Share row on the article page (after the tags, article.js output) - */
+.bs-share-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 28px 0 8px;
+  padding-top: 20px;
+  border-top: 1px solid var(--rule-light, #d8d5cc);
+  flex-wrap: wrap;
+}
+.bs-share-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft, #4a4a4a);
+  margin-right: 4px;
+}
+.bs-share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--share-color, var(--brand-navy, #06327d));
+  color: #fff;
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.bs-share-btn:hover {
+  transform: translateY(-3px) scale(1.08);
+  box-shadow: 0 6px 14px -6px rgba(0, 0, 0, 0.4);
+}
+.bs-share-btn.bs-share-copied::after {
+  content: "Link copied";
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--ink, #1a1a1a);
+  color: #fff;
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+/* Bootstrap component color alignment, only for components we introduce */
+.btn-brand {
+  background-color: var(--accent, #fb6c05);
+  border-color: var(--accent, #fb6c05);
+  color: #fff;
+}
+.btn-brand:hover {
+  background-color: var(--brand-navy, #06327d);
+  border-color: var(--brand-navy, #06327d);
+  color: #fff;
+}
