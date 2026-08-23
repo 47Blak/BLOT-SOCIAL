@@ -112,10 +112,10 @@ function renderLatestPost() {
   if (newerBtn) newerBtn.style.display = hasNewer ? "" : "none";
 }
 
-// "Across the Desk" pages through its own pool, unlimited, 12 at a time.
-// "Read More" moves to the next page (older posts) and the previous 12
+// "Across the Desk" pages through its own pool, unlimited, 16 at a time.
+// "Read More" moves to the next page (older posts) and the previous 16
 // disappear; "Newer Posts" moves back. Nothing is ever appended/accumulated.
-const ACROSS_DESK_PAGE_SIZE = 12;
+const ACROSS_DESK_PAGE_SIZE = 16;
 let acrossDeskPage = 0;
 
 function getAcrossDeskItems() {

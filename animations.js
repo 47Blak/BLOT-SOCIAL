@@ -41,15 +41,29 @@
   }
 
   /* ---- Repeating typewriter: dek/subheadings (tail only) + article body
-     paragraphs (full). Types in every time the element scrolls into view,
-     clears back out every time it scrolls out — in either direction. ----- */
+     paragraphs (full). Types in the first time each element scrolls into
+     view while the user is scrolling DOWN. If it instead first enters view
+     while scrolling UP (or with reduced motion), the text is just shown
+     immediately, no animation. Once shown, text is never cleared again —
+     this fixed the flicker/glitch from the old clear-on-scroll-up
+     behavior. ------------------------------------------------------------- */
   var twObserver = null;
+  var lastScrollY = window.pageYOffset || document.documentElement.scrollTop || 0;
+  var scrollDir = 'down';
+
+  function trackScrollDirection() {
+    window.addEventListener('scroll', function () {
+      var y = window.pageYOffset || document.documentElement.scrollTop || 0;
+      if (Math.abs(y - lastScrollY) > 2) {
+        scrollDir = y > lastScrollY ? 'down' : 'up';
+        lastScrollY = y;
+      }
+    }, { passive: true });
+  }
 
   function typeIn(el) {
     var full = el.dataset.twOriginal;
     if (!full || !full.trim()) return;
-    var token = String(Date.now() + Math.random());
-    el.dataset.twToken = token;
 
     var isDek = el.classList.contains('dek');
     var headText = '';
@@ -72,35 +86,31 @@
     var i = 0;
     var speed = Math.max(4, Math.min(20, 1400 / Math.max(animText.length, 1)));
     (function step() {
-      if (el.dataset.twToken !== token) return; // superseded by a scroll-out or re-entry
       if (i <= animText.length) {
         node.nodeValue = animText.slice(0, i);
         i++;
         setTimeout(step, speed);
       } else {
         setTimeout(function () {
-          if (el.dataset.twToken === token && cursor.parentNode) {
-            cursor.parentNode.removeChild(cursor);
-          }
+          if (cursor.parentNode) cursor.parentNode.removeChild(cursor);
         }, 900);
       }
     })();
   }
 
-  function typeOut(el) {
-    el.dataset.twToken = String(Date.now() + Math.random()); // invalidates any running typeIn
-    el.textContent = '';
-  }
-
   function ensureTypewriterObserver() {
-    if (reduceMotion || !('IntersectionObserver' in window)) return null;
+    if (!('IntersectionObserver' in window)) return null;
     if (!twObserver) {
       twObserver = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            typeIn(entry.target);
+          var el = entry.target;
+          if (!entry.isIntersecting || el.dataset.twDone === '1') return;
+          el.dataset.twDone = '1';
+          twObserver.unobserve(el);
+          if (!reduceMotion && scrollDir === 'down') {
+            typeIn(el);
           } else {
-            typeOut(entry.target);
+            el.textContent = el.dataset.twOriginal; // shown plainly, no animation
           }
         });
       }, { threshold: 0.2, rootMargin: '0px 0px -10% 0px' });
@@ -116,9 +126,10 @@
       el.dataset.twObserved = '1';
       el.dataset.twOriginal = el.textContent;
       if (obs) {
+        el.textContent = ''; // stays blank until it's typed (or shown) in
         obs.observe(el);
       }
-      // reduceMotion / no IO support: leave text exactly as rendered
+      // reduceMotion-without-IO fallback: leave text exactly as rendered
     });
   }
 
@@ -153,6 +164,222 @@
         el.classList.add('is-visible');
       }
     });
+  }
+
+  /* ---- Drop cap on the first letter of the first article body paragraph -- */
+  function applyDropCap() {
+    var root = document.getElementById('article-root');
+    if (!root || root.dataset.dropcapInit === '1') return;
+    var paras = root.querySelectorAll('p:not([class])');
+    if (paras.length === 0) return;
+    root.dataset.dropcapInit = '1';
+    paras[0].classList.add('bs-dropcap');
+  }
+
+  /* ---- Bottom nav: inject an icon above each existing nav label ---------- */
+  function applyNavIcons() {
+    var navIcons = {
+      home: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>',
+      news: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/></svg>',
+      music: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l10-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="16" cy="16" r="3"/></svg>',
+      sports: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18M5.5 5.5l13 13M18.5 5.5l-13 13"/></svg>',
+      business: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>',
+      technology: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="1"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg>',
+      "default": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/></svg>'
+    };
+
+    var links = document.querySelectorAll('.main-nav a');
+    links.forEach(function (a) {
+      if (a.dataset.navIconInit === '1') return;
+      a.dataset.navIconInit = '1';
+
+      var label = a.textContent.trim();
+      var key = label.toLowerCase();
+      var svg = navIcons[key] || navIcons['default'];
+
+      var iconWrap = document.createElement('span');
+      iconWrap.className = 'bs-nav-icon';
+      iconWrap.innerHTML = svg;
+
+      var textSpan = document.createElement('span');
+      textSpan.className = 'bs-nav-label';
+      textSpan.textContent = label;
+
+      a.textContent = '';
+      a.appendChild(iconWrap);
+      a.appendChild(textSpan);
+    });
+  }
+
+  /* ---- Search button on the Breaking marquee: opens a panel that overlays
+     the marquee (to its left) and searches post titles live. ------------- */
+  function initBreakingSearch() {
+    var bars = document.querySelectorAll('.breaking-bar');
+    bars.forEach(function (bar) {
+      if (bar.dataset.searchInit === '1') return;
+      bar.dataset.searchInit = '1';
+
+      var toggle = document.createElement('button');
+      toggle.type = 'button';
+      toggle.className = 'bs-search-toggle';
+      toggle.setAttribute('aria-label', 'Search stories');
+      toggle.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>';
+
+      var panel = document.createElement('div');
+      panel.className = 'bs-search-panel';
+      var input = document.createElement('input');
+      input.type = 'text';
+      input.className = 'bs-search-input';
+      input.placeholder = 'Search stories\u2026';
+      panel.appendChild(input);
+
+      // Results are appended to <body>, position:fixed — NOT a descendant
+      // of .breaking-bar at all. .breaking-bar itself has overflow:hidden
+      // in the original CSS (for the marquee), which was still clipping
+      // the dropdown even after moving it out of .bs-search-panel. Fixed
+      // positioning escapes that entirely; position is computed from the
+      // bar's live bounding box whenever the panel opens.
+      var results = document.createElement('div');
+      results.className = 'bs-search-results';
+
+      bar.appendChild(toggle);
+      bar.appendChild(panel);
+      document.body.appendChild(results);
+
+      function positionResults() {
+        var rect = bar.getBoundingClientRect();
+        var width = Math.min(420, rect.width * 0.92);
+        results.style.top = rect.bottom + 'px';
+        results.style.left = (rect.right - width) + 'px';
+        results.style.width = width + 'px';
+      }
+
+      function openPanel() {
+        panel.classList.add('open');
+        positionResults();
+        results.classList.add('open');
+        setTimeout(function () { input.focus(); }, 150);
+      }
+      function closePanel() {
+        panel.classList.remove('open');
+        results.classList.remove('open');
+        results.innerHTML = '';
+        input.value = '';
+      }
+      window.addEventListener('resize', function () {
+        if (results.classList.contains('open')) positionResults();
+      });
+
+      toggle.addEventListener('click', function (e) {
+        e.stopPropagation();
+        if (panel.classList.contains('open')) {
+          closePanel();
+        } else {
+          openPanel();
+        }
+      });
+      panel.addEventListener('click', function (e) { e.stopPropagation(); });
+      results.addEventListener('click', function (e) { e.stopPropagation(); });
+      document.addEventListener('click', function () {
+        if (panel.classList.contains('open')) closePanel();
+      });
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') closePanel();
+      });
+
+      input.addEventListener('input', function () {
+        var q = input.value.trim().toLowerCase();
+        results.innerHTML = '';
+        if (!q || typeof ARTICLES === 'undefined') return;
+        var matches = ARTICLES.filter(function (a) {
+          return a.headline && a.headline.toLowerCase().indexOf(q) !== -1;
+        }).slice(0, 6);
+        matches.forEach(function (a) {
+          var item = document.createElement('a');
+          item.className = 'bs-search-result';
+          item.href = 'article.html?slug=' + encodeURIComponent(a.slug);
+          item.textContent = a.headline;
+          results.appendChild(item);
+        });
+        if (matches.length === 0) {
+          var none = document.createElement('div');
+          none.className = 'bs-search-empty';
+          none.textContent = 'No stories found';
+          results.appendChild(none);
+        }
+      });
+    });
+  }
+
+  /* ---- More Stories: shown on the article page, after the share row,
+     picked from articles sharing at least one tag with the current one
+     (padded with other recent articles if fewer than 5 tag matches). ----- */
+  function injectMoreStories() {
+    var root = document.getElementById('article-root');
+    if (!root || root.dataset.moreInit === '1') return;
+    var h1 = root.querySelector('h1');
+    if (!h1) return;
+    if (typeof ARTICLES === 'undefined' || typeof getArticleBySlug !== 'function') return;
+
+    var params = new URLSearchParams(window.location.search);
+    var slug = params.get('slug');
+    var current = slug ? getArticleBySlug(slug) : null;
+    if (!current) return;
+    root.dataset.moreInit = '1';
+
+    var currentTags = current.tags || [];
+    var tagMatches = ARTICLES.filter(function (a) {
+      return a.slug !== current.slug && a.tags &&
+        a.tags.some(function (t) { return currentTags.indexOf(t) !== -1; });
+    });
+
+    var picks = tagMatches.slice(0, 5);
+    if (picks.length < 5) {
+      var used = picks.map(function (a) { return a.slug; });
+      var fillers = ARTICLES.filter(function (a) {
+        return a.slug !== current.slug && used.indexOf(a.slug) === -1;
+      });
+      picks = picks.concat(fillers.slice(0, 5 - picks.length));
+    }
+    if (picks.length === 0) return;
+
+    var section = document.createElement('div');
+    section.className = 'bs-more-stories';
+    var heading = document.createElement('h2');
+    heading.textContent = 'More Stories';
+    section.appendChild(heading);
+
+    var list = document.createElement('ul');
+    list.className = 'bs-more-list';
+
+    picks.forEach(function (a) {
+      var item = document.createElement('a');
+      item.className = 'bs-more-item';
+      item.href = 'article.html?slug=' + encodeURIComponent(a.slug);
+
+      var img = document.createElement('img');
+      img.className = 'bs-more-thumb';
+      img.src = a.image || '';
+      img.alt = a.headline || '';
+      item.appendChild(img);
+
+      var info = document.createElement('div');
+      info.className = 'bs-more-info';
+      var headlineEl = document.createElement('span');
+      headlineEl.className = 'bs-more-headline';
+      headlineEl.textContent = a.headline;
+      var bylineEl = document.createElement('span');
+      bylineEl.className = 'bs-more-byline';
+      bylineEl.textContent = a.date || '';
+      info.appendChild(headlineEl);
+      info.appendChild(bylineEl);
+      item.appendChild(info);
+
+      list.appendChild(item);
+    });
+
+    section.appendChild(list);
+    root.appendChild(section);
   }
 
   /* ---- Shine overlay: injects the .shine div into every post, hover plays
@@ -292,12 +519,17 @@
 
   function init() {
     initProgressBar();
+    trackScrollDirection();
     hidePreloader();
     scanRevealTargets();
     scanTypewriterTargets();
+    applyDropCap();
     injectShineOverlays();
     applyHeadlineShine();
     injectShareButtons();
+    injectMoreStories();
+    initBreakingSearch();
+    applyNavIcons();
     initPostClickSlide();
     initPaginationHook();
   }

@@ -34,25 +34,118 @@
   opacity: 0;
   pointer-events: none;
 }
-.bs-preloader-emoji {
-  font-size: 46px;
+.bs-preloader-logo {
+  width: 50vw;
+  max-width: 420px;
+  height: auto;
   animation: bs-bounce 1s ease-in-out infinite;
-}
-.bs-preloader-text {
-  font-size: 12px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--ink-soft, #4a4a4a);
 }
 @keyframes bs-bounce {
   0%, 100% { transform: translateY(0) rotate(-6deg); }
   50% { transform: translateY(-14px) rotate(6deg); }
 }
 
+/* ---- Prevent horizontal overflow -----------------------------------------
+   .card already has overflow:hidden in styles.css; .hero does not, so the
+   injected .shine sweep (transform: skew) could bleed past the viewport on
+   the homepage where the hero sits full-width. Fixing at the source,
+   plus a harmless safety net. -------------------------------------------- */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.hero {
+  overflow: hidden;
+}
+
+/* ---- Nav moved to a bottom tab bar (icon above label), both mobile and
+   desktop. Icons/labels are injected per-link by animations.js; this only
+   restyles the existing <nav class="main-nav"> markup and retires the old
+   top-bar underline-hover treatment, which doesn't fit a tab-bar look. -- */
+.main-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 40;
+  background: var(--paper, #fbfaf6);
+  border-top: 1px solid var(--rule-light, #d8d5cc);
+  box-shadow: 0 -6px 16px -10px rgba(0, 0, 0, 0.25);
+}
+.main-nav ul {
+  max-width: 640px;
+  padding: 4px 8px;
+  gap: 4px;
+  justify-content: space-between;
+}
+.main-nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 6px 4px 5px;
+  font-size: 10px;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  border-bottom: none;
+}
+.main-nav a::before {
+  display: none; /* retire the old underline-sweep hover for the tab-bar look */
+}
+.main-nav a:hover,
+.main-nav a.active {
+  border-bottom-color: transparent;
+  color: var(--accent, #fb6c05);
+}
+.main-nav a.active::after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--accent, #fb6c05);
+  margin-top: 1px;
+}
+.bs-nav-icon {
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
+.bs-nav-icon svg {
+  width: 100%;
+  height: 100%;
+}
+.bs-nav-label {
+  line-height: 1;
+}
+body {
+  padding-bottom: 70px; /* clearance so the fixed bottom nav never covers content */
+}
+
 /* ---- All headlines bold (home, category, and article page) -------------- */
 .card h3,
 .hero h2,
 #article-root h1 {
+  font-weight: 700;
+}
+
+/* ---- Vertical accent line to the left of every Dek/Subheading ----------- */
+.dek {
+  border-left: 4px solid var(--accent, #fb6c05);
+  padding-left: 14px;
+}
+
+/* ---- Drop cap on the first letter of the article body -------------------
+   Applied only to the very first body paragraph via the .bs-dropcap class
+   (added by animations.js), since the article's other <p> tags (dek, ad
+   description, etc.) all carry their own class and would otherwise be
+   picked up by a plain :first-of-type selector. ------------------------- */
+.bs-dropcap::first-letter {
+  float: left;
+  font-size: 3.4em;
+  line-height: 0.82;
+  padding-right: 8px;
+  padding-top: 4px;
+  color: var(--brand-navy, #06327d);
   font-weight: 700;
 }
 
@@ -296,6 +389,184 @@
   padding: 3px 8px;
   border-radius: 4px;
   white-space: nowrap;
+}
+
+/* ---- More Stories (article page, after the share row) ------------------- */
+.bs-more-stories {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid var(--rule-light, #d8d5cc);
+}
+.bs-more-stories h2 {
+  font-size: 1.1rem;
+  margin: 0 0 14px;
+}
+.bs-more-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.bs-more-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--rule-light, #d8d5cc);
+  text-decoration: none;
+  color: inherit;
+}
+.bs-more-thumb {
+  flex: 0 0 64px;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.bs-more-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+.bs-more-headline {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.bs-more-item:hover .bs-more-headline {
+  color: var(--accent, #fb6c05);
+}
+.bs-more-byline {
+  font-size: 11px;
+  color: var(--ink-soft, #4a4a4a);
+}
+
+/* ---- Search button + overlay panel on the right of the Breaking marquee - */
+.breaking-bar {
+  position: relative;
+}
+.bs-search-toggle {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  color: #fff;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0 12px;
+}
+.bs-search-toggle:hover {
+  color: #ffe1c2;
+}
+.bs-search-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background: var(--brand-navy, #06327d);
+  transition: width 0.3s ease;
+  z-index: 5;
+}
+.bs-search-panel.open {
+  width: min(420px, 92%);
+  padding: 0 10px;
+}
+.bs-search-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  outline: none;
+}
+.bs-search-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.bs-search-results {
+  position: fixed;
+  max-height: 280px;
+  overflow-y: auto;
+  background: var(--paper, #fbfaf6);
+  box-shadow: 0 10px 24px -8px rgba(0, 0, 0, 0.35);
+  border-radius: 0 0 6px 6px;
+  z-index: 10001;
+  display: none;
+}
+.bs-search-results.open {
+  display: block;
+}
+.bs-search-result {
+  display: block;
+  padding: 8px 12px;
+  font-size: 13px;
+  color: var(--ink, #1a1a1a);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule-light, #d8d5cc);
+}
+.bs-search-result:hover {
+  background: rgba(6, 50, 125, 0.06);
+  color: var(--accent, #fb6c05);
+}
+.bs-search-empty {
+  padding: 10px 12px;
+  font-size: 12px;
+  color: var(--ink-soft, #4a4a4a);
+}
+
+/* ---- "Across the Desk" repositioning (desktop only) ---------------------
+   Cards 1-16 are the SAME .card markup main.js renders (main.js's own
+   ACROSS_DESK_PAGE_SIZE is 16, so all 16 come from its normal render —
+   nothing here appends anything) — only position/size WITHIN the grid
+   changes, via grid-column/grid-row spans. "Big" cards get more grid
+   footprint (wider and/or taller allotted space) than "small" ones so the
+   two are actually visually distinct, not just same-size cards moved
+   around.
+
+   Desktop (>760px):
+     cards 1-6  — Image-1 layout: 2 big cards side by side (half-width
+                  each), then 4 small cards in a single row below
+                  (quarter-width each).
+     cards 7-12 — Image-2 layout: one tall feature (left column, spans 3
+                  row-tracks) with one small item below it (1 row-track),
+                  next to 4 small items stacked evenly in the right column.
+     cards 13-16 — left in the grid's original, unpositioned 4-across
+                  format.
+
+   Mobile (<=760px): no override here at all — falls through to the
+   site's normal single-column stacking from styles.css, unchanged. ------ */
+@media (min-width: 761px) {
+  #across-desk {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  /* Image-1 layout: cards 1-6 (2 big, half-width; 4 small, quarter-width) */
+  #across-desk .card:nth-child(1) { grid-column: 1 / 3; grid-row: 1 / 2; }
+  #across-desk .card:nth-child(2) { grid-column: 3 / 5; grid-row: 1 / 2; }
+  #across-desk .card:nth-child(3) { grid-column: 1 / 2; grid-row: 2 / 3; }
+  #across-desk .card:nth-child(4) { grid-column: 2 / 3; grid-row: 2 / 3; }
+  #across-desk .card:nth-child(5) { grid-column: 3 / 4; grid-row: 2 / 3; }
+  #across-desk .card:nth-child(6) { grid-column: 4 / 5; grid-row: 2 / 3; }
+  /* Image-2 layout: cards 7-12 (1 tall feature + 1 small on the left,
+     4 small stacked on the right) */
+  #across-desk .card:nth-child(7)  { grid-column: 1 / 3; grid-row: 3 / 6; }
+  #across-desk .card:nth-child(8)  { grid-column: 1 / 3; grid-row: 6 / 7; }
+  #across-desk .card:nth-child(9)  { grid-column: 3 / 5; grid-row: 3 / 4; }
+  #across-desk .card:nth-child(10) { grid-column: 3 / 5; grid-row: 4 / 5; }
+  #across-desk .card:nth-child(11) { grid-column: 3 / 5; grid-row: 5 / 6; }
+  #across-desk .card:nth-child(12) { grid-column: 3 / 5; grid-row: 6 / 7; }
+  /* cards 13-16: original format, auto-placed in a fresh row */
+  #across-desk .card:nth-child(13) { grid-column: 1 / 2; grid-row: 7 / 8; }
+  #across-desk .card:nth-child(14) { grid-column: 2 / 3; grid-row: 7 / 8; }
+  #across-desk .card:nth-child(15) { grid-column: 3 / 4; grid-row: 7 / 8; }
+  #across-desk .card:nth-child(16) { grid-column: 4 / 5; grid-row: 7 / 8; }
 }
 
 /* Bootstrap component color alignment, only for components we introduce */

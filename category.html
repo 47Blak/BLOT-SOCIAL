@@ -13,14 +13,11 @@
 (function(){
   var o = document.createElement('div');
   o.id = 'bs-preloader';
-  var e = document.createElement('div');
-  e.className = 'bs-preloader-emoji';
-  e.textContent = '\u2764\ufe0f\u200d\ud83d\udd25';
-  var t = document.createElement('div');
-  t.className = 'bs-preloader-text';
-  t.textContent = 'Loading BLOT SOCIAL\u2026';
-  o.appendChild(e);
-  o.appendChild(t);
+  var img = document.createElement('img');
+  img.className = 'bs-preloader-logo';
+  img.src = 'logo-loader.png';
+  img.alt = 'Loading';
+  o.appendChild(img);
   document.body.appendChild(o);
 })();
 </script>
