@@ -5,6 +5,52 @@
    .masthead-logo / .masthead-tagline, which this file never selects).
    ========================================================================== */
 
+/* ---- 0. Dark mode ---------------------------------------------------------
+   styles.css is built on CSS custom properties (--ink, --paper, --rule,
+   --rule-light), so overriding them under [data-theme="dark"] re-themes
+   nearly the entire site automatically — every rule in styles.css that
+   already reads var(--ink)/var(--paper)/etc. picks up the new values with
+   no further changes needed. --brand-navy and --accent are left alone:
+   both are used as solid backgrounds with white text throughout the site
+   (header, footer, badges) and already work fine unchanged against either
+   background.
+
+   A handful of elements set literal hex colors instead of the variables
+   (the ad-card format, and .article-tag) — those get explicit dark
+   overrides below since a variable change can't reach them.
+
+   The <html data-theme="..."> attribute is set as early as possible by a
+   small inline script at the top of <head> in each page (before this
+   stylesheet is even requested), to avoid a flash of the wrong theme;
+   animations.js keeps it in sync afterward (system-preference changes,
+   and the manual toggle). ------------------------------------------------ */
+html[data-theme="dark"] {
+  --ink: #e9e7e0;
+  --ink-soft: #b9b6ab;
+  --paper: #14161c;
+  --rule: #e9e7e0;
+  --rule-light: #2b2e37;
+}
+html[data-theme="dark"] .ad-card {
+  background-color: #1c1f27;
+  border-color: #2b2e37;
+}
+html[data-theme="dark"] .ad-tag {
+  background-color: #2b3348;
+  color: #a9c2f5;
+}
+html[data-theme="dark"] .ad-title { color: #f1f0ec; }
+html[data-theme="dark"] .ad-description { color: #b9b6ab; }
+html[data-theme="dark"] .ad-cta { color: #6ea8ff; }
+html[data-theme="dark"] .article-tag {
+  background: #1c1f27;
+  color: #cfe0ff;
+}
+html[data-theme="dark"] .article-tag:hover {
+  background: var(--brand-navy);
+  color: #fff;
+}
+
 /* ---- 1. Scroll progress bar (functional, always on) --------------------- */
 #bs-scroll-progress {
   position: fixed;
@@ -444,26 +490,57 @@ body {
 /* ---- Search button + overlay panel on the right of the Breaking marquee - */
 .breaking-bar {
   position: relative;
+  padding-right: 6px;
 }
 .bs-search-toggle {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 38px;
+  width: 44px;
+  height: 100%;
   color: #fff;
   background: transparent;
   border: none;
   cursor: pointer;
-  padding: 0 12px;
+  padding: 0 10px;
+}
+.bs-search-toggle svg {
+  width: 20px;
+  height: 20px;
 }
 .bs-search-toggle:hover {
   color: #ffe1c2;
 }
+/* ---- Dark-mode toggle: sits to the right of the search button, giving
+   the search button breathing room from the true edge of the bar. ------- */
+.bs-theme-toggle {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 100%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0 10px 0 4px;
+  color: #4d8fd6; /* moon = blue, shown while the site is in light mode */
+}
+.bs-theme-toggle.is-dark {
+  color: #f8c630; /* sun = gold, shown while the site is in dark mode */
+}
+.bs-theme-toggle svg {
+  width: 20px;
+  height: 20px;
+}
+.bs-theme-toggle:hover {
+  opacity: 0.8;
+}
 .bs-search-panel {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 44px;
   height: 100%;
   width: 0;
   overflow: hidden;
@@ -535,23 +612,23 @@ body {
      cards 1-6  — Image-1 layout: 2 big cards side by side (half-width
                   each), then 4 small cards in a single row below
                   (quarter-width each).
-     cards 7-12 — Image-2 layout: card 7 and card 9 (the Cristiano Ronaldo
-                  post) are the same size, side by side; the "Across the
-                  Desk" ad slot fills the space directly below card 7 (see
-                  .bs-ad-slot-mid below); 4 small items stack in the right
-                  column.
+     cards 7-12 — Image-2 layout: card 7 and card 9 (whatever the pool
+                  puts there) are the same size, side by side; the
+                  "Across the Desk" ad slot fills the space directly below
+                  card 7 on every page (see .bs-ad-slot-mid below); 4
+                  small items stack in the right column.
      cards 13-16 — left in the grid's original, unpositioned 4-across
                   format.
 
-     animations.js inserts the ad slot into the DOM directly after the
-     Cristiano Ronaldo post (originally the 9th card), which is why cards
-     10-16 are numbered 11-17 below — nth-child counts every element
-     child, including the inserted ad slot.
+     animations.js always inserts the ad slot into the DOM directly after
+     the 9th card (whichever page is showing), which is why cards 10-16
+     are numbered 11-17 below — nth-child counts every element child,
+     including the inserted ad slot.
 
    Mobile (<=760px): no override here at all — falls through to the
    site's normal single-column stacking from styles.css, unchanged; the ad
-   slot (inserted right after the Ronaldo post in the DOM either way)
-   simply appears below it in the normal single-column flow. ------------ */
+   slot (always inserted after the 9th card, on every page) simply appears
+   in that same spot in the normal single-column flow. ------------------- */
 .bs-ad-slot-mid {
   display: flex;
   align-items: center;
@@ -581,7 +658,7 @@ body {
   #across-desk .card:nth-child(16) { grid-column: 3 / 4; grid-row: 7 / 8; }
   #across-desk .card:nth-child(17) { grid-column: 4 / 5; grid-row: 7 / 8; }
   /* the ad slot: fills the space directly below card 7, next to cards
-     11-12 (the Ronaldo post's neighbors in the right column) */
+     11-12 (card 9's neighbors in the right column) */
   #across-desk .bs-ad-slot-mid { grid-column: 1 / 3; grid-row: 4 / 6; }
 
   /* Desktop only: stretch the ad to fill that full 2-row height, image on

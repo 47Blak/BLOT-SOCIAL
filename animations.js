@@ -176,28 +176,25 @@
     paras[0].classList.add('bs-dropcap');
   }
 
-  /* ---- Ad slot inserted right after the Cristiano Ronaldo post in
-     "Across the Desk" — same DOM position on both mobile and desktop; on
-     desktop, CSS explicitly places it in the space freed up by resizing
-     the post above it (see .bs-ad-slot-mid in animations.css), on mobile
-     it just flows normally below the Ronaldo post since there's no grid
-     override there. Uses the site's own renderAdSlot()/ADS — same ad-card
-     markup as every other ad placement on the site, nothing new to it. -- */
+  /* ---- Ad slot permanently inserted after the 9th card in "Across the
+     Desk" — same spot on every page (page 1, "Older Posts", etc.), on both
+     mobile and desktop, like every other ad on the site. Position-based
+     rather than tied to a specific article, since main.js clears and
+     re-renders #across-desk on every pagination click, and whatever
+     article the pool puts in that page's 9th slot will differ page to
+     page. On desktop, CSS explicitly places it in the space freed up by
+     resizing the card above it (see .bs-ad-slot-mid in animations.css);
+     on mobile it just flows normally in the single-column list. Uses the
+     site's own renderAdSlot()/ADS — same ad-card markup as every other ad
+     placement on the site, nothing new to it. --------------------------- */
   function injectAcrossDeskAd() {
     var container = document.getElementById('across-desk');
     if (!container || container.querySelector('.bs-ad-slot-mid')) return;
     if (typeof ADS === 'undefined' || typeof renderAdSlot !== 'function') return;
 
-    var targetSlug = 'my-son-will-be-bigger-than-me-cristiano-ronaldo-backs-cristiano-jr-to-surpass-him-physically-';
     var cards = container.querySelectorAll('.card');
-    var targetCard = null;
-    for (var i = 0; i < cards.length; i++) {
-      if (cards[i].querySelector('a[href*="slug=' + targetSlug + '"]')) {
-        targetCard = cards[i];
-        break;
-      }
-    }
-    if (!targetCard) return;
+    if (cards.length < 9) return; // this page doesn't have a 9th card to anchor to
+    var targetCard = cards[8];
 
     var wrap = document.createElement('div');
     wrap.className = 'bs-ad-slot-mid';
@@ -279,9 +276,10 @@
 
       function positionResults() {
         var rect = bar.getBoundingClientRect();
+        var edgeOffset = 44; // width reserved for the dark-mode toggle to the right
         var width = Math.min(420, rect.width * 0.92);
         results.style.top = rect.bottom + 'px';
-        results.style.left = (rect.right - width) + 'px';
+        results.style.left = (rect.right - edgeOffset - width) + 'px';
         results.style.width = width + 'px';
       }
 
@@ -340,6 +338,73 @@
         }
       });
     });
+  }
+
+  /* ---- Dark mode toggle: sits to the right of the search button in the
+     Breaking marquee. Auto-follows the phone/OS color-scheme setting
+     until the person manually toggles it, at which point that choice is
+     remembered (localStorage) and takes over from system preference.
+     The <html data-theme> attribute is actually set as early as possible
+     by a small inline script at the top of <head> (to avoid a flash of
+     the wrong theme on load) — this just keeps the toggle's icon in sync
+     and wires up the click + live system-preference-change behavior. --- */
+  function initThemeToggle() {
+    var STORAGE_KEY = 'bs-theme';
+    var root = document.documentElement;
+    var mql = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+
+    function getStored() {
+      try { return localStorage.getItem(STORAGE_KEY); } catch (e) { return null; }
+    }
+    function setStored(value) {
+      try { localStorage.setItem(STORAGE_KEY, value); } catch (e) {}
+    }
+    function systemPrefersDark() {
+      return !!(mql && mql.matches);
+    }
+    function isDarkNow() {
+      var stored = getStored();
+      if (stored === 'dark') return true;
+      if (stored === 'light') return false;
+      return systemPrefersDark();
+    }
+
+    var MOON_SVG = '<svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.354 15.354A9 9 0 0 1 8.646 3.646 9.003 9.003 0 1 0 20.354 15.354Z"/></svg>';
+    var SUN_SVG = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>';
+
+    function paint(isDark) {
+      root.setAttribute('data-theme', isDark ? 'dark' : 'light');
+      var btn = document.querySelector('.bs-theme-toggle');
+      if (!btn) return;
+      btn.innerHTML = isDark ? SUN_SVG : MOON_SVG;
+      btn.classList.toggle('is-dark', isDark);
+      btn.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+    }
+
+    // Keep in sync with the phone/OS setting in real time, but only while
+    // there's no manual override saved.
+    if (mql && mql.addEventListener) {
+      mql.addEventListener('change', function () {
+        if (getStored() === null) paint(systemPrefersDark());
+      });
+    }
+
+    var bars = document.querySelectorAll('.breaking-bar');
+    bars.forEach(function (bar) {
+      if (bar.querySelector('.bs-theme-toggle')) return;
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'bs-theme-toggle';
+      bar.appendChild(btn);
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var next = !isDarkNow();
+        setStored(next ? 'dark' : 'light');
+        paint(next);
+      });
+    });
+
+    paint(isDarkNow());
   }
 
   /* ---- More Stories: shown on the article page, after the share row,
@@ -562,6 +627,7 @@
     injectShareButtons();
     injectMoreStories();
     initBreakingSearch();
+    initThemeToggle();
     applyNavIcons();
     initPostClickSlide();
     initPaginationHook();
