@@ -176,6 +176,37 @@
     paras[0].classList.add('bs-dropcap');
   }
 
+  /* ---- Ad slot inserted right after the Cristiano Ronaldo post in
+     "Across the Desk" — same DOM position on both mobile and desktop; on
+     desktop, CSS explicitly places it in the space freed up by resizing
+     the post above it (see .bs-ad-slot-mid in animations.css), on mobile
+     it just flows normally below the Ronaldo post since there's no grid
+     override there. Uses the site's own renderAdSlot()/ADS — same ad-card
+     markup as every other ad placement on the site, nothing new to it. -- */
+  function injectAcrossDeskAd() {
+    var container = document.getElementById('across-desk');
+    if (!container || container.querySelector('.bs-ad-slot-mid')) return;
+    if (typeof ADS === 'undefined' || typeof renderAdSlot !== 'function') return;
+
+    var targetSlug = 'my-son-will-be-bigger-than-me-cristiano-ronaldo-backs-cristiano-jr-to-surpass-him-physically-';
+    var cards = container.querySelectorAll('.card');
+    var targetCard = null;
+    for (var i = 0; i < cards.length; i++) {
+      if (cards[i].querySelector('a[href*="slug=' + targetSlug + '"]')) {
+        targetCard = cards[i];
+        break;
+      }
+    }
+    if (!targetCard) return;
+
+    var wrap = document.createElement('div');
+    wrap.className = 'bs-ad-slot-mid';
+    wrap.id = 'bs-ad-across-desk-mid';
+    targetCard.insertAdjacentElement('afterend', wrap);
+
+    renderAdSlot('bs-ad-across-desk-mid', ADS.acrossDeskMid);
+  }
+
   /* ---- Bottom nav: inject an icon above each existing nav label ---------- */
   function applyNavIcons() {
     var navIcons = {
@@ -508,6 +539,7 @@
     document.addEventListener('click', function (e) {
       if (e.target && e.target.classList && e.target.classList.contains('load-more-btn')) {
         setTimeout(function () {
+          injectAcrossDeskAd();
           scanRevealTargets();
           scanTypewriterTargets();
           injectShineOverlays();
@@ -524,6 +556,7 @@
     scanRevealTargets();
     scanTypewriterTargets();
     applyDropCap();
+    injectAcrossDeskAd();
     injectShineOverlays();
     applyHeadlineShine();
     injectShareButtons();

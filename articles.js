@@ -1841,6 +1841,14 @@ const ADS = {
     "description": "Upgrade your look with our glasses, caps, and scarves (cotton vintage and jersey scarf),  Quality and style with no stress. Everything you need is in stock.",
     "cta": "Shop Now",
     "link": "https://wa.me/message/I6CQLHNFA4KZP1"
+  },
+  "acrossDeskMid": {
+    "image": "https://pbs.twimg.com/profile_images/2056879650597478400/c1hI0Grk_400x400.jpg",
+    "tag": "AD",
+    "title": "亗 B L A K",
+    "description": "We craft sleek, high-performing websites, blending intuitive user experience with striking aesthetics to transform bold ideas into seamless, engaging digital experiences for every visitor.",
+    "cta": "CONTACT US / BOOK US.",
+    "link": "https://wa.me/2348146552598"
   }
 };
 

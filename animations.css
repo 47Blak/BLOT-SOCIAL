@@ -68,9 +68,8 @@ html, body {
   right: 0;
   bottom: 0;
   z-index: 40;
-  background: var(--paper, #fbfaf6);
-  border-top: 1px solid var(--rule-light, #d8d5cc);
-  box-shadow: 0 -6px 16px -10px rgba(0, 0, 0, 0.25);
+  background: var(--brand-navy, #06327d);
+  box-shadow: 0 -6px 16px -10px rgba(0, 0, 0, 0.35);
 }
 .main-nav ul {
   max-width: 640px;
@@ -88,6 +87,7 @@ html, body {
   letter-spacing: 0.02em;
   text-transform: none;
   border-bottom: none;
+  color: rgba(255, 255, 255, 0.75);
 }
 .main-nav a::before {
   display: none; /* retire the old underline-sweep hover for the tab-bar look */
@@ -535,14 +535,28 @@ body {
      cards 1-6  — Image-1 layout: 2 big cards side by side (half-width
                   each), then 4 small cards in a single row below
                   (quarter-width each).
-     cards 7-12 — Image-2 layout: one tall feature (left column, spans 3
-                  row-tracks) with one small item below it (1 row-track),
-                  next to 4 small items stacked evenly in the right column.
+     cards 7-12 — Image-2 layout: card 7 and card 9 (the Cristiano Ronaldo
+                  post) are the same size, side by side; the "Across the
+                  Desk" ad slot fills the space directly below card 7 (see
+                  .bs-ad-slot-mid below); 4 small items stack in the right
+                  column.
      cards 13-16 — left in the grid's original, unpositioned 4-across
                   format.
 
+     animations.js inserts the ad slot into the DOM directly after the
+     Cristiano Ronaldo post (originally the 9th card), which is why cards
+     10-16 are numbered 11-17 below — nth-child counts every element
+     child, including the inserted ad slot.
+
    Mobile (<=760px): no override here at all — falls through to the
-   site's normal single-column stacking from styles.css, unchanged. ------ */
+   site's normal single-column stacking from styles.css, unchanged; the ad
+   slot (inserted right after the Ronaldo post in the DOM either way)
+   simply appears below it in the normal single-column flow. ------------ */
+.bs-ad-slot-mid {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
 @media (min-width: 761px) {
   #across-desk {
     grid-template-columns: repeat(4, 1fr);
@@ -554,19 +568,56 @@ body {
   #across-desk .card:nth-child(4) { grid-column: 2 / 3; grid-row: 2 / 3; }
   #across-desk .card:nth-child(5) { grid-column: 3 / 4; grid-row: 2 / 3; }
   #across-desk .card:nth-child(6) { grid-column: 4 / 5; grid-row: 2 / 3; }
-  /* Image-2 layout: cards 7-12 (1 tall feature + 1 small on the left,
-     4 small stacked on the right) */
-  #across-desk .card:nth-child(7)  { grid-column: 1 / 3; grid-row: 3 / 6; }
+  /* Image-2 layout: cards 7-12 + the ad slot */
+  #across-desk .card:nth-child(7)  { grid-column: 1 / 3; grid-row: 3 / 4; }
   #across-desk .card:nth-child(8)  { grid-column: 1 / 3; grid-row: 6 / 7; }
   #across-desk .card:nth-child(9)  { grid-column: 3 / 5; grid-row: 3 / 4; }
-  #across-desk .card:nth-child(10) { grid-column: 3 / 5; grid-row: 4 / 5; }
-  #across-desk .card:nth-child(11) { grid-column: 3 / 5; grid-row: 5 / 6; }
-  #across-desk .card:nth-child(12) { grid-column: 3 / 5; grid-row: 6 / 7; }
-  /* cards 13-16: original format, auto-placed in a fresh row */
-  #across-desk .card:nth-child(13) { grid-column: 1 / 2; grid-row: 7 / 8; }
-  #across-desk .card:nth-child(14) { grid-column: 2 / 3; grid-row: 7 / 8; }
-  #across-desk .card:nth-child(15) { grid-column: 3 / 4; grid-row: 7 / 8; }
-  #across-desk .card:nth-child(16) { grid-column: 4 / 5; grid-row: 7 / 8; }
+  #across-desk .card:nth-child(11) { grid-column: 3 / 5; grid-row: 4 / 5; }
+  #across-desk .card:nth-child(12) { grid-column: 3 / 5; grid-row: 5 / 6; }
+  #across-desk .card:nth-child(13) { grid-column: 3 / 5; grid-row: 6 / 7; }
+  /* cards 13-16 (now the 14th-17th children): original format */
+  #across-desk .card:nth-child(14) { grid-column: 1 / 2; grid-row: 7 / 8; }
+  #across-desk .card:nth-child(15) { grid-column: 2 / 3; grid-row: 7 / 8; }
+  #across-desk .card:nth-child(16) { grid-column: 3 / 4; grid-row: 7 / 8; }
+  #across-desk .card:nth-child(17) { grid-column: 4 / 5; grid-row: 7 / 8; }
+  /* the ad slot: fills the space directly below card 7, next to cards
+     11-12 (the Ronaldo post's neighbors in the right column) */
+  #across-desk .bs-ad-slot-mid { grid-column: 1 / 3; grid-row: 4 / 6; }
+
+  /* Desktop only: stretch the ad to fill that full 2-row height, image on
+     top half / description on bottom half — instead of the small
+     horizontal ad-card centered in a lot of empty space. Scoped to this
+     one placement only; every other ad on the site (latestPost, inBrief,
+     article ads) keeps its normal horizontal .ad-card layout untouched. */
+  .bs-ad-slot-mid {
+    align-items: stretch;
+  }
+  .bs-ad-slot-mid .ad-card {
+    width: 100%;
+    margin-bottom: 0;
+    display: flex;
+  }
+  .bs-ad-slot-mid .ad-link {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    padding: 0;
+  }
+  .bs-ad-slot-mid .ad-image {
+    width: 100%;
+    height: 50%;
+    margin-right: 0;
+    border-radius: 8px 8px 0 0;
+    flex-shrink: 0;
+  }
+  .bs-ad-slot-mid .ad-content {
+    height: 50%;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+  }
 }
 
 /* Bootstrap component color alignment, only for components we introduce */
