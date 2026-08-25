@@ -1,5 +1,36 @@
 const ARTICLES = [
   {
+    "slug": "on-my-way-long-john",
+    "category": "Music",
+    "headline": "On My Way - Long John",
+    "dek": "The Manchester based Hip-Hop/Rap artist releases a self written and produced single describing it as a \"mellow proposal song,\" while building anticipation for an upcoming EP.",
+    "author": "亗BLAK",
+    "date": "Aug 25",
+    "image": "https://pbs.twimg.com/media/HQklIDZXIAAyaGX?format=jpg&name=large",
+    "body": [
+      "\"On My Way\" by Long John stands out as an impressive testament to complete creative independence. Released in August 2026, the track instantly establishes its own distinct lane within the UK Hip-Hop and Rap landscape. Built on smooth production crafted by Tukie, the instrumental provides a clean, atmospheric foundation that allows Long John’s vocal performance and lyrical delivery to take center stage without feeling overcrowded.",
+      "What makes the song immediately striking is its blend of laid-back confidence and authentic storytelling. Long John playfully frames the track with a mellow, tongue in cheek vibe, yet the execution remains undeniably sharp. His rhythm and cadence flow effortlessly over the beat, balancing a chilled out atmosphere with precise Bar For Bar craftsmanship that keeps listeners locked in from start to finish.",
+      "Beyond the catchy melodies and solid rhythms, the technical mastery behind the track is where Long John truly shines. Handling the songwriting, performance, recording, mixing, and mastering entirely on his own, he demonstrates a rare level of musical versatility. Every element from the clarity of the lead vocals to the balance of the low end frequencies reflects a meticulous attention to detail that rivals heavy budget studio productions.",
+      "Lyrically, \"On My Way\" captures the feeling of momentum, personal progress, and navigating life's journey with purpose. Long John uses clever wordplay and relatable themes, creating an anthem for anyone focused on their goals and pushing past obstacles. The track does not rely on overly aggressive tropes; instead, it leans into grounded authenticity, making the message hit home even harder.",
+      "The production itself plays a crucial role in setting the emotional tone. Tukie’s instrumental architecture features warm textures, subtle melodic accents, and a steady, head-nodding bounce. This musical bed gives Long John the perfect canvas to experiment with vocal dynamics, shifting smoothly between structured, hard-hitting rap verses and melodic hooks that linger long after the song ends.",
+      "From a listener's perspective, \"On My Way\" excels at spatial transport. The polished mix creates an immersive audio environment that pulls you directly into the artist's mindset. \nWhether listening on high-end studio headphones or through casual phone speakers, the track maintains its depth, warmth, and punch, proving that the technical execution matches the artistic vision step for step.",
+      "Representing the vibrant UK Rap scene out of Manchester, Long John exemplifies the modern independent artist who refuses to compromise on quality. Rather than relying on a massive team of sound engineers and ghostwriters, he uses his end-to-end skill set to deliver a cohesive, unfiltered expression of his talent. This self reliance gives \"On My Way\" an undeniable layer of artistic integrity.",
+      "Ultimately, \"On My Way\" is a complete package a seamless fusion of sharp writing, standout production, and top-tier sonic engineering. It serves as both an infectious song for casual listening and a masterclass in independent music creation. For anyone following the evolution of contemporary Hip-Hop, this release firmly marks Long John as a versatile artist and producer capable of delivering absolute quality on his own terms."
+    ],
+    "audiomack": "Https://audiomack.com/longjohnbars/song/on-my-way",
+    "artist": "LONG JOHN",
+    "producer": "Tukie",
+    "genre": "Hip-hop",
+    "released": "2026",
+    "duration": "03:06",
+    "tags": [
+      "Music",
+      "Trending",
+      "Entertainment"
+    ],
+    "hero": true
+  },
+  {
     "slug": "only-6-banks-pay-n127-trillion-dividends-despite-record-sector-profits",
     "category": "Business",
     "headline": "Only 6 Banks Pay N1.27 Trillion Dividends Despite Record Sector Profits",
@@ -152,8 +183,7 @@ const ARTICLES = [
       "News",
       "Sports",
       "Trending"
-    ],
-    "hero": true
+    ]
   },
   {
     "slug": "he-has-no-electoral-value-wike-mocks-pdp-chieftain-bode-george",
