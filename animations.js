@@ -241,85 +241,54 @@
 
   /* ---- Search button on the Breaking marquee: opens a panel that overlays
      the marquee (to its left) and searches post titles live. ------------- */
-  function initBreakingSearch() {
+  /* ---- Persistent search bar, replacing the breaking marquee. Inserted
+     immediately before .breaking-bar in the DOM (which is now hidden via
+     CSS) so it takes that same visual slot on the page. Always visible —
+     no expand/collapse — searches post titles live as you type. -------- */
+  function initPersistentSearchBar() {
     var bars = document.querySelectorAll('.breaking-bar');
     bars.forEach(function (bar) {
-      if (bar.dataset.searchInit === '1') return;
-      bar.dataset.searchInit = '1';
+      if (bar.dataset.searchBarInit === '1') return;
+      bar.dataset.searchBarInit = '1';
 
-      var toggle = document.createElement('button');
-      toggle.type = 'button';
-      toggle.className = 'bs-search-toggle';
-      toggle.setAttribute('aria-label', 'Search stories');
-      toggle.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>';
+      var wrap = document.createElement('div');
+      wrap.className = 'bs-search-bar';
 
-      var panel = document.createElement('div');
-      panel.className = 'bs-search-panel';
       var input = document.createElement('input');
       input.type = 'text';
-      input.className = 'bs-search-input';
-      input.placeholder = 'Search stories\u2026';
-      panel.appendChild(input);
+      input.className = 'bs-search-bar-input';
+      input.placeholder = 'Search...';
 
-      // Results are appended to <body>, position:fixed — NOT a descendant
-      // of .breaking-bar at all. .breaking-bar itself has overflow:hidden
-      // in the original CSS (for the marquee), which was still clipping
-      // the dropdown even after moving it out of .bs-search-panel. Fixed
-      // positioning escapes that entirely; position is computed from the
-      // bar's live bounding box whenever the panel opens.
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'bs-search-bar-btn';
+      btn.setAttribute('aria-label', 'Search');
+
+      wrap.appendChild(input);
+      wrap.appendChild(btn);
+      bar.insertAdjacentElement('beforebegin', wrap);
+
+      // Results are appended to <body>, position:fixed, positioned from
+      // the search bar's live bounding box — avoids any ancestor's
+      // overflow:hidden clipping it.
       var results = document.createElement('div');
       results.className = 'bs-search-results';
-
-      bar.appendChild(toggle);
-      bar.appendChild(panel);
       document.body.appendChild(results);
 
       function positionResults() {
-        var rect = bar.getBoundingClientRect();
-        var edgeOffset = 44; // width reserved for the dark-mode toggle to the right
-        var width = Math.min(420, rect.width * 0.92);
-        results.style.top = rect.bottom + 'px';
-        results.style.left = (rect.right - edgeOffset - width) + 'px';
-        results.style.width = width + 'px';
+        var rect = wrap.getBoundingClientRect();
+        results.style.top = rect.bottom + 6 + 'px';
+        results.style.left = rect.left + 'px';
+        results.style.width = rect.width + 'px';
       }
 
-      function openPanel() {
-        panel.classList.add('open');
-        positionResults();
-        results.classList.add('open');
-        setTimeout(function () { input.focus(); }, 150);
-      }
-      function closePanel() {
-        panel.classList.remove('open');
-        results.classList.remove('open');
-        results.innerHTML = '';
-        input.value = '';
-      }
-      window.addEventListener('resize', function () {
-        if (results.classList.contains('open')) positionResults();
-      });
-
-      toggle.addEventListener('click', function (e) {
-        e.stopPropagation();
-        if (panel.classList.contains('open')) {
-          closePanel();
-        } else {
-          openPanel();
-        }
-      });
-      panel.addEventListener('click', function (e) { e.stopPropagation(); });
-      results.addEventListener('click', function (e) { e.stopPropagation(); });
-      document.addEventListener('click', function () {
-        if (panel.classList.contains('open')) closePanel();
-      });
-      document.addEventListener('keydown', function (e) {
-        if (e.key === 'Escape') closePanel();
-      });
-
-      input.addEventListener('input', function () {
+      function runSearch() {
         var q = input.value.trim().toLowerCase();
         results.innerHTML = '';
-        if (!q || typeof ARTICLES === 'undefined') return;
+        if (!q || typeof ARTICLES === 'undefined') {
+          results.classList.remove('open');
+          return;
+        }
         var matches = ARTICLES.filter(function (a) {
           return a.headline && a.headline.toLowerCase().indexOf(q) !== -1;
         }).slice(0, 6);
@@ -336,18 +305,39 @@
           none.textContent = 'No stories found';
           results.appendChild(none);
         }
+        positionResults();
+        results.classList.add('open');
+      }
+
+      input.addEventListener('input', runSearch);
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        runSearch();
+        input.focus();
+      });
+      results.addEventListener('click', function (e) { e.stopPropagation(); });
+      window.addEventListener('resize', function () {
+        if (results.classList.contains('open')) positionResults();
+      });
+      document.addEventListener('click', function () {
+        results.classList.remove('open');
+      });
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') results.classList.remove('open');
       });
     });
   }
 
-  /* ---- Dark mode toggle: sits to the right of the search button in the
-     Breaking marquee. Auto-follows the phone/OS color-scheme setting
-     until the person manually toggles it, at which point that choice is
-     remembered (localStorage) and takes over from system preference.
-     The <html data-theme> attribute is actually set as early as possible
-     by a small inline script at the top of <head> (to avoid a flash of
-     the wrong theme on load) — this just keeps the toggle's icon in sync
-     and wires up the click + live system-preference-change behavior. --- */
+  /* ---- Dark mode toggle: floating, fixed in place regardless of scroll,
+     both mobile and desktop. Auto-follows the phone/OS color-scheme
+     setting until the person manually toggles it, at which point that
+     choice is remembered (localStorage) and takes over from system
+     preference. The <html data-theme> attribute is actually set as early
+     as possible by a small inline script at the top of <head> (to avoid a
+     flash of the wrong theme on load) — this just keeps the toggle in
+     sync and wires up the click + live system-preference-change
+     behavior. Icon (moon/sun) is swapped entirely via CSS based on the
+     data-theme attribute — see .bs-theme-toggle in animations.css. ----- */
   function initThemeToggle() {
     var STORAGE_KEY = 'bs-theme';
     var root = document.documentElement;
@@ -369,16 +359,10 @@
       return systemPrefersDark();
     }
 
-    var MOON_SVG = '<svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.354 15.354A9 9 0 0 1 8.646 3.646 9.003 9.003 0 1 0 20.354 15.354Z"/></svg>';
-    var SUN_SVG = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>';
-
     function paint(isDark) {
       root.setAttribute('data-theme', isDark ? 'dark' : 'light');
       var btn = document.querySelector('.bs-theme-toggle');
-      if (!btn) return;
-      btn.innerHTML = isDark ? SUN_SVG : MOON_SVG;
-      btn.classList.toggle('is-dark', isDark);
-      btn.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+      if (btn) btn.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
     }
 
     // Keep in sync with the phone/OS setting in real time, but only while
@@ -389,20 +373,18 @@
       });
     }
 
-    var bars = document.querySelectorAll('.breaking-bar');
-    bars.forEach(function (bar) {
-      if (bar.querySelector('.bs-theme-toggle')) return;
+    if (!document.querySelector('.bs-theme-toggle')) {
       var btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'bs-theme-toggle';
-      bar.appendChild(btn);
+      document.body.appendChild(btn);
       btn.addEventListener('click', function (e) {
         e.stopPropagation();
         var next = !isDarkNow();
         setStored(next ? 'dark' : 'light');
         paint(next);
       });
-    });
+    }
 
     paint(isDarkNow());
   }
@@ -626,7 +608,7 @@
     applyHeadlineShine();
     injectShareButtons();
     injectMoreStories();
-    initBreakingSearch();
+    initPersistentSearchBar();
     initThemeToggle();
     applyNavIcons();
     initPostClickSlide();
