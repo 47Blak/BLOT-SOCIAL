@@ -206,14 +206,13 @@
 
   /* ---- Bottom nav: inject an icon above each existing nav label ---------- */
   function applyNavIcons() {
-    var navIcons = {
-      home: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>',
-      news: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/></svg>',
-      music: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l10-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="16" cy="16" r="3"/></svg>',
-      sports: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18M5.5 5.5l13 13M18.5 5.5l-13 13"/></svg>',
-      business: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>',
-      technology: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="1"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg>',
-      "default": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/></svg>'
+    var iconClasses = {
+      home: 'bs-nav-icon-home',
+      news: 'bs-nav-icon-news',
+      music: 'bs-nav-icon-music',
+      sports: 'bs-nav-icon-sports',
+      business: 'bs-nav-icon-business',
+      technology: 'bs-nav-icon-technology'
     };
 
     var links = document.querySelectorAll('.main-nav a');
@@ -223,11 +222,10 @@
 
       var label = a.textContent.trim();
       var key = label.toLowerCase();
-      var svg = navIcons[key] || navIcons['default'];
+      var cls = iconClasses[key] || '';
 
       var iconWrap = document.createElement('span');
-      iconWrap.className = 'bs-nav-icon';
-      iconWrap.innerHTML = svg;
+      iconWrap.className = 'bs-nav-icon' + (cls ? ' ' + cls : '');
 
       var textSpan = document.createElement('span');
       textSpan.className = 'bs-nav-label';
@@ -340,6 +338,7 @@
      data-theme attribute — see .bs-theme-toggle in animations.css. ----- */
   function initThemeToggle() {
     var STORAGE_KEY = 'bs-theme';
+    var POS_KEY = 'bs-theme-toggle-pos';
     var root = document.documentElement;
     var mql = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
 
@@ -373,13 +372,106 @@
       });
     }
 
+    /* ---- Draggable: starts at its normal fixed position (right/bottom,
+       set in animations.css); once dragged, switches to left/top so it
+       can be placed anywhere on screen, and that position is remembered
+       (localStorage) for next time. A plain tap/click still toggles the
+       theme — only a real drag (past a small threshold) is treated as a
+       move, so the two don't conflict. --------------------------------- */
+    function makeDraggable(btn) {
+      var dragging = false;
+      var moved = false;
+      var startX = 0, startY = 0, startLeft = 0, startTop = 0;
+      var THRESHOLD = 6;
+
+      function clamp(val, min, max) {
+        return Math.max(min, Math.min(max, val));
+      }
+      function applyStoredPosition() {
+        var raw;
+        try { raw = localStorage.getItem(POS_KEY); } catch (e) { raw = null; }
+        if (!raw) return;
+        try {
+          var pos = JSON.parse(raw);
+          if (typeof pos.left === 'number' && typeof pos.top === 'number') {
+            var rect = btn.getBoundingClientRect();
+            var left = clamp(pos.left, 4, window.innerWidth - rect.width - 4);
+            var top = clamp(pos.top, 4, window.innerHeight - rect.height - 4);
+            btn.style.left = left + 'px';
+            btn.style.top = top + 'px';
+            btn.style.right = 'auto';
+            btn.style.bottom = 'auto';
+          }
+        } catch (e) {}
+      }
+      function savePosition(left, top) {
+        try { localStorage.setItem(POS_KEY, JSON.stringify({ left: left, top: top })); } catch (e) {}
+      }
+
+      btn.addEventListener('pointerdown', function (e) {
+        dragging = true;
+        moved = false;
+        var rect = btn.getBoundingClientRect();
+        startLeft = rect.left;
+        startTop = rect.top;
+        startX = e.clientX;
+        startY = e.clientY;
+        if (btn.setPointerCapture) {
+          try { btn.setPointerCapture(e.pointerId); } catch (err) {}
+        }
+      });
+      btn.addEventListener('pointermove', function (e) {
+        if (!dragging) return;
+        var dx = e.clientX - startX;
+        var dy = e.clientY - startY;
+        if (!moved && (Math.abs(dx) > THRESHOLD || Math.abs(dy) > THRESHOLD)) {
+          moved = true;
+          btn.classList.add('bs-dragging');
+          btn.style.right = 'auto';
+          btn.style.bottom = 'auto';
+        }
+        if (!moved) return;
+        var rect = btn.getBoundingClientRect();
+        var left = clamp(startLeft + dx, 4, window.innerWidth - rect.width - 4);
+        var top = clamp(startTop + dy, 4, window.innerHeight - rect.height - 4);
+        btn.style.left = left + 'px';
+        btn.style.top = top + 'px';
+      });
+      function endDrag(e) {
+        if (!dragging) return;
+        dragging = false;
+        btn.classList.remove('bs-dragging');
+        if (moved) {
+          var rect = btn.getBoundingClientRect();
+          savePosition(rect.left, rect.top);
+        }
+        if (btn.releasePointerCapture && e.pointerId != null) {
+          try { btn.releasePointerCapture(e.pointerId); } catch (err) {}
+        }
+      }
+      btn.addEventListener('pointerup', endDrag);
+      btn.addEventListener('pointercancel', endDrag);
+      window.addEventListener('resize', function () {
+        var raw;
+        try { raw = localStorage.getItem(POS_KEY); } catch (e) { raw = null; }
+        if (raw) applyStoredPosition();
+      });
+
+      applyStoredPosition();
+
+      return { wasDragged: function () { return moved; } };
+    }
+
     if (!document.querySelector('.bs-theme-toggle')) {
       var btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'bs-theme-toggle';
       document.body.appendChild(btn);
+
+      var drag = makeDraggable(btn);
       btn.addEventListener('click', function (e) {
         e.stopPropagation();
+        if (drag.wasDragged()) return; // just repositioned, not a theme toggle
         var next = !isDarkNow();
         setStored(next ? 'dark' : 'light');
         paint(next);
