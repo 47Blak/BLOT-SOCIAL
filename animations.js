@@ -266,6 +266,14 @@
       wrap.appendChild(btn);
       bar.insertAdjacentElement('beforebegin', wrap);
 
+      // The masthead's double-line rule used to sit above this (as the
+      // masthead's own border-bottom); animations.css removes it from
+      // there, and it's re-added here instead, right after the search
+      // bar — swapping their order.
+      var ruleLine = document.createElement('div');
+      ruleLine.className = 'bs-masthead-rule';
+      wrap.insertAdjacentElement('afterend', ruleLine);
+
       // Results are appended to <body>, position:fixed, positioned from
       // the search bar's live bounding box — avoids any ancestor's
       // overflow:hidden clipping it.
