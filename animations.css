@@ -816,6 +816,197 @@ html[data-theme="dark"] .bs-theme-toggle {
   }
 }
 
+/* ---- Comment section (after the share row on the article page) ---------
+   "Post Comment" matches .article-tag's actual default look (outline —
+   white/dark background, navy border+text — not its hover state).
+   Comment box + results are transparent, like body paragraphs (no
+   background of their own), with a soft blue-tinted shadow standing in
+   for a hard border. Spacing is intentionally tight to keep the section
+   short vertically. -------------------------------------------------- */
+.bs-comments {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid var(--rule-light, #d8d5cc);
+}
+.bs-comments-heading {
+  font-size: 1.1rem;
+  margin: 0 0 10px;
+}
+.bs-comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: transparent;
+  box-shadow: 0 0 0 1px rgba(6, 50, 125, 0.18), 0 4px 14px -8px rgba(6, 50, 125, 0.3);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+}
+.bs-comment-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft, #4a4a4a);
+  margin-top: 4px;
+}
+.bs-comment-label:first-child {
+  margin-top: 0;
+}
+.bs-comment-input,
+.bs-comment-textarea {
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--ink, #1a1a1a);
+  background: transparent;
+  border: 1px solid var(--rule-light, #d8d5cc);
+  border-radius: 6px;
+  padding: 6px 10px;
+  resize: vertical;
+}
+html[data-theme="dark"] .bs-comment-input,
+html[data-theme="dark"] .bs-comment-textarea {
+  color: #f1f0ec;
+}
+.bs-comment-input:focus,
+.bs-comment-textarea:focus {
+  outline: 2px solid var(--brand-navy, #06327d);
+  outline-offset: 1px;
+}
+.bs-comment-textarea {
+  min-height: 60px;
+}
+.bs-comment-word-count {
+  font-size: 11px;
+  color: var(--ink-soft, #4a4a4a);
+  text-align: right;
+  margin-top: -2px;
+}
+.bs-comment-submit {
+  align-self: flex-start;
+  margin-top: 6px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--brand-navy, #06327d);
+  background: #fff;
+  border: 1px solid var(--brand-navy, #06327d);
+  border-radius: 999px;
+  padding: 7px 18px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+html[data-theme="dark"] .bs-comment-submit {
+  background: #1c1f27;
+  color: #cfe0ff;
+}
+.bs-comment-submit:hover {
+  background: var(--brand-navy, #06327d);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px -8px rgba(6, 50, 125, 0.4);
+}
+.bs-comment-submit:active {
+  transform: translateY(0);
+}
+
+.bs-comment-empty {
+  font-size: 13px;
+  color: var(--ink-soft, #4a4a4a);
+}
+.bs-comment {
+  background: transparent;
+  box-shadow: 0 0 0 1px rgba(6, 50, 125, 0.18), 0 4px 14px -8px rgba(6, 50, 125, 0.3);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+}
+.bs-comment-replies {
+  margin: 8px 0 0 28px;
+}
+.bs-comment-replies:empty {
+  margin: 0;
+}
+.bs-comment-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.bs-comment-avatar {
+  flex: 0 0 auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--accent, #fb6c05);
+}
+.bs-comment-name {
+  font-weight: 700;
+  font-size: 13px;
+}
+.bs-comment-date {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 11px;
+  color: var(--ink-soft, #4a4a4a);
+}
+.bs-comment-likes-count {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: var(--ink-soft, #4a4a4a);
+}
+.bs-comment-text {
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 6px 0 6px;
+}
+.bs-comment-actions {
+  display: flex;
+  gap: 16px;
+}
+.bs-comment-like,
+.bs-comment-reply-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--brand-navy, #06327d);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.bs-comment-like:hover,
+.bs-comment-reply-btn:hover {
+  color: var(--accent, #fb6c05);
+}
+.bs-comment-like.is-liked {
+  color: var(--accent, #fb6c05);
+}
+.bs-comment-reply-form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--rule-light, #d8d5cc);
+}
+.bs-comment-reply-form .bs-comment-submit {
+  margin-top: 4px;
+}
+
 /* Bootstrap component color alignment, only for components we introduce */
 .btn-brand {
   background-color: var(--accent, #fb6c05);

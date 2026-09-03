@@ -489,6 +489,253 @@
     paint(isDarkNow());
   }
 
+  /* ---- Comment section: inserted right after the share row. Fully
+     working — posting, liking, and replying all persist via
+     localStorage, scoped per article (by slug), so comments are still
+     there on a repeat visit. No backend involved, since this is a static
+     site; everything lives in the visitor's own browser storage. ------- */
+  function injectCommentSection() {
+    var root = document.getElementById('article-root');
+    var shareRow = root ? root.querySelector('.bs-share-row') : null;
+    if (!root || !shareRow || root.dataset.commentsInit === '1') return;
+    root.dataset.commentsInit = '1';
+
+    var params = new URLSearchParams(window.location.search);
+    var slug = params.get('slug') || 'unknown';
+    var STORAGE_KEY = 'bs-comments-' + slug;
+    var LIKES_KEY = 'bs-liked-comments';
+
+    function loadComments() {
+      try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+      } catch (e) { return []; }
+    }
+    function saveComments(list) {
+      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(list)); } catch (e) {}
+    }
+    function loadLiked() {
+      try {
+        return JSON.parse(localStorage.getItem(LIKES_KEY)) || [];
+      } catch (e) { return []; }
+    }
+    function saveLiked(list) {
+      try { localStorage.setItem(LIKES_KEY, JSON.stringify(list)); } catch (e) {}
+    }
+    function formatDate(iso) {
+      var d = new Date(iso);
+      return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    }
+    function makeId() {
+      return 'c' + Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+    }
+    function initials(name) {
+      return (name.trim().charAt(0) || '?').toUpperCase();
+    }
+
+    var CLOCK_SVG = '<svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>';
+    var THUMB_SVG = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10v11M2 12v7a2 2 0 0 0 2 2h12.6a2 2 0 0 0 2-1.7l1.4-8A2 2 0 0 0 18 9h-5.5l1-5.5a1.5 1.5 0 0 0-2.6-1.3L7 10"/></svg>';
+    var REPLY_SVG = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17l-5-5 5-5"/><path d="M4 12h11a5 5 0 0 1 5 5v2"/></svg>';
+
+    // ---- Build the static shell (heading + form + list container) ------
+    var section = document.createElement('div');
+    section.className = 'bs-comments';
+
+    var heading = document.createElement('h2');
+    heading.className = 'bs-comments-heading';
+    heading.textContent = 'Drop Your Comment';
+    section.appendChild(heading);
+
+    var form = document.createElement('form');
+    form.className = 'bs-comment-form';
+    form.innerHTML =
+      '<label class="bs-comment-label">Name</label>' +
+      '<input type="text" class="bs-comment-input" name="name" maxlength="60" required>' +
+      '<label class="bs-comment-label">Comment</label>' +
+      '<textarea class="bs-comment-textarea" name="text" rows="3" maxlength="2000" required></textarea>' +
+      '<div class="bs-comment-word-count">0 / 30 words</div>' +
+      '<button type="submit" class="bs-comment-submit">Post Comment</button>';
+    section.appendChild(form);
+
+    var MAX_WORDS = 30;
+    function wordsOf(str) {
+      var m = str.trim().match(/\S+/g);
+      return m ? m : [];
+    }
+    function enforceWordCap(textarea, counterEl) {
+      var words = wordsOf(textarea.value);
+      if (words.length > MAX_WORDS) {
+        textarea.value = words.slice(0, MAX_WORDS).join(' ');
+        words = wordsOf(textarea.value);
+      }
+      if (counterEl) counterEl.textContent = words.length + ' / ' + MAX_WORDS + ' words';
+    }
+    var mainCounter = form.querySelector('.bs-comment-word-count');
+    var mainTextarea = form.querySelector('.bs-comment-textarea');
+    mainTextarea.addEventListener('input', function () {
+      enforceWordCap(mainTextarea, mainCounter);
+    });
+
+    var list = document.createElement('div');
+    list.className = 'bs-comment-list';
+    section.appendChild(list);
+
+    shareRow.insertAdjacentElement('afterend', section);
+
+    // ---- Rendering --------------------------------------------------------
+    function renderComment(c, likedSet) {
+      var el = document.createElement('div');
+      el.className = 'bs-comment';
+      el.dataset.id = c.id;
+
+      var liked = likedSet.indexOf(c.id) !== -1;
+      el.innerHTML =
+        '<div class="bs-comment-top">' +
+          '<div class="bs-comment-avatar">' + initials(c.name) + '</div>' +
+          '<span class="bs-comment-name">' + '</span>' +
+          '<span class="bs-comment-date">' + CLOCK_SVG + ' </span>' +
+          '<span class="bs-comment-likes-count">' + c.likes + ' ' + THUMB_SVG + '</span>' +
+        '</div>' +
+        '<p class="bs-comment-text"></p>' +
+        '<div class="bs-comment-actions">' +
+          '<button type="button" class="bs-comment-like' + (liked ? ' is-liked' : '') + '">' + THUMB_SVG + ' Like</button>' +
+          '<button type="button" class="bs-comment-reply-btn">' + REPLY_SVG + ' Reply</button>' +
+        '</div>' +
+        '<div class="bs-comment-reply-form" hidden></div>' +
+        '<div class="bs-comment-replies"></div>';
+
+      el.querySelector('.bs-comment-name').textContent = c.name;
+      el.querySelector('.bs-comment-date').appendChild(document.createTextNode(' ' + formatDate(c.date)));
+      el.querySelector('.bs-comment-text').textContent = c.text;
+
+      return el;
+    }
+
+    function render() {
+      var comments = loadComments();
+      var likedSet = loadLiked();
+      list.innerHTML = '';
+
+      var top = comments.filter(function (c) { return !c.parentId; });
+      if (top.length === 0) {
+        var empty = document.createElement('p');
+        empty.className = 'bs-comment-empty';
+        empty.textContent = 'Be the first to comment.';
+        list.appendChild(empty);
+        return;
+      }
+
+      top.forEach(function (c) {
+        var el = renderComment(c, likedSet);
+        var repliesWrap = el.querySelector('.bs-comment-replies');
+        comments
+          .filter(function (r) { return r.parentId === c.id; })
+          .forEach(function (r) {
+            repliesWrap.appendChild(renderComment(r, likedSet));
+          });
+        list.appendChild(el);
+      });
+    }
+
+    // ---- Posting a top-level comment --------------------------------------
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var name = form.elements.name.value.trim();
+      var text = wordsOf(form.elements.text.value).slice(0, MAX_WORDS).join(' ');
+      if (!name || !text) return;
+
+      var comments = loadComments();
+      comments.push({
+        id: makeId(),
+        name: name,
+        text: text,
+        date: new Date().toISOString(),
+        likes: 0,
+        parentId: null
+      });
+      saveComments(comments);
+      form.reset();
+      if (mainCounter) mainCounter.textContent = '0 / ' + MAX_WORDS + ' words';
+      render();
+    });
+
+    // ---- Like + reply, via event delegation on the list -------------------
+    list.addEventListener('click', function (e) {
+      var likeBtn = e.target.closest('.bs-comment-like');
+      var replyBtn = e.target.closest('.bs-comment-reply-btn');
+      var replySubmit = e.target.closest('.bs-comment-reply-submit');
+
+      if (likeBtn) {
+        var commentEl = likeBtn.closest('.bs-comment');
+        var id = commentEl.dataset.id;
+        var comments = loadComments();
+        var liked = loadLiked();
+        var idx = liked.indexOf(id);
+        var target = comments.filter(function (c) { return c.id === id; })[0];
+        if (!target) return;
+        if (idx === -1) {
+          liked.push(id);
+          target.likes += 1;
+        } else {
+          liked.splice(idx, 1);
+          target.likes = Math.max(0, target.likes - 1);
+        }
+        saveLiked(liked);
+        saveComments(comments);
+        render();
+        return;
+      }
+
+      if (replyBtn) {
+        var parentEl = replyBtn.closest('.bs-comment');
+        var replyForm = parentEl.querySelector(':scope > .bs-comment-reply-form');
+        if (!replyForm) return;
+        var isHidden = replyForm.hasAttribute('hidden');
+        // collapse any other open reply forms first
+        list.querySelectorAll('.bs-comment-reply-form').forEach(function (f) {
+          f.setAttribute('hidden', '');
+          f.innerHTML = '';
+        });
+        if (isHidden) {
+          replyForm.removeAttribute('hidden');
+          replyForm.innerHTML =
+            '<input type="text" class="bs-comment-input bs-reply-name" placeholder="Name" maxlength="60">' +
+            '<textarea class="bs-comment-textarea bs-reply-text" rows="2" placeholder="Write a reply..." maxlength="2000"></textarea>' +
+            '<div class="bs-comment-word-count">0 / ' + MAX_WORDS + ' words</div>' +
+            '<button type="button" class="bs-comment-submit bs-comment-reply-submit">Post Reply</button>';
+          var replyTextarea = replyForm.querySelector('.bs-reply-text');
+          var replyCounter = replyForm.querySelector('.bs-comment-word-count');
+          replyTextarea.addEventListener('input', function () {
+            enforceWordCap(replyTextarea, replyCounter);
+          });
+        }
+        return;
+      }
+
+      if (replySubmit) {
+        var parentComment = replySubmit.closest('.bs-comment');
+        var parentId = parentComment.dataset.id;
+        var wrap = replySubmit.closest('.bs-comment-reply-form');
+        var rName = wrap.querySelector('.bs-reply-name').value.trim();
+        var rText = wordsOf(wrap.querySelector('.bs-reply-text').value).slice(0, MAX_WORDS).join(' ');
+        if (!rName || !rText) return;
+
+        var allComments = loadComments();
+        allComments.push({
+          id: makeId(),
+          name: rName,
+          text: rText,
+          date: new Date().toISOString(),
+          likes: 0,
+          parentId: parentId
+        });
+        saveComments(allComments);
+        render();
+      }
+    });
+
+    render();
+  }
+
   /* ---- More Stories: shown on the article page, after the share row,
      picked from articles sharing at least one tag with the current one
      (padded with other recent articles if fewer than 5 tag matches). ----- */
@@ -707,6 +954,7 @@
     injectShineOverlays();
     applyHeadlineShine();
     injectShareButtons();
+    injectCommentSection();
     injectMoreStories();
     initPersistentSearchBar();
     initThemeToggle();
