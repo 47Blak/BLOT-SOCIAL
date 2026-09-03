@@ -1,9 +1,21 @@
 /* ==========================================================================
    BLOT SOCIAL — Motion & Bootstrap-compatibility layer
-   Purely additive: does not edit styles.css, and intentionally sets NO
-   font-family anywhere (styles.css already owns typography — including
-   .masthead-logo / .masthead-tagline, which this file never selects).
+   Purely additive: does not edit styles.css. Font-family is the one
+   exception (see the --serif override right below) — everywhere else,
+   styles.css still owns typography, including .masthead-logo and
+   .masthead-tagline, which this file otherwise never selects.
    ========================================================================== */
+
+/* ---- Fonts: unify on the tagline's font ("Bringing Live Our Times") ----
+   styles.css only ever uses two font variables: --sans (already the
+   tagline's font — "Helvetica Neue", Arial, sans-serif) and --serif (used
+   by body copy/headlines and .footer-col h3). Redefining --serif to match
+   --sans here makes every var(--serif) usage in styles.css pick up the
+   same font automatically, without touching any font-size, or needing to
+   override each selector individually. ------------------------------- */
+:root {
+  --serif: "Helvetica Neue", Arial, sans-serif;
+}
 
 /* ---- 0. Dark mode ---------------------------------------------------------
    styles.css is built on CSS custom properties (--ink, --paper, --rule,
