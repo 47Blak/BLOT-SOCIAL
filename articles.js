@@ -1,5 +1,158 @@
 const ARTICLES = [
   {
+    "slug": "carrick-confident-in-uniteds-stronger-squad-after-transfer-window",
+    "category": "Sports",
+    "headline": "Carrick Confident in United's Stronger Squad After Transfer Window",
+    "dek": "The Red Devils boss expresses full satisfaction with the club's summer recruitment, insisting key additions give Old Trafford the depth and balance needed to compete on all fronts.",
+    "author": "亗BLAK",
+    "date": "Sep 5",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYj5zQ0M60GmHxH0Uu1WvaW37URgTVh4s0IhnSPJeNjpBHrsskr2mKRLyH&s=10",
+    "body": [
+      "Manchester United manager Michael Carrick has expressed firm belief that his squad emerges from the summer transfer window significantly stronger, better balanced, and fully equipped for the domestic and European campaign ahead.",
+      "Speaking at Carrington following the official deadline, Carrick praised the club’s leadership and recruitment team for securing key target profiles while maintaining financial discipline throughout the window.",
+      "The Red Devils completed crucial additions across the park, notably strengthening attacking options with high profile acquisitions like Bryan Mbeumo and Matheus Cunha, while simultaneously addressing central midfield depth.",
+      "\"I’m extremely pleased with the work we’ve done,\" Carrick stated during his press briefing. \"The board and the recruitment staff worked tirelessly. We set out with clear objectives to bring in players who not only add quality on the pitch but also fit the culture and standards we are building here.\"",
+      "Strategic Recruitment and Balance",
+      "Carrick highlighted that the summer business focused heavily on tactical versatility and physical intensity, ensuring the team can handle demanding schedules across multiple competitions.",
+      "The window also saw several fringe players depart, streamlining the squad hierarchy and creating clear developmental pathways for promising academy talents.",
+      "Key Focus Areas: Strengthening frontline versatility, adding midfield control, and trimming high wage departures.",
+      "Tactical Flexibility: Enhanced rotation options allow United to transition seamlessly between pressing systems and possession-based setups.",
+      "Roster Dynamics: Clearer squad roles to keep energy levels high throughout the demanding autumn fixture list.",
+      "With the window now closed, Carrick emphasized that full focus shifts back to performance on the pitch, starting with building momentum following their recent 5-2 victory over Ipswich Town.",
+      "\"The squad has great energy right now,\" Carrick added. \"There is competition for places in every single position, which is exactly what a club of Manchester United's stature needs if we want to compete at the highest level.\""
+    ],
+    "tags": [
+      "News",
+      "Sports",
+      "Trending"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "asake-cancels-la-show-at-greek-theatre-days-before-performance-sparks-social-media-debate",
+    "category": "Trending",
+    "headline": "Asake Cancels LA Show at Greek Theatre Days Before Performance, Sparks Social Media Debate",
+    "dek": "The Afrobeats sensation calls off his September 6 Los Angeles stop on the \"In God We Trust\" World Tour with EP on the way, leaving fans reacting online as automatic refunds are issued.",
+    "author": "亗BLAK",
+    "date": "Sep 5",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmCIeDeE8CEMNT5kP8CNVNTEru4Y7XbXJInLYhhUAki29_8Tarl_LbXZOP&s=10",
+    "body": [
+      "Afrobeats superstar Asake has abruptly cancelled his scheduled concert at the iconic Greek Theatre in Los Angeles, California, just days before he was set to take the stage on Sunday, September 6.",
+      "The Los Angeles stop was part of the singer's ongoing 13 city In God We Trust World Tour, supporting his hit project M$NEY, while fans continue to anticipate his announced upcoming EP.",
+      "Ticket holders were notified of the sudden cancellation via an official communication from event organizers, confirming that full refunds would be automatically issued to buyers within five to eight business days.",
+      "\"Unfortunately, this event has been cancelled. The Asake 'In God We Trust' show at The Greek Theatre on Sunday, September 6th has been cancelled,\" the notice sent to ticket holders stated. \"No action is required on your part.\"",
+      "Neither Asake nor his management team has officially released a public statement explaining the reason behind calling off the Los Angeles leg.",
+      "The unexpected news sparked immediate banter and debate across social media platforms like X (formerly Twitter) and Instagram, with some netizens claiming low ticket sales led to the cancellation.",
+      "However, devoted fans quickly shut down the rumors, sharing screenshots suggesting the 5,900 capacity outdoor venue was nearly sold out prior to the cancellation notice.",
+      "Despite the sudden hiccup on his West Coast stop, Asake’s global tour remains active across major arenas in North America, Canada, and Europe, including upcoming headlining dates in Houston, London, and Paris."
+    ],
+    "tags": [
+      "News",
+      "Music",
+      "Trending",
+      "Entertainment"
+    ]
+  },
+  {
+    "slug": "liverpool-cruise-past-ipswich-town-in-dominant-premier-league-display",
+    "category": "Sports",
+    "headline": "Liverpool Cruise Past Ipswich Town in Dominant Premier League Display",
+    "dek": "Arne Slot's men extend their unbeaten streak as clinical second-half finishes secure a commanding 2–0 victory away at Portman Road.",
+    "author": "亗BLAK",
+    "date": "Sep 5",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgq4t3VGTU80Do0wHFdZs8Hi6vNCZ2VNDqolsmZosfIzm2_WSJeoaIncI&s=10",
+    "body": [
+      "Liverpool delivered an authoritative away performance on Friday evening, securing a convincing 2–0 victory over Ipswich Town to maintain their strong form in the Premier League.",
+      "The Reds established control early in the encounter through controlled possession and sharp counter pressing, keeping the home side pinned in their own half for extended spells.",
+      "After a goalless first half despite several close chances, Liverpool broke the deadlock shortly after the restart with a precise team move finished off smartly inside the penalty area.",
+      "The visitors doubled their advantage mid way through the second half, capitalizing on sustained high pressure to force a turnover and seal a comfortable result on the road.",
+      "The clean sheet gives Arne Slot's side tremendous momentum heading into an intensive September schedule that includes upcoming European and domestic cup commitments.",
+      "Match Breakdown",
+      "Dominant Control: Liverpool controlled over 65% of the ball, limiting Ipswich to long range efforts.",
+      "Second Half Surge: Both goals arrived within a 20 minute window following tactical adjustments at half time.",
+      "Defensive Rigidity: The backline notched another clean sheet, allowing zero shots on target during open play in the second half."
+    ],
+    "tags": [
+      "News",
+      "Sports",
+      "Trending"
+    ]
+  },
+  {
+    "slug": "peller-misplaces-20m-rolex-gift-from-pastor-tobi-receives-new-10m-zenith-watch",
+    "category": "News",
+    "headline": "Peller Misplaces ₦20M Rolex Gift From Pastor Tobi, Receives New ₦10M Zenith Watch",
+    "dek": "Popular livestreamer Habeeb Hamzat faces mixed fortune after losing a luxury wristwatch presented by the UK-based cleric, only to be gifted another high-end timepiece shortly after.",
+    "author": "亗BLAK",
+    "date": "Sep 5",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbFPZWfVDeAkumhuiMLw4mvTl_4uAt_Sa6yOfgLiRthCwm5Fb3ZBhBjC8&s=10",
+    "body": [
+      "Famous Nigerian live streamer and TikTok creator Habeeb Hamzat, popularly known as Peller, has generated significant online buzz after revealing he misplaced a luxury Rolex wristwatch valued at ₦20 million given to him by London based clergyman Pastor Tobi Adegboyega.",
+      "The initial gift presented during a recent high profile visit made headlines across social media platforms as the teenage content creator celebrated acquiring his first high tier luxury timepiece.",
+      "However, panic ensued shortly after when Peller discovered the ₦20 million Rolex was missing from his belongings following a busy schedule of public appearances and social gatherings.",
+      "In a series of emotional live streams and social media updates, the creator appealed to his followers and team members to help locate the missing watch, explaining the distress caused by losing such a high-value item from the prominent pastor.",
+      "The narrative took a surprising turn when news of the misplaced Rolex reached Pastor Tobi Adegboyega, who responded by gifting Peller another luxury wristwatch a Zenith piece valued at approximately ₦10 million.",
+      "The swift replacement triggered widespread reactions across online communities, with fans and critics debating the lavish gesture, the creator's handling of valuable items, and the cleric's ongoing patronage of young digital creators.",
+      "While some netizens commended Pastor Tobi's generosity in comforting the young creator, others advised Peller to exercise greater caution and secure professional security detail when handling high-value luxury assets during public outings.",
+      "Despite the loss of the original Rolex, Peller took to his streaming channel to express immense gratitude to the clergyman, showing off the new Zenith watch to his fans as he continues his viral streak online."
+    ],
+    "tags": [
+      "News",
+      "Trending",
+      "Entertainment"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "viral-footage-sparks-reconciliation-rumors-as-regina-daniels-sighted-at-ned-nwokos-residence",
+    "category": "News",
+    "headline": "Viral Footage Sparks Reconciliation Rumors as Regina Daniels Sighted at Ned Nwoko’s Residence",
+    "dek": "Social media buzzes following an accidental live broadcast showing the Nollywood actress spending time with her children and stepson at her estranged husband’s Abuja home.",
+    "author": "亗BLAK",
+    "date": "Sep 5",
+    "image": "https://c.files.bbci.co.uk/B398/production/_115767954_nedregina.jpg",
+    "body": [
+      "Nollywood actress Regina Daniels has trended across social media platforms after video footage emerged showing her at the Abuja residence of her estranged husband, Senator Ned Nwoko.",
+      "​The unexpected sighting occurred during an unscripted TikTok live session started by Senator Nwoko's son, Amir, which captured the actress interacting warmly with her two sons, Moon and Khalifa, alongside her stepson.",
+      "​Upon realizing that the interaction was being broadcast live to thousands of viewers online, a surprised Daniels moved quickly to end the livestream, but clips of the moment were captured and circulated rapidly across social media platforms.",
+      "​The video has reignited widespread speculation regarding a potential reconciliation between the couple, following their high profile separation in late 2025.",
+      "​The public split had previously generated intense media attention, characterized by public statements and accusations regarding their marital difficulties before both parties opted for private living arrangements.",
+      "​Online commentary surrounding the footage intensified further after veteran actress Mercy Johnson shared a viral movie snippet on social media cautioning the public against interfering in private marital affairs.",
+      "​Neither Regina Daniels nor Senator Ned Nwoko has issued an official statement regarding their current relationship status following the viral video.",
+      "​Despite the absence of a formal declaration, the sudden appearance has fueled continuous debate among fans and entertainment commentators tracking the couple's ongoing public narrative."
+    ],
+    "tags": [
+      "News",
+      "Politics",
+      "Entertainment"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "fernandes-hat-trick-powers-uniteds-5-2-comeback-win-over-ipswich",
+    "category": "Sports",
+    "headline": "Fernandes Hat-Trick Powers United's 5-2 Comeback Win Over Ipswich",
+    "dek": "The Manchester United captain delivers three goals and an assist at Old Trafford to spark a thrilling second-half turnaround and claim the Red Devils' first Premier League win of the season.",
+    "author": "亗BLAK",
+    "date": "Aug 30",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd_suNdxXLZHOiYMBdTAgZzgRNFdZLckIcAoXQHNlF-vNugUvllQRy-NQ&s=10",
+    "body": [
+      "Bruno Fernandes produced an outstanding individual performance, scoring a hat-trick and setting up another goal to inspire Manchester United to a 5-2 comeback victory against Ipswich Town at Old Trafford.",
+      "Michael Carrick’s side entered the fixture under early pressure following an opening-day defeat, and that tension heightened in the 29th minute when Ipswich defender Leif Davis struck a spectacular half-volley to give the visitors a lead.",
+      "However, United seized momentum five minutes before the break as Fernandes met a setup pass from Matheus Cunha to smash home a left-footed equalizer into the bottom corner.",
+      "The Red Devils dominated the second half, taking the lead in the 56th minute when Harry Maguire’s header deflected off Ipswich defender Jacob Greaves into the net for an own goal.",
+      "Five minutes later, Fernandes doubled United's advantage from the penalty spot after Marcus Rashford was brought down inside the box, before completing his hat-trick in the 68th minute by following up a spilled rebound.",
+      "The Portuguese playmaker then turned provider in the 82nd minute, threading a pass to summer signing Bryan Mbeumo, who coolly finished to score his first league goal for the club.",
+      "Ipswich pulled a late goal back through substitute Chuba Akpom in stoppage time, but United comfortably held on to secure all three points and bounce back up the league table.",
+      "The victory marks Fernandes' first Premier League hat-trick since 2021 and gives manager Michael Carrick a crucial early-season boost ahead of their upcoming fixtures."
+    ],
+    "tags": [
+      "News",
+      "Sports",
+      "Entertainment"
+    ]
+  },
+  {
     "slug": "on-my-way-long-john",
     "category": "Music",
     "headline": "On My Way - Long John",
