@@ -1,5 +1,29 @@
 const ARTICLES = [
   {
+    "slug": "22-firms-on-ngx-face-high-debt-exposure-of-n213trn",
+    "category": "Business",
+    "headline": "22 Firms on NGX Face High Debt Exposure of N21.3trn",
+    "dek": "Listed companies across major sectors carry heavy leverage burdens, triggering elevated interest costs and cash flow concerns among market investors.",
+    "author": "亗BLAK",
+    "date": "Sep 22",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOa2gxOI1a8YWYJtpCpdUi8dKO3FCplDokQiA6FgKG-Wghj37RX5Sam04&s=10",
+    "body": [
+      "About 22 companies listed on the Nigerian Exchange Limited are carrying varying levels of debt totaling N21.3 trillion, raising critical questions over rising interest expenses and overall corporate cash flow sustainability in the current macroeconomic environment across the country.",
+      "Financial disclosures reveal that half of the affected firms are operating with debt-to-equity ratios above 2.0, pointing to heavy reliance on borrowed capital to fund ongoing operations, daily overheads, expansion projects, and capital expenditure commitments across various competitive market segments.",
+      "Analysts noted that while capital-intensive industries naturally require substantial debt financing to sustain operations, high borrowing costs in the current economic landscape could severely squeeze corporate net earnings, reduce profitability margins, and delay expected shareholder dividend payouts over the coming quarters.",
+      "Market regulators and institutional investors continue to monitor leverage ratios closely across the manufacturing, banking, oil and gas, and telecommunications sectors as macroeconomic conditions evolve and credit conditions remain relatively tight across the nation's major financial institutions.",
+      "Corporate leaders are now exploring strategic debt restructuring options, aiming to refinance high-cost obligations into longer-term instruments to protect operating margins, mitigate interest rate shocks, and preserve crucial working capital reserves over the coming fiscal quarters and business cycles.",
+      "Shareholders have expressed deep concern over the rising cost of servicing these debts, urging boards of directors to prioritize balance sheet optimization, prudent capital allocation, and cost reduction measures to navigate the prevailing high-interest-rate regime successfully and safely.",
+      "Industry observers emphasize that sustainable debt management strategies will prove decisive for listed entities seeking to maintain competitive advantage, protect market valuation, maintain investor confidence, and deliver value to stakeholders despite persistent economic headwinds and volatile market forces.",
+      "Investment managers strongly advise retail shareholders to scrutinize interest coverage ratios and debt maturity profiles carefully before making capital allocation decisions in heavily leveraged corporate equities trading on the local exchange during this volatile period."
+    ],
+    "tags": [
+      "News",
+      "Business"
+    ],
+    "desk": true
+  },
+  {
     "slug": "carrick-confident-in-uniteds-stronger-squad-after-transfer-window",
     "category": "Sports",
     "headline": "Carrick Confident in United's Stronger Squad After Transfer Window",
