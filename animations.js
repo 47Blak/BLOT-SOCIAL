@@ -943,6 +943,52 @@
     });
   }
 
+  /* ---- Article page: golden close (X) button, fixed top-right. Plays a
+     short close animation (button spins away, article fades/settles)
+     before returning to the previous page — browser history if there is
+     any to go back to in this tab, otherwise the same destination the
+     page's own "Back to ..." link already points to. ------------------ */
+  function injectArticleCloseButton() {
+    var root = document.getElementById('article-root');
+    if (!root || root.dataset.closeInit === '1') return;
+    var h1 = root.querySelector('h1');
+    if (!h1) return; // not-found / error state — nothing to close into
+    var backLink = root.querySelector('.back-link');
+    if (!backLink) return;
+    root.dataset.closeInit = '1';
+
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'bs-article-close';
+    btn.setAttribute('aria-label', 'Close article');
+    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>';
+
+    // Wrap the existing back-link and the new button together in a flex
+    // row, so the button sits truly on the same line as "Back to
+    // [Category]" — not just overlaid at a guessed position.
+    var row = document.createElement('div');
+    row.className = 'bs-close-row';
+    backLink.parentNode.insertBefore(row, backLink);
+    row.appendChild(backLink);
+    row.appendChild(btn);
+
+    btn.addEventListener('click', function () {
+      if (btn.classList.contains('is-closing')) return;
+      btn.classList.add('is-closing');
+      root.classList.add('bs-article-closing');
+
+      var fallbackHref = backLink.getAttribute('href') || 'index.html';
+
+      setTimeout(function () {
+        if (window.history.length > 1) {
+          window.history.back();
+        } else {
+          window.location.href = fallbackHref;
+        }
+      }, 320);
+    });
+  }
+
   function init() {
     initProgressBar();
     trackScrollDirection();
@@ -954,6 +1000,7 @@
     injectShineOverlays();
     applyHeadlineShine();
     injectShareButtons();
+    injectArticleCloseButton();
     injectCommentSection();
     injectMoreStories();
     initPersistentSearchBar();
