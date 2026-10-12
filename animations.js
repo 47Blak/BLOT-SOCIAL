@@ -61,22 +61,6 @@
     }, { passive: true });
   }
 
-  /* ---- Bottom nav: hide the text labels while actively scrolling,
-     leaving just icons (a more compact bar), then bring the labels back
-     once scrolling settles. ------------------------------------------- */
-  function initNavCollapseOnScroll() {
-    var nav = document.querySelector('.main-nav');
-    if (!nav) return;
-    var idleTimer = null;
-
-    window.addEventListener('scroll', function () {
-      nav.classList.add('bs-nav-scrolling');
-      clearTimeout(idleTimer);
-      idleTimer = setTimeout(function () {
-        nav.classList.remove('bs-nav-scrolling');
-      }, 600);
-    }, { passive: true });
-  }
 
   function typeIn(el) {
     var full = el.dataset.twOriginal;
@@ -1009,7 +993,6 @@
   function init() {
     initProgressBar();
     trackScrollDirection();
-    initNavCollapseOnScroll();
     hidePreloader();
     scanRevealTargets();
     scanTypewriterTargets();
