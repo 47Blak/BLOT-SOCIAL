@@ -185,7 +185,7 @@ html[data-theme="dark"] .hero {
   position: fixed;
   left: 50%;
   bottom: 6px;
-  transform: translateX(-50%);
+  transform: translate(-50%, 0);
   width: calc(100% - 24px);
   max-width: 640px;
   z-index: 40;
@@ -195,6 +195,12 @@ html[data-theme="dark"] .hero {
   border: 1px solid rgba(130, 165, 255, 0.35);
   border-radius: 999px;
   box-shadow: 0 6px 20px -8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.3s ease;
+}
+.main-nav.bs-nav-hidden {
+  transform: translate(-50%, 160%);
+  opacity: 0;
+  pointer-events: none;
 }
 html[data-theme="dark"] .main-nav {
   background: rgba(13, 15, 21, 0.55);

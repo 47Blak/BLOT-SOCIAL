@@ -61,6 +61,26 @@
     }, { passive: true });
   }
 
+  /* ---- Bottom nav: shows on page load and on any scroll activity, then
+     auto-hides again after 5 seconds of no further scrolling. Same
+     show/hide each time — load just starts the first 5-second window. --- */
+  function initNavAutoHide() {
+    var nav = document.querySelector('.main-nav');
+    if (!nav) return;
+    var hideTimer = null;
+
+    function showNavThenHideIn5s() {
+      nav.classList.remove('bs-nav-hidden');
+      clearTimeout(hideTimer);
+      hideTimer = setTimeout(function () {
+        nav.classList.add('bs-nav-hidden');
+      }, 5000);
+    }
+
+    showNavThenHideIn5s(); // on load
+    window.addEventListener('scroll', showNavThenHideIn5s, { passive: true });
+  }
+
 
   function typeIn(el) {
     var full = el.dataset.twOriginal;
@@ -993,6 +1013,7 @@
   function init() {
     initProgressBar();
     trackScrollDirection();
+    initNavAutoHide();
     hidePreloader();
     scanRevealTargets();
     scanTypewriterTargets();
