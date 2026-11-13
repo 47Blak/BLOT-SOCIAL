@@ -1,5 +1,519 @@
 const ARTICLES = [
   {
+    "slug": "president-tinubu-condemns-political-violence-and-orders-security-crackdown-ahead-of-2027",
+    "category": "News",
+    "headline": "President Tinubu Condemns Political Violence and Orders Security Crackdown Ahead of 2027",
+    "dek": "The Nigerian leader warns politicians and supporters against thuggery, emphasizing that political competition must remain a peaceful contest of ideas.",
+    "author": "亗BLAK",
+    "date": "Nov 13",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAyYaGJmQ9UyLxuO4yDdSSQsBmpDZXqcEJaVLu0THqqg&s=10",
+    "body": [
+      "President Bola Tinubu has strongly condemned rising incidents of political violence and thuggery across the country, ordering security agencies to clamp down decisively on perpetrators ahead of the 2027 elections, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "In an official statement released by the State House on Friday, the president warned politicians and party supporters that intimidation, physical attacks, and acts capable of disrupting public order will not be tolerated, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Tinubu emphasized that belonging to different political parties or pursuing competing electoral ambitions does not turn citizens into enemies, describing Nigerians as members of one household living in different rooms, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "He urged political leaders across all platforms to embrace issue based campaigns focused on constructive policies, economic development programs, and practical solutions that directly improve the welfare of ordinary citizens, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "The president reiterated standing directives authorizing the police and intelligence agencies to confront political thugs and sponsors of violence with full lawful force regardless of their political affiliations, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "He assured all registered political parties and candidates that his administration remains committed to guaranteeing a peaceful environment where everyone can campaign freely across any region without fear of molestation, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "The presidential warning follows recent reports of violent clashes between rival party supporters during political rallies and stakeholder meetings in several states as campaigning gathers early momentum, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Civil society groups and election monitoring coalitions welcomed the firm directive, urging security chiefs to back presidential words with swift arrests and diligent prosecution of electoral offenders, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Political observers noted that maintaining strict law and order during campaign periods will prove essential for boosting voter confidence and ensuring credible, peaceful elections in January 2027, reflecting ongoing developments closely monitored by observers and stakeholders across the sector."
+    ],
+    "tags": [
+      "News",
+      "Politics"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "veteran-prison-break-and-mike-hammer-actor-stacy-keach-dies-aged-85",
+    "category": "News",
+    "headline": "Veteran Prison Break and Mike Hammer Actor Stacy Keach Dies Aged 85",
+    "dek": "The acclaimed American stage and screen star passed away peacefully in Poland following a prolonged battle with a serious heart condition.",
+    "author": "亗BLAK",
+    "date": "Nov 13",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ70InIUCfoaFSuQqHUXhmx9Sb0WJeQGVWoE2Zulnfmt68yUV9nBfvczWk&s=10",
+    "body": [
+      "Acclaimed American stage and screen actor Stacy Keach, celebrated globally for his iconic roles in Prison Break and Mike Hammer, has died at the age of eighty five following a remarkable career, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "His wife, Polish actress Malgosia Tomassi Keach, confirmed his passing in Poland on Tuesday, stating that he departed peacefully following a prolonged and difficult battle with a serious heart condition, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Born in Savannah, Georgia to a family deeply rooted in theater, Keach enjoyed an extraordinary acting career spanning six decades and encompassing more than two hundred film and television credits, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Television audiences fondly remember him as the tough yet compassionate Warden Henry Pope in the hit series Prison Break, as well as his unforgettable portrayal of hard boiled detective Mike Hammer, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Beyond commercial television success, Keach earned widespread critical acclaim as an accomplished classical theater interpreter, delivering commanding stage performances in Shakespearean tragedies including Hamlet, King Lear, and Richard III, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "His versatile filmography included memorable appearances in acclaimed motion pictures such as Nebraska, The Bourne Legacy, American History X, The Long Riders, and his final screen role in Jay Kelly, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Tributes poured in from Hollywood colleagues and admirers worldwide, with fellow actors praising his unmistakable baritone voice, generous mentorship, and commanding presence both on stage and before the camera, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Despite surviving a serious heart attack while performing a one man show on stage in Chicago back in 2017, Keach remained dedicated to his craft until his health declined recently, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "He is survived by his devoted wife Malgosia, his children Karolina and Shannon, grandchildren, and extended family members who celebrated his enduring artistic legacy and profound love for storytelling, reflecting ongoing developments closely monitored by observers and stakeholders across the sector."
+    ],
+    "tags": [
+      "News",
+      "Entertainment"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "social-media-personality-blessing-ceo-confesses-she-lied-about-having-breast-cancer",
+    "category": "Trending",
+    "headline": "Social Media Personality Blessing CEO Confesses She Lied About Having Breast Cancer",
+    "dek": "Influencer Blessing Okoro admits fabricating a cancer diagnosis to raise thirteen million naira from sympathetic followers to settle mounting financial debts.",
+    "author": "亗BLAK",
+    "date": "Nov 13",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnHYAj37xLOulzcbTcbeAhPGxlQMNhWUm3sLYZsIYJICuIBZmFBQYclgXd&s=10",
+    "body": [
+      "Controversial social media personality Blessing Okoro, widely known as Blessing CEO, has publicly confessed that she fabricated claims of suffering from breast cancer to solicit financial donations from members of the public, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Speaking during a candid video interview with social media activist Martins Vincent Otse, popularly called VeryDarkMan, Okoro admitted she manipulated a benign medical checkup result into an emotional fundraising stunt, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "She explained that overwhelming financial pressure stemming from an ongoing legal dispute and mounting debts drove her to deceive sympathetic followers into believing she needed urgent funds for life saving treatment, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "According to her confession, the medical examination had merely detected a non cancerous lump in her breast, yet she deliberately presented the condition online as terminal cancer to attract rapid financial sympathy, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Okoro revealed that the deceptive campaign successfully generated thirteen million naira in public donations, out of which she immediately diverted five million naira toward settling an urgent personal debt obligation, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "The fundraising scheme eventually collapsed after VeryDarkMan publicly questioned the authenticity of her medical claims and demanded verifiable hospital documentation, causing public donations to dry up immediately, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Her public admission comes shortly after her release from correctional custody, where she had been remanded following arraignment by the Economic and Financial Crimes Commission over alleged fraud offenses, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "While expressing regret over her actions during the interview, Okoro maintains not guilty pleas across multiple ongoing court trials involving alleged falsified medical reports and separate property transaction disputes, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "The confession has sparked widespread outrage across Nigerian social media platforms, with many donors and netizens demanding full accountability and refunds for individuals who contributed money in good faith, reflecting ongoing developments closely monitored by observers and stakeholders across the sector."
+    ],
+    "tags": [
+      "Trending",
+      "Entertainment"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "fct-minister-nyesom-wike-labels-peter-obi-lawless-over-national-anthem-conduct",
+    "category": "News",
+    "headline": "FCT Minister Nyesom Wike Labels Peter Obi Lawless Over National Anthem Conduct",
+    "dek": "Wike criticizes the former presidential candidate for remaining seated during the official national anthem while standing for an unauthorized version at an event.",
+    "author": "亗BLAK",
+    "date": "Nov 13",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm25iIzsBWTNd8cth5een_lj2DWI7lXE11uueabxHR_CE1PXM9IQdZAgC4&s=10",
+    "body": [
+      "Federal Capital Territory Minister Nyesom Wike has launched a scathing verbal attack against former Labour Party presidential candidate Peter Obi, accusing him of lawlessness and disrespect toward national symbols, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Speaking at a public event in Rivers State, Wike condemned Obi's reported conduct at a recent political gathering where he remained seated while Nigeria's official national anthem was being performed, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "The minister expressed outrage that someone aspiring to lead the country as president would openly disregard established national protocol, only to stand up moments later when an outdated anthem was sung, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Wike argued that refusing to honor the legally recognized anthem demonstrates contempt for constitutional order and raises serious questions about Obi's commitment to national unity and institutional respect, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Organizers of the controversial political event subsequently clarified that the older anthem was sung spontaneously by enthusiastic attendees before the official national anthem was formally rendered during the program, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "However, Wike dismissed those explanations as unconvincing excuses, insisting that public leaders must set clear examples of patriotism and respect for sovereign national laws regardless of political grievances, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "During the same address, the minister praised President Bola Tinubu's administration for delivering tangible infrastructure projects across Rivers State, urging local communities to support ruling coalition candidates in upcoming elections, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Supporters of Peter Obi swiftly pushed back against Wike's remarks, describing the criticism as a deliberate distraction from pressing economic challenges and governance failures affecting everyday citizens, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Political commentators observe that exchanges between prominent political figures are intensifying rapidly as parties mobilize grassroots structures ahead of the January 2027 general elections, reflecting ongoing developments closely monitored by observers and stakeholders across the sector."
+    ],
+    "tags": [
+      "News",
+      "Politics"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "super-eagles-defeat-tanzania-three-one-with-tolu-arokodare-brace-in-uyo",
+    "category": "Sports",
+    "headline": "Super Eagles Defeat Tanzania Three One With Tolu Arokodare Brace in Uyo",
+    "dek": "Striker Tolu Arokodare scored twice at Godswill Akpabio Stadium as Nigeria bounced back in their 2027 Africa Cup of Nations qualifying campaign.",
+    "author": "亗BLAK",
+    "date": "Nov 13",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_eINiBtY-24aqFC_JPm7wkqVH8gCfqC3racZHgzFPlam7q8GQaCzi-xA&s=10",
+    "body": [
+      "Nigeria's Super Eagles revitalized their 2027 Africa Cup of Nations qualifying campaign with a commanding three one victory over Tanzania at the Godswill Akpabio International Stadium in Uyo on Friday evening, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Forward Tolu Arokodare delivered a clinical man of the match performance, netting a brilliant brace that settled early nerves and propelled the three time African champions back into strong contention within Group L, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Entering the encounter under immense pressure following a shocking three nil defeat away to Guinea Bissau in September, head coach Eric Chelle demanded an aggressive, high tempo attacking display from the opening whistle, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Nigeria dominated possession from the outset, stretching the Tanzanian backline with rapid wing play before Arokodare broke the deadlock with a powerful close range finish following a crisp midfield combination, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "The visitors briefly threatened an upset early in the second half when a defensive lapse allowed Tanzania to pull a goal back, momentarily silencing the passionate home crowd inside the Uyo arena, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "However, the Super Eagles responded with impressive composure, regaining control of midfield battles before Arokodare struck his second goal of the night and a late third sealed all three vital points, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "The crucial victory lifts Nigeria into second place in Group L with six points from three matches, sitting just a single point behind current group leaders Guinea Bissau ahead of the reverse fixtures, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Technical crew members praised the squad's mental resilience and tactical discipline, noting that converting created scoring chances proved decisive after wasteful finishing plagued their previous international outing, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "The national team will immediately shift focus toward recovery and travel logistics ahead of Tuesday's return leg clash against Tanzania in Zanzibar, where another positive result will virtually guarantee qualification, reflecting ongoing developments closely monitored by observers and stakeholders across the sector."
+    ],
+    "tags": [
+      "News",
+      "Sports",
+      "Trending"
+    ]
+  },
+  {
+    "slug": "manchester-united-sack-michael-carrick-and-appoint-mauricio-pochettino-from-usmnt",
+    "category": "Sports",
+    "headline": "Manchester United Sack Michael Carrick and Appoint Mauricio Pochettino from USMNT",
+    "dek": "The Premier League giants part ways with Carrick after a dismal start and pay ten million dollars to bring Pochettino back to England.",
+    "author": "亗BLAK",
+    "date": "Nov 13",
+    "image": "https://i.guim.co.uk/img/media/ebf124cd50774b13f3eae25ce20c59f1b8edc2a5/0_0_5000_4000/master/5000.jpg?width=465&dpr=1&s=none&crop=none",
+    "body": [
+      "Manchester United have officially sacked manager Michael Carrick following a disastrous start to the domestic season and appointed Mauricio Pochettino as their new head coach on a contract spanning two and a half years at Old Trafford.",
+      "The club announced the managerial change after sitting eighteenth in the Premier League table with just one victory from their opening ten matches, marking their worst start to a top flight campaign in forty years.",
+      "Even a dramatic four all comeback draw against Aston Villa at Old Trafford on Sunday proved insufficient to save Carrick, whose brief tenure ended abruptly during the current international football break across European domestic leagues.",
+      "To secure their primary target, Manchester United agreed to pay a ten million dollar release fee to the United States Soccer Federation alongside additional compensation packages for Pochettino and his experienced backroom technical coaching staff.",
+      "Pochettino leaves his role with the United States Men National Team just months after signing a long term contract extension through twenty thirty, describing the Old Trafford opportunity as simply too huge to turn down right now.",
+      "Speaking during an emotional farewell press conference on Friday, the Argentine tactician expressed deep gratitude to American players and supporters while acknowledging that returning to the English Premier League fulfills a longstanding career ambition, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "He will fulfill his remaining international duties with the American squad during the current fixture window before officially taking charge of training sessions in Manchester on Wednesday, November eighteenth ahead of crucial domestic action, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "His immediate challenge involves preparing the struggling squad for a daunting away trip to face bitter rivals Liverpool at Anfield next Sunday as he attempts to lift the club out of the relegation zone, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Club executives praised Pochettino for his high intensity attacking philosophy, proven track record of developing young talent, and ability to build cohesive dressing rooms capable of competing for major domestic and European silverware, reflecting ongoing developments closely monitored by observers and stakeholders across the sector."
+    ],
+    "tags": [
+      "News",
+      "Sports",
+      "Trending"
+    ]
+  },
+  {
+    "slug": "nigerians-in-london-surround-inec-chairman-vehicle-in-protest-demanding-resignation",
+    "category": "News",
+    "headline": "Nigerians in London Surround INEC Chairman Vehicle in Protest Demanding Resignation",
+    "dek": "Diaspora demonstrators blocked Professor Joash Amupitan outside Chatham House in London, questioning voters register credibility ahead of the 2027 elections.",
+    "author": "亗BLAK",
+    "date": "Nov 13",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxbaxT5tqsaIIkQC5cyv3kB62SxveSBPBWlxnwnOH5FTSeLXecE79O156q&s=10",
+    "body": [
+      "A group of Nigerian diaspora protesters surrounded and blocked the official vehicle of Independent National Electoral Commission Chairman Professor Joash Amupitan in London, loudly demanding his immediate resignation from public office, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "The dramatic confrontation occurred outside the prestigious Chatham House venue shortly after the electoral chief concluded a high profile speaking engagement defending the commission's ongoing preparations for the 2027 general elections, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Video footage circulating widely on social media captured demonstrators chanting anti corruption slogans and waving placards accusing the electoral body of irregularities in the preliminary voters register and compromised institutional integrity, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Protesters shouted repeatedly for Amupitan to step down from his vehicle and address their grievances directly, insisting that Nigerians living abroad would continue exposing public officials wherever they travel internationally, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Local security operatives and diplomatic protection officers quickly intervened to form a protective cordon around the convoy, working calmly to de escalate tensions and clear a safe passage through the agitated crowd, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Professor Amupitan remained inside the tinted vehicle throughout the tense standoff, making no audible response to the demonstrators before security personnel successfully guided his convoy away from the central London venue, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Civil society organizations and opposition stakeholders back home have increasingly demanded greater transparency, technological accountability, and verifiable reforms from the electoral commission following controversies surrounding recent off cycle gubernatorial polls, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "During his earlier remarks inside the forum, the electoral chairman maintained that the commission remains committed to deploying improved electronic transmission tools and cleaning up registration databases before January 2027, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Political analysts observed that the London demonstration reflects deep seated frustration among diaspora communities who closely monitor domestic governance and demand credible, transparent democratic processes in their home country, reflecting ongoing developments closely monitored by observers and stakeholders across the sector."
+    ],
+    "tags": [
+      "News",
+      "Politics"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "nvidia-founder-jensen-huang-resigns-as-chief-executive-officer-amid-personal-scandal",
+    "category": "Technology",
+    "headline": "NVIDIA Founder Jensen Huang Resigns as Chief Executive Officer Amid Personal Scandal",
+    "dek": "The longtime chipmaker chief steps down immediately following revelations of undisclosed relationships as Chief Financial Officer Colette Kress assumes interim leadership.",
+    "author": "亗BLAK",
+    "date": "Nov 13",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBrShR90p1dWbbCEROzuCaH724WVt_JOw7UFbdtoVDq1xuauWUjUQhQ1k&s=10",
+    "body": [
+      "NVIDIA founder and longtime Chief Executive Officer Jensen Huang has resigned from his executive roles and board seat with immediate effect following intense scrutiny surrounding multiple undisclosed personal relationships and federal national security inquiries, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "The board of directors confirmed his departure on Thursday, appointing current Chief Financial Officer Colette Kress to serve as interim chief executive while simultaneously naming longtime investor Harvey Jones as its first board chair, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Huang's sudden exit follows weeks of mounting corporate turmoil sparked by investigative media reports detailing an alleged romantic relationship with a woman suspected by intelligence officials of ties to foreign espionage networks, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Subsequent internal disclosures and media investigations uncovered additional alleged relationships involving current company employees, prompting the chipmaker's board to retain independent legal counsel to review governance compliance and corporate ethics policies, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Beyond corporate governance concerns, the scandal has drawn intense political attention in Washington, where lawmakers raised serious questions regarding export controls, intellectual property safeguards, and sensitive artificial intelligence semiconductor technologies, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Huang has officially agreed to appear before the United States Congress later this month for closed door testimony addressing lawmakers' concerns over foreign intelligence risks and corporate oversight within the strategic technology sector, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Financial markets reacted sharply to the leadership shakeup, wiping billions off the company's market valuation during volatile trading sessions as institutional investors assessed the future direction of the artificial intelligence hardware giant, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Industry analysts acknowledged that while Huang transformed NVIDIA from a niche graphics card maker into a multi trillion dollar computing powerhouse, the board acted decisively to protect institutional stability and investor confidence, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Interim chief executive Colette Kress assured enterprise customers and supply chain partners that product roadmaps, next generation chip deliveries, and artificial intelligence infrastructure commitments will proceed without interruption during the executive search, reflecting ongoing developments closely monitored by observers and stakeholders across the sector."
+    ],
+    "tags": [
+      "Business",
+      "Technology"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "microsoft-365-outage-disrupts-outlook-and-teams-across-americas-and-global-regions",
+    "category": "Technology",
+    "headline": "Microsoft 365 Outage Disrupts Outlook and Teams Across Americas and Global Regions",
+    "dek": "A network configuration error overwhelmed secure connection servers on November twelfth, knocking out email and workplace tools across seventy four countries.",
+    "author": "亗BLAK",
+    "date": "Nov 13",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiJb-cUdaTIUbg-hOL_6DP1DgdDOdcb882eThQLRfEu4j_HmBupvYILpY&s=10",
+    "body": [
+      "A massive global service disruption hit Microsoft 365 applications on Thursday, November twelfth, leaving millions of enterprise users across the Americas and seventy four countries unable to access Outlook, Teams, and Copilot workplace tools, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "The technical failure began late Thursday afternoon when users across North and South America first reported widespread inability to load Exchange Online mailboxes, send electronic messages, or join scheduled virtual workplace video conferences, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Within minutes, the disruption cascaded across global data centers, impacting major airlines, financial institutions, healthcare providers, schools, and government agencies that rely heavily on cloud productivity suites for daily operational continuity, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Engineering teams quickly traced the underlying root cause to a flawed network configuration setting applied during routine server updates, which overwhelmed automated processes responsible for establishing secure client connections across remaining server pools, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "As initial server clusters went offline during automated health checks, redirected user traffic overloaded secondary infrastructure, creating a severe cascading failure that took engineers over sixteen hours to isolate and gradually reverse, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Microsoft issued a formal public apology for the widespread operational inconvenience, clarifying explicitly that the incident was neither triggered by malicious cyberattacks nor connected to artificial intelligence agents deployed within recent security patches, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "By Friday morning, systems engineers successfully rolled back the problematic network changes, bringing affected Exchange servers back online and steadily clearing massive backlogs of delayed corporate email queues toward normal operational levels, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Technology analysts noted that the incident serves as a stark reminder of how dependent modern Fortune 500 enterprises and public institutions have become on centralized cloud infrastructure providers for mission critical daily communications, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Cybersecurity and resilience experts subsequently advised corporate technology leaders to maintain independent backup communication channels and contingency protocols to prevent total operational paralysis during future cloud service interruptions worldwide, reflecting ongoing developments closely monitored by observers and stakeholders across the sector."
+    ],
+    "tags": [
+      "News",
+      "Business",
+      "Technology"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "oyo-governor-seyi-makinde-says-presidential-ambition-may-have-upset-president-tinubu",
+    "category": "News",
+    "headline": "Oyo Governor Seyi Makinde Says Presidential Ambition May Have Upset President Tinubu",
+    "dek": "Makinde reflects on strained political ties ahead of 2027, recalling a meeting where FCT Minister Nyesom Wike pledged to control the PDP.",
+    "author": "亗BLAK",
+    "date": "Nov 13",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk5gWGaaudUBbugClIt38jfo9UOl-nJdI38HIkZlB7g99tACHNkRzTHEU&s=10",
+    "body": [
+      "Oyo State Governor Seyi Makinde has suggested that rumors surrounding his presidential ambition ahead of the 2027 general elections may have soured his previously cordial relationship with President Bola Tinubu, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Speaking candidly during an interactive political session, Makinde explained that political whispers suggesting he was preparing to mount a direct challenge against the incumbent likely created unnecessary friction between both leaders, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "The governor recalled a specific private meeting involving President Tinubu and Federal Capital Territory Minister Nyesom Wike, during which Wike knelt beside the president and promised to hold down the opposition party, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Makinde noted that while he supported Tinubu during the 2023 presidential election in the interest of national balance, growing economic hardship and governance missteps convinced him that Nigeria urgently requires a new direction, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Having recently declared his intention to contest the presidency on the platform of the Allied Peoples Movement, Makinde insisted his decision stems from genuine concern for citizens rather than personal animosity, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "He argued that current federal economic reforms were implemented without adequate social safety nets, leaving millions of ordinary families and small businesses struggling to survive amidst soaring inflation and living costs, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "The governor also accused federal authorities of weaponizing anti corruption agencies to intimidate opposition governors into defecting to the ruling party, warning that weakening opposition parties undermines multiparty democracy, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Political observers note that Makinde's entry into the 2027 presidential race introduces an intriguing dynamic in the South West geopolitical zone, potentially splitting regional votes traditionally dominated by the incumbent president, reflecting ongoing developments closely monitored by observers and stakeholders across the sector.",
+      "Supporters of the Oyo governor maintain that his track record of infrastructure delivery, civil service welfare, and fiscal discipline in Ibadan positions him as a credible alternative for national leadership, reflecting ongoing developments closely monitored by observers and stakeholders across the sector."
+    ],
+    "tags": [
+      "News",
+      "Politics"
+    ]
+  },
+  {
+    "slug": "nigeria-aviation-industry-capacity-surges-by-37-percent",
+    "category": "Business",
+    "headline": "Nigeria Aviation Industry Capacity Surges by 37 Percent",
+    "dek": "Increased flight seat availability and terminal modernization position the country as Africa's fastest growing major aviation market.",
+    "author": "亗BLAK",
+    "date": "Sep 23",
+    "image": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d",
+    "body": [
+      "Nigeria's aviation sector recorded a remarkable 37.4 percent increase in scheduled airline seat capacity, emerging as Africa's fastest expanding major aviation market.",
+      "Official data released by international aviation tracking bodies revealed that total scheduled monthly airline capacity reached 1.19 million seats in September 2026.",
+      "Growth was anchored by performance at Murtala Muhammed International Airport in Lagos, which recorded a 24.1 percent capacity increase amidst ongoing terminal rehabilitation.",
+      "Federal Airport Authority officials attributed the surge to strategic currency reforms, new aircraft leasing agreements, and renewed confidence from foreign carriers.",
+      "Total passenger traffic across the country's airports reached nearly 19.5 million travelers, reflecting an eleven point nine percent year on year growth.",
+      "Aviation experts note that expanding fleet capacities and upgrading runway infrastructure remain critical to sustaining long term passenger demand across regional hubs.",
+      "Federal authorities reaffirmed plans to complete major airfield lighting upgrades and passenger processing enhancements to improve overall travel experience.",
+      "The positive growth figures highlight significant commercial opportunities for international airlines operating across West Africa's largest economy."
+    ],
+    "tags": [
+      "News",
+      "Business"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "president-tinubu-absence-from-un-assembly-sparks-legal-history-debate",
+    "category": "Trending",
+    "headline": "President Tinubu Absence From UN Assembly Sparks Legal History Debate",
+    "dek": "Opposition leaders question repeated absences from global diplomatic summits, referencing past legal proceedings in the United States.",
+    "author": "亗BLAK",
+    "date": "Sep 23",
+    "image": "https://images.unsplash.com/photo-1541872703-74c5e44368f9",
+    "body": [
+      "Opposition figure Atiku Abubakar has raised public questions regarding President Bola Tinubu's third consecutive absence from the United Nations General Assembly in New York.",
+      "Addressing media representatives, Atiku questioned whether the president's decision to skip the international gathering relates to documented legal proceedings in the United States.",
+      "The opposition leader referenced historical court filings from the United States involving asset forfeiture proceedings dating back to 1993.",
+      "Presidency officials previously clarified that no legal, diplomatic, or medical restrictions prevent the Nigerian president from entering the United States.",
+      "Atiku urged the administration to provide transparent explanations regarding international travel decisions, stressing that national representation at global summits remains vital.",
+      "Supporters of the administration dismissed opposition claims as politically motivated, emphasizing that the president delegated representation to senior ministers to focus on pressing domestic reforms.",
+      "Political analysts observe that foreign travel decisions by top executives frequently draw intense public scrutiny from political opponents ahead of major electoral cycles.",
+      "The debate highlights ongoing political rivalries as opposition parties continue to challenge the administration on governance, transparency, and international diplomacy."
+    ],
+    "tags": [
+      "News",
+      "Politics"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "donald-trump-threatens-iran-with-severe-military-action-while-unveiling-high-level-talks",
+    "category": "Trending",
+    "headline": "Donald Trump Threatens Iran With Severe Military Action While Unveiling High Level Talks",
+    "dek": "The former US President issues stark warnings at the United Nations before revealing secret three hour diplomatic talks between American and Iranian envoys.",
+    "author": "亗BLAK",
+    "date": "Sep 23",
+    "image": "https://images.unsplash.com/photo-1541872703-74c5e44368f9",
+    "body": [
+      "Former United States President Donald Trump issued harsh warnings threatening severe military action against Iran, while simultaneously confirming that high level diplomatic meetings took place between representatives of both nations in New York.",
+      "Addressing audiences alongside global gatherings, Trump questioned whether to pursue extreme military measures or establish immediate diplomatic agreements regarding regional security frameworks.",
+      "Hours after his intense public statements, Trump disclosed that senior American envoys, including Steve Witkoff and Jared Kushner, held a productive three hour session with Iranian Foreign Minister Abbas Araghchi.",
+      "The undisclosed meeting marks the first direct face to face diplomatic engagement between official representatives of both countries in several months.",
+      "American representatives described the confidential discussions as productive, hinting that additional diplomatic rounds are planned in the near future to address long standing security disputes.",
+      "International observers note that the contrasting approach combines public intimidation tactics with private negotiation channels to secure tactical leverage during sensitive diplomatic talks.",
+      "Regional security experts continue to monitor the situation closely, cautioning that volatile public rhetoric could complicate delicate negotiating efforts between the two opposing sides.",
+      "Diplomatic channels remain active as international mediators urge sustained dialogue to prevent further military escalation across the broader Middle Eastern region."
+    ],
+    "tags": [
+      "News",
+      "Trending",
+      "Politics"
+    ]
+  },
+  {
+    "slug": "jose-mourinho-faces-sharp-criticism-over-management-style-at-real-madrid",
+    "category": "Sports",
+    "headline": "Jose Mourinho Faces Sharp Criticism Over Management Style at Real Madrid",
+    "dek": "Commentators criticize the veteran manager's tactical philosophy, claiming his approach has failed to evolve over the past two decades.",
+    "author": "亗BLAK",
+    "date": "Sep 23",
+    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2",
+    "body": [
+      "Senior football analysts have leveled sharp criticism against Jose Mourinho, claiming his tactical methods and squad management philosophy have failed to evolve over the last twenty years.",
+      "Media reports highlighted commentary pointing out that several talented squad members have struggled to show technical progress under the veteran manager's rigid system.",
+      "Critics questioned the manager's tactical choices, arguing that creative talents like Arda Guler and Bernardo Silva are underutilized in favor of established big name stars.",
+      "The analysis suggested that relying on outdated defensive setups limits squad creativity and hinders modern fluid attacking play required at the top level.",
+      "Observers also noted inconsistencies in set piece execution and squad rotation, raising questions over the overall technical direction of the team.",
+      "Mourinho's supporters maintain that his pragmatic pragmatic approach prioritizes results and defensive stability, points essential for navigating demanding league seasons.",
+      "The debate comes during a critical period of the season as coaching decisions face intense scrutiny from media and passionate supporters worldwide.",
+      "The veteran manager remains focused on upcoming competitive fixtures, aiming to answer critics through strong performances on the pitch."
+    ],
+    "tags": [
+      "News",
+      "Sports"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "jose-mourinho-faces-sharp-criticism-over-management-style-at-real-madrid",
+    "category": "Sports",
+    "headline": "Jose Mourinho Faces Sharp Criticism Over Management Style at Real Madrid",
+    "dek": "Commentators criticize the veteran manager's tactical philosophy, claiming his approach has failed to evolve over the past two decades.",
+    "author": "亗BLAK",
+    "date": "Sep 23",
+    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2",
+    "body": [
+      "Senior football analysts have leveled sharp criticism against Jose Mourinho, claiming his tactical methods and squad management philosophy have failed to evolve over the last twenty years.",
+      "Media reports highlighted commentary pointing out that several talented squad members have struggled to show technical progress under the veteran manager's rigid system.",
+      "Critics questioned the manager's tactical choices, arguing that creative talents like Arda Guler and Bernardo Silva are underutilized in favor of established big name stars.",
+      "The analysis suggested that relying on outdated defensive setups limits squad creativity and hinders modern fluid attacking play required at the top level.",
+      "Observers also noted inconsistencies in set piece execution and squad rotation, raising questions over the overall technical direction of the team.",
+      "Mourinho's supporters maintain that his pragmatic pragmatic approach prioritizes results and defensive stability, points essential for navigating demanding league seasons.",
+      "The debate comes during a critical period of the season as coaching decisions face intense scrutiny from media and passionate supporters worldwide.",
+      "The veteran manager remains focused on upcoming competitive fixtures, aiming to answer critics through strong performances on the pitch."
+    ],
+    "tags": [
+      "Sports",
+      "Trending"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "fabian-hurzeler-details-tactical-strategy-behind-brighton-victory-over-arsenal",
+    "category": "Sports",
+    "headline": "Fabian Hurzeler Details Tactical Strategy Behind Brighton Victory Over Arsenal",
+    "dek": "The Seagulls manager explains how disciplined pressing and direct attacking movements dismantled the Premier League title contenders.",
+    "author": "亗BLAK",
+    "date": "Sep 23",
+    "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018",
+    "body": [
+      "Brighton and Hove Albion manager Fabian Hurzeler revealed the tactical plan that enabled his squad to secure a convincing three nil win against Arsenal.",
+      "Speaking after the match, the manager explained that implementing direct pressing and structured defensive discipline effectively disrupted Arsenal's build up play throughout the contest.",
+      "Goals from Pascal Gross, Charalampos Kostoulas, and Chema Andres sealed the impressive victory, ending Arsenal's long unbeaten run in domestic league competition.",
+      "Hurzeler praised his players for executing high intensity physical challenges and maintaining sharp tactical focus across both halves of the match.",
+      "The manager noted that studying opponent passing patterns allowed Brighton to exploit space behind the defensive line during fast counter attacking transitions.",
+      "Football analysts commended the tactical approach, highlighting how disciplined structure can neutralize technically dominant opposition in high stakes league fixtures.",
+      "The result significantly boosts Brighton's position in the league standings, building momentum as the team targets European qualification spots this season.",
+      "Arsenal coaching staff acknowledged the performance, committing to resolving tactical vulnerabilities ahead of upcoming domestic and European commitments."
+    ],
+    "tags": [
+      "Sports",
+      "Trending"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "jude-bellingham-taunts-cristian-romero-in-heated-madrid-derby-clash",
+    "category": "Sports",
+    "headline": "Jude Bellingham Taunts Cristian Romero in Heated Madrid Derby Clash",
+    "dek": "On field cameras capture intense verbal exchanges between stars as Real Madrid and Atletico Madrid battle in a passionate Spanish league encounter.",
+    "author": "亗BLAK",
+    "date": "Sep 23",
+    "image": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2",
+    "body": [
+      "Real Madrid midfielder Jude Bellingham engaged in a fiery verbal exchange with Atletico Madrid defender Cristian Romero during a dramatic capital derby match.",
+      "Broadcast footage revealed the confrontation began after Romero voiced complaints to match officials, prompting Bellingham to intervene with sharp verbal taunts.",
+      "Romero referenced past international heartbreak by taunting Bellingham over England's World Cup elimination, telling the midfielder to stop complaining on the pitch.",
+      "Bellingham immediately fired back by mocking Romero's international success, asserting that the defender only speaks boldly when playing alongside Lionel Messi.",
+      "The intense exchange highlights the fierce competitive rivalry defining high stakes Spanish league fixtures between the traditional capital city rivals.",
+      "Match officials eventually intervened to separate the players, issuing yellow cards as tensions flared across both squads during the second half.",
+      "The match concluded with Atletico Madrid securing a hard fought two to one victory, leaving Real Madrid focused on recovering points in upcoming fixtures.",
+      "Football fans across social media actively debated the explosive exchange, praising the intense competitive spirit displayed by both international stars on the pitch."
+    ],
+    "tags": [
+      "Sports",
+      "Trending"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "army-logistics-college-warns-public-against-fraudulent-conference-advertisements",
+    "category": "News",
+    "headline": "Army Logistics College Warns Public Against Fraudulent Conference Advertisements",
+    "dek": "Military authorities disown fake online notices promoting international events, urging citizens to avoid sharing personal details or making payments.",
+    "author": "亗BLAK",
+    "date": "Sep 23",
+    "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec",
+    "body": [
+      "The Nigerian Army College of Logistics and Management issued an urgent warning advising the general public to disregard fraudulent online advertisements promoting a fake international conference.",
+      "Military authorities clarified that the circulating notices did not originate from the college, cautioning unsuspecting citizens against falling victim to financial scams and identity theft.",
+      "Official statements emphasized that all legitimate academic conferences, workshops, and institutional announcements are published exclusively through verified military communication portals and national newspapers.",
+      "Security personnel have been activated to track down, arrest, and prosecute cybercriminals responsible for creating and distributing the fraudulent event notices.",
+      "The college management reiterated that official programs do not require registration payments to unverified individual accounts or suspicious third party web links.",
+      "Prospective participants and academics were advised to verify all event details directly through official military formations or verified institutional helpdesks.",
+      "The warning forms part of broader military efforts to curb online fraud targeting unsuspecting Nigerians seeking professional academic and career opportunities.",
+      "Citizens were encouraged to report suspicious online advertisements claiming military sponsorship to nearby security agencies for swift legal action."
+    ],
+    "tags": [
+      "News",
+      "Politics"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "fct-minister-nyesom-wike-dismisses-ireti-kingibe-reelection-prospects-for-2027",
+    "category": "News",
+    "headline": "FCT Minister Nyesom Wike Dismisses Ireti Kingibe Reelection Prospects for 2027",
+    "dek": "The minister criticizes the FCT Senator over borrowing allegations and pledges support for rival candidate Philip Aduda in upcoming polls.",
+    "author": "亗BLAK",
+    "date": "Sep 23",
+    "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620",
+    "body": [
+      "Federal Capital Territory Minister Nyesom Wike declared that Senator Ireti Kingibe will not secure reelection to represent the nation's capital in the Senate during the 2027 general elections.",
+      "Inspecting road infrastructure projects in Abuja, Wike sharply criticized the lawmaker following her public inquiries regarding the territory's domestic borrowing arrangements and loan approvals.",
+      "Wike maintained that government borrowing procedures strictly follow statutory constitutional guidelines, asserting that legislative budget approvals cover all executive infrastructure loans.",
+      "The minister openly endorsed former senator Philip Aduda to reclaim the FCT senatorial seat, expressing confidence that residents will support the ruling administration's infrastructure record.",
+      "Legislative leaders in the National Assembly previously clarified that no evidence suggests the FCT Administration violated established statutory procedures when securing development loans.",
+      "Kingibe had earlier raised concerns based on public debt management reports, questioning loan utilization and legislative oversight regarding capital projects within Abuja.",
+      "The public exchange reflects intensifying political maneuvering within the Federal Capital Territory as political figures position themselves for competitive campaigns ahead of 2027.",
+      "Wike stressed that ongoing road construction projects demonstrate effective governance, urging residents to judge political figures based on tangible infrastructural achievements."
+    ],
+    "tags": [
+      "News",
+      "Politics"
+    ],
+    "desk": true
+  },
+  {
+    "slug": "real-madrid-demand-resignation-of-la-liga-president-javier-tebas",
+    "category": "Sports",
+    "headline": "Real Madrid Demand Resignation of La Liga President Javier Tebas",
+    "dek": "The Spanish club issues an explosive statement calling for executive leadership changes following public disputes over refereeing standards.",
+    "author": "亗BLAK",
+    "date": "Sep 23",
+    "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018",
+    "body": [
+      "Real Madrid have formally demanded the immediate resignation of La Liga President Javier Tebas following escalations over refereeing criticism and administrative governance.",
+      "The club issued a strong public statement describing the league president's recent remarks regarding Madrid's refereeing complaints as entirely unacceptable.",
+      "Tebas had publicly dismissed the club's concerns regarding match officiating standards, characterizing official complaints as unwarranted conspiracy theories.",
+      "Real Madrid management maintained that public comments from league leadership undermine administrative neutrality and harm the overall reputation of Spanish football.",
+      "The dispute follows intense post match frustration regarding officiating decisions in recent league matches, prompting calls for structural refereeing reforms.",
+      "Legal representatives and league officials continue to debate regulatory procedures as relations between the club and league governance hit historic lows.",
+      "Sports commentators observe that institutional disagreements between top clubs and league leadership create unnecessary distractions during an active competitive season.",
+      "The club reaffirmed its resolve to defend its institutional dignity and press for transparent governance across Spanish professional football."
+    ],
+    "tags": [
+      "News",
+      "Sports"
+    ]
+  },
+  {
+    "slug": "oyo-governor-denies-receiving-n50bn-from-federal-government-for-ibadan-airport",
+    "category": "Business",
+    "headline": "Oyo Governor Denies Receiving N50bn From Federal Government for Ibadan Airport",
+    "dek": "Seyi Makinde rejects claims by FCT Minister Nyesom Wike regarding federal funding allocations for the international airport upgrade project.",
+    "author": "亗BLAK",
+    "date": "Sep 23",
+    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3",
+    "body": [
+      "Oyo State Governor Seyi Makinde has publicly denied receiving fifty billion naira from the Federal Government for the ongoing upgrade of the Ladoke Akintola International Airport in Ibadan.",
+      "Speaking at a political stakeholder gathering in Katsina State, the governor directly refuted statements credited to Federal Capital Territory Minister Nyesom Wike, who claimed President Bola Tinubu provided the substantial financial support.",
+      "Makinde clarified that the ambitious airport modernization project is being funded entirely by the Oyo State Government without external financial allocations or special federal grants.",
+      "The public disagreement highlights ongoing political friction between prominent figures within the Peoples Democratic Party regarding public infrastructure financing and federal allocations.",
+      "The governor maintained that state resources were carefully planned to ensure the timely completion of the airport project, aimed at boosting regional economic activity and international trade.",
+      "Supporters of the Oyo State administration reiterated that transparent financial management remains a core priority for the state government as infrastructure development progresses across key sectors.",
+      "Political analysts observe that the dispute underscores growing tensions ahead of future political cycles, with leaders taking firm positions on state level achievements and federal assistance.",
+      "The Oyo State Government reaffirmed its commitment to seeing the Ibadan Airport upgrade to completion, assuring residents that project timelines remain intact despite political debates."
+    ],
+    "tags": [
+      "News",
+      "Business",
+      "Politics"
+    ],
+    "desk": true
+  },
+  {
     "slug": "senator-yayi-unveils-comprehensive-regional-development-blueprint",
     "category": "News",
     "headline": "Senator Yayi Unveils Comprehensive Regional Development Blueprint",
